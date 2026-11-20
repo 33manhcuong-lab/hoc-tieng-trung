@@ -131,6 +131,11 @@
     .hsk-card h3{font-family:"Noto Serif SC",serif;font-size:1rem;margin-bottom:4px}
     .hsk-card p{font-size:.78rem;opacity:.88}
     .hsk-card .cnt{font-size:1.8rem;font-weight:700;line-height:1;margin-bottom:4px}
+    .hsk-card[role="button"],.info-card[role="button"]{cursor:pointer;transition:transform .15s,box-shadow .15s,outline-color .15s}
+    .hsk-card[role="button"]:hover,.info-card[role="button"]:hover{transform:translateY(-3px);box-shadow:0 5px 16px #00000018}
+    .hsk-card[role="button"]:focus-visible,.info-card[role="button"]:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .home-card-detail{display:none;margin-top:14px;padding:16px;border:1.5px solid var(--mist);border-radius:var(--r);background:var(--white);color:var(--ink);font-size:.88rem;line-height:1.6}
+    .home-card-detail.visible{display:block}
 
     .divider{border:none;border-top:1.5px solid var(--mist);margin:24px 0}
   </style>
@@ -159,22 +164,22 @@
   <div style="max-width:900px;margin:0 auto;padding:28px 0 0">
     <h2>4 cấp độ HSK</h2>
     <div class="hsk-overview">
-      <div class="hsk-card" style="background:var(--hsk1)">
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk1" aria-label="Mở từ vựng HSK 1" style="background:var(--hsk1)">
         <div class="cnt" id="cnt1">—</div>
         <h3>HSK 1</h3>
         <p>Từ cơ bản nhất, giao tiếp hàng ngày đơn giản</p>
       </div>
-      <div class="hsk-card" style="background:var(--hsk2)">
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk2" aria-label="Mở từ vựng HSK 2" style="background:var(--hsk2)">
         <div class="cnt" id="cnt2">—</div>
         <h3>HSK 2</h3>
         <p>Mở rộng vốn từ, các tình huống thông dụng</p>
       </div>
-      <div class="hsk-card" style="background:var(--hsk3)">
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk3" aria-label="Mở từ vựng HSK 3" style="background:var(--hsk3)">
         <div class="cnt" id="cnt3">—</div>
         <h3>HSK 3</h3>
         <p>Trung cấp, diễn đạt được nhiều chủ đề</p>
       </div>
-      <div class="hsk-card" style="background:var(--hsk4)">
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk4" aria-label="Mở từ vựng HSK 4" style="background:var(--hsk4)">
         <div class="cnt" id="cnt4">—</div>
         <h3>HSK 4</h3>
         <p>Thảo luận, diễn đạt quan điểm phức tạp</p>
@@ -182,11 +187,12 @@
     </div>
     <hr class="divider">
     <div class="info-grid">
-      <div class="info-card"><div class="ic">📂</div><strong>Dữ liệu JSON</strong><span>Tách riêng, dễ mở rộng</span></div>
-      <div class="info-card"><div class="ic">🔍</div><strong>Tìm kiếm</strong><span>Tìm theo chữ Hán hoặc nghĩa</span></div>
-      <div class="info-card"><div class="ic">🃏</div><strong>Thẻ lật</strong><span>Nhấn để xem nghĩa</span></div>
-      <div class="info-card"><div class="ic">🧠</div><strong>Quiz thích ứng</strong><span>Lọc theo cấp độ</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="json"><div class="ic">📂</div><strong>Dữ liệu JSON</strong><span>Tách riêng, dễ mở rộng</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="search"><div class="ic">🔍</div><strong>Tìm kiếm</strong><span>Tìm theo chữ Hán hoặc nghĩa</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="flashcard"><div class="ic">🃏</div><strong>Thẻ lật</strong><span>Nhấn để xem nghĩa</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="quiz"><div class="ic">🧠</div><strong>Quiz thích ứng</strong><span>Lọc theo cấp độ</span></div>
     </div>
+    <div class="home-card-detail" id="home-card-detail" aria-live="polite"></div>
   </div>
 </div>
 
@@ -280,7 +286,7 @@ function renderPage(){
     grid.innerHTML = '<div class="no-result">Không tìm thấy từ nào phù hợp.</div>';
   } else {
     grid.innerHTML = slice.map(w => `
-      <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="card" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa">
         <div class="front">
           <span class="lv lv-${w.lvl}">${w.lvl.toUpperCase()}</span>
           <div class="hanzi">${w.h}</div>
@@ -435,6 +441,56 @@ async function loadVocabulary(){
     document.getElementById("q-result").textContent = "Chưa thể bắt đầu Quiz vì dữ liệu chưa được tải.";
   }
 }
+
+// ── TƯƠNG TÁC CÁC THẺ TRANG CHỦ ──
+function activateHomeCard(target){
+  const levelCard = target.closest("[data-home-level]");
+  if(levelCard){
+    show("vocab");
+    setLevel(levelCard.dataset.homeLevel);
+    return;
+  }
+
+  const actionCard = target.closest("[data-home-action]");
+  if(!actionCard) return;
+  const action = actionCard.dataset.homeAction;
+  if(action === "json"){
+    const detail = document.getElementById("home-card-detail");
+    detail.textContent = "Dữ liệu từ vựng được tải trực tiếp từ file hsk-words.json nằm cùng thư mục với index.html. Bạn có thể thêm, sửa hoặc xóa từ trong JSON; số lượng từ sẽ được cập nhật tự động khi tải lại trang.";
+    detail.classList.add("visible");
+  } else if(action === "search"){
+    show("vocab");
+    document.getElementById("search-input").focus();
+  } else if(action === "flashcard"){
+    show("vocab");
+    document.getElementById("card-grid").scrollIntoView({behavior:"smooth",block:"start"});
+  } else if(action === "quiz"){
+    show("quiz");
+    if(allWords.length && qTotal === 0) resetQuiz();
+  }
+}
+
+document.querySelectorAll("[data-home-level], [data-home-action]").forEach(card => {
+  card.addEventListener("click", () => activateHomeCard(card));
+  card.addEventListener("keydown", event => {
+    if(event.key === "Enter" || event.key === " "){
+      event.preventDefault();
+      activateHomeCard(card);
+    }
+  });
+});
+
+// Lật thẻ từ vựng bằng chuột hoặc bàn phím.
+document.getElementById("card-grid").addEventListener("click", event => {
+  const card = event.target.closest(".card");
+  if(card) card.classList.toggle("flipped");
+});
+document.getElementById("card-grid").addEventListener("keydown", event => {
+  if((event.key === "Enter" || event.key === " ") && event.target.closest(".card")){
+    event.preventDefault();
+    event.target.closest(".card").classList.toggle("flipped");
+  }
+});
 
 loadVocabulary();
 </script>
