@@ -146,6 +146,27 @@
     .home-card-detail.visible{display:block}
 
     .divider{border:none;border-top:1.5px solid var(--mist);margin:24px 0}
+
+    /* TYPING PRACTICE */
+    .typing-box{background:var(--white);border:1.5px solid var(--mist);border-radius:var(--r);
+      padding:28px;text-align:center;max-width:620px;margin:0 auto}
+    .typing-prompt{font-size:.82rem;color:var(--soft);margin-bottom:8px}
+    .typing-meaning{font-size:1.35rem;font-weight:600;margin-bottom:8px}
+    .typing-pinyin{font-size:1rem;color:var(--gold);font-weight:500;margin-bottom:18px}
+    .typing-input{width:100%;max-width:420px;padding:13px 16px;border:2px solid var(--mist);
+      border-radius:10px;background:var(--paper);color:var(--ink);font:400 1.2rem "Be Vietnam Pro",sans-serif;
+      text-align:center;outline:none;transition:border-color .15s}
+    .typing-input:focus{border-color:var(--red)}
+    .typing-input.good{border-color:#28a745;background:#d4edda;color:#155724}
+    .typing-input.bad{border-color:#dc3545}
+    .typing-answer{font-family:"Noto Serif SC",serif;font-size:1.7rem;color:var(--red);min-height:38px;margin:10px 0}
+    .typing-feedback{font-size:.88rem;min-height:24px;margin-bottom:12px;color:var(--soft)}
+    .typing-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+    .typing-stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
+    .typing-note{font-size:.78rem;color:var(--soft);margin-top:16px;line-height:1.5}
+    @media(max-width:600px){nav{padding:0 10px;height:auto;min-height:54px;align-items:flex-start;flex-direction:column;padding-top:8px;padding-bottom:8px}
+      .nav-links{width:100%;gap:2px}.nav-links button{padding:6px 9px;font-size:.76rem}
+      .typing-box{padding:20px 14px}.typing-meaning{font-size:1.15rem}}
   </style>
 </head>
 <body>
@@ -155,6 +176,7 @@
     <button onclick="show('home')" class="active" id="btn-home">Trang chủ</button>
     <button onclick="show('vocab')" id="btn-vocab">Từ vựng</button>
     <button onclick="show('quiz')" id="btn-quiz">Quiz</button>
+    <button onclick="show('typing')" id="btn-typing">✍️ Gõ chữ</button>
   </div>
 </nav>
 
@@ -263,6 +285,41 @@
     <div class="quiz-choices" id="q-choices"></div>
     <button class="btn" id="q-next" onclick="nextQ()" style="display:none">Câu tiếp →</button>
     <button class="btn btn-outline" onclick="resetQuiz()" style="margin-top:12px">Làm lại từ đầu</button>
+  </div>
+</div>
+
+<!-- TYPING PRACTICE -->
+<div class="section" id="typing">
+  <h1>Luyện Gõ Chữ Hán</h1>
+  <p class="sub">Nhìn nghĩa tiếng Việt và pinyin, sau đó gõ đúng từ tiếng Trung. Nhập chính xác là tự động chuyển sang từ tiếp theo.</p>
+  <div class="filter-bar" id="typing-filter">
+    <button class="ftab on" data-l="all" onclick="setTypingLevel('all')">Tất cả</button>
+    <button class="ftab" data-l="hsk1" onclick="setTypingLevel('hsk1')">HSK 1</button>
+    <button class="ftab" data-l="hsk2" onclick="setTypingLevel('hsk2')">HSK 2</button>
+    <button class="ftab" data-l="hsk3" onclick="setTypingLevel('hsk3')">HSK 3</button>
+    <button class="ftab" data-l="hsk4" onclick="setTypingLevel('hsk4')">HSK 4</button>
+    <button class="ftab" data-l="hsk5" onclick="setTypingLevel('hsk5')">HSK 5</button>
+    <button class="ftab" data-l="hsk6" onclick="setTypingLevel('hsk6')">HSK 6</button>
+  </div>
+  <div class="typing-stats">
+    <div class="stat-chip">Đúng: <strong id="typing-correct">0</strong></div>
+    <div class="stat-chip">Đã luyện: <strong id="typing-total">0</strong></div>
+    <div class="stat-chip">Độ chính xác: <strong id="typing-pct">0%</strong></div>
+  </div>
+  <div class="typing-box">
+    <div class="typing-prompt">Hãy gõ từ tiếng Trung tương ứng với nghĩa:</div>
+    <div class="typing-meaning" id="typing-meaning">Đang tải từ vựng...</div>
+    <div class="typing-pinyin" id="typing-pinyin"></div>
+    <input class="typing-input" id="typing-input" type="text" lang="zh" autocomplete="off"
+      autocapitalize="off" spellcheck="false" placeholder="输入中文..." aria-label="Gõ từ tiếng Trung">
+    <div class="typing-answer" id="typing-answer" aria-live="polite"></div>
+    <div class="typing-feedback" id="typing-feedback" aria-live="polite">Bật bộ gõ tiếng Trung (Pinyin) để nhập chữ Hán.</div>
+    <div class="typing-actions">
+      <button class="btn btn-outline" onclick="showTypingAnswer()">Xem đáp án</button>
+      <button class="btn btn-outline" onclick="skipTyping()">Bỏ qua →</button>
+      <button class="btn" onclick="resetTyping()">Luyện lại</button>
+    </div>
+    <div class="typing-note">Mẹo: Trên máy tính hoặc điện thoại, hãy bật bàn phím tiếng Trung Pinyin. Ví dụ: gõ “nihao” để chọn “你好”.</div>
   </div>
 </div>
 
@@ -430,6 +487,121 @@ function nextQ(){
   });
 }
 
+
+// ── LUYỆN GÕ CHỮ HÁN ──
+let typingLevel = "all", typingPool = [], typingCurrent = null;
+let typingCorrect = 0, typingTotal = 0, typingQueue = [], typingAdvanceTimer = null;
+
+function setTypingLevel(level){
+  typingLevel = level;
+  document.querySelectorAll("#typing-filter .ftab").forEach(b =>
+    b.classList.toggle("on", b.dataset.l === level));
+  resetTyping();
+}
+
+function buildTypingQueue(){
+  typingPool = typingLevel === "all" ? [...allWords] : allWords.filter(w => w.lvl === typingLevel);
+  typingQueue = shuffle(typingPool);
+}
+
+function resetTyping(){
+  clearTimeout(typingAdvanceTimer);
+  typingCorrect = 0;
+  typingTotal = 0;
+  document.getElementById("typing-correct").textContent = "0";
+  document.getElementById("typing-total").textContent = "0";
+  document.getElementById("typing-pct").textContent = "0%";
+  buildTypingQueue();
+  nextTypingWord();
+}
+
+function nextTypingWord(){
+  clearTimeout(typingAdvanceTimer);
+  if(!typingPool.length){
+    document.getElementById("typing-meaning").textContent = "Chưa có dữ liệu từ vựng.";
+    return;
+  }
+  if(!typingQueue.length) buildTypingQueue();
+  typingCurrent = typingQueue.pop();
+  const input = document.getElementById("typing-input");
+  input.value = "";
+  input.disabled = false;
+  input.classList.remove("good","bad");
+  document.getElementById("typing-meaning").textContent = typingCurrent.v;
+  document.getElementById("typing-pinyin").textContent = typingCurrent.p;
+  document.getElementById("typing-answer").textContent = "";
+  document.getElementById("typing-feedback").textContent = "Hãy nhập chữ Hán chính xác.";
+  input.focus();
+}
+
+function normalizeChinese(value){
+  return String(value || "").normalize("NFC").trim().replace(/\s+/g, "");
+}
+
+function handleTypingInput(){
+  const input = document.getElementById("typing-input");
+  if(!typingCurrent || input.disabled) return;
+  const typed = normalizeChinese(input.value);
+  const answer = normalizeChinese(typingCurrent.h);
+  if(!typed) {
+    input.classList.remove("bad");
+    return;
+  }
+  if(typed === answer){
+    input.classList.remove("bad");
+    input.classList.add("good");
+    input.disabled = true;
+    typingCorrect++;
+    typingTotal++;
+    updateTypingStats();
+    document.getElementById("typing-answer").textContent = typingCurrent.h;
+    document.getElementById("typing-feedback").textContent = "✅ Chính xác! Đang chuyển sang từ tiếp theo...";
+    typingAdvanceTimer = setTimeout(nextTypingWord, 650);
+  } else {
+    input.classList.remove("bad");
+    // Chỉ báo sai khi độ dài đã bằng hoặc dài hơn đáp án, tránh làm gián đoạn lúc đang gõ.
+    if([...typed].length >= [...answer].length){
+      input.classList.add("bad");
+      document.getElementById("typing-feedback").textContent = "Chưa đúng, hãy kiểm tra lại chữ Hán nhé.";
+    }
+  }
+}
+
+function updateTypingStats(){
+  document.getElementById("typing-correct").textContent = typingCorrect;
+  document.getElementById("typing-total").textContent = typingTotal;
+  document.getElementById("typing-pct").textContent =
+    Math.round(typingTotal ? typingCorrect / typingTotal * 100 : 0) + "%";
+}
+
+function showTypingAnswer(){
+  if(!typingCurrent) return;
+  clearTimeout(typingAdvanceTimer);
+  typingTotal++;
+  updateTypingStats();
+  const input = document.getElementById("typing-input");
+  input.disabled = true;
+  document.getElementById("typing-answer").textContent = typingCurrent.h;
+  document.getElementById("typing-feedback").textContent =
+    "Đáp án: " + typingCurrent.h + " — " + typingCurrent.v;
+}
+
+function skipTyping(){
+  if(!typingCurrent) return;
+  clearTimeout(typingAdvanceTimer);
+  typingTotal++;
+  updateTypingStats();
+  nextTypingWord();
+}
+
+document.getElementById("typing-input").addEventListener("input", handleTypingInput);
+document.getElementById("typing-input").addEventListener("keydown", event => {
+  if(event.key === "Enter" && typingCurrent && !event.isComposing){
+    event.preventDefault();
+    if(document.getElementById("typing-input").disabled) nextTypingWord();
+  }
+});
+
 // ── NAV ──
 function show(id){
   document.querySelectorAll(".section").forEach(s=>s.classList.remove("active"));
@@ -438,6 +610,8 @@ function show(id){
   document.getElementById("btn-"+id).classList.add("active");
   window.scrollTo(0,0);
   if(id==="quiz"&&qTotal===0&&allWords.length) resetQuiz();
+  if(id==="typing"&&allWords.length&&!typingCurrent) resetTyping();
+  if(id==="typing") setTimeout(()=>document.getElementById("typing-input").focus(), 50);
 }
 
 // Tải dữ liệu trước khi khởi tạo danh sách và Quiz.
@@ -472,6 +646,7 @@ async function loadVocabulary(){
 
     filterCards();
     resetQuiz();
+    resetTyping();
   } catch(error) {
     console.error("Không thể tải hsk-words.json:", error);
     const message = "Không thể tải dữ liệu từ vựng (hsk-words.json). Hãy kiểm tra file JSON nằm cùng thư mục với index.html và tải trang qua máy chủ web.";
