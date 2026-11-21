@@ -126,6 +126,22 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
 .rv-empty{padding:20px 0;color:var(--soft)}
 @media(max-width:600px){nav{padding:env(safe-area-inset-top) 12px 0}.section{padding:24px 14px 50px}h1{font-size:1.5rem}.hero-char{font-size:4rem}.quiz-hanzi{font-size:3.6rem}.card-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}.typing-box,.quiz-box{padding:24px 14px}.logo{font-size:1.15rem}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.greet{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;margin-bottom:14px;font-size:1.05rem}
+.greet input{padding:9px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:400 .92rem "Be Vietnam Pro",sans-serif;width:200px;outline:none}
+.greet input:focus{border-color:var(--primary)}
+.goal-card{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:24px;padding:18px 22px;background:var(--surface);border:1px solid var(--line);border-radius:20px;box-shadow:var(--sh)}
+.ring{width:76px;height:76px;flex:none}
+.ring-bg,.ring-fg{fill:none;stroke-width:7}
+.ring-bg{stroke:var(--line)}
+.ring-fg{stroke:var(--primary);stroke-linecap:round;transition:stroke-dashoffset .4s}
+.ring-fg.done{stroke:var(--ok)}
+.goal-text{flex:1;min-width:200px}
+.goal-title{font-weight:600;font-size:.95rem}
+.goal-num{font-size:.95rem;margin:2px 0}
+.goal-num strong{font-size:1.4rem}
+.goal-sub{font-size:.8rem;color:var(--soft)}
+.goal-ctl{display:flex;gap:8px;align-items:center}
+.goal-ctl .mini{margin-top:0}
 </style>
 </head>
 <body>
@@ -145,6 +161,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
 <div class="section active" id="home">
   <div class="hero">
     <span class="hero-char">你好</span>
+    <div class="greet" id="greet"></div>
     <h1>Học Tiếng Trung HSK</h1>
     <p><strong id="total-word-count">—</strong> từ vựng HSK 1–6, tải từ file JSON riêng, có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
     <div class="hero-btns">
@@ -153,6 +170,8 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
     </div>
   </div>
   <div style="max-width:900px;margin:0 auto;padding:28px 0 0">
+    <div class="goal-card" id="goal-card"></div>
+    <div style="height:24px"></div>
     <h2>6 cấp độ HSK</h2>
     <div class="hsk-overview">
       <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk1" aria-label="Mở từ vựng HSK 1" style="background:var(--hsk1)">
@@ -444,7 +463,7 @@ function nextQ(){
     btn.textContent=opt.v;
     btn.onclick=()=>{
       if(qAnswered)return;
-      qAnswered=true; qTotal++;
+      qAnswered=true; qTotal++; goalTick();
       document.getElementById("total").textContent=qTotal;
       if(opt.v===qCurrent.v){
         btn.classList.add("correct"); qScore++;
@@ -530,6 +549,7 @@ function handleTypingInput(){
     input.classList.add("good");
     input.disabled = true;
     typingCorrect++;
+    goalTick();
     typingTotal++;
     updateTypingStats();
     document.getElementById("typing-answer").textContent = typingCurrent.h;
@@ -634,6 +654,7 @@ function dueWords(){ const now=Date.now(); return allWords.filter(w=>srs[wk(w)] 
 function updateBadge(){
   const n=allWords.length?dueWords().length:0;
   const b=document.getElementById("due-badge"); if(b) b.textContent=n||"";
+  if(typeof renderGoal==="function") renderGoal();
 }
 function buildReviewQueue(){ rvQueue=shuffle(dueWords()).slice(0,30); rvCur=null; rvShown=false; }
 function addNewWords(){
@@ -674,12 +695,49 @@ function renderReview(){
 }
 function rvReveal(){ rvShown=true; renderReview(); }
 function rvRate(r){
+  goalTick();
   const w=rvCur, s=srs[wk(w)], now=Date.now();
   if(r===0){ s.box=0; s.due=now; rvQueue.push(w); }
   else if(r===1){ s.due=now+DAY; }
   else { s.box=Math.min(SRS_DAYS.length-1,s.box+1); s.due=now+SRS_DAYS[s.box]*DAY; }
   srsSave(); rvCur=null; rvShown=false; renderReview();
 }
+
+// ── HỒ SƠ & MỤC TIÊU HẰNG NGÀY ──
+const PROF_KEY="hsk-profile-v1", DAILY_KEY="hsk-daily-v1";
+let prof={name:"",goal:20}; try{ Object.assign(prof,JSON.parse(localStorage.getItem(PROF_KEY)||"{}")); }catch(e){}
+function profSave(){ try{ localStorage.setItem(PROF_KEY,JSON.stringify(prof)); }catch(e){} }
+function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function goalCount(){ try{ const d=JSON.parse(localStorage.getItem(DAILY_KEY)||"{}"); return d.date===todayKey()?(d.count||0):0; }catch(e){ return 0; } }
+function goalTick(){ const c=goalCount()+1; try{ localStorage.setItem(DAILY_KEY,JSON.stringify({date:todayKey(),count:c})); }catch(e){} renderGoal(); }
+function greetWord(){ const h=new Date().getHours(); return h<11?"Chào buổi sáng":h<14?"Chào buổi trưa":h<18?"Chào buổi chiều":"Chào buổi tối"; }
+function renderGreeting(editing){
+  const el=document.getElementById("greet"); if(!el) return;
+  if(prof.name && !editing){
+    el.innerHTML=`<span>${greetWord()}, <strong>${escapeHTML(prof.name)}</strong>!</span> <button class="mini" onclick="renderGreeting(true)">Đổi tên</button>`;
+    return;
+  }
+  el.innerHTML=`<input id="name-input" maxlength="30" placeholder="Bạn tên là gì?" value="${escapeHTML(prof.name)}" aria-label="Tên của bạn" onkeydown="if(event.key==='Enter')saveName()"> <button class="btn" onclick="saveName()">Lưu tên</button>`;
+  if(editing) document.getElementById("name-input").focus();
+}
+function saveName(){ const v=document.getElementById("name-input").value.trim(); if(!v) return; prof.name=v; profSave(); renderGreeting(); }
+function setGoal(delta){ prof.goal=Math.max(5,Math.min(200,prof.goal+delta)); profSave(); renderGoal(); }
+function renderGoal(){
+  const el=document.getElementById("goal-card"); if(!el) return;
+  const c=goalCount(), g=prof.goal, done=c>=g, C=2*Math.PI*34;
+  const due=allWords.length?dueWords().length:0;
+  const note=done?"Bạn đã hoàn thành mục tiêu hôm nay."
+    :due?`Còn ${due} từ cần ôn.`:"Mỗi câu quiz, mỗi lượt ôn và mỗi từ gõ đúng tính 1 lượt.";
+  el.innerHTML=`<svg class="ring" viewBox="0 0 80 80" role="img" aria-label="Tiến độ hôm nay: ${c} trên ${g}">
+      <circle class="ring-bg" cx="40" cy="40" r="34"/>
+      <circle class="ring-fg${done?" done":""}" cx="40" cy="40" r="34" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-Math.min(1,c/g))}" transform="rotate(-90 40 40)"/></svg>
+    <div class="goal-text"><div class="goal-title">Mục tiêu hôm nay</div>
+      <div class="goal-num"><strong>${c}</strong> / ${g} lượt luyện</div><div class="goal-sub">${note}</div></div>
+    <div class="goal-ctl"><button class="mini" onclick="setGoal(-5)" aria-label="Giảm mục tiêu 5 lượt">−5</button>
+      <button class="mini" onclick="setGoal(5)" aria-label="Tăng mục tiêu 5 lượt">+5</button>
+      <button class="btn" onclick="show('review')">Ôn tập</button></div>`;
+}
+renderGreeting(); renderGoal();
 
 // ── NAV ──
 function show(id){
@@ -692,6 +750,7 @@ function show(id){
   if(id==="quiz"&&qTotal===0&&allWords.length) resetQuiz();
   if(id==="typing"&&allWords.length&&!typingCurrent) resetTyping();
   if(id==="review") renderReview();
+  if(id==="home") renderGoal();
   if(id==="typing") setTimeout(()=>document.getElementById("typing-input").focus(), 50);
 }
 
