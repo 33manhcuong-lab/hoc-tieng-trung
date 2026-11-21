@@ -6814,5 +6814,1549 @@
       "ex": "要改进工作作风。",
       "exv": "Phải cải thiện tác phong làm việc."
     }
+  ],
+  "xuong": [
+    {
+      "h": "工厂",
+      "p": "gōngchǎng",
+      "v": "nhà máy",
+      "hv": "công xưởng"
+    },
+    {
+      "h": "车间",
+      "p": "chējiān",
+      "v": "phân xưởng",
+      "hv": "xa gian"
+    },
+    {
+      "h": "车间主任",
+      "p": "chējiān zhǔrèn",
+      "v": "chủ nhiệm phân xưởng",
+      "hv": "xa gian chủ nhiệm"
+    },
+    {
+      "h": "厂长",
+      "p": "chǎngzhǎng",
+      "v": "giám đốc nhà máy",
+      "hv": "xưởng trưởng"
+    },
+    {
+      "h": "仓库",
+      "p": "cāngkù",
+      "v": "kho",
+      "hv": "thương khố"
+    },
+    {
+      "h": "生产线",
+      "p": "shēngchǎnxiàn",
+      "v": "dây chuyền sản xuất",
+      "hv": "sinh sản tuyến"
+    },
+    {
+      "h": "流水线",
+      "p": "liúshuǐxiàn",
+      "v": "dây chuyền lắp ráp",
+      "hv": "lưu thủy tuyến"
+    },
+    {
+      "h": "组装",
+      "p": "zǔzhuāng",
+      "v": "lắp ráp",
+      "hv": "tổ trang"
+    },
+    {
+      "h": "装配",
+      "p": "zhuāngpèi",
+      "v": "lắp ráp, lắp ghép",
+      "hv": "trang phối"
+    },
+    {
+      "h": "包装",
+      "p": "bāozhuāng",
+      "v": "đóng gói",
+      "hv": "bao trang"
+    },
+    {
+      "h": "打包",
+      "p": "dǎbāo",
+      "v": "đóng gói (hàng)",
+      "hv": "đả bao"
+    },
+    {
+      "h": "出货",
+      "p": "chūhuò",
+      "v": "xuất hàng",
+      "hv": "xuất hóa"
+    },
+    {
+      "h": "进货",
+      "p": "jìnhuò",
+      "v": "nhập hàng",
+      "hv": "tiến hóa"
+    },
+    {
+      "h": "库存",
+      "p": "kùcún",
+      "v": "tồn kho",
+      "hv": "khố tồn"
+    },
+    {
+      "h": "原料",
+      "p": "yuánliào",
+      "v": "nguyên liệu",
+      "hv": "nguyên liệu"
+    },
+    {
+      "h": "材料",
+      "p": "cáiliào",
+      "v": "vật liệu",
+      "hv": "tài liệu"
+    },
+    {
+      "h": "物料",
+      "p": "wùliào",
+      "v": "nguyên vật liệu",
+      "hv": "vật liệu"
+    },
+    {
+      "h": "半成品",
+      "p": "bànchéngpǐn",
+      "v": "bán thành phẩm",
+      "hv": "bán thành phẩm"
+    },
+    {
+      "h": "成品",
+      "p": "chéngpǐn",
+      "v": "thành phẩm",
+      "hv": "thành phẩm"
+    },
+    {
+      "h": "零件",
+      "p": "língjiàn",
+      "v": "linh kiện",
+      "hv": "linh kiện"
+    },
+    {
+      "h": "配件",
+      "p": "pèijiàn",
+      "v": "phụ kiện",
+      "hv": "phối kiện"
+    },
+    {
+      "h": "产品",
+      "p": "chǎnpǐn",
+      "v": "sản phẩm",
+      "hv": "sản phẩm"
+    },
+    {
+      "h": "产量",
+      "p": "chǎnliàng",
+      "v": "sản lượng",
+      "hv": "sản lượng"
+    },
+    {
+      "h": "产能",
+      "p": "chǎnnéng",
+      "v": "năng lực sản xuất",
+      "hv": "sản năng"
+    },
+    {
+      "h": "订单",
+      "p": "dìngdān",
+      "v": "đơn đặt hàng",
+      "hv": "đính đơn"
+    },
+    {
+      "h": "批量",
+      "p": "pīliàng",
+      "v": "số lượng theo lô",
+      "hv": "phê lượng"
+    },
+    {
+      "h": "样品",
+      "p": "yàngpǐn",
+      "v": "hàng mẫu",
+      "hv": "dạng phẩm"
+    },
+    {
+      "h": "交货",
+      "p": "jiāohuò",
+      "v": "giao hàng",
+      "hv": "giao hóa"
+    },
+    {
+      "h": "交期",
+      "p": "jiāoqī",
+      "v": "thời hạn giao hàng",
+      "hv": "giao kỳ"
+    },
+    {
+      "h": "采购",
+      "p": "cǎigòu",
+      "v": "thu mua, mua sắm",
+      "hv": "thải cấu"
+    },
+    {
+      "h": "供应商",
+      "p": "gōngyìngshāng",
+      "v": "nhà cung cấp",
+      "hv": "cung ứng thương"
+    },
+    {
+      "h": "客户",
+      "p": "kèhù",
+      "v": "khách hàng",
+      "hv": "khách hộ"
+    },
+    {
+      "h": "成本",
+      "p": "chéngběn",
+      "v": "chi phí",
+      "hv": "thành bản"
+    },
+    {
+      "h": "效率",
+      "p": "xiàolǜ",
+      "v": "hiệu suất",
+      "hv": "hiệu suất"
+    },
+    {
+      "h": "工时",
+      "p": "gōngshí",
+      "v": "giờ công",
+      "hv": "công thời"
+    },
+    {
+      "h": "机床",
+      "p": "jīchuáng",
+      "v": "máy công cụ",
+      "hv": "cơ sàng"
+    },
+    {
+      "h": "车床",
+      "p": "chēchuáng",
+      "v": "máy tiện",
+      "hv": "xa sàng"
+    },
+    {
+      "h": "铣床",
+      "p": "xǐchuáng",
+      "v": "máy phay",
+      "hv": "tiễn sàng"
+    },
+    {
+      "h": "钻床",
+      "p": "zuànchuáng",
+      "v": "máy khoan",
+      "hv": "toản sàng"
+    },
+    {
+      "h": "磨床",
+      "p": "móchuáng",
+      "v": "máy mài",
+      "hv": "ma sàng"
+    },
+    {
+      "h": "冲床",
+      "p": "chòngchuáng",
+      "v": "máy dập",
+      "hv": "xung sàng"
+    },
+    {
+      "h": "刨床",
+      "p": "bàochuáng",
+      "v": "máy bào",
+      "hv": "bào sàng"
+    },
+    {
+      "h": "焊机",
+      "p": "hànjī",
+      "v": "máy hàn",
+      "hv": "hàn cơ"
+    },
+    {
+      "h": "电焊",
+      "p": "diànhàn",
+      "v": "hàn điện",
+      "hv": "điện hàn"
+    },
+    {
+      "h": "焊接",
+      "p": "hànjiē",
+      "v": "hàn nối",
+      "hv": "hàn tiếp"
+    },
+    {
+      "h": "焊条",
+      "p": "hàntiáo",
+      "v": "que hàn",
+      "hv": "hàn điều"
+    },
+    {
+      "h": "焊锡",
+      "p": "hànxī",
+      "v": "thiếc hàn",
+      "hv": "hàn tích"
+    },
+    {
+      "h": "切割",
+      "p": "qiēgē",
+      "v": "cắt",
+      "hv": "thiết cát"
+    },
+    {
+      "h": "打磨",
+      "p": "dǎmó",
+      "v": "mài, đánh bóng",
+      "hv": "đả ma"
+    },
+    {
+      "h": "抛光",
+      "p": "pāoguāng",
+      "v": "đánh bóng",
+      "hv": "phao quang"
+    },
+    {
+      "h": "喷漆",
+      "p": "pēnqī",
+      "v": "phun sơn",
+      "hv": "phún tất"
+    },
+    {
+      "h": "油漆",
+      "p": "yóuqī",
+      "v": "sơn",
+      "hv": "du tất"
+    },
+    {
+      "h": "电镀",
+      "p": "diàndù",
+      "v": "mạ điện",
+      "hv": "điện độ"
+    },
+    {
+      "h": "热处理",
+      "p": "rèchǔlǐ",
+      "v": "xử lý nhiệt",
+      "hv": "nhiệt xử lý"
+    },
+    {
+      "h": "铸造",
+      "p": "zhùzào",
+      "v": "đúc",
+      "hv": "chú tạo"
+    },
+    {
+      "h": "锻造",
+      "p": "duànzào",
+      "v": "rèn",
+      "hv": "đoán tạo"
+    },
+    {
+      "h": "冲压",
+      "p": "chōngyā",
+      "v": "dập (kim loại)",
+      "hv": "xung áp"
+    },
+    {
+      "h": "注塑",
+      "p": "zhùsù",
+      "v": "ép phun nhựa",
+      "hv": "chú tố"
+    },
+    {
+      "h": "模具",
+      "p": "mújù",
+      "v": "khuôn",
+      "hv": "mô cụ"
+    },
+    {
+      "h": "压缩机",
+      "p": "yāsuōjī",
+      "v": "máy nén khí",
+      "hv": "áp súc cơ"
+    },
+    {
+      "h": "发电机",
+      "p": "fādiànjī",
+      "v": "máy phát điện",
+      "hv": "phát điện cơ"
+    },
+    {
+      "h": "电机",
+      "p": "diànjī",
+      "v": "động cơ điện",
+      "hv": "điện cơ"
+    },
+    {
+      "h": "马达",
+      "p": "mǎdá",
+      "v": "mô-tơ",
+      "hv": "mã đạt"
+    },
+    {
+      "h": "发动机",
+      "p": "fādòngjī",
+      "v": "động cơ",
+      "hv": "phát động cơ"
+    },
+    {
+      "h": "起重机",
+      "p": "qǐzhòngjī",
+      "v": "cần cẩu",
+      "hv": "khởi trọng cơ"
+    },
+    {
+      "h": "叉车",
+      "p": "chāchē",
+      "v": "xe nâng",
+      "hv": "xoa xa"
+    },
+    {
+      "h": "传送带",
+      "p": "chuánsòngdài",
+      "v": "băng chuyền",
+      "hv": "truyền tống đới"
+    },
+    {
+      "h": "机械手",
+      "p": "jīxièshǒu",
+      "v": "tay máy",
+      "hv": "cơ giới thủ"
+    },
+    {
+      "h": "机器人",
+      "p": "jīqìrén",
+      "v": "robot",
+      "hv": "cơ khí nhân"
+    },
+    {
+      "h": "自动化",
+      "p": "zìdònghuà",
+      "v": "tự động hóa",
+      "hv": "tự động hóa"
+    },
+    {
+      "h": "工具",
+      "p": "gōngjù",
+      "v": "dụng cụ",
+      "hv": "công cụ"
+    },
+    {
+      "h": "螺丝",
+      "p": "luósī",
+      "v": "ốc vít",
+      "hv": "loa ti"
+    },
+    {
+      "h": "螺丝刀",
+      "p": "luósīdāo",
+      "v": "tua vít",
+      "hv": "loa ti đao"
+    },
+    {
+      "h": "螺母",
+      "p": "luómǔ",
+      "v": "đai ốc",
+      "hv": "loa mẫu"
+    },
+    {
+      "h": "螺栓",
+      "p": "luóshuān",
+      "v": "bu lông",
+      "hv": "loa soan"
+    },
+    {
+      "h": "螺钉",
+      "p": "luódīng",
+      "v": "vít",
+      "hv": "loa đinh"
+    },
+    {
+      "h": "螺纹",
+      "p": "luówén",
+      "v": "ren (của vít)",
+      "hv": "loa văn"
+    },
+    {
+      "h": "钉子",
+      "p": "dīngzi",
+      "v": "đinh",
+      "hv": "đinh tử"
+    },
+    {
+      "h": "锤子",
+      "p": "chuízi",
+      "v": "búa",
+      "hv": "chùy tử"
+    },
+    {
+      "h": "扳手",
+      "p": "bānshǒu",
+      "v": "cờ lê",
+      "hv": "ban thủ"
+    },
+    {
+      "h": "钳子",
+      "p": "qiánzi",
+      "v": "kìm",
+      "hv": "kiềm tử"
+    },
+    {
+      "h": "锯子",
+      "p": "jùzi",
+      "v": "cưa",
+      "hv": "cứ tử"
+    },
+    {
+      "h": "锉刀",
+      "p": "cuòdāo",
+      "v": "giũa",
+      "hv": "tỏa đao"
+    },
+    {
+      "h": "钻头",
+      "p": "zuàntóu",
+      "v": "mũi khoan",
+      "hv": "toản đầu"
+    },
+    {
+      "h": "刀具",
+      "p": "dāojù",
+      "v": "dao cắt",
+      "hv": "đao cụ"
+    },
+    {
+      "h": "砂纸",
+      "p": "shāzhǐ",
+      "v": "giấy nhám",
+      "hv": "sa chỉ"
+    },
+    {
+      "h": "胶带",
+      "p": "jiāodài",
+      "v": "băng dính",
+      "hv": "giao đới"
+    },
+    {
+      "h": "卷尺",
+      "p": "juǎnchǐ",
+      "v": "thước cuộn",
+      "hv": "quyển xích"
+    },
+    {
+      "h": "游标卡尺",
+      "p": "yóubiāo kǎchǐ",
+      "v": "thước cặp",
+      "hv": "du tiêu tạp xích"
+    },
+    {
+      "h": "千分尺",
+      "p": "qiānfēnchǐ",
+      "v": "panme",
+      "hv": "thiên phân xích"
+    },
+    {
+      "h": "垫圈",
+      "p": "diànquān",
+      "v": "vòng đệm",
+      "hv": "điếm khuyên"
+    },
+    {
+      "h": "轴",
+      "p": "zhóu",
+      "v": "trục",
+      "hv": "trục"
+    },
+    {
+      "h": "轴承",
+      "p": "zhóuchéng",
+      "v": "vòng bi",
+      "hv": "trục thừa"
+    },
+    {
+      "h": "齿轮",
+      "p": "chǐlún",
+      "v": "bánh răng",
+      "hv": "xỉ luân"
+    },
+    {
+      "h": "皮带",
+      "p": "pídài",
+      "v": "dây curoa",
+      "hv": "bì đới"
+    },
+    {
+      "h": "链条",
+      "p": "liàntiáo",
+      "v": "xích",
+      "hv": "liên điều"
+    },
+    {
+      "h": "弹簧",
+      "p": "tánhuáng",
+      "v": "lò xo",
+      "hv": "đạn hoàng"
+    },
+    {
+      "h": "法兰",
+      "p": "fǎlán",
+      "v": "mặt bích",
+      "hv": "pháp lan"
+    },
+    {
+      "h": "阀门",
+      "p": "fámén",
+      "v": "van",
+      "hv": "phiệt môn"
+    },
+    {
+      "h": "管道",
+      "p": "guǎndào",
+      "v": "đường ống",
+      "hv": "quản đạo"
+    },
+    {
+      "h": "管子",
+      "p": "guǎnzi",
+      "v": "ống",
+      "hv": "quản tử"
+    },
+    {
+      "h": "水管",
+      "p": "shuǐguǎn",
+      "v": "ống nước",
+      "hv": "thủy quản"
+    },
+    {
+      "h": "电线",
+      "p": "diànxiàn",
+      "v": "dây điện",
+      "hv": "điện tuyến"
+    },
+    {
+      "h": "电缆",
+      "p": "diànlǎn",
+      "v": "cáp điện",
+      "hv": "điện lãm"
+    },
+    {
+      "h": "开关",
+      "p": "kāiguān",
+      "v": "công tắc",
+      "hv": "khai quan"
+    },
+    {
+      "h": "插头",
+      "p": "chātóu",
+      "v": "phích cắm",
+      "hv": "sáp đầu"
+    },
+    {
+      "h": "插座",
+      "p": "chāzuò",
+      "v": "ổ cắm",
+      "hv": "sáp tọa"
+    },
+    {
+      "h": "保险丝",
+      "p": "bǎoxiǎnsī",
+      "v": "cầu chì",
+      "hv": "bảo hiểm ti"
+    },
+    {
+      "h": "变压器",
+      "p": "biànyāqì",
+      "v": "máy biến áp",
+      "hv": "biến áp khí"
+    },
+    {
+      "h": "电路",
+      "p": "diànlù",
+      "v": "mạch điện",
+      "hv": "điện lộ"
+    },
+    {
+      "h": "线路板",
+      "p": "xiànlùbǎn",
+      "v": "bảng mạch",
+      "hv": "tuyến lộ bản"
+    },
+    {
+      "h": "芯片",
+      "p": "xīnpiàn",
+      "v": "chip",
+      "hv": "tâm phiến"
+    },
+    {
+      "h": "传感器",
+      "p": "chuángǎnqì",
+      "v": "cảm biến",
+      "hv": "truyền cảm khí"
+    },
+    {
+      "h": "钢",
+      "p": "gāng",
+      "v": "thép",
+      "hv": "cương"
+    },
+    {
+      "h": "钢铁",
+      "p": "gāngtiě",
+      "v": "gang thép",
+      "hv": "cương thiết"
+    },
+    {
+      "h": "钢板",
+      "p": "gāngbǎn",
+      "v": "tấm thép",
+      "hv": "cương bản"
+    },
+    {
+      "h": "钢管",
+      "p": "gāngguǎn",
+      "v": "ống thép",
+      "hv": "cương quản"
+    },
+    {
+      "h": "角钢",
+      "p": "jiǎogāng",
+      "v": "thép góc",
+      "hv": "giác cương"
+    },
+    {
+      "h": "铁",
+      "p": "tiě",
+      "v": "sắt",
+      "hv": "thiết"
+    },
+    {
+      "h": "铁丝",
+      "p": "tiěsī",
+      "v": "dây thép",
+      "hv": "thiết ti"
+    },
+    {
+      "h": "铜",
+      "p": "tóng",
+      "v": "đồng",
+      "hv": "đồng"
+    },
+    {
+      "h": "铝",
+      "p": "lǚ",
+      "v": "nhôm",
+      "hv": "lữ"
+    },
+    {
+      "h": "不锈钢",
+      "p": "bùxiùgāng",
+      "v": "inox",
+      "hv": "bất tú cương"
+    },
+    {
+      "h": "合金",
+      "p": "héjīn",
+      "v": "hợp kim",
+      "hv": "hợp kim"
+    },
+    {
+      "h": "金属",
+      "p": "jīnshǔ",
+      "v": "kim loại",
+      "hv": "kim thuộc"
+    },
+    {
+      "h": "塑料",
+      "p": "sùliào",
+      "v": "nhựa",
+      "hv": "tố liệu"
+    },
+    {
+      "h": "橡胶",
+      "p": "xiàngjiāo",
+      "v": "cao su",
+      "hv": "tượng giao"
+    },
+    {
+      "h": "玻璃",
+      "p": "bōli",
+      "v": "thủy tinh",
+      "hv": "pha lê"
+    },
+    {
+      "h": "木材",
+      "p": "mùcái",
+      "v": "gỗ",
+      "hv": "mộc tài"
+    },
+    {
+      "h": "布料",
+      "p": "bùliào",
+      "v": "vải",
+      "hv": "bố liệu"
+    },
+    {
+      "h": "皮革",
+      "p": "pígé",
+      "v": "da thuộc",
+      "hv": "bì cách"
+    },
+    {
+      "h": "纸板",
+      "p": "zhǐbǎn",
+      "v": "bìa các-tông",
+      "hv": "chỉ bản"
+    },
+    {
+      "h": "泡沫",
+      "p": "pàomò",
+      "v": "xốp",
+      "hv": "bào mạt"
+    },
+    {
+      "h": "胶水",
+      "p": "jiāoshuǐ",
+      "v": "keo dán",
+      "hv": "giao thủy"
+    },
+    {
+      "h": "润滑油",
+      "p": "rùnhuáyóu",
+      "v": "dầu bôi trơn",
+      "hv": "nhuận hoạt du"
+    },
+    {
+      "h": "机油",
+      "p": "jīyóu",
+      "v": "dầu máy",
+      "hv": "cơ du"
+    },
+    {
+      "h": "柴油",
+      "p": "cháiyóu",
+      "v": "dầu diesel",
+      "hv": "sài du"
+    },
+    {
+      "h": "汽油",
+      "p": "qìyóu",
+      "v": "xăng",
+      "hv": "khí du"
+    },
+    {
+      "h": "煤",
+      "p": "méi",
+      "v": "than",
+      "hv": "môi"
+    },
+    {
+      "h": "铁锈",
+      "p": "tiěxiù",
+      "v": "gỉ sắt",
+      "hv": "thiết tú"
+    },
+    {
+      "h": "生锈",
+      "p": "shēngxiù",
+      "v": "bị gỉ",
+      "hv": "sinh tú"
+    },
+    {
+      "h": "工序",
+      "p": "gōngxù",
+      "v": "công đoạn",
+      "hv": "công tự"
+    },
+    {
+      "h": "工艺",
+      "p": "gōngyì",
+      "v": "công nghệ, quy trình kỹ thuật",
+      "hv": "công nghệ"
+    },
+    {
+      "h": "流程",
+      "p": "liúchéng",
+      "v": "quy trình",
+      "hv": "lưu trình"
+    },
+    {
+      "h": "图纸",
+      "p": "túzhǐ",
+      "v": "bản vẽ kỹ thuật",
+      "hv": "đồ chỉ"
+    },
+    {
+      "h": "规格",
+      "p": "guīgé",
+      "v": "quy cách",
+      "hv": "quy cách"
+    },
+    {
+      "h": "型号",
+      "p": "xínghào",
+      "v": "mã hiệu, model",
+      "hv": "hình hiệu"
+    },
+    {
+      "h": "尺寸",
+      "p": "chǐcùn",
+      "v": "kích thước",
+      "hv": "xích thốn"
+    },
+    {
+      "h": "公差",
+      "p": "gōngchā",
+      "v": "dung sai",
+      "hv": "công sai"
+    },
+    {
+      "h": "精度",
+      "p": "jīngdù",
+      "v": "độ chính xác",
+      "hv": "tinh độ"
+    },
+    {
+      "h": "误差",
+      "p": "wùchā",
+      "v": "sai số",
+      "hv": "ngộ sai"
+    },
+    {
+      "h": "加工",
+      "p": "jiāgōng",
+      "v": "gia công",
+      "hv": "gia công"
+    },
+    {
+      "h": "制作",
+      "p": "zhìzuò",
+      "v": "chế tác",
+      "hv": "chế tác"
+    },
+    {
+      "h": "操作",
+      "p": "cāozuò",
+      "v": "thao tác, vận hành",
+      "hv": "thao tác"
+    },
+    {
+      "h": "调试",
+      "p": "tiáoshì",
+      "v": "chạy thử, hiệu chỉnh",
+      "hv": "điều thí"
+    },
+    {
+      "h": "试产",
+      "p": "shìchǎn",
+      "v": "sản xuất thử",
+      "hv": "thí sản"
+    },
+    {
+      "h": "量产",
+      "p": "liàngchǎn",
+      "v": "sản xuất hàng loạt",
+      "hv": "lượng sản"
+    },
+    {
+      "h": "测试",
+      "p": "cèshì",
+      "v": "kiểm tra, thử nghiệm",
+      "hv": "trắc thí"
+    },
+    {
+      "h": "测量",
+      "p": "cèliáng",
+      "v": "đo lường",
+      "hv": "trắc lượng"
+    },
+    {
+      "h": "校准",
+      "p": "jiàozhǔn",
+      "v": "hiệu chuẩn",
+      "hv": "hiệu chuẩn"
+    },
+    {
+      "h": "维修",
+      "p": "wéixiū",
+      "v": "bảo trì, sửa chữa",
+      "hv": "duy tu"
+    },
+    {
+      "h": "保养",
+      "p": "bǎoyǎng",
+      "v": "bảo dưỡng",
+      "hv": "bảo dưỡng"
+    },
+    {
+      "h": "检修",
+      "p": "jiǎnxiū",
+      "v": "kiểm tra sửa chữa",
+      "hv": "kiểm tu"
+    },
+    {
+      "h": "故障",
+      "p": "gùzhàng",
+      "v": "sự cố, hỏng hóc",
+      "hv": "cố chướng"
+    },
+    {
+      "h": "停机",
+      "p": "tíngjī",
+      "v": "dừng máy",
+      "hv": "đình cơ"
+    },
+    {
+      "h": "开机",
+      "p": "kāijī",
+      "v": "khởi động máy",
+      "hv": "khai cơ"
+    },
+    {
+      "h": "关机",
+      "p": "guānjī",
+      "v": "tắt máy",
+      "hv": "quan cơ"
+    },
+    {
+      "h": "换线",
+      "p": "huànxiàn",
+      "v": "đổi chuyền sản xuất",
+      "hv": "hoán tuyến"
+    },
+    {
+      "h": "漏油",
+      "p": "lòuyóu",
+      "v": "rò dầu",
+      "hv": "lậu du"
+    },
+    {
+      "h": "漏电",
+      "p": "lòudiàn",
+      "v": "rò điện",
+      "hv": "lậu điện"
+    },
+    {
+      "h": "短路",
+      "p": "duǎnlù",
+      "v": "đoản mạch",
+      "hv": "đoản lộ"
+    },
+    {
+      "h": "断电",
+      "p": "duàndiàn",
+      "v": "ngắt điện, mất điện",
+      "hv": "đoạn điện"
+    },
+    {
+      "h": "通电",
+      "p": "tōngdiàn",
+      "v": "cấp điện",
+      "hv": "thông điện"
+    },
+    {
+      "h": "接地",
+      "p": "jiēdì",
+      "v": "nối đất",
+      "hv": "tiếp địa"
+    },
+    {
+      "h": "质检",
+      "p": "zhìjiǎn",
+      "v": "kiểm tra chất lượng",
+      "hv": "chất kiểm"
+    },
+    {
+      "h": "检验",
+      "p": "jiǎnyàn",
+      "v": "kiểm nghiệm",
+      "hv": "kiểm nghiệm"
+    },
+    {
+      "h": "合格",
+      "p": "hégé",
+      "v": "đạt chuẩn",
+      "hv": "hợp cách"
+    },
+    {
+      "h": "不合格",
+      "p": "bù hégé",
+      "v": "không đạt chuẩn",
+      "hv": "bất hợp cách"
+    },
+    {
+      "h": "次品",
+      "p": "cìpǐn",
+      "v": "hàng lỗi",
+      "hv": "thứ phẩm"
+    },
+    {
+      "h": "废品",
+      "p": "fèipǐn",
+      "v": "phế phẩm",
+      "hv": "phế phẩm"
+    },
+    {
+      "h": "返工",
+      "p": "fǎngōng",
+      "v": "làm lại",
+      "hv": "phản công"
+    },
+    {
+      "h": "报废",
+      "p": "bàofèi",
+      "v": "loại bỏ, hủy bỏ",
+      "hv": "báo phế"
+    },
+    {
+      "h": "缺陷",
+      "p": "quēxiàn",
+      "v": "khuyết điểm, lỗi",
+      "hv": "khuyết hãm"
+    },
+    {
+      "h": "瑕疵",
+      "p": "xiácī",
+      "v": "vết lỗi nhỏ",
+      "hv": "hà tì"
+    },
+    {
+      "h": "良品率",
+      "p": "liángpǐnlǜ",
+      "v": "tỷ lệ hàng đạt",
+      "hv": "lương phẩm suất"
+    },
+    {
+      "h": "抽检",
+      "p": "chōujiǎn",
+      "v": "kiểm tra mẫu",
+      "hv": "trừu kiểm"
+    },
+    {
+      "h": "认证",
+      "p": "rènzhèng",
+      "v": "chứng nhận",
+      "hv": "nhận chứng"
+    },
+    {
+      "h": "安全",
+      "p": "ānquán",
+      "v": "an toàn",
+      "hv": "an toàn"
+    },
+    {
+      "h": "安全帽",
+      "p": "ānquánmào",
+      "v": "mũ bảo hộ",
+      "hv": "an toàn mạo"
+    },
+    {
+      "h": "手套",
+      "p": "shǒutào",
+      "v": "găng tay",
+      "hv": "thủ sáo"
+    },
+    {
+      "h": "口罩",
+      "p": "kǒuzhào",
+      "v": "khẩu trang",
+      "hv": "khẩu trạo"
+    },
+    {
+      "h": "护目镜",
+      "p": "hùmùjìng",
+      "v": "kính bảo hộ",
+      "hv": "hộ mục kính"
+    },
+    {
+      "h": "耳塞",
+      "p": "ěrsāi",
+      "v": "nút tai chống ồn",
+      "hv": "nhĩ tắc"
+    },
+    {
+      "h": "工作服",
+      "p": "gōngzuòfú",
+      "v": "đồng phục lao động",
+      "hv": "công tác phục"
+    },
+    {
+      "h": "防护",
+      "p": "fánghù",
+      "v": "bảo hộ",
+      "hv": "phòng hộ"
+    },
+    {
+      "h": "灭火器",
+      "p": "mièhuǒqì",
+      "v": "bình chữa cháy",
+      "hv": "diệt hỏa khí"
+    },
+    {
+      "h": "消防",
+      "p": "xiāofáng",
+      "v": "phòng cháy chữa cháy",
+      "hv": "tiêu phòng"
+    },
+    {
+      "h": "事故",
+      "p": "shìgù",
+      "v": "tai nạn, sự cố",
+      "hv": "sự cố"
+    },
+    {
+      "h": "紧急停止",
+      "p": "jǐnjí tíngzhǐ",
+      "v": "dừng khẩn cấp",
+      "hv": "khẩn cấp đình chỉ"
+    },
+    {
+      "h": "禁止",
+      "p": "jìnzhǐ",
+      "v": "cấm",
+      "hv": "cấm chỉ"
+    },
+    {
+      "h": "违规",
+      "p": "wéiguī",
+      "v": "vi phạm quy định",
+      "hv": "vi quy"
+    },
+    {
+      "h": "噪音",
+      "p": "zàoyīn",
+      "v": "tiếng ồn",
+      "hv": "táo âm"
+    },
+    {
+      "h": "粉尘",
+      "p": "fěnchén",
+      "v": "bụi",
+      "hv": "phấn trần"
+    },
+    {
+      "h": "污染",
+      "p": "wūrǎn",
+      "v": "ô nhiễm",
+      "hv": "ô nhiễm"
+    },
+    {
+      "h": "环保",
+      "p": "huánbǎo",
+      "v": "bảo vệ môi trường",
+      "hv": "hoàn bảo"
+    },
+    {
+      "h": "排放",
+      "p": "páifàng",
+      "v": "xả thải",
+      "hv": "bài phóng"
+    },
+    {
+      "h": "工人",
+      "p": "gōngrén",
+      "v": "công nhân",
+      "hv": "công nhân"
+    },
+    {
+      "h": "员工",
+      "p": "yuángōng",
+      "v": "nhân viên",
+      "hv": "viên công"
+    },
+    {
+      "h": "技术员",
+      "p": "jìshùyuán",
+      "v": "kỹ thuật viên",
+      "hv": "kỹ thuật viên"
+    },
+    {
+      "h": "工程师",
+      "p": "gōngchéngshī",
+      "v": "kỹ sư",
+      "hv": "công trình sư"
+    },
+    {
+      "h": "师傅",
+      "p": "shīfu",
+      "v": "thợ cả, sư phụ",
+      "hv": "sư phó"
+    },
+    {
+      "h": "组长",
+      "p": "zǔzhǎng",
+      "v": "tổ trưởng",
+      "hv": "tổ trưởng"
+    },
+    {
+      "h": "班长",
+      "p": "bānzhǎng",
+      "v": "trưởng ca",
+      "hv": "ban trưởng"
+    },
+    {
+      "h": "主管",
+      "p": "zhǔguǎn",
+      "v": "quản lý, trưởng bộ phận",
+      "hv": "chủ quản"
+    },
+    {
+      "h": "领班",
+      "p": "lǐngbān",
+      "v": "đốc công",
+      "hv": "lĩnh ban"
+    },
+    {
+      "h": "学徒",
+      "p": "xuétú",
+      "v": "thợ học việc",
+      "hv": "học đồ"
+    },
+    {
+      "h": "老板",
+      "p": "lǎobǎn",
+      "v": "ông chủ",
+      "hv": "lão bản"
+    },
+    {
+      "h": "加班",
+      "p": "jiābān",
+      "v": "tăng ca",
+      "hv": "gia ban"
+    },
+    {
+      "h": "倒班",
+      "p": "dǎobān",
+      "v": "đổi ca",
+      "hv": "đảo ban"
+    },
+    {
+      "h": "早班",
+      "p": "zǎobān",
+      "v": "ca sáng",
+      "hv": "tảo ban"
+    },
+    {
+      "h": "晚班",
+      "p": "wǎnbān",
+      "v": "ca tối",
+      "hv": "vãn ban"
+    },
+    {
+      "h": "夜班",
+      "p": "yèbān",
+      "v": "ca đêm",
+      "hv": "dạ ban"
+    },
+    {
+      "h": "下班",
+      "p": "xiàbān",
+      "v": "tan ca",
+      "hv": "hạ ban"
+    },
+    {
+      "h": "打卡",
+      "p": "dǎkǎ",
+      "v": "chấm công",
+      "hv": "đả tạp"
+    },
+    {
+      "h": "考勤",
+      "p": "kǎoqín",
+      "v": "chấm công, điểm danh",
+      "hv": "khảo cần"
+    },
+    {
+      "h": "奖金",
+      "p": "jiǎngjīn",
+      "v": "tiền thưởng",
+      "hv": "thưởng kim"
+    },
+    {
+      "h": "计件",
+      "p": "jìjiàn",
+      "v": "trả lương theo sản phẩm",
+      "hv": "kế kiện"
+    },
+    {
+      "h": "招聘",
+      "p": "zhāopìn",
+      "v": "tuyển dụng",
+      "hv": "chiêu sính"
+    },
+    {
+      "h": "培训",
+      "p": "péixùn",
+      "v": "đào tạo",
+      "hv": "bồi huấn"
+    },
+    {
+      "h": "宿舍",
+      "p": "sùshè",
+      "v": "ký túc xá",
+      "hv": "túc xá"
+    },
+    {
+      "h": "食堂",
+      "p": "shítáng",
+      "v": "nhà ăn",
+      "hv": "thực đường"
+    },
+    {
+      "h": "吨",
+      "p": "dūn",
+      "v": "tấn",
+      "hv": "đốn"
+    },
+    {
+      "h": "毫米",
+      "p": "háomǐ",
+      "v": "milimét",
+      "hv": "hào mễ"
+    },
+    {
+      "h": "厘米",
+      "p": "límǐ",
+      "v": "xentimét",
+      "hv": "ly mễ"
+    },
+    {
+      "h": "温度",
+      "p": "wēndù",
+      "v": "nhiệt độ",
+      "hv": "ôn độ"
+    },
+    {
+      "h": "速度",
+      "p": "sùdù",
+      "v": "tốc độ",
+      "hv": "tốc độ"
+    },
+    {
+      "h": "功率",
+      "p": "gōnglǜ",
+      "v": "công suất",
+      "hv": "công suất"
+    },
+    {
+      "h": "电压",
+      "p": "diànyā",
+      "v": "điện áp",
+      "hv": "điện áp"
+    },
+    {
+      "h": "电流",
+      "p": "diànliú",
+      "v": "dòng điện",
+      "hv": "điện lưu"
+    },
+    {
+      "h": "重量",
+      "p": "zhòngliàng",
+      "v": "trọng lượng",
+      "hv": "trọng lượng"
+    },
+    {
+      "h": "厚度",
+      "p": "hòudù",
+      "v": "độ dày",
+      "hv": "hậu độ"
+    },
+    {
+      "h": "长度",
+      "p": "chángdù",
+      "v": "chiều dài",
+      "hv": "trường độ"
+    },
+    {
+      "h": "宽度",
+      "p": "kuāndù",
+      "v": "chiều rộng",
+      "hv": "khoan độ"
+    },
+    {
+      "h": "高度",
+      "p": "gāodù",
+      "v": "chiều cao",
+      "hv": "cao độ"
+    },
+    {
+      "h": "货物",
+      "p": "huòwù",
+      "v": "hàng hóa",
+      "hv": "hóa vật"
+    },
+    {
+      "h": "物流",
+      "p": "wùliú",
+      "v": "logistics",
+      "hv": "vật lưu"
+    },
+    {
+      "h": "货车",
+      "p": "huòchē",
+      "v": "xe tải",
+      "hv": "hóa xa"
+    },
+    {
+      "h": "卡车",
+      "p": "kǎchē",
+      "v": "xe tải",
+      "hv": "tạp xa"
+    },
+    {
+      "h": "托盘",
+      "p": "tuōpán",
+      "v": "pallet",
+      "hv": "thác bàn"
+    },
+    {
+      "h": "纸箱",
+      "p": "zhǐxiāng",
+      "v": "thùng giấy",
+      "hv": "chỉ tương"
+    },
+    {
+      "h": "标签",
+      "p": "biāoqiān",
+      "v": "nhãn",
+      "hv": "tiêu thiêm"
+    },
+    {
+      "h": "条码",
+      "p": "tiáomǎ",
+      "v": "mã vạch",
+      "hv": "điều mã"
+    },
+    {
+      "h": "运输",
+      "p": "yùnshū",
+      "v": "vận chuyển",
+      "hv": "vận thâu"
+    },
+    {
+      "h": "装车",
+      "p": "zhuāngchē",
+      "v": "chất hàng lên xe",
+      "hv": "trang xa"
+    },
+    {
+      "h": "卸货",
+      "p": "xièhuò",
+      "v": "dỡ hàng",
+      "hv": "tá hóa"
+    },
+    {
+      "h": "称重",
+      "p": "chēngzhòng",
+      "v": "cân trọng lượng",
+      "hv": "xưng trọng"
+    },
+    {
+      "h": "报表",
+      "p": "bàobiǎo",
+      "v": "bảng báo cáo",
+      "hv": "báo biểu"
+    }
   ]
 }

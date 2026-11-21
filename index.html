@@ -6,7 +6,7 @@
   <title>Học Tiếng Trung HSK</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>:root{--bg:#F4F6FB;--surface:#FFFFFF;--ink:#16203A;--soft:#5E6A85;--line:#E2E7F1;--primary:#3B5BDB;--primary-ink:#fff;--accent:#0C8599;--ok:#1E9E62;--okbg:#E3F6EC;--bad:#D6384A;--badbg:#FCE8EB;
---hsk1:#E5484D;--hsk2:#F08A24;--hsk3:#30A46C;--hsk4:#0091FF;--hsk5:#8E4EC6;--hsk6:#5B6B85;--r:14px;--sh:0 1px 2px #16203A0F,0 4px 14px #16203A0A;
+--hsk1:#E5484D;--hsk2:#F08A24;--hsk3:#30A46C;--hsk4:#0091FF;--hsk5:#8E4EC6;--hsk6:#5B6B85;--xuong:#0F766E;--r:14px;--sh:0 1px 2px #16203A0F,0 4px 14px #16203A0A;
 --red:var(--primary);--gold:var(--accent);--paper:var(--bg);--mist:var(--line);--white:var(--surface)}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0E1220;--surface:#171D31;--ink:#E9EDF8;--soft:#98A2BC;--line:#2A3250;--primary:#7C93FF;--primary-ink:#0E1220;--accent:#4CC9DC;--ok:#4CD08B;--okbg:#12301F;--bad:#FF6B7A;--badbg:#3A1820;--sh:none}}
 :root[data-theme=dark]{--bg:#0E1220;--surface:#171D31;--ink:#E9EDF8;--soft:#98A2BC;--line:#2A3250;--primary:#7C93FF;--primary-ink:#0E1220;--accent:#4CC9DC;--ok:#4CD08B;--okbg:#12301F;--bad:#FF6B7A;--badbg:#3A1820;--sh:none}
@@ -142,7 +142,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
 .goal-sub{font-size:.8rem;color:var(--soft)}
 .goal-ctl{display:flex;gap:8px;align-items:center}
 .goal-ctl .mini{margin-top:0}
-</style>
+.ftab[data-l=xuong].on{background:var(--xuong)}.lv-xuong{background:var(--xuong)}</style>
 </head>
 <body>
 <nav>
@@ -172,7 +172,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
   <div style="max-width:900px;margin:0 auto;padding:28px 0 0">
     <div class="goal-card" id="goal-card"></div>
     <div style="height:24px"></div>
-    <h2>6 cấp độ HSK</h2>
+    <h2>6 cấp độ HSK và từ vựng công xưởng</h2>
     <div class="hsk-overview">
       <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk1" aria-label="Mở từ vựng HSK 1" style="background:var(--hsk1)">
         <div class="cnt" id="cnt1">—</div>
@@ -204,6 +204,11 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
         <h3>HSK 6</h3>
         <p>Nâng cao chuyên sâu, hiểu và sử dụng từ vựng phức tạp</p>
       </div>
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="xuong" aria-label="Mở từ vựng công xưởng" style="background:var(--xuong)">
+        <div class="cnt" id="cnt7">—</div>
+        <h3>Công xưởng</h3>
+        <p>Máy móc, vật liệu, quy trình, an toàn lao động</p>
+      </div>
     </div>
     <hr class="divider">
     <div class="info-grid">
@@ -230,6 +235,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
     <button class="ftab" data-l="hsk4" onclick="setLevel('hsk4')">HSK 4</button>
     <button class="ftab" data-l="hsk5" onclick="setLevel('hsk5')">HSK 5</button>
     <button class="ftab" data-l="hsk6" onclick="setLevel('hsk6')">HSK 6</button>
+    <button class="ftab" data-l="xuong" onclick="setLevel('xuong')">Công xưởng</button>
   </div>
   <div class="stats">
     <div class="stat-chip">Hiển thị: <strong id="showing-count">0</strong> từ</div>
@@ -251,6 +257,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
     <button class="ftab" data-l="hsk4" onclick="setQuizLevel('hsk4')">HSK 4</button>
     <button class="ftab" data-l="hsk5" onclick="setQuizLevel('hsk5')">HSK 5</button>
     <button class="ftab" data-l="hsk6" onclick="setQuizLevel('hsk6')">HSK 6</button>
+    <button class="ftab" data-l="xuong" onclick="setQuizLevel('xuong')">Công xưởng</button>
   </div>
   <div class="score-row">
     <span>Điểm: <strong id="score">0</strong></span>
@@ -281,7 +288,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
   <div class="rv-add">
     <select id="rv-level" aria-label="Chọn cấp độ từ mới">
       <option value="all">Tất cả cấp độ</option><option value="hsk1">HSK 1</option><option value="hsk2">HSK 2</option>
-      <option value="hsk3">HSK 3</option><option value="hsk4">HSK 4</option><option value="hsk5">HSK 5</option><option value="hsk6">HSK 6</option>
+      <option value="hsk3">HSK 3</option><option value="hsk4">HSK 4</option><option value="hsk5">HSK 5</option><option value="hsk6">HSK 6</option><option value="xuong">Công xưởng</option>
     </select>
     <button class="btn btn-outline" onclick="addNewWords()">Thêm 10 từ mới</button>
   </div>
@@ -300,6 +307,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
     <button class="ftab" data-l="hsk4" onclick="setTypingLevel('hsk4')">HSK 4</button>
     <button class="ftab" data-l="hsk5" onclick="setTypingLevel('hsk5')">HSK 5</button>
     <button class="ftab" data-l="hsk6" onclick="setTypingLevel('hsk6')">HSK 6</button>
+    <button class="ftab" data-l="xuong" onclick="setTypingLevel('xuong')">Công xưởng</button>
   </div>
   <div class="typing-stats">
     <div class="stat-chip">Đúng: <strong id="typing-correct">0</strong></div>
@@ -373,13 +381,13 @@ function renderPage(){
     grid.innerHTML = slice.map(w => `
       <div class="card" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa và ví dụ">
         <div class="front">
-          <span class="lv lv-${w.lvl}">${w.lvl.toUpperCase()}</span>
+          <span class="lv lv-${w.lvl}">${lvName(w.lvl)}</span>
           <div class="hanzi">${escapeHTML(w.h)}</div>
           <div class="pinyin">${escapeHTML(w.p)}</div>
           <div class="card-hint">nhấn để xem nghĩa</div>
         </div>
         <div class="back">
-          <span class="lv lv-${w.lvl}">${w.lvl.toUpperCase()}</span>
+          <span class="lv lv-${w.lvl}">${lvName(w.lvl)}</span>
           <div class="hanzi">${escapeHTML(w.h)}</div>
           <div class="pinyin">${escapeHTML(w.p)}</div>
           <div class="meaning">${escapeHTML(w.v)}</div>
@@ -413,7 +421,8 @@ function goPage(p){ curPage=p; renderPage(); window.scrollTo(0,0); }
 // ── QUIZ ──
 let qLevel="all", qScore=0, qTotal=0, qAnswered=false, qPool=[], qCurrent=null;
 
-const LV_COLORS = {hsk1:"#E5484D",hsk2:"#F08A24",hsk3:"#30A46C",hsk4:"#0091FF",hsk5:"#8E4EC6",hsk6:"#5B6B85"};
+const lvName = l => l === "xuong" ? "CÔNG XƯỞNG" : l.toUpperCase();
+const LV_COLORS = {xuong:"#0F766E",hsk1:"#E5484D",hsk2:"#F08A24",hsk3:"#30A46C",hsk4:"#0091FF",hsk5:"#8E4EC6",hsk6:"#5B6B85"};
 
 function setQuizLevel(l){
   qLevel=l;
@@ -450,7 +459,7 @@ function nextQ(){
   document.getElementById("q-hanzi").textContent=qCurrent.h;
   document.getElementById("q-pinyin").textContent=qCurrent.p;
   document.getElementById("q-lv").innerHTML=
-    `<span style="background:${LV_COLORS[qCurrent.lvl]};color:#fff;padding:2px 10px;border-radius:10px;font-size:.72rem;font-weight:600">${qCurrent.lvl.toUpperCase()}</span>`;
+    `<span style="background:${LV_COLORS[qCurrent.lvl]};color:#fff;padding:2px 10px;border-radius:10px;font-size:.72rem;font-weight:600">${lvName(qCurrent.lvl)}</span>`;
 
   const pool2 = qPool.length>=4 ? qPool : allWords;
   const distractors=shuffle(pool2.filter(w=>w.v!==qCurrent.v)).slice(0,3);
@@ -680,7 +689,7 @@ function renderReview(){
   }
   const w=rvCur, s=srs[wk(w)];
   let h='<div class="rv-meta">Còn '+(rvQueue.length+1)+' từ trong lượt này · Hộp '+(s.box+1)+'/6</div>'
-    +'<span class="lv lv-'+w.lvl+'" style="padding:2px 10px;border-radius:999px;color:#fff;font-size:.7rem;font-weight:600">'+w.lvl.toUpperCase()+'</span>'
+    +'<span class="lv lv-'+w.lvl+'" style="padding:2px 10px;border-radius:999px;color:#fff;font-size:.7rem;font-weight:600">'+lvName(w.lvl)+'</span>'
     +'<div class="quiz-hanzi">'+escapeHTML(w.h)+'</div><div class="quiz-pinyin">'+escapeHTML(w.p)+'</div>';
   if(!rvShown){
     h+='<button class="btn" onclick="rvReveal()">Xem nghĩa</button>';
@@ -762,7 +771,7 @@ async function loadVocabulary(){
     if(!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
-    const levels = ["hsk1", "hsk2", "hsk3", "hsk4", "hsk5", "hsk6"];
+    const levels = ["hsk1", "hsk2", "hsk3", "hsk4", "hsk5", "hsk6", "xuong"];
     for(const level of levels){
       if(!Array.isArray(data[level])) throw new Error(`Dữ liệu ${level} không hợp lệ`);
     }
@@ -780,7 +789,7 @@ async function loadVocabulary(){
       const count = HSK[level].length;
       document.getElementById(`cnt${index + 1}`).textContent = `${count} từ`;
       const filterButton = document.querySelector(`.filter-bar .ftab[data-l="${level}"]`);
-      if(filterButton) filterButton.textContent = `HSK ${index + 1} (${count})`;
+      if(filterButton) filterButton.textContent = `${level === "xuong" ? "Công xưởng" : "HSK " + (index + 1)} (${count})`;
     });
     document.getElementById("total-word-count").textContent = allWords.length;
 
