@@ -100,8 +100,6 @@
       "h": "的",
       "p": "de",
       "v": "của (trợ từ)",
-      "ex": "我觉得的很重要。",
-      "exv": "Tôi nghĩ của (trợ từ) rất quan trọng.",
       "hv": "đích"
     },
     {
@@ -116,32 +114,24 @@
       "h": "电视",
       "p": "diànshì",
       "v": "tivi",
-      "ex": "我觉得电视很重要。",
-      "exv": "Tôi nghĩ tivi rất quan trọng.",
       "hv": "điện thị"
     },
     {
       "h": "电影",
       "p": "diànyǐng",
       "v": "phim",
-      "ex": "我觉得电影很重要。",
-      "exv": "Tôi nghĩ phim rất quan trọng.",
       "hv": "điện ảnh"
     },
     {
       "h": "东西",
       "p": "dōngxi",
       "v": "đồ vật",
-      "ex": "我觉得东西很重要。",
-      "exv": "Tôi nghĩ đồ vật rất quan trọng.",
       "hv": "đông tây"
     },
     {
       "h": "都",
       "p": "dōu",
       "v": "đều",
-      "ex": "我觉得都很重要。",
-      "exv": "Tôi nghĩ đều rất quan trọng.",
       "hv": "đô"
     },
     {
@@ -156,40 +146,30 @@
       "h": "对不起",
       "p": "duìbuqǐ",
       "v": "xin lỗi",
-      "ex": "我觉得对不起很重要。",
-      "exv": "Tôi nghĩ xin lỗi rất quan trọng.",
       "hv": "đối bất khởi"
     },
     {
       "h": "多",
       "p": "duō",
       "v": "nhiều",
-      "ex": "我觉得多很重要。",
-      "exv": "Tôi nghĩ nhiều rất quan trọng.",
       "hv": "đa"
     },
     {
       "h": "多少",
       "p": "duōshao",
       "v": "bao nhiêu",
-      "ex": "这个词在句子里常常这样用：多少。",
-      "exv": "Từ này thường được dùng như vậy trong câu: bao nhiêu.",
       "hv": "đa thiểu"
     },
     {
       "h": "儿子",
       "p": "érzi",
       "v": "con trai",
-      "ex": "明天我想儿子。",
-      "exv": "Ngày mai tôi muốn con trai.",
       "hv": "nhi tử"
     },
     {
       "h": "二",
       "p": "èr",
       "v": "hai",
-      "ex": "我觉得二很重要。",
-      "exv": "Tôi nghĩ hai rất quan trọng.",
       "hv": "nhị"
     },
     {
@@ -204,24 +184,18 @@
       "h": "飞机",
       "p": "fēijī",
       "v": "máy bay",
-      "ex": "我每天坐飞机去上班。",
-      "exv": "Mỗi ngày tôi đi làm bằng máy bay.",
       "hv": "phi cơ"
     },
     {
       "h": "高兴",
       "p": "gāoxìng",
       "v": "vui mừng",
-      "ex": "我觉得这个高兴很明显。",
-      "exv": "Tôi thấy điều này rất vui mừng.",
       "hv": "cao hưng"
     },
     {
       "h": "工作",
       "p": "gōngzuò",
       "v": "công việc",
-      "ex": "我的工作今天在家。",
-      "exv": "Công việc của tôi hôm nay ở nhà.",
       "hv": "công tác"
     },
     {
@@ -236,48 +210,36 @@
       "h": "汉语",
       "p": "Hànyǔ",
       "v": "tiếng Trung",
-      "ex": "我觉得汉语很重要。",
-      "exv": "Tôi nghĩ tiếng Trung rất quan trọng.",
       "hv": "hán ngữ"
     },
     {
       "h": "好",
       "p": "hǎo",
       "v": "tốt",
-      "ex": "我觉得这个好很明显。",
-      "exv": "Tôi thấy điều này rất tốt.",
       "hv": "hảo"
     },
     {
       "h": "喝",
       "p": "hē",
       "v": "uống",
-      "ex": "我每天都会喝。",
-      "exv": "Mỗi ngày tôi đều uống.",
       "hv": "hát"
     },
     {
       "h": "和",
       "p": "hé",
       "v": "và",
-      "ex": "我觉得和很重要。",
-      "exv": "Tôi nghĩ và rất quan trọng.",
       "hv": "hòa"
     },
     {
       "h": "很",
       "p": "hěn",
       "v": "rất",
-      "ex": "这个词在句子里常常这样用：很。",
-      "exv": "Từ này thường được dùng như vậy trong câu: rất.",
       "hv": "ngận"
     },
     {
       "h": "后面",
       "p": "hòumiàn",
       "v": "phía sau",
-      "ex": "我觉得后面很重要。",
-      "exv": "Tôi nghĩ phía sau rất quan trọng.",
       "hv": "hậu diện"
     },
     {
@@ -292,64 +254,48 @@
       "h": "会",
       "p": "huì",
       "v": "biết (kỹ năng)",
-      "ex": "我每天都会会。",
-      "exv": "Mỗi ngày tôi đều biết (kỹ năng).",
       "hv": "hội"
     },
     {
       "h": "几",
       "p": "jǐ",
       "v": "mấy",
-      "ex": "我觉得几很重要。",
-      "exv": "Tôi nghĩ mấy rất quan trọng.",
       "hv": "kỷ"
     },
     {
       "h": "家",
       "p": "jiā",
       "v": "nhà",
-      "ex": "我今天要去家。",
-      "exv": "Hôm nay tôi phải đến nhà.",
       "hv": "gia"
     },
     {
       "h": "叫",
       "p": "jiào",
       "v": "gọi là",
-      "ex": "我们每天都要叫。",
-      "exv": "Chúng tôi đều phải gọi là mỗi ngày.",
       "hv": "khiếu"
     },
     {
       "h": "今天",
       "p": "jīntiān",
       "v": "hôm nay",
-      "ex": "我觉得今天很重要。",
-      "exv": "Tôi nghĩ hôm nay rất quan trọng.",
       "hv": "kim thiên"
     },
     {
       "h": "九",
       "p": "jiǔ",
       "v": "chín",
-      "ex": "我觉得九很重要。",
-      "exv": "Tôi nghĩ chín rất quan trọng.",
       "hv": "cửu"
     },
     {
       "h": "开",
       "p": "kāi",
       "v": "mở",
-      "ex": "我觉得开很重要。",
-      "exv": "Tôi nghĩ mở rất quan trọng.",
       "hv": "khai"
     },
     {
       "h": "看",
       "p": "kàn",
       "v": "xem",
-      "ex": "我的看今天在家。",
-      "exv": "Xem của tôi hôm nay ở nhà.",
       "hv": "khán"
     },
     {
@@ -364,24 +310,18 @@
       "h": "老师",
       "p": "lǎoshī",
       "v": "giáo viên",
-      "ex": "这个老师是我刚买的。",
-      "exv": "Giáo viên này là thứ tôi vừa mua.",
       "hv": "lão sư"
     },
     {
       "h": "冷",
       "p": "lěng",
       "v": "lạnh",
-      "ex": "我觉得这个冷很明显。",
-      "exv": "Tôi thấy điều này rất lạnh.",
       "hv": "lãnh"
     },
     {
       "h": "六",
       "p": "liù",
       "v": "sáu",
-      "ex": "我觉得六很重要。",
-      "exv": "Tôi nghĩ sáu rất quan trọng.",
       "hv": "lục"
     },
     {
@@ -412,88 +352,66 @@
       "h": "没有",
       "p": "méiyǒu",
       "v": "không có",
-      "ex": "这个词在句子里常常这样用：没有。",
-      "exv": "Từ này thường được dùng như vậy trong câu: không có.",
       "hv": "một hữu"
     },
     {
       "h": "米饭",
       "p": "mǐfàn",
       "v": "cơm",
-      "ex": "我每天都会米饭。",
-      "exv": "Mỗi ngày tôi đều cơm.",
       "hv": "mễ phạn"
     },
     {
       "h": "明天",
       "p": "míngtiān",
       "v": "ngày mai",
-      "ex": "我每天都会注意明天。",
-      "exv": "Mỗi ngày tôi đều chú ý đến ngày mai.",
       "hv": "minh thiên"
     },
     {
       "h": "名字",
       "p": "míngzi",
       "v": "tên",
-      "ex": "我觉得名字很重要。",
-      "exv": "Tôi nghĩ tên rất quan trọng.",
       "hv": "danh tự"
     },
     {
       "h": "哪",
       "p": "nǎ",
       "v": "nào",
-      "ex": "我觉得哪很重要。",
-      "exv": "Tôi nghĩ nào rất quan trọng.",
       "hv": "na"
     },
     {
       "h": "哪儿",
       "p": "nǎr",
       "v": "ở đâu",
-      "ex": "我觉得哪儿很重要。",
-      "exv": "Tôi nghĩ ở đâu rất quan trọng.",
       "hv": "na nhi"
     },
     {
       "h": "那",
       "p": "nà",
       "v": "kia",
-      "ex": "我觉得那很重要。",
-      "exv": "Tôi nghĩ kia rất quan trọng.",
       "hv": "na"
     },
     {
       "h": "能",
       "p": "néng",
       "v": "có thể",
-      "ex": "我觉得能很重要。",
-      "exv": "Tôi nghĩ có thể rất quan trọng.",
       "hv": "năng"
     },
     {
       "h": "你",
       "p": "nǐ",
       "v": "bạn",
-      "ex": "我的你今天在家。",
-      "exv": "Bạn của tôi hôm nay ở nhà.",
       "hv": "nhĩ"
     },
     {
       "h": "你好",
       "p": "nǐ hǎo",
       "v": "xin chào",
-      "ex": "我觉得你好很重要。",
-      "exv": "Tôi nghĩ xin chào rất quan trọng.",
       "hv": "nhĩ hảo"
     },
     {
       "h": "年",
       "p": "nián",
       "v": "năm",
-      "ex": "我每天都会注意年。",
-      "exv": "Mỗi ngày tôi đều chú ý đến năm.",
       "hv": "niên"
     },
     {
@@ -516,48 +434,36 @@
       "h": "漂亮",
       "p": "piàoliang",
       "v": "đẹp",
-      "ex": "我觉得这个漂亮很明显。",
-      "exv": "Tôi thấy điều này rất đẹp.",
       "hv": "phiêu lượng"
     },
     {
       "h": "苹果",
       "p": "píngguǒ",
       "v": "táo",
-      "ex": "我觉得苹果很重要。",
-      "exv": "Tôi nghĩ táo rất quan trọng.",
       "hv": "bình quả"
     },
     {
       "h": "七",
       "p": "qī",
       "v": "bảy",
-      "ex": "我觉得七很重要。",
-      "exv": "Tôi nghĩ bảy rất quan trọng.",
       "hv": "thất"
     },
     {
       "h": "钱",
       "p": "qián",
       "v": "tiền",
-      "ex": "这个钱是我刚买的。",
-      "exv": "Tiền này là thứ tôi vừa mua.",
       "hv": "tiền"
     },
     {
       "h": "前面",
       "p": "qiánmiàn",
       "v": "phía trước",
-      "ex": "我觉得前面很重要。",
-      "exv": "Tôi nghĩ phía trước rất quan trọng.",
       "hv": "tiền diện"
     },
     {
       "h": "请",
       "p": "qǐng",
       "v": "mời",
-      "ex": "我觉得请很重要。",
-      "exv": "Tôi nghĩ mời rất quan trọng.",
       "hv": "thỉnh"
     },
     {
@@ -572,32 +478,24 @@
       "h": "热",
       "p": "rè",
       "v": "nóng",
-      "ex": "我觉得这个热很明显。",
-      "exv": "Tôi thấy điều này rất nóng.",
       "hv": "nhiệt"
     },
     {
       "h": "人",
       "p": "rén",
       "v": "người",
-      "ex": "我的人今天在家。",
-      "exv": "Người của tôi hôm nay ở nhà.",
       "hv": "nhân"
     },
     {
       "h": "认识",
       "p": "rènshi",
       "v": "quen biết",
-      "ex": "我觉得认识很重要。",
-      "exv": "Tôi nghĩ quen biết rất quan trọng.",
       "hv": "nhận thức"
     },
     {
       "h": "三",
       "p": "sān",
       "v": "ba",
-      "ex": "我觉得三很重要。",
-      "exv": "Tôi nghĩ ba rất quan trọng.",
       "hv": "tam"
     },
     {
@@ -612,88 +510,66 @@
       "h": "上",
       "p": "shàng",
       "v": "trên",
-      "ex": "我觉得上很重要。",
-      "exv": "Tôi nghĩ trên rất quan trọng.",
       "hv": "thượng"
     },
     {
       "h": "上午",
       "p": "shàngwǔ",
       "v": "buổi sáng",
-      "ex": "我每天都会注意上午。",
-      "exv": "Mỗi ngày tôi đều chú ý đến buổi sáng.",
       "hv": "thượng ngọ"
     },
     {
       "h": "谁",
       "p": "shéi",
       "v": "ai",
-      "ex": "我觉得谁很重要。",
-      "exv": "Tôi nghĩ ai rất quan trọng.",
       "hv": "thùy"
     },
     {
       "h": "什么",
       "p": "shénme",
       "v": "cái gì",
-      "ex": "我觉得什么很重要。",
-      "exv": "Tôi nghĩ cái gì rất quan trọng.",
       "hv": "thập ma"
     },
     {
       "h": "十",
       "p": "shí",
       "v": "mười",
-      "ex": "我觉得十很重要。",
-      "exv": "Tôi nghĩ mười rất quan trọng.",
       "hv": "thập"
     },
     {
       "h": "时候",
       "p": "shíhou",
       "v": "lúc",
-      "ex": "我觉得时候很重要。",
-      "exv": "Tôi nghĩ lúc rất quan trọng.",
       "hv": "thời hậu"
     },
     {
       "h": "是",
       "p": "shì",
       "v": "là",
-      "ex": "我觉得是很重要。",
-      "exv": "Tôi nghĩ là rất quan trọng.",
       "hv": "thị"
     },
     {
       "h": "书",
       "p": "shū",
       "v": "sách",
-      "ex": "这个书是我刚买的。",
-      "exv": "Sách này là thứ tôi vừa mua.",
       "hv": "thư"
     },
     {
       "h": "水",
       "p": "shuǐ",
       "v": "nước",
-      "ex": "我每天都会水。",
-      "exv": "Mỗi ngày tôi đều nước.",
       "hv": "thủy"
     },
     {
       "h": "水果",
       "p": "shuǐguǒ",
       "v": "hoa quả",
-      "ex": "我觉得水果很重要。",
-      "exv": "Tôi nghĩ hoa quả rất quan trọng.",
       "hv": "thủy quả"
     },
     {
       "h": "睡觉",
       "p": "shuìjiào",
       "v": "ngủ",
-      "ex": "我觉得睡觉很重要。",
-      "exv": "Tôi nghĩ ngủ rất quan trọng.",
       "hv": "thụy giác"
     },
     {
@@ -708,152 +584,114 @@
       "h": "四",
       "p": "sì",
       "v": "bốn",
-      "ex": "我的四今天在家。",
-      "exv": "Bốn của tôi hôm nay ở nhà.",
       "hv": "tứ"
     },
     {
       "h": "岁",
       "p": "suì",
       "v": "tuổi",
-      "ex": "我觉得岁很重要。",
-      "exv": "Tôi nghĩ tuổi rất quan trọng.",
       "hv": "tuế"
     },
     {
       "h": "他",
       "p": "tā",
       "v": "anh ấy",
-      "ex": "我的他今天在家。",
-      "exv": "Anh ấy của tôi hôm nay ở nhà.",
       "hv": "tha"
     },
     {
       "h": "她",
       "p": "tā",
       "v": "cô ấy",
-      "ex": "我的她今天在家。",
-      "exv": "Cô ấy của tôi hôm nay ở nhà.",
       "hv": "tha"
     },
     {
       "h": "太",
       "p": "tài",
       "v": "quá",
-      "ex": "这个词在句子里常常这样用：太。",
-      "exv": "Từ này thường được dùng như vậy trong câu: quá.",
       "hv": "thái"
     },
     {
       "h": "天气",
       "p": "tiānqì",
       "v": "thời tiết",
-      "ex": "我觉得天气很重要。",
-      "exv": "Tôi nghĩ thời tiết rất quan trọng.",
       "hv": "thiên khí"
     },
     {
       "h": "听",
       "p": "tīng",
       "v": "nghe",
-      "ex": "我觉得听很重要。",
-      "exv": "Tôi nghĩ nghe rất quan trọng.",
       "hv": "thính"
     },
     {
       "h": "同学",
       "p": "tóngxué",
       "v": "bạn học",
-      "ex": "我们每天都要同学。",
-      "exv": "Chúng tôi đều phải bạn học mỗi ngày.",
       "hv": "đồng học"
     },
     {
       "h": "我",
       "p": "wǒ",
       "v": "tôi",
-      "ex": "我觉得我很重要。",
-      "exv": "Tôi nghĩ tôi rất quan trọng.",
       "hv": "ngã"
     },
     {
       "h": "我们",
       "p": "wǒmen",
       "v": "chúng tôi",
-      "ex": "我觉得我们很重要。",
-      "exv": "Tôi nghĩ chúng tôi rất quan trọng.",
       "hv": "ngã môn"
     },
     {
       "h": "五",
       "p": "wǔ",
       "v": "năm",
-      "ex": "我每天都会注意五。",
-      "exv": "Mỗi ngày tôi đều chú ý đến năm.",
       "hv": "ngũ"
     },
     {
       "h": "喜欢",
       "p": "xǐhuan",
       "v": "thích",
-      "ex": "我觉得喜欢很重要。",
-      "exv": "Tôi nghĩ thích rất quan trọng.",
       "hv": "hỉ hoan"
     },
     {
       "h": "下",
       "p": "xià",
       "v": "dưới",
-      "ex": "我觉得下很重要。",
-      "exv": "Tôi nghĩ dưới rất quan trọng.",
       "hv": "hạ"
     },
     {
       "h": "下午",
       "p": "xiàwǔ",
       "v": "buổi chiều",
-      "ex": "我每天都会注意下午。",
-      "exv": "Mỗi ngày tôi đều chú ý đến buổi chiều.",
       "hv": "hạ ngọ"
     },
     {
       "h": "下雨",
       "p": "xià yǔ",
       "v": "trời mưa",
-      "ex": "我觉得下雨很重要。",
-      "exv": "Tôi nghĩ trời mưa rất quan trọng.",
       "hv": "hạ vũ"
     },
     {
       "h": "先生",
       "p": "xiānsheng",
       "v": "ông",
-      "ex": "我觉得先生很重要。",
-      "exv": "Tôi nghĩ ông rất quan trọng.",
       "hv": "tiên sinh"
     },
     {
       "h": "现在",
       "p": "xiànzài",
       "v": "bây giờ",
-      "ex": "我每天都会注意现在。",
-      "exv": "Mỗi ngày tôi đều chú ý đến bây giờ.",
       "hv": "hiện tại"
     },
     {
       "h": "想",
       "p": "xiǎng",
       "v": "muốn",
-      "ex": "我觉得想很重要。",
-      "exv": "Tôi nghĩ muốn rất quan trọng.",
       "hv": "tưởng"
     },
     {
       "h": "小",
       "p": "xiǎo",
       "v": "nhỏ",
-      "ex": "我觉得这个小很明显。",
-      "exv": "Tôi thấy điều này rất nhỏ.",
       "hv": "tiểu"
     },
     {
@@ -868,24 +706,18 @@
       "h": "谢谢",
       "p": "xièxie",
       "v": "cảm ơn",
-      "ex": "我觉得谢谢很重要。",
-      "exv": "Tôi nghĩ cảm ơn rất quan trọng.",
       "hv": "tạ tạ"
     },
     {
       "h": "星期",
       "p": "xīngqī",
       "v": "tuần",
-      "ex": "我每天都会注意星期。",
-      "exv": "Mỗi ngày tôi đều chú ý đến tuần.",
       "hv": "tinh kỳ"
     },
     {
       "h": "学生",
       "p": "xuésheng",
       "v": "học sinh",
-      "ex": "我们每天都要学生。",
-      "exv": "Chúng tôi đều phải học sinh mỗi ngày.",
       "hv": "học sinh"
     },
     {
@@ -900,24 +732,18 @@
       "h": "学校",
       "p": "xuéxiào",
       "v": "trường học",
-      "ex": "我们每天都要学校。",
-      "exv": "Chúng tôi đều phải trường học mỗi ngày.",
       "hv": "học hiệu"
     },
     {
       "h": "一",
       "p": "yī",
       "v": "một",
-      "ex": "我觉得一很重要。",
-      "exv": "Tôi nghĩ một rất quan trọng.",
       "hv": "nhất"
     },
     {
       "h": "医生",
       "p": "yīshēng",
       "v": "bác sĩ",
-      "ex": "我觉得医生很重要。",
-      "exv": "Tôi nghĩ bác sĩ rất quan trọng.",
       "hv": "y sinh"
     },
     {
@@ -932,72 +758,54 @@
       "h": "有",
       "p": "yǒu",
       "v": "có",
-      "ex": "我觉得有很重要。",
-      "exv": "Tôi nghĩ có rất quan trọng.",
       "hv": "hữu"
     },
     {
       "h": "月",
       "p": "yuè",
       "v": "tháng",
-      "ex": "我每天都会注意月。",
-      "exv": "Mỗi ngày tôi đều chú ý đến tháng.",
       "hv": "nguyệt"
     },
     {
       "h": "在",
       "p": "zài",
       "v": "ở, đang",
-      "ex": "这个词在句子里常常这样用：在。",
-      "exv": "Từ này thường được dùng như vậy trong câu: ở, đang.",
       "hv": "tại"
     },
     {
       "h": "再见",
       "p": "zàijiàn",
       "v": "tạm biệt",
-      "ex": "我觉得再见很重要。",
-      "exv": "Tôi nghĩ tạm biệt rất quan trọng.",
       "hv": "tái kiến"
     },
     {
       "h": "怎么样",
       "p": "zěnmeyàng",
       "v": "thế nào rồi",
-      "ex": "我觉得怎么样很重要。",
-      "exv": "Tôi nghĩ thế nào rồi rất quan trọng.",
       "hv": "chẩm ma dạng"
     },
     {
       "h": "这",
       "p": "zhè",
       "v": "này",
-      "ex": "我觉得这很重要。",
-      "exv": "Tôi nghĩ này rất quan trọng.",
       "hv": "giá"
     },
     {
       "h": "中国",
       "p": "Zhōngguó",
       "v": "Trung Quốc",
-      "ex": "我觉得中国很重要。",
-      "exv": "Tôi nghĩ Trung Quốc rất quan trọng.",
       "hv": "trung quốc"
     },
     {
       "h": "中午",
       "p": "zhōngwǔ",
       "v": "buổi trưa",
-      "ex": "我每天都会注意中午。",
-      "exv": "Mỗi ngày tôi đều chú ý đến buổi trưa.",
       "hv": "trung ngọ"
     },
     {
       "h": "住",
       "p": "zhù",
       "v": "sống",
-      "ex": "这个词在句子里常常这样用：住。",
-      "exv": "Từ này thường được dùng như vậy trong câu: sống.",
       "hv": "trú"
     },
     {
@@ -1012,24 +820,18 @@
       "h": "字",
       "p": "zì",
       "v": "chữ",
-      "ex": "我觉得字很重要。",
-      "exv": "Tôi nghĩ chữ rất quan trọng.",
       "hv": "tự"
     },
     {
       "h": "昨天",
       "p": "zuótiān",
       "v": "hôm qua",
-      "ex": "我觉得昨天很重要。",
-      "exv": "Tôi nghĩ hôm qua rất quan trọng.",
       "hv": "tạc thiên"
     },
     {
       "h": "坐",
       "p": "zuò",
       "v": "ngồi",
-      "ex": "我觉得坐很重要。",
-      "exv": "Tôi nghĩ ngồi rất quan trọng.",
       "hv": "tọa"
     },
     {
@@ -1102,168 +904,126 @@
       "h": "长",
       "p": "cháng",
       "v": "dài",
-      "ex": "我觉得这个长很明显。",
-      "exv": "Tôi thấy điều này rất dài.",
       "hv": "trường"
     },
     {
       "h": "唱歌",
       "p": "chànggē",
       "v": "hát",
-      "ex": "我们每天都要唱歌。",
-      "exv": "Chúng tôi đều phải hát mỗi ngày.",
       "hv": "xướng ca"
     },
     {
       "h": "出",
       "p": "chū",
       "v": "ra",
-      "ex": "明天我想出。",
-      "exv": "Ngày mai tôi muốn ra.",
       "hv": "xuất"
     },
     {
       "h": "穿",
       "p": "chuān",
       "v": "mặc",
-      "ex": "请你帮我穿一下。",
-      "exv": "Phiền bạn giúp tôi mặc một chút.",
       "hv": "xuyên"
     },
     {
       "h": "次",
       "p": "cì",
       "v": "lần",
-      "ex": "这个词在句子里常常这样用：次。",
-      "exv": "Từ này thường được dùng như vậy trong câu: lần.",
       "hv": "thứ"
     },
     {
       "h": "从",
       "p": "cóng",
       "v": "từ",
-      "ex": "我觉得从很重要。",
-      "exv": "Tôi nghĩ từ rất quan trọng.",
       "hv": "tòng"
     },
     {
       "h": "错",
       "p": "cuò",
       "v": "sai",
-      "ex": "我觉得错很重要。",
-      "exv": "Tôi nghĩ sai rất quan trọng.",
       "hv": "thác"
     },
     {
       "h": "大家",
       "p": "dàjiā",
       "v": "mọi người",
-      "ex": "我的大家今天在家。",
-      "exv": "Mọi người của tôi hôm nay ở nhà.",
       "hv": "đại gia"
     },
     {
       "h": "但是",
       "p": "dànshì",
       "v": "nhưng",
-      "ex": "我觉得但是很重要。",
-      "exv": "Tôi nghĩ nhưng rất quan trọng.",
       "hv": "đãn thị"
     },
     {
       "h": "到",
       "p": "dào",
       "v": "đến",
-      "ex": "明天我想到。",
-      "exv": "Ngày mai tôi muốn đến.",
       "hv": "đáo"
     },
     {
       "h": "地方",
       "p": "dìfang",
       "v": "nơi",
-      "ex": "我觉得地方很重要。",
-      "exv": "Tôi nghĩ nơi rất quan trọng.",
       "hv": "địa phương"
     },
     {
       "h": "弟弟",
       "p": "dìdi",
       "v": "em trai",
-      "ex": "明天我想弟弟。",
-      "exv": "Ngày mai tôi muốn em trai.",
       "hv": "đệ đệ"
     },
     {
       "h": "懂",
       "p": "dǒng",
       "v": "hiểu",
-      "ex": "我觉得懂很重要。",
-      "exv": "Tôi nghĩ hiểu rất quan trọng.",
       "hv": "đổng"
     },
     {
       "h": "对",
       "p": "duì",
       "v": "đúng",
-      "ex": "我觉得对很重要。",
-      "exv": "Tôi nghĩ đúng rất quan trọng.",
       "hv": "đối"
     },
     {
       "h": "房间",
       "p": "fángjiān",
       "v": "phòng",
-      "ex": "我今天要去房间。",
-      "exv": "Hôm nay tôi phải đến phòng.",
       "hv": "phòng gian"
     },
     {
       "h": "非常",
       "p": "fēicháng",
       "v": "rất, vô cùng",
-      "ex": "这个词在句子里常常这样用：非常。",
-      "exv": "Từ này thường được dùng như vậy trong câu: rất, vô cùng.",
       "hv": "phi thường"
     },
     {
       "h": "服务员",
       "p": "fúwùyuán",
       "v": "nhân viên",
-      "ex": "我觉得服务员很重要。",
-      "exv": "Tôi nghĩ nhân viên rất quan trọng.",
       "hv": "phục vụ viên"
     },
     {
       "h": "高",
       "p": "gāo",
       "v": "cao",
-      "ex": "我觉得这个高很明显。",
-      "exv": "Tôi thấy điều này rất cao.",
       "hv": "cao"
     },
     {
       "h": "告诉",
       "p": "gàosu",
       "v": "nói",
-      "ex": "我们每天都要告诉。",
-      "exv": "Chúng tôi đều phải nói mỗi ngày.",
       "hv": "cáo tố"
     },
     {
       "h": "哥哥",
       "p": "gēge",
       "v": "anh trai",
-      "ex": "明天我想哥哥。",
-      "exv": "Ngày mai tôi muốn anh trai.",
       "hv": "ca ca"
     },
     {
       "h": "给",
       "p": "gěi",
       "v": "cho",
-      "ex": "我觉得给很重要。",
-      "exv": "Tôi nghĩ cho rất quan trọng.",
       "hv": "cấp"
     },
     {
@@ -1278,128 +1038,96 @@
       "h": "公司",
       "p": "gōngsī",
       "v": "công ty",
-      "ex": "我的公司今天在家。",
-      "exv": "Công ty của tôi hôm nay ở nhà.",
       "hv": "công ty"
     },
     {
       "h": "贵",
       "p": "guì",
       "v": "đắt",
-      "ex": "我觉得这个贵很明显。",
-      "exv": "Tôi thấy điều này rất đắt.",
       "hv": "quý"
     },
     {
       "h": "过",
       "p": "guò",
       "v": "qua",
-      "ex": "我觉得过很重要。",
-      "exv": "Tôi nghĩ qua rất quan trọng.",
       "hv": "quá"
     },
     {
       "h": "还",
       "p": "hái",
       "v": "vẫn còn",
-      "ex": "这个词在句子里常常这样用：还。",
-      "exv": "Từ này thường được dùng như vậy trong câu: vẫn còn.",
       "hv": "hoàn"
     },
     {
       "h": "孩子",
       "p": "háizi",
-      "v": "trẻ em",
-      "ex": "我觉得这个孩子很明显。",
-      "exv": "Tôi thấy điều này rất trẻ em.",
+      "v": "đứa trẻ, con cái",
       "hv": "hài tử"
     },
     {
       "h": "好吃",
       "p": "hǎochī",
       "v": "ngon",
-      "ex": "我觉得好吃很重要。",
-      "exv": "Tôi nghĩ ngon rất quan trọng.",
       "hv": "hảo ngật"
     },
     {
       "h": "黑",
       "p": "hēi",
       "v": "đen",
-      "ex": "我觉得这个黑很明显。",
-      "exv": "Tôi thấy điều này rất đen.",
       "hv": "hắc"
     },
     {
       "h": "红",
       "p": "hóng",
       "v": "đỏ",
-      "ex": "我觉得这个红很明显。",
-      "exv": "Tôi thấy điều này rất đỏ.",
       "hv": "hồng"
     },
     {
       "h": "欢迎",
       "p": "huānyíng",
       "v": "chào đón",
-      "ex": "我觉得欢迎很重要。",
-      "exv": "Tôi nghĩ chào đón rất quan trọng.",
       "hv": "hoan nghênh"
     },
     {
       "h": "还是",
       "p": "háishi",
       "v": "hay là",
-      "ex": "我觉得还是很重要。",
-      "exv": "Tôi nghĩ hay là rất quan trọng.",
       "hv": "hoàn thị"
     },
     {
       "h": "回答",
       "p": "huídá",
       "v": "trả lời",
-      "ex": "我觉得回答很重要。",
-      "exv": "Tôi nghĩ trả lời rất quan trọng.",
       "hv": "hồi đáp"
     },
     {
       "h": "火车站",
       "p": "huǒchēzhàn",
       "v": "ga tàu",
-      "ex": "我每天坐火车站去上班。",
-      "exv": "Mỗi ngày tôi đi làm bằng ga tàu.",
       "hv": "hỏa xa trạm"
     },
     {
       "h": "机场",
       "p": "jīchǎng",
       "v": "sân bay",
-      "ex": "我觉得机场很重要。",
-      "exv": "Tôi nghĩ sân bay rất quan trọng.",
       "hv": "cơ trường"
     },
     {
       "h": "鸡蛋",
       "p": "jīdàn",
       "v": "trứng gà",
-      "ex": "我觉得鸡蛋很重要。",
-      "exv": "Tôi nghĩ trứng gà rất quan trọng.",
       "hv": "kê đản"
     },
     {
       "h": "教室",
       "p": "jiàoshì",
       "v": "phòng học",
-      "ex": "我们每天都要教室。",
-      "exv": "Chúng tôi đều phải phòng học mỗi ngày.",
       "hv": "giáo thất"
     },
     {
       "h": "结婚",
       "p": "jiéhūn",
       "v": "kết hôn",
-      "ex": "我觉得结婚很重要。",
-      "exv": "Tôi nghĩ kết hôn rất quan trọng.",
       "hv": "kết hôn"
     },
     {
@@ -1414,112 +1142,84 @@
       "h": "介绍",
       "p": "jièshào",
       "v": "giới thiệu",
-      "ex": "我觉得介绍很重要。",
-      "exv": "Tôi nghĩ giới thiệu rất quan trọng.",
       "hv": "giới thiệu"
     },
     {
       "h": "进",
       "p": "jìn",
       "v": "vào",
-      "ex": "明天我想进。",
-      "exv": "Ngày mai tôi muốn vào.",
       "hv": "tiến"
     },
     {
       "h": "近",
       "p": "jìn",
       "v": "gần",
-      "ex": "我觉得近很重要。",
-      "exv": "Tôi nghĩ gần rất quan trọng.",
       "hv": "cận"
     },
     {
       "h": "就",
       "p": "jiù",
       "v": "liền",
-      "ex": "我觉得就很重要。",
-      "exv": "Tôi nghĩ liền rất quan trọng.",
       "hv": "tựu"
     },
     {
       "h": "觉得",
       "p": "juéde",
       "v": "cảm thấy",
-      "ex": "我觉得觉得很重要。",
-      "exv": "Tôi nghĩ cảm thấy rất quan trọng.",
       "hv": "giác đắc"
     },
     {
       "h": "开始",
       "p": "kāishǐ",
       "v": "bắt đầu",
-      "ex": "我觉得开始很重要。",
-      "exv": "Tôi nghĩ bắt đầu rất quan trọng.",
       "hv": "khai thủy"
     },
     {
       "h": "考试",
       "p": "kǎoshì",
       "v": "thi cử",
-      "ex": "我觉得考试很重要。",
-      "exv": "Tôi nghĩ thi cử rất quan trọng.",
       "hv": "khảo thí"
     },
     {
       "h": "可能",
       "p": "kěnéng",
       "v": "có thể",
-      "ex": "我觉得可能很重要。",
-      "exv": "Tôi nghĩ có thể rất quan trọng.",
       "hv": "khả năng"
     },
     {
       "h": "可以",
       "p": "kěyǐ",
       "v": "được phép",
-      "ex": "我觉得可以很重要。",
-      "exv": "Tôi nghĩ được phép rất quan trọng.",
       "hv": "khả dĩ"
     },
     {
       "h": "快",
       "p": "kuài",
       "v": "nhanh",
-      "ex": "我的快今天在家。",
-      "exv": "Nhanh của tôi hôm nay ở nhà.",
       "hv": "khoái"
     },
     {
       "h": "快乐",
       "p": "kuàilè",
       "v": "vui vẻ",
-      "ex": "我觉得这个快乐很明显。",
-      "exv": "Tôi thấy điều này rất vui vẻ.",
       "hv": "khoái lạc"
     },
     {
       "h": "离",
       "p": "lí",
       "v": "cách",
-      "ex": "我觉得离很重要。",
-      "exv": "Tôi nghĩ cách rất quan trọng.",
       "hv": "ly"
     },
     {
       "h": "两",
       "p": "liǎng",
       "v": "hai (số lượng)",
-      "ex": "这个词在句子里常常这样用：两。",
-      "exv": "Từ này thường được dùng như vậy trong câu: hai (số lượng).",
       "hv": "lưỡng"
     },
     {
       "h": "路",
       "p": "lù",
       "v": "đường",
-      "ex": "我觉得路很重要。",
-      "exv": "Tôi nghĩ đường rất quan trọng.",
       "hv": "lộ"
     },
     {
@@ -1534,32 +1234,24 @@
       "h": "卖",
       "p": "mài",
       "v": "bán",
-      "ex": "请你帮我卖一下。",
-      "exv": "Phiền bạn giúp tôi bán một chút.",
       "hv": "mại"
     },
     {
       "h": "慢",
       "p": "màn",
       "v": "chậm",
-      "ex": "我觉得慢很重要。",
-      "exv": "Tôi nghĩ chậm rất quan trọng.",
       "hv": "mạn"
     },
     {
       "h": "忙",
       "p": "máng",
       "v": "bận",
-      "ex": "我觉得这个忙很明显。",
-      "exv": "Tôi thấy điều này rất bận.",
       "hv": "mang"
     },
     {
       "h": "每",
       "p": "měi",
       "v": "mỗi",
-      "ex": "这个词在句子里常常这样用：每。",
-      "exv": "Từ này thường được dùng như vậy trong câu: mỗi.",
       "hv": "mỗi"
     },
     {
@@ -1574,160 +1266,120 @@
       "h": "门",
       "p": "mén",
       "v": "cửa",
-      "ex": "我觉得门很重要。",
-      "exv": "Tôi nghĩ cửa rất quan trọng.",
       "hv": "môn"
     },
     {
       "h": "面条",
       "p": "miàntiáo",
       "v": "mì",
-      "ex": "我觉得面条很重要。",
-      "exv": "Tôi nghĩ mì rất quan trọng.",
       "hv": "diện điều"
     },
     {
       "h": "男",
       "p": "nán",
       "v": "nam",
-      "ex": "我觉得男很重要。",
-      "exv": "Tôi nghĩ nam rất quan trọng.",
       "hv": "nam"
     },
     {
       "h": "牛奶",
       "p": "niúnǎi",
       "v": "sữa",
-      "ex": "我觉得牛奶很重要。",
-      "exv": "Tôi nghĩ sữa rất quan trọng.",
       "hv": "ngưu nãi"
     },
     {
       "h": "女",
       "p": "nǚ",
       "v": "nữ",
-      "ex": "我觉得女很重要。",
-      "exv": "Tôi nghĩ nữ rất quan trọng.",
       "hv": "nữ"
     },
     {
       "h": "旁边",
       "p": "pángbiān",
       "v": "bên cạnh",
-      "ex": "我觉得旁边很重要。",
-      "exv": "Tôi nghĩ bên cạnh rất quan trọng.",
       "hv": "bàng biên"
     },
     {
       "h": "跑步",
       "p": "pǎobù",
       "v": "chạy bộ",
-      "ex": "我觉得跑步很重要。",
-      "exv": "Tôi nghĩ chạy bộ rất quan trọng.",
       "hv": "bào bộ"
     },
     {
       "h": "便宜",
       "p": "piányí",
       "v": "rẻ",
-      "ex": "我觉得这个便宜很明显。",
-      "exv": "Tôi thấy điều này rất rẻ.",
-      "hv": "tiện 宜"
+      "hv": "tiện nghi"
     },
     {
       "h": "票",
       "p": "piào",
       "v": "vé",
-      "ex": "这个票是我刚买的。",
-      "exv": "Vé này là thứ tôi vừa mua.",
       "hv": "phiếu"
     },
     {
       "h": "妻子",
       "p": "qīzi",
       "v": "vợ",
-      "ex": "我觉得妻子很重要。",
-      "exv": "Tôi nghĩ vợ rất quan trọng.",
       "hv": "thê tử"
     },
     {
       "h": "骑",
       "p": "qí",
       "v": "đạp xe",
-      "ex": "我每天坐骑去上班。",
-      "exv": "Mỗi ngày tôi đi làm bằng đạp xe.",
       "hv": "kỵ"
     },
     {
       "h": "起床",
       "p": "qǐchuáng",
       "v": "thức dậy",
-      "ex": "我觉得起床很重要。",
-      "exv": "Tôi nghĩ thức dậy rất quan trọng.",
       "hv": "khởi sàng"
     },
     {
       "h": "千",
       "p": "qiān",
       "v": "nghìn",
-      "ex": "这个词在句子里常常这样用：千。",
-      "exv": "Từ này thường được dùng như vậy trong câu: nghìn.",
       "hv": "thiên"
     },
     {
       "h": "晴",
       "p": "qíng",
       "v": "trời nắng",
-      "ex": "我觉得晴很重要。",
-      "exv": "Tôi nghĩ trời nắng rất quan trọng.",
       "hv": "tình"
     },
     {
       "h": "让",
       "p": "ràng",
       "v": "để",
-      "ex": "我觉得让很重要。",
-      "exv": "Tôi nghĩ để rất quan trọng.",
       "hv": "nhượng"
     },
     {
       "h": "如果",
       "p": "rúguǒ",
       "v": "nếu",
-      "ex": "我觉得如果很重要。",
-      "exv": "Tôi nghĩ nếu rất quan trọng.",
       "hv": "như quả"
     },
     {
       "h": "上班",
       "p": "shàngbān",
       "v": "đi làm",
-      "ex": "明天我想上班。",
-      "exv": "Ngày mai tôi muốn đi làm.",
       "hv": "thượng ban"
     },
     {
       "h": "身体",
       "p": "shēntǐ",
-      "v": "sức khỏe",
-      "ex": "我觉得这个身体很明显。",
-      "exv": "Tôi thấy điều này rất sức khỏe.",
+      "v": "cơ thể, sức khỏe",
       "hv": "thân thể"
     },
     {
       "h": "生病",
       "p": "shēngbìng",
       "v": "ốm",
-      "ex": "我觉得生病很重要。",
-      "exv": "Tôi nghĩ ốm rất quan trọng.",
       "hv": "sinh bệnh"
     },
     {
       "h": "生日",
       "p": "shēngrì",
       "v": "sinh nhật",
-      "ex": "我觉得生日很重要。",
-      "exv": "Tôi nghĩ sinh nhật rất quan trọng.",
       "hv": "sinh nhật"
     },
     {
@@ -1742,296 +1394,222 @@
       "h": "手机",
       "p": "shǒujī",
       "v": "điện thoại",
-      "ex": "明天我想手机。",
-      "exv": "Ngày mai tôi muốn điện thoại.",
       "hv": "thủ cơ"
     },
     {
       "h": "送",
       "p": "sòng",
       "v": "tặng",
-      "ex": "我觉得送很重要。",
-      "exv": "Tôi nghĩ tặng rất quan trọng.",
       "hv": "tống"
     },
     {
       "h": "所以",
       "p": "suǒyǐ",
       "v": "vì vậy",
-      "ex": "我觉得所以很重要。",
-      "exv": "Tôi nghĩ vì vậy rất quan trọng.",
       "hv": "sở dĩ"
     },
     {
       "h": "踢足球",
       "p": "tī zúqiú",
       "v": "đá bóng",
-      "ex": "我觉得踢足球很重要。",
-      "exv": "Tôi nghĩ đá bóng rất quan trọng.",
       "hv": "thích túc cầu"
     },
     {
       "h": "跳舞",
       "p": "tiàowǔ",
       "v": "nhảy",
-      "ex": "我觉得跳舞很重要。",
-      "exv": "Tôi nghĩ nhảy rất quan trọng.",
       "hv": "khiêu vũ"
     },
     {
       "h": "外",
       "p": "wài",
       "v": "ngoài",
-      "ex": "我觉得外很重要。",
-      "exv": "Tôi nghĩ ngoài rất quan trọng.",
       "hv": "ngoại"
     },
     {
       "h": "玩",
       "p": "wán",
       "v": "chơi",
-      "ex": "我觉得玩很重要。",
-      "exv": "Tôi nghĩ chơi rất quan trọng.",
       "hv": "ngoạn"
     },
     {
       "h": "晚上",
       "p": "wǎnshang",
       "v": "buổi tối",
-      "ex": "我每天都会注意晚上。",
-      "exv": "Mỗi ngày tôi đều chú ý đến buổi tối.",
       "hv": "vãn thượng"
     },
     {
       "h": "为什么",
       "p": "wèishénme",
       "v": "tại sao",
-      "ex": "我觉得为什么很重要。",
-      "exv": "Tôi nghĩ tại sao rất quan trọng.",
       "hv": "vi thập ma"
     },
     {
       "h": "问",
       "p": "wèn",
       "v": "hỏi",
-      "ex": "我觉得问很重要。",
-      "exv": "Tôi nghĩ hỏi rất quan trọng.",
       "hv": "vấn"
     },
     {
       "h": "问题",
       "p": "wèntí",
       "v": "câu hỏi",
-      "ex": "我觉得问题很重要。",
-      "exv": "Tôi nghĩ câu hỏi rất quan trọng.",
       "hv": "vấn đề"
     },
     {
       "h": "西瓜",
       "p": "xīguā",
       "v": "dưa hấu",
-      "ex": "我觉得西瓜很重要。",
-      "exv": "Tôi nghĩ dưa hấu rất quan trọng.",
       "hv": "tây qua"
     },
     {
       "h": "希望",
       "p": "xīwàng",
       "v": "hy vọng",
-      "ex": "我觉得希望很重要。",
-      "exv": "Tôi nghĩ hy vọng rất quan trọng.",
       "hv": "hy vọng"
     },
     {
       "h": "小时",
       "p": "xiǎoshí",
       "v": "giờ đồng hồ",
-      "ex": "我每天都会注意小时。",
-      "exv": "Mỗi ngày tôi đều chú ý đến giờ đồng hồ.",
       "hv": "tiểu thời"
     },
     {
       "h": "笑",
       "p": "xiào",
       "v": "cười",
-      "ex": "我觉得笑很重要。",
-      "exv": "Tôi nghĩ cười rất quan trọng.",
       "hv": "tiếu"
     },
     {
       "h": "新",
       "p": "xīn",
       "v": "mới",
-      "ex": "我觉得新很重要。",
-      "exv": "Tôi nghĩ mới rất quan trọng.",
       "hv": "tân"
     },
     {
       "h": "姓",
       "p": "xìng",
       "v": "họ (tên họ)",
-      "ex": "我觉得姓很重要。",
-      "exv": "Tôi nghĩ họ (tên họ) rất quan trọng.",
       "hv": "tính"
     },
     {
       "h": "休息",
       "p": "xiūxi",
       "v": "nghỉ ngơi",
-      "ex": "我觉得休息很重要。",
-      "exv": "Tôi nghĩ nghỉ ngơi rất quan trọng.",
       "hv": "hưu tức"
     },
     {
       "h": "雪",
       "p": "xuě",
       "v": "tuyết",
-      "ex": "我觉得雪很重要。",
-      "exv": "Tôi nghĩ tuyết rất quan trọng.",
       "hv": "tuyết"
     },
     {
       "h": "颜色",
       "p": "yánsè",
       "v": "màu sắc",
-      "ex": "我觉得颜色很重要。",
-      "exv": "Tôi nghĩ màu sắc rất quan trọng.",
       "hv": "nhan sắc"
     },
     {
       "h": "眼睛",
       "p": "yǎnjing",
       "v": "mắt",
-      "ex": "我觉得眼睛很重要。",
-      "exv": "Tôi nghĩ mắt rất quan trọng.",
       "hv": "nhãn tinh"
     },
     {
       "h": "药",
       "p": "yào",
       "v": "thuốc",
-      "ex": "我觉得药很重要。",
-      "exv": "Tôi nghĩ thuốc rất quan trọng.",
       "hv": "dược"
     },
     {
       "h": "要",
       "p": "yào",
       "v": "muốn",
-      "ex": "我觉得要很重要。",
-      "exv": "Tôi nghĩ muốn rất quan trọng.",
       "hv": "yếu"
     },
     {
       "h": "也",
       "p": "yě",
       "v": "cũng",
-      "ex": "这个词在句子里常常这样用：也。",
-      "exv": "Từ này thường được dùng như vậy trong câu: cũng.",
       "hv": "dã"
     },
     {
       "h": "一起",
       "p": "yīqǐ",
       "v": "cùng nhau",
-      "ex": "我觉得一起很重要。",
-      "exv": "Tôi nghĩ cùng nhau rất quan trọng.",
       "hv": "nhất khởi"
     },
     {
       "h": "已经",
       "p": "yǐjīng",
       "v": "đã rồi",
-      "ex": "这个词在句子里常常这样用：已经。",
-      "exv": "Từ này thường được dùng như vậy trong câu: đã rồi.",
       "hv": "dĩ kinh"
     },
     {
       "h": "因为",
       "p": "yīnwèi",
       "v": "vì",
-      "ex": "我觉得因为很重要。",
-      "exv": "Tôi nghĩ vì rất quan trọng.",
       "hv": "nhân vi"
     },
     {
       "h": "游泳",
       "p": "yóuyǒng",
       "v": "bơi lội",
-      "ex": "我觉得游泳很重要。",
-      "exv": "Tôi nghĩ bơi lội rất quan trọng.",
       "hv": "du vịnh"
     },
     {
       "h": "鱼",
       "p": "yú",
       "v": "cá",
-      "ex": "我觉得鱼很重要。",
-      "exv": "Tôi nghĩ cá rất quan trọng.",
       "hv": "ngư"
     },
     {
       "h": "远",
       "p": "yuǎn",
       "v": "xa",
-      "ex": "我觉得远很重要。",
-      "exv": "Tôi nghĩ xa rất quan trọng.",
       "hv": "viễn"
     },
     {
       "h": "运动",
       "p": "yùndòng",
       "v": "thể thao",
-      "ex": "我觉得运动很重要。",
-      "exv": "Tôi nghĩ thể thao rất quan trọng.",
       "hv": "vận động"
     },
     {
       "h": "再",
       "p": "zài",
       "v": "lại",
-      "ex": "我觉得再很重要。",
-      "exv": "Tôi nghĩ lại rất quan trọng.",
       "hv": "tái"
     },
     {
       "h": "早上",
       "p": "zǎoshang",
       "v": "sáng sớm",
-      "ex": "我觉得早上很重要。",
-      "exv": "Tôi nghĩ sáng sớm rất quan trọng.",
       "hv": "tảo thượng"
     },
     {
       "h": "丈夫",
       "p": "zhàngfu",
       "v": "chồng",
-      "ex": "我觉得丈夫很重要。",
-      "exv": "Tôi nghĩ chồng rất quan trọng.",
       "hv": "trượng phu"
     },
     {
       "h": "找",
       "p": "zhǎo",
       "v": "tìm",
-      "ex": "我觉得找很重要。",
-      "exv": "Tôi nghĩ tìm rất quan trọng.",
       "hv": "trảo"
     },
     {
       "h": "真",
       "p": "zhēn",
       "v": "thật",
-      "ex": "我觉得真很重要。",
-      "exv": "Tôi nghĩ thật rất quan trọng.",
       "hv": "chân"
     },
     {
       "h": "知道",
       "p": "zhīdào",
       "v": "biết",
-      "ex": "我觉得知道很重要。",
-      "exv": "Tôi nghĩ biết rất quan trọng.",
       "hv": "tri đạo"
     },
     {
@@ -2064,232 +1642,174 @@
       "h": "矮",
       "p": "ǎi",
       "v": "thấp (người)",
-      "ex": "我觉得这个矮很明显。",
-      "exv": "Tôi thấy điều này rất thấp (người).",
       "hv": "ải"
     },
     {
       "h": "爱好",
       "p": "àihào",
       "v": "sở thích",
-      "ex": "我觉得爱好很重要。",
-      "exv": "Tôi nghĩ sở thích rất quan trọng.",
       "hv": "ái hảo"
     },
     {
       "h": "安静",
       "p": "ānjìng",
       "v": "yên tĩnh",
-      "ex": "我觉得这个安静很明显。",
-      "exv": "Tôi thấy điều này rất yên tĩnh.",
       "hv": "an tĩnh"
     },
     {
       "h": "把",
       "p": "bǎ",
       "v": "lấy (giới từ)",
-      "ex": "我觉得把很重要。",
-      "exv": "Tôi nghĩ lấy (giới từ) rất quan trọng.",
       "hv": "bả"
     },
     {
       "h": "班",
       "p": "bān",
       "v": "lớp học",
-      "ex": "我们每天都要班。",
-      "exv": "Chúng tôi đều phải lớp học mỗi ngày.",
       "hv": "ban"
     },
     {
       "h": "搬",
       "p": "bān",
       "v": "chuyển",
-      "ex": "明天我想搬。",
-      "exv": "Ngày mai tôi muốn chuyển.",
       "hv": "ban"
     },
     {
       "h": "办法",
       "p": "bànfǎ",
       "v": "cách, biện pháp",
-      "ex": "我觉得办法很重要。",
-      "exv": "Tôi nghĩ cách, biện pháp rất quan trọng.",
       "hv": "biện pháp"
     },
     {
       "h": "办公室",
       "p": "bàngōngshì",
       "v": "văn phòng",
-      "ex": "我每天都会办公室。",
-      "exv": "Mỗi ngày tôi đều văn phòng.",
       "hv": "biện công thất"
     },
     {
       "h": "帮",
       "p": "bāng",
       "v": "giúp",
-      "ex": "请你帮我帮一下。",
-      "exv": "Phiền bạn giúp tôi giúp một chút.",
       "hv": "bang"
     },
     {
       "h": "饱",
       "p": "bǎo",
       "v": "no",
-      "ex": "我觉得这个饱很明显。",
-      "exv": "Tôi thấy điều này rất no.",
       "hv": "bão"
     },
     {
       "h": "被",
       "p": "bèi",
       "v": "bị (bị động)",
-      "ex": "我觉得被很重要。",
-      "exv": "Tôi nghĩ bị (bị động) rất quan trọng.",
       "hv": "bị"
     },
     {
       "h": "鼻子",
       "p": "bízi",
       "v": "mũi",
-      "ex": "这个鼻子是我刚买的。",
-      "exv": "Mũi này là thứ tôi vừa mua.",
       "hv": "tỵ tử"
     },
     {
       "h": "必须",
       "p": "bìxū",
       "v": "phải, bắt buộc",
-      "ex": "我觉得必须很重要。",
-      "exv": "Tôi nghĩ phải, bắt buộc rất quan trọng.",
       "hv": "tất tu"
     },
     {
       "h": "变化",
       "p": "biànhuà",
       "v": "biến đổi",
-      "ex": "我觉得变化很重要。",
-      "exv": "Tôi nghĩ biến đổi rất quan trọng.",
       "hv": "biến hóa"
     },
     {
       "h": "别人",
       "p": "biérén",
       "v": "người khác",
-      "ex": "我的别人今天在家。",
-      "exv": "Người khác của tôi hôm nay ở nhà.",
       "hv": "biệt nhân"
     },
     {
       "h": "冰箱",
       "p": "bīngxiāng",
       "v": "tủ lạnh",
-      "ex": "我觉得这个冰箱很明显。",
-      "exv": "Tôi thấy điều này rất tủ lạnh.",
       "hv": "băng tương"
     },
     {
       "h": "不但",
       "p": "bùdàn",
       "v": "không những",
-      "ex": "这个词在句子里常常这样用：不但。",
-      "exv": "Từ này thường được dùng như vậy trong câu: không những.",
       "hv": "bất đãn"
     },
     {
       "h": "参加",
       "p": "cānjiā",
       "v": "tham gia",
-      "ex": "我觉得参加很重要。",
-      "exv": "Tôi nghĩ tham gia rất quan trọng.",
       "hv": "tham gia"
     },
     {
       "h": "超市",
       "p": "chāoshì",
       "v": "siêu thị",
-      "ex": "我觉得超市很重要。",
-      "exv": "Tôi nghĩ siêu thị rất quan trọng.",
       "hv": "siêu thị"
     },
     {
       "h": "衬衫",
       "p": "chènshān",
       "v": "áo sơ mi",
-      "ex": "我觉得衬衫很重要。",
-      "exv": "Tôi nghĩ áo sơ mi rất quan trọng.",
       "hv": "sấn sam"
     },
     {
       "h": "成绩",
       "p": "chéngjì",
       "v": "thành tích",
-      "ex": "我觉得成绩很重要。",
-      "exv": "Tôi nghĩ thành tích rất quan trọng.",
       "hv": "thành tích"
     },
     {
       "h": "城市",
       "p": "chéngshì",
       "v": "thành phố",
-      "ex": "我觉得城市很重要。",
-      "exv": "Tôi nghĩ thành phố rất quan trọng.",
       "hv": "thành thị"
     },
     {
       "h": "迟到",
       "p": "chídào",
       "v": "đến muộn",
-      "ex": "明天我想迟到。",
-      "exv": "Ngày mai tôi muốn đến muộn.",
       "hv": "trì đáo"
     },
     {
       "h": "除了",
       "p": "chúle",
       "v": "ngoài ra",
-      "ex": "明天我想除了。",
-      "exv": "Ngày mai tôi muốn ngoài ra.",
       "hv": "trừ liễu"
     },
     {
       "h": "船",
       "p": "chuán",
       "v": "thuyền",
-      "ex": "我觉得船很重要。",
-      "exv": "Tôi nghĩ thuyền rất quan trọng.",
       "hv": "thuyền"
     },
     {
       "h": "词典",
       "p": "cídiǎn",
       "v": "từ điển",
-      "ex": "明天我想词典。",
-      "exv": "Ngày mai tôi muốn từ điển.",
-      "hv": "từ 典"
+      "hv": "từ điển"
     },
     {
       "h": "聪明",
       "p": "cōngming",
       "v": "thông minh",
-      "ex": "我觉得聪明很重要。",
-      "exv": "Tôi nghĩ thông minh rất quan trọng.",
       "hv": "thông minh"
     },
     {
       "h": "打扫",
       "p": "dǎsǎo",
       "v": "dọn dẹp",
-      "ex": "我觉得打扫很重要。",
-      "exv": "Tôi nghĩ dọn dẹp rất quan trọng.",
       "hv": "đả tảo"
     },
     {
       "h": "打算",
       "p": "dǎsuàn",
       "v": "dự định",
-      "ex": "我觉得打算很重要。",
-      "exv": "Tôi nghĩ dự định rất quan trọng.",
       "hv": "đả toán"
     },
     {
@@ -2304,112 +1824,84 @@
       "h": "担心",
       "p": "dānxīn",
       "v": "lo lắng",
-      "ex": "我觉得担心很重要。",
-      "exv": "Tôi nghĩ lo lắng rất quan trọng.",
       "hv": "đảm tâm"
     },
     {
       "h": "蛋糕",
       "p": "dàngāo",
       "v": "bánh kem",
-      "ex": "请你帮我蛋糕一下。",
-      "exv": "Phiền bạn giúp tôi bánh kem một chút.",
       "hv": "đản cao"
     },
     {
       "h": "当然",
       "p": "dāngrán",
       "v": "tất nhiên",
-      "ex": "我觉得当然很重要。",
-      "exv": "Tôi nghĩ tất nhiên rất quan trọng.",
       "hv": "đương nhiên"
     },
     {
       "h": "灯",
       "p": "dēng",
       "v": "đèn",
-      "ex": "我觉得灯很重要。",
-      "exv": "Tôi nghĩ đèn rất quan trọng.",
       "hv": "đăng"
     },
     {
       "h": "地图",
       "p": "dìtú",
       "v": "bản đồ",
-      "ex": "我觉得地图很重要。",
-      "exv": "Tôi nghĩ bản đồ rất quan trọng.",
       "hv": "địa đồ"
     },
     {
       "h": "地铁",
       "p": "dìtiě",
       "v": "tàu điện ngầm",
-      "ex": "明天我想地铁。",
-      "exv": "Ngày mai tôi muốn tàu điện ngầm.",
       "hv": "địa thiết"
     },
     {
       "h": "电梯",
       "p": "diàntī",
       "v": "thang máy",
-      "ex": "我觉得电梯很重要。",
-      "exv": "Tôi nghĩ thang máy rất quan trọng.",
       "hv": "điện thê"
     },
     {
       "h": "动物",
       "p": "dòngwù",
       "v": "động vật",
-      "ex": "我觉得动物很重要。",
-      "exv": "Tôi nghĩ động vật rất quan trọng.",
       "hv": "động vật"
     },
     {
       "h": "短",
       "p": "duǎn",
       "v": "ngắn",
-      "ex": "我觉得这个短很明显。",
-      "exv": "Tôi thấy điều này rất ngắn.",
       "hv": "đoản"
     },
     {
       "h": "锻炼",
       "p": "duànliàn",
       "v": "luyện tập",
-      "ex": "我觉得锻炼很重要。",
-      "exv": "Tôi nghĩ luyện tập rất quan trọng.",
-      "hv": "锻 炼"
+      "hv": "đoán luyện"
     },
     {
       "h": "饿",
       "p": "è",
       "v": "đói",
-      "ex": "我觉得这个饿很明显。",
-      "exv": "Tôi thấy điều này rất đói.",
       "hv": "ngạ"
     },
     {
       "h": "耳朵",
       "p": "ěrduo",
       "v": "tai",
-      "ex": "我觉得耳朵很重要。",
-      "exv": "Tôi nghĩ tai rất quan trọng.",
       "hv": "nhĩ đóa"
     },
     {
       "h": "发现",
       "p": "fāxiàn",
       "v": "phát hiện",
-      "ex": "我们每天都要发现。",
-      "exv": "Chúng tôi đều phải phát hiện mỗi ngày.",
       "hv": "phát hiện"
     },
     {
       "h": "方便",
       "p": "fāngbiàn",
       "v": "tiện lợi",
-      "ex": "我觉得方便很重要。",
-      "exv": "Tôi nghĩ tiện lợi rất quan trọng.",
       "hv": "phương tiện"
     },
     {
@@ -2424,392 +1916,294 @@
       "h": "放假",
       "p": "fàngjià",
       "v": "nghỉ lễ",
-      "ex": "我觉得放假很重要。",
-      "exv": "Tôi nghĩ nghỉ lễ rất quan trọng.",
       "hv": "phóng giả"
     },
     {
       "h": "附近",
       "p": "fùjìn",
       "v": "gần đây",
-      "ex": "我觉得附近很重要。",
-      "exv": "Tôi nghĩ gần đây rất quan trọng.",
       "hv": "phụ cận"
     },
     {
       "h": "复习",
       "p": "fùxí",
       "v": "ôn tập",
-      "ex": "我觉得复习很重要。",
-      "exv": "Tôi nghĩ ôn tập rất quan trọng.",
       "hv": "phục tập"
     },
     {
       "h": "干净",
       "p": "gānjìng",
       "v": "sạch sẽ",
-      "ex": "这个词在句子里常常这样用：干净。",
-      "exv": "Từ này thường được dùng như vậy trong câu: sạch sẽ.",
       "hv": "can tịnh"
     },
     {
       "h": "感冒",
       "p": "gǎnmào",
       "v": "cảm cúm",
-      "ex": "我觉得感冒很重要。",
-      "exv": "Tôi nghĩ cảm cúm rất quan trọng.",
-      "hv": "cảm 冒"
+      "hv": "cảm mạo"
     },
     {
       "h": "刚才",
       "p": "gāngcái",
       "v": "vừa mới",
-      "ex": "我觉得刚才很重要。",
-      "exv": "Tôi nghĩ vừa mới rất quan trọng.",
       "hv": "cương tài"
     },
     {
       "h": "根据",
       "p": "gēnjù",
       "v": "dựa vào",
-      "ex": "明天我想根据。",
-      "exv": "Ngày mai tôi muốn dựa vào.",
       "hv": "căn cứ"
     },
     {
       "h": "跟",
       "p": "gēn",
       "v": "theo, với",
-      "ex": "我觉得跟很重要。",
-      "exv": "Tôi nghĩ theo, với rất quan trọng.",
       "hv": "cân"
     },
     {
       "h": "更",
       "p": "gèng",
       "v": "càng",
-      "ex": "我觉得更很重要。",
-      "exv": "Tôi nghĩ càng rất quan trọng.",
       "hv": "canh"
     },
     {
       "h": "公斤",
       "p": "gōngjīn",
       "v": "kilogram",
-      "ex": "明天我想公斤。",
-      "exv": "Ngày mai tôi muốn kilogram.",
       "hv": "công cân"
     },
     {
       "h": "公里",
       "p": "gōnglǐ",
       "v": "kilomet",
-      "ex": "我觉得公里很重要。",
-      "exv": "Tôi nghĩ kilomet rất quan trọng.",
       "hv": "công lý"
     },
     {
       "h": "故事",
       "p": "gùshi",
       "v": "câu chuyện",
-      "ex": "我觉得故事很重要。",
-      "exv": "Tôi nghĩ câu chuyện rất quan trọng.",
       "hv": "cố sự"
     },
     {
       "h": "刮风",
       "p": "guāfēng",
       "v": "gió thổi",
-      "ex": "我觉得刮风很重要。",
-      "exv": "Tôi nghĩ gió thổi rất quan trọng.",
       "hv": "quát phong"
     },
     {
       "h": "关",
       "p": "guān",
       "v": "đóng, tắt",
-      "ex": "我觉得关很重要。",
-      "exv": "Tôi nghĩ đóng, tắt rất quan trọng.",
       "hv": "quan"
     },
     {
       "h": "关系",
       "p": "guānxi",
       "v": "quan hệ",
-      "ex": "我觉得关系很重要。",
-      "exv": "Tôi nghĩ quan hệ rất quan trọng.",
       "hv": "quan hệ"
     },
     {
       "h": "关心",
       "p": "guānxīn",
       "v": "quan tâm",
-      "ex": "我觉得关心很重要。",
-      "exv": "Tôi nghĩ quan tâm rất quan trọng.",
       "hv": "quan tâm"
     },
     {
       "h": "国家",
       "p": "guójiā",
       "v": "đất nước",
-      "ex": "我每天都会国家。",
-      "exv": "Mỗi ngày tôi đều đất nước.",
       "hv": "quốc gia"
     },
     {
       "h": "果汁",
       "p": "guǒzhī",
       "v": "nước ép",
-      "ex": "我每天都会果汁。",
-      "exv": "Mỗi ngày tôi đều nước ép.",
       "hv": "quả trấp"
     },
     {
       "h": "害怕",
       "p": "hàipà",
       "v": "sợ hãi",
-      "ex": "我觉得害怕很重要。",
-      "exv": "Tôi nghĩ sợ hãi rất quan trọng.",
       "hv": "hại phạ"
     },
     {
       "h": "黑板",
       "p": "hēibǎn",
       "v": "bảng đen",
-      "ex": "我觉得这个黑板很明显。",
-      "exv": "Tôi thấy điều này rất bảng đen.",
       "hv": "hắc bản"
     },
     {
       "h": "花",
       "p": "huā",
       "v": "hoa",
-      "ex": "我觉得花很重要。",
-      "exv": "Tôi nghĩ hoa rất quan trọng.",
       "hv": "hoa"
     },
     {
       "h": "画",
       "p": "huà",
       "v": "vẽ",
-      "ex": "我觉得画很重要。",
-      "exv": "Tôi nghĩ vẽ rất quan trọng.",
       "hv": "họa"
     },
     {
       "h": "环境",
       "p": "huánjìng",
       "v": "môi trường",
-      "ex": "我今天要去环境。",
-      "exv": "Hôm nay tôi phải đến môi trường.",
       "hv": "hoàn cảnh"
     },
     {
       "h": "换",
       "p": "huàn",
       "v": "đổi",
-      "ex": "我觉得换很重要。",
-      "exv": "Tôi nghĩ đổi rất quan trọng.",
       "hv": "hoán"
     },
     {
       "h": "黄",
       "p": "huáng",
       "v": "vàng",
-      "ex": "我觉得黄很重要。",
-      "exv": "Tôi nghĩ vàng rất quan trọng.",
       "hv": "hoàng"
     },
     {
       "h": "活动",
       "p": "huódòng",
       "v": "hoạt động",
-      "ex": "我觉得活动很重要。",
-      "exv": "Tôi nghĩ hoạt động rất quan trọng.",
       "hv": "hoạt động"
     },
     {
       "h": "或者",
       "p": "huòzhě",
       "v": "hoặc",
-      "ex": "我觉得或者很重要。",
-      "exv": "Tôi nghĩ hoặc rất quan trọng.",
       "hv": "hoặc giả"
     },
     {
       "h": "记得",
       "p": "jìde",
       "v": "nhớ",
-      "ex": "我觉得记得很重要。",
-      "exv": "Tôi nghĩ nhớ rất quan trọng.",
       "hv": "ký đắc"
     },
     {
       "h": "季节",
       "p": "jìjié",
       "v": "mùa",
-      "ex": "我每天都会注意季节。",
-      "exv": "Mỗi ngày tôi đều chú ý đến mùa.",
       "hv": "quý tiết"
     },
     {
       "h": "检查",
       "p": "jiǎnchá",
       "v": "kiểm tra",
-      "ex": "明天我想检查。",
-      "exv": "Ngày mai tôi muốn kiểm tra.",
       "hv": "kiểm tra"
     },
     {
       "h": "简单",
       "p": "jiǎndān",
       "v": "đơn giản",
-      "ex": "我觉得简单很重要。",
-      "exv": "Tôi nghĩ đơn giản rất quan trọng.",
       "hv": "giản đơn"
     },
     {
       "h": "见面",
       "p": "jiànmiàn",
       "v": "gặp mặt",
-      "ex": "我觉得见面很重要。",
-      "exv": "Tôi nghĩ gặp mặt rất quan trọng.",
       "hv": "kiến diện"
     },
     {
       "h": "讲",
       "p": "jiǎng",
       "v": "kể, giảng",
-      "ex": "我觉得讲很重要。",
-      "exv": "Tôi nghĩ kể, giảng rất quan trọng.",
       "hv": "giảng"
     },
     {
       "h": "脚",
       "p": "jiǎo",
       "v": "chân",
-      "ex": "我觉得脚很重要。",
-      "exv": "Tôi nghĩ chân rất quan trọng.",
       "hv": "cước"
     },
     {
       "h": "教",
       "p": "jiāo",
       "v": "dạy",
-      "ex": "我觉得教很重要。",
-      "exv": "Tôi nghĩ dạy rất quan trọng.",
       "hv": "giáo"
     },
     {
       "h": "节日",
       "p": "jiérì",
       "v": "ngày lễ",
-      "ex": "我每天都会注意节日。",
-      "exv": "Mỗi ngày tôi đều chú ý đến ngày lễ.",
       "hv": "tiết nhật"
     },
     {
       "h": "结束",
       "p": "jiéshù",
       "v": "kết thúc",
-      "ex": "我觉得结束很重要。",
-      "exv": "Tôi nghĩ kết thúc rất quan trọng.",
       "hv": "kết thúc"
     },
     {
       "h": "解决",
       "p": "jiějué",
       "v": "giải quyết",
-      "ex": "我觉得解决很重要。",
-      "exv": "Tôi nghĩ giải quyết rất quan trọng.",
       "hv": "giải quyết"
     },
     {
       "h": "借",
       "p": "jiè",
       "v": "mượn",
-      "ex": "我觉得借很重要。",
-      "exv": "Tôi nghĩ mượn rất quan trọng.",
       "hv": "tá"
     },
     {
       "h": "经常",
       "p": "jīngcháng",
       "v": "thường xuyên",
-      "ex": "我觉得经常很重要。",
-      "exv": "Tôi nghĩ thường xuyên rất quan trọng.",
       "hv": "kinh thường"
     },
     {
       "h": "经理",
       "p": "jīnglǐ",
       "v": "giám đốc",
-      "ex": "这个经理是我刚买的。",
-      "exv": "Giám đốc này là thứ tôi vừa mua.",
       "hv": "kinh lý"
     },
     {
       "h": "久",
       "p": "jiǔ",
       "v": "lâu",
-      "ex": "我觉得久很重要。",
-      "exv": "Tôi nghĩ lâu rất quan trọng.",
       "hv": "cửu"
     },
     {
       "h": "句子",
       "p": "jùzi",
       "v": "câu",
-      "ex": "我觉得句子很重要。",
-      "exv": "Tôi nghĩ câu rất quan trọng.",
       "hv": "cú tử"
     },
     {
       "h": "渴",
       "p": "kě",
       "v": "khát",
-      "ex": "我们每天都要渴。",
-      "exv": "Chúng tôi đều phải khát mỗi ngày.",
       "hv": "khát"
     },
     {
       "h": "可爱",
       "p": "kěài",
       "v": "đáng yêu",
-      "ex": "我觉得可爱很重要。",
-      "exv": "Tôi nghĩ đáng yêu rất quan trọng.",
       "hv": "khả ái"
     },
     {
       "h": "课",
       "p": "kè",
       "v": "bài học",
-      "ex": "我们每天都要课。",
-      "exv": "Chúng tôi đều phải bài học mỗi ngày.",
       "hv": "khóa"
     },
     {
       "h": "哭",
       "p": "kū",
       "v": "khóc",
-      "ex": "我觉得这个哭很明显。",
-      "exv": "Tôi thấy điều này rất khóc.",
       "hv": "khốc"
     },
     {
       "h": "筷子",
       "p": "kuàizi",
       "v": "đũa",
-      "ex": "我觉得筷子很重要。",
-      "exv": "Tôi nghĩ đũa rất quan trọng.",
       "hv": "khoái tử"
     },
     {
       "h": "老",
       "p": "lǎo",
       "v": "già",
-      "ex": "我觉得老很重要。",
-      "exv": "Tôi nghĩ già rất quan trọng.",
       "hv": "lão"
     },
     {
@@ -2824,296 +2218,222 @@
       "h": "礼物",
       "p": "lǐwù",
       "v": "quà tặng",
-      "ex": "我觉得礼物很重要。",
-      "exv": "Tôi nghĩ quà tặng rất quan trọng.",
       "hv": "lễ vật"
     },
     {
       "h": "历史",
       "p": "lìshǐ",
       "v": "lịch sử",
-      "ex": "我觉得历史很重要。",
-      "exv": "Tôi nghĩ lịch sử rất quan trọng.",
       "hv": "lịch sử"
     },
     {
       "h": "脸",
       "p": "liǎn",
       "v": "mặt",
-      "ex": "我觉得脸很重要。",
-      "exv": "Tôi nghĩ mặt rất quan trọng.",
       "hv": "kiểm"
     },
     {
       "h": "练习",
       "p": "liànxí",
       "v": "luyện tập",
-      "ex": "我觉得练习很重要。",
-      "exv": "Tôi nghĩ luyện tập rất quan trọng.",
       "hv": "luyện tập"
     },
     {
       "h": "了解",
       "p": "liǎojiě",
       "v": "hiểu rõ",
-      "ex": "我觉得了解很重要。",
-      "exv": "Tôi nghĩ hiểu rõ rất quan trọng.",
       "hv": "liễu giải"
     },
     {
       "h": "楼",
       "p": "lóu",
       "v": "tầng, tòa nhà",
-      "ex": "我今天要去楼。",
-      "exv": "Hôm nay tôi phải đến tầng, tòa nhà.",
       "hv": "lâu"
     },
     {
       "h": "绿",
       "p": "lǜ",
       "v": "xanh lá",
-      "ex": "我觉得这个绿很明显。",
-      "exv": "Tôi thấy điều này rất xanh lá.",
       "hv": "lục"
     },
     {
       "h": "马上",
       "p": "mǎshàng",
       "v": "ngay lập tức",
-      "ex": "我觉得马上很重要。",
-      "exv": "Tôi nghĩ ngay lập tức rất quan trọng.",
       "hv": "mã thượng"
     },
     {
       "h": "满意",
       "p": "mǎnyì",
       "v": "hài lòng",
-      "ex": "我觉得满意很重要。",
-      "exv": "Tôi nghĩ hài lòng rất quan trọng.",
       "hv": "mãn ý"
     },
     {
       "h": "帽子",
       "p": "màozi",
       "v": "mũ",
-      "ex": "这个帽子是我刚买的。",
-      "exv": "Mũ này là thứ tôi vừa mua.",
       "hv": "mạo tử"
     },
     {
       "h": "明白",
       "p": "míngbai",
       "v": "hiểu rõ",
-      "ex": "我觉得明白很重要。",
-      "exv": "Tôi nghĩ hiểu rõ rất quan trọng.",
       "hv": "minh bạch"
     },
     {
       "h": "拿",
       "p": "ná",
       "v": "cầm, lấy",
-      "ex": "我觉得拿很重要。",
-      "exv": "Tôi nghĩ cầm, lấy rất quan trọng.",
       "hv": "nã"
     },
     {
       "h": "奶奶",
       "p": "nǎinai",
       "v": "bà nội",
-      "ex": "我觉得奶奶很重要。",
-      "exv": "Tôi nghĩ bà nội rất quan trọng.",
       "hv": "nãi nãi"
     },
     {
       "h": "难",
       "p": "nán",
       "v": "khó",
-      "ex": "我觉得这个难很明显。",
-      "exv": "Tôi thấy điều này rất khó.",
       "hv": "nan"
     },
     {
       "h": "难过",
       "p": "nánguò",
       "v": "buồn",
-      "ex": "我觉得这个难过很明显。",
-      "exv": "Tôi thấy điều này rất buồn.",
       "hv": "nan quá"
     },
     {
       "h": "年轻",
       "p": "niánqīng",
       "v": "trẻ trung",
-      "ex": "我觉得这个年轻很明显。",
-      "exv": "Tôi thấy điều này rất trẻ trung.",
       "hv": "niên khinh"
     },
     {
       "h": "鸟",
       "p": "niǎo",
       "v": "chim",
-      "ex": "我觉得鸟很重要。",
-      "exv": "Tôi nghĩ chim rất quan trọng.",
       "hv": "điểu"
     },
     {
       "h": "努力",
       "p": "nǔlì",
       "v": "cố gắng",
-      "ex": "我觉得努力很重要。",
-      "exv": "Tôi nghĩ cố gắng rất quan trọng.",
       "hv": "nỗ lực"
     },
     {
       "h": "爬山",
       "p": "páshān",
       "v": "leo núi",
-      "ex": "我觉得爬山很重要。",
-      "exv": "Tôi nghĩ leo núi rất quan trọng.",
       "hv": "ba sơn"
     },
     {
       "h": "盘子",
       "p": "pánzi",
       "v": "đĩa",
-      "ex": "我觉得盘子很重要。",
-      "exv": "Tôi nghĩ đĩa rất quan trọng.",
       "hv": "bàn tử"
     },
     {
       "h": "胖",
       "p": "pàng",
       "v": "béo",
-      "ex": "我觉得胖很重要。",
-      "exv": "Tôi nghĩ béo rất quan trọng.",
       "hv": "bàn"
     },
     {
       "h": "皮鞋",
       "p": "píxié",
       "v": "giày da",
-      "ex": "这个皮鞋是我刚买的。",
-      "exv": "Giày da này là thứ tôi vừa mua.",
       "hv": "bì hài"
     },
     {
       "h": "啤酒",
       "p": "píjiǔ",
       "v": "bia",
-      "ex": "我觉得啤酒很重要。",
-      "exv": "Tôi nghĩ bia rất quan trọng.",
       "hv": "bì tửu"
     },
     {
       "h": "普通话",
       "p": "pǔtōnghuà",
       "v": "tiếng Phổ thông",
-      "ex": "我觉得普通话很重要。",
-      "exv": "Tôi nghĩ tiếng Phổ thông rất quan trọng.",
       "hv": "phổ thông thoại"
     },
     {
       "h": "其实",
       "p": "qíshí",
       "v": "thực ra",
-      "ex": "明天我想其实。",
-      "exv": "Ngày mai tôi muốn thực ra.",
       "hv": "kỳ thật"
     },
     {
       "h": "奇怪",
       "p": "qíguài",
       "v": "kỳ lạ",
-      "ex": "我觉得奇怪很重要。",
-      "exv": "Tôi nghĩ kỳ lạ rất quan trọng.",
       "hv": "kỳ quái"
     },
     {
       "h": "情况",
       "p": "qíngkuàng",
       "v": "tình hình",
-      "ex": "我觉得情况很重要。",
-      "exv": "Tôi nghĩ tình hình rất quan trọng.",
       "hv": "tình huống"
     },
     {
       "h": "请假",
       "p": "qǐngjià",
       "v": "xin nghỉ",
-      "ex": "我觉得请假很重要。",
-      "exv": "Tôi nghĩ xin nghỉ rất quan trọng.",
       "hv": "thỉnh giả"
     },
     {
       "h": "热情",
       "p": "rèqíng",
       "v": "nhiệt tình",
-      "ex": "我觉得热情很重要。",
-      "exv": "Tôi nghĩ nhiệt tình rất quan trọng.",
       "hv": "nhiệt tình"
     },
     {
       "h": "认为",
       "p": "rènwéi",
       "v": "cho rằng",
-      "ex": "我觉得认为很重要。",
-      "exv": "Tôi nghĩ cho rằng rất quan trọng.",
       "hv": "nhận vi"
     },
     {
       "h": "容易",
       "p": "róngyì",
       "v": "dễ dàng",
-      "ex": "我觉得这个容易很明显。",
-      "exv": "Tôi thấy điều này rất dễ dàng.",
       "hv": "dung dịch"
     },
     {
       "h": "伞",
       "p": "sǎn",
       "v": "ô dù",
-      "ex": "我觉得伞很重要。",
-      "exv": "Tôi nghĩ ô dù rất quan trọng.",
       "hv": "tản"
     },
     {
       "h": "上网",
       "p": "shàngwǎng",
       "v": "lên mạng",
-      "ex": "我觉得上网很重要。",
-      "exv": "Tôi nghĩ lên mạng rất quan trọng.",
       "hv": "thượng võng"
     },
     {
       "h": "声音",
       "p": "shēngyīn",
       "v": "âm thanh",
-      "ex": "我的声音今天在家。",
-      "exv": "Âm thanh của tôi hôm nay ở nhà.",
       "hv": "thanh âm"
     },
     {
       "h": "瘦",
       "p": "shòu",
       "v": "gầy",
-      "ex": "我觉得瘦很重要。",
-      "exv": "Tôi nghĩ gầy rất quan trọng.",
       "hv": "sấu"
     },
     {
       "h": "舒服",
       "p": "shūfu",
       "v": "thoải mái",
-      "ex": "我觉得舒服很重要。",
-      "exv": "Tôi nghĩ thoải mái rất quan trọng.",
       "hv": "thư phục"
     },
     {
       "h": "树",
       "p": "shù",
       "v": "cây",
-      "ex": "我觉得树很重要。",
-      "exv": "Tôi nghĩ cây rất quan trọng.",
       "hv": "thụ"
     },
     {
@@ -3128,344 +2448,252 @@
       "h": "司机",
       "p": "sījī",
       "v": "tài xế",
-      "ex": "我觉得司机很重要。",
-      "exv": "Tôi nghĩ tài xế rất quan trọng.",
       "hv": "ty cơ"
     },
     {
       "h": "虽然",
       "p": "suīrán",
       "v": "mặc dù",
-      "ex": "请你帮我虽然一下。",
-      "exv": "Phiền bạn giúp tôi mặc dù một chút.",
       "hv": "tuy nhiên"
     },
     {
       "h": "太阳",
       "p": "tàiyáng",
       "v": "mặt trời",
-      "ex": "我觉得太阳很重要。",
-      "exv": "Tôi nghĩ mặt trời rất quan trọng.",
       "hv": "thái dương"
     },
     {
       "h": "特别",
       "p": "tèbié",
       "v": "đặc biệt",
-      "ex": "我觉得特别很重要。",
-      "exv": "Tôi nghĩ đặc biệt rất quan trọng.",
       "hv": "đặc biệt"
     },
     {
       "h": "疼",
       "p": "téng",
       "v": "đau",
-      "ex": "我觉得疼很重要。",
-      "exv": "Tôi nghĩ đau rất quan trọng.",
       "hv": "đông"
     },
     {
       "h": "甜",
       "p": "tián",
       "v": "ngọt",
-      "ex": "我觉得甜很重要。",
-      "exv": "Tôi nghĩ ngọt rất quan trọng.",
       "hv": "điềm"
     },
     {
       "h": "同事",
       "p": "tóngshì",
       "v": "đồng nghiệp",
-      "ex": "我觉得同事很重要。",
-      "exv": "Tôi nghĩ đồng nghiệp rất quan trọng.",
       "hv": "đồng sự"
     },
     {
       "h": "头发",
       "p": "tóufa",
       "v": "tóc",
-      "ex": "我觉得头发很重要。",
-      "exv": "Tôi nghĩ tóc rất quan trọng.",
       "hv": "đầu phát"
     },
     {
       "h": "图书馆",
       "p": "túshūguǎn",
       "v": "thư viện",
-      "ex": "我觉得图书馆很重要。",
-      "exv": "Tôi nghĩ thư viện rất quan trọng.",
       "hv": "đồ thư quán"
     },
     {
       "h": "腿",
       "p": "tuǐ",
       "v": "chân (đùi)",
-      "ex": "我觉得腿很重要。",
-      "exv": "Tôi nghĩ chân (đùi) rất quan trọng.",
       "hv": "thối"
     },
     {
       "h": "完成",
       "p": "wánchéng",
       "v": "hoàn thành",
-      "ex": "我觉得完成很重要。",
-      "exv": "Tôi nghĩ hoàn thành rất quan trọng.",
       "hv": "hoàn thành"
     },
     {
       "h": "碗",
       "p": "wǎn",
       "v": "bát",
-      "ex": "我觉得碗很重要。",
-      "exv": "Tôi nghĩ bát rất quan trọng.",
       "hv": "oản"
     },
     {
       "h": "忘记",
       "p": "wàngjì",
       "v": "quên",
-      "ex": "我觉得忘记很重要。",
-      "exv": "Tôi nghĩ quên rất quan trọng.",
       "hv": "vong ký"
     },
     {
       "h": "卫生间",
       "p": "wèishēngjiān",
       "v": "nhà vệ sinh",
-      "ex": "我今天要去卫生间。",
-      "exv": "Hôm nay tôi phải đến nhà vệ sinh.",
       "hv": "vệ sinh gian"
     },
     {
       "h": "文化",
       "p": "wénhuà",
       "v": "văn hóa",
-      "ex": "我每天都会文化。",
-      "exv": "Mỗi ngày tôi đều văn hóa.",
       "hv": "văn hóa"
     },
     {
       "h": "洗澡",
       "p": "xǐzǎo",
       "v": "tắm",
-      "ex": "我觉得洗澡很重要。",
-      "exv": "Tôi nghĩ tắm rất quan trọng.",
       "hv": "tẩy táo"
     },
     {
       "h": "相信",
       "p": "xiāngxìn",
       "v": "tin tưởng",
-      "ex": "我觉得相信很重要。",
-      "exv": "Tôi nghĩ tin tưởng rất quan trọng.",
       "hv": "tương tín"
     },
     {
       "h": "香蕉",
       "p": "xiāngjiāo",
       "v": "chuối",
-      "ex": "我觉得香蕉很重要。",
-      "exv": "Tôi nghĩ chuối rất quan trọng.",
       "hv": "hương tiêu"
     },
     {
       "h": "像",
       "p": "xiàng",
       "v": "giống như",
-      "ex": "我觉得像很重要。",
-      "exv": "Tôi nghĩ giống như rất quan trọng.",
       "hv": "tượng"
     },
     {
       "h": "小心",
       "p": "xiǎoxīn",
       "v": "cẩn thận",
-      "ex": "我觉得小心很重要。",
-      "exv": "Tôi nghĩ cẩn thận rất quan trọng.",
       "hv": "tiểu tâm"
     },
     {
       "h": "新闻",
       "p": "xīnwén",
       "v": "tin tức",
-      "ex": "我觉得新闻很重要。",
-      "exv": "Tôi nghĩ tin tức rất quan trọng.",
       "hv": "tân văn"
     },
     {
       "h": "兴趣",
       "p": "xìngqù",
       "v": "hứng thú",
-      "ex": "我觉得兴趣很重要。",
-      "exv": "Tôi nghĩ hứng thú rất quan trọng.",
       "hv": "hưng thú"
     },
     {
       "h": "需要",
       "p": "xūyào",
       "v": "cần",
-      "ex": "我觉得需要很重要。",
-      "exv": "Tôi nghĩ cần rất quan trọng.",
       "hv": "nhu yếu"
     },
     {
       "h": "选择",
       "p": "xuǎnzé",
       "v": "lựa chọn",
-      "ex": "我觉得选择很重要。",
-      "exv": "Tôi nghĩ lựa chọn rất quan trọng.",
-      "hv": "tuyển 择"
+      "hv": "tuyển trạch"
     },
     {
       "h": "眼镜",
       "p": "yǎnjìng",
       "v": "kính mắt",
-      "ex": "我觉得眼镜很重要。",
-      "exv": "Tôi nghĩ kính mắt rất quan trọng.",
       "hv": "nhãn kính"
     },
     {
       "h": "一般",
       "p": "yībān",
       "v": "thường thường",
-      "ex": "我觉得一般很重要。",
-      "exv": "Tôi nghĩ thường thường rất quan trọng.",
       "hv": "nhất ban"
     },
     {
       "h": "一定",
       "p": "yīdìng",
       "v": "nhất định",
-      "ex": "这个词在句子里常常这样用：一定。",
-      "exv": "Từ này thường được dùng như vậy trong câu: nhất định.",
       "hv": "nhất định"
     },
     {
       "h": "音乐",
       "p": "yīnyuè",
       "v": "âm nhạc",
-      "ex": "我觉得音乐很重要。",
-      "exv": "Tôi nghĩ âm nhạc rất quan trọng.",
       "hv": "âm lạc"
     },
     {
       "h": "应该",
       "p": "yīnggāi",
       "v": "nên",
-      "ex": "我觉得应该很重要。",
-      "exv": "Tôi nghĩ nên rất quan trọng.",
       "hv": "ứng cai"
     },
     {
       "h": "影响",
       "p": "yǐngxiǎng",
       "v": "ảnh hưởng",
-      "ex": "我觉得影响很重要。",
-      "exv": "Tôi nghĩ ảnh hưởng rất quan trọng.",
       "hv": "ảnh hưởng"
     },
     {
       "h": "用",
       "p": "yòng",
       "v": "dùng",
-      "ex": "我觉得用很重要。",
-      "exv": "Tôi nghĩ dùng rất quan trọng.",
       "hv": "dụng"
     },
     {
       "h": "邮局",
       "p": "yóujú",
       "v": "bưu điện",
-      "ex": "明天我想邮局。",
-      "exv": "Ngày mai tôi muốn bưu điện.",
       "hv": "bưu cục"
     },
     {
       "h": "有名",
       "p": "yǒumíng",
       "v": "nổi tiếng",
-      "ex": "我觉得有名很重要。",
-      "exv": "Tôi nghĩ nổi tiếng rất quan trọng.",
       "hv": "hữu danh"
     },
     {
       "h": "又",
       "p": "yòu",
       "v": "lại",
-      "ex": "我觉得又很重要。",
-      "exv": "Tôi nghĩ lại rất quan trọng.",
       "hv": "hựu"
     },
     {
       "h": "遇到",
       "p": "yùdào",
       "v": "gặp",
-      "ex": "我觉得遇到很重要。",
-      "exv": "Tôi nghĩ gặp rất quan trọng.",
       "hv": "ngộ đáo"
     },
     {
       "h": "愿意",
       "p": "yuànyì",
       "v": "sẵn sàng",
-      "ex": "我觉得愿意很重要。",
-      "exv": "Tôi nghĩ sẵn sàng rất quan trọng.",
       "hv": "nguyện ý"
     },
     {
       "h": "越来越",
       "p": "yuèláiyuè",
       "v": "ngày càng",
-      "ex": "我每天都会注意越来越。",
-      "exv": "Mỗi ngày tôi đều chú ý đến ngày càng.",
       "hv": "việt lai việt"
-    },
-    {
-      "h": "在",
-      "p": "zài",
-      "v": "đang ở",
-      "ex": "这个词在句子里常常这样用：在。",
-      "exv": "Từ này thường được dùng như vậy trong câu: đang ở.",
-      "hv": "tại"
     },
     {
       "h": "早",
       "p": "zǎo",
       "v": "sớm",
-      "ex": "我觉得早很重要。",
-      "exv": "Tôi nghĩ sớm rất quan trọng.",
       "hv": "tảo"
     },
     {
       "h": "站",
       "p": "zhàn",
       "v": "trạm, đứng",
-      "ex": "我觉得站很重要。",
-      "exv": "Tôi nghĩ trạm, đứng rất quan trọng.",
       "hv": "trạm"
     },
     {
       "h": "照片",
       "p": "zhàopiàn",
       "v": "ảnh chụp",
-      "ex": "我觉得照片很重要。",
-      "exv": "Tôi nghĩ ảnh chụp rất quan trọng.",
       "hv": "chiếu phiến"
     },
     {
       "h": "照顾",
       "p": "zhàogù",
       "v": "chăm sóc",
-      "ex": "我觉得照顾很重要。",
-      "exv": "Tôi nghĩ chăm sóc rất quan trọng.",
       "hv": "chiếu cố"
     },
     {
       "h": "着急",
       "p": "zháojí",
       "v": "lo lắng",
-      "ex": "我觉得着急很重要。",
-      "exv": "Tôi nghĩ lo lắng rất quan trọng.",
       "hv": "trước cấp"
     },
     {
@@ -3480,72 +2708,54 @@
       "h": "只",
       "p": "zhǐ",
       "v": "chỉ",
-      "ex": "我觉得只很重要。",
-      "exv": "Tôi nghĩ chỉ rất quan trọng.",
       "hv": "chỉ"
     },
     {
       "h": "中间",
       "p": "zhōngjiān",
       "v": "ở giữa",
-      "ex": "我觉得中间很重要。",
-      "exv": "Tôi nghĩ ở giữa rất quan trọng.",
       "hv": "trung gian"
     },
     {
       "h": "重要",
       "p": "zhòngyào",
       "v": "quan trọng",
-      "ex": "我觉得重要很重要。",
-      "exv": "Tôi nghĩ quan trọng rất quan trọng.",
       "hv": "trọng yếu"
     },
     {
       "h": "周末",
       "p": "zhōumò",
       "v": "cuối tuần",
-      "ex": "我每天都会注意周末。",
-      "exv": "Mỗi ngày tôi đều chú ý đến cuối tuần.",
       "hv": "chu mạt"
     },
     {
       "h": "注意",
       "p": "zhùyì",
       "v": "chú ý",
-      "ex": "我觉得注意很重要。",
-      "exv": "Tôi nghĩ chú ý rất quan trọng.",
       "hv": "chú ý"
     },
     {
       "h": "自己",
       "p": "zìjǐ",
       "v": "bản thân",
-      "ex": "我觉得自己很重要。",
-      "exv": "Tôi nghĩ bản thân rất quan trọng.",
       "hv": "tự kỷ"
     },
     {
       "h": "总是",
       "p": "zǒngshì",
       "v": "luôn luôn",
-      "ex": "我觉得总是很重要。",
-      "exv": "Tôi nghĩ luôn luôn rất quan trọng.",
       "hv": "tổng thị"
     },
     {
       "h": "最近",
       "p": "zuìjìn",
       "v": "gần đây",
-      "ex": "我觉得最近很重要。",
-      "exv": "Tôi nghĩ gần đây rất quan trọng.",
       "hv": "tối cận"
     },
     {
       "h": "左边",
       "p": "zuǒbiān",
       "v": "bên trái",
-      "ex": "我觉得左边很重要。",
-      "exv": "Tôi nghĩ bên trái rất quan trọng.",
       "hv": "tả biên"
     }
   ],
@@ -3562,320 +2772,240 @@
       "h": "按照",
       "p": "ànzhào",
       "v": "theo",
-      "ex": "我觉得按照很重要。",
-      "exv": "Tôi nghĩ theo rất quan trọng.",
       "hv": "án chiếu"
     },
     {
       "h": "保护",
       "p": "bǎohù",
       "v": "bảo vệ",
-      "ex": "我觉得保护很重要。",
-      "exv": "Tôi nghĩ bảo vệ rất quan trọng.",
       "hv": "bảo hộ"
     },
     {
       "h": "保证",
       "p": "bǎozhèng",
       "v": "đảm bảo",
-      "ex": "我觉得保证很重要。",
-      "exv": "Tôi nghĩ đảm bảo rất quan trọng.",
       "hv": "bảo chứng"
     },
     {
       "h": "抱歉",
       "p": "bàoqiàn",
       "v": "xin lỗi (trang trọng)",
-      "ex": "明天我想抱歉。",
-      "exv": "Ngày mai tôi muốn xin lỗi (trang trọng).",
       "hv": "bão khiểm"
     },
     {
       "h": "倍",
       "p": "bèi",
       "v": "lần, gấp",
-      "ex": "这个词在句子里常常这样用：倍。",
-      "exv": "Từ này thường được dùng như vậy trong câu: lần, gấp.",
-      "hv": "倍"
+      "hv": "bội"
     },
     {
       "h": "本来",
       "p": "běnlái",
       "v": "vốn dĩ",
-      "ex": "我觉得本来很重要。",
-      "exv": "Tôi nghĩ vốn dĩ rất quan trọng.",
       "hv": "bản lai"
     },
     {
       "h": "比较",
       "p": "bǐjiào",
       "v": "so sánh",
-      "ex": "我觉得比较很重要。",
-      "exv": "Tôi nghĩ so sánh rất quan trọng.",
       "hv": "tỉ giảo"
     },
     {
       "h": "毕业",
       "p": "bìyè",
       "v": "tốt nghiệp",
-      "ex": "我觉得这个毕业很明显。",
-      "exv": "Tôi thấy điều này rất tốt nghiệp.",
       "hv": "tất nghiệp"
     },
     {
       "h": "表达",
       "p": "biǎodá",
       "v": "biểu đạt",
-      "ex": "我觉得表达很重要。",
-      "exv": "Tôi nghĩ biểu đạt rất quan trọng.",
       "hv": "biểu đạt"
     },
     {
       "h": "部分",
       "p": "bùfen",
       "v": "một phần",
-      "ex": "我觉得部分很重要。",
-      "exv": "Tôi nghĩ một phần rất quan trọng.",
       "hv": "bộ phân"
     },
     {
       "h": "参观",
       "p": "cānguān",
       "v": "tham quan",
-      "ex": "明天我想参观。",
-      "exv": "Ngày mai tôi muốn tham quan.",
       "hv": "tham quan"
     },
     {
       "h": "差不多",
       "p": "chàbuduō",
       "v": "gần như",
-      "ex": "我觉得差不多很重要。",
-      "exv": "Tôi nghĩ gần như rất quan trọng.",
       "hv": "sai bất đa"
     },
     {
       "h": "尝",
       "p": "cháng",
       "v": "nếm thử",
-      "ex": "我觉得尝很重要。",
-      "exv": "Tôi nghĩ nếm thử rất quan trọng.",
-      "hv": "尝"
+      "hv": "thường"
     },
     {
       "h": "成功",
       "p": "chénggōng",
       "v": "thành công",
-      "ex": "我的成功今天在家。",
-      "exv": "Thành công của tôi hôm nay ở nhà.",
       "hv": "thành công"
     },
     {
       "h": "吃惊",
       "p": "chījīng",
       "v": "ngạc nhiên",
-      "ex": "我觉得吃惊很重要。",
-      "exv": "Tôi nghĩ ngạc nhiên rất quan trọng.",
       "hv": "ngật kinh"
     },
     {
       "h": "重新",
       "p": "chóngxīn",
       "v": "làm lại",
-      "ex": "我们每天都要重新。",
-      "exv": "Chúng tôi đều phải làm lại mỗi ngày.",
       "hv": "trọng tân"
     },
     {
       "h": "出发",
       "p": "chūfā",
       "v": "khởi hành",
-      "ex": "我觉得出发很重要。",
-      "exv": "Tôi nghĩ khởi hành rất quan trọng.",
       "hv": "xuất phát"
     },
     {
       "h": "出现",
       "p": "chūxiàn",
       "v": "xuất hiện",
-      "ex": "我觉得出现很重要。",
-      "exv": "Tôi nghĩ xuất hiện rất quan trọng.",
       "hv": "xuất hiện"
     },
     {
       "h": "传统",
       "p": "chuántǒng",
       "v": "truyền thống",
-      "ex": "我觉得传统很重要。",
-      "exv": "Tôi nghĩ truyền thống rất quan trọng.",
       "hv": "truyền thống"
     },
     {
       "h": "此外",
       "p": "cǐwài",
       "v": "ngoài ra",
-      "ex": "明天我想此外。",
-      "exv": "Ngày mai tôi muốn ngoài ra.",
       "hv": "thử ngoại"
     },
     {
       "h": "打折",
       "p": "dǎzhé",
       "v": "giảm giá",
-      "ex": "这个打折是我刚买的。",
-      "exv": "Giảm giá này là thứ tôi vừa mua.",
       "hv": "đả chiết"
     },
     {
       "h": "大概",
       "p": "dàgài",
       "v": "đại khái",
-      "ex": "我觉得大概很重要。",
-      "exv": "Tôi nghĩ đại khái rất quan trọng.",
-      "hv": "đại 概"
+      "hv": "đại khái"
     },
     {
       "h": "代表",
       "p": "dàibiǎo",
       "v": "đại diện",
-      "ex": "我觉得代表很重要。",
-      "exv": "Tôi nghĩ đại diện rất quan trọng.",
       "hv": "đại biểu"
     },
     {
       "h": "当时",
       "p": "dāngshí",
       "v": "lúc đó",
-      "ex": "我觉得当时很重要。",
-      "exv": "Tôi nghĩ lúc đó rất quan trọng.",
       "hv": "đương thời"
     },
     {
       "h": "道理",
       "p": "dàolǐ",
       "v": "đạo lý",
-      "ex": "我觉得道理很重要。",
-      "exv": "Tôi nghĩ đạo lý rất quan trọng.",
       "hv": "đạo lý"
     },
     {
       "h": "地球",
       "p": "dìqiú",
       "v": "trái đất",
-      "ex": "我觉得地球很重要。",
-      "exv": "Tôi nghĩ trái đất rất quan trọng.",
       "hv": "địa cầu"
     },
     {
       "h": "调查",
       "p": "diàochá",
       "v": "điều tra",
-      "ex": "明天我想调查。",
-      "exv": "Ngày mai tôi muốn điều tra.",
       "hv": "điệu tra"
     },
     {
       "h": "独立",
       "p": "dúlì",
       "v": "độc lập",
-      "ex": "我觉得独立很重要。",
-      "exv": "Tôi nghĩ độc lập rất quan trọng.",
       "hv": "độc lập"
     },
     {
       "h": "对于",
       "p": "duìyú",
       "v": "đối với",
-      "ex": "我觉得对于很重要。",
-      "exv": "Tôi nghĩ đối với rất quan trọng.",
       "hv": "đối vu"
     },
     {
       "h": "发展",
       "p": "fāzhǎn",
       "v": "phát triển",
-      "ex": "我们每天都要发展。",
-      "exv": "Chúng tôi đều phải phát triển mỗi ngày.",
       "hv": "phát triển"
     },
     {
       "h": "法律",
       "p": "fǎlǜ",
       "v": "pháp luật",
-      "ex": "我觉得法律很重要。",
-      "exv": "Tôi nghĩ pháp luật rất quan trọng.",
       "hv": "pháp luật"
     },
     {
       "h": "翻译",
       "p": "fānyì",
       "v": "phiên dịch",
-      "ex": "我觉得翻译很重要。",
-      "exv": "Tôi nghĩ phiên dịch rất quan trọng.",
       "hv": "phiên dịch"
     },
     {
       "h": "反对",
       "p": "fǎnduì",
       "v": "phản đối",
-      "ex": "我觉得反对很重要。",
-      "exv": "Tôi nghĩ phản đối rất quan trọng.",
       "hv": "phản đối"
     },
     {
       "h": "方法",
       "p": "fāngfǎ",
       "v": "phương pháp",
-      "ex": "我觉得方法很重要。",
-      "exv": "Tôi nghĩ phương pháp rất quan trọng.",
       "hv": "phương pháp"
     },
     {
       "h": "方面",
       "p": "fāngmiàn",
       "v": "phương diện",
-      "ex": "我觉得方面很重要。",
-      "exv": "Tôi nghĩ phương diện rất quan trọng.",
       "hv": "phương diện"
     },
     {
       "h": "方向",
       "p": "fāngxiàng",
       "v": "hướng",
-      "ex": "我觉得方向很重要。",
-      "exv": "Tôi nghĩ hướng rất quan trọng.",
       "hv": "phương hướng"
     },
     {
       "h": "放弃",
       "p": "fàngqì",
       "v": "từ bỏ",
-      "ex": "我觉得放弃很重要。",
-      "exv": "Tôi nghĩ từ bỏ rất quan trọng.",
-      "hv": "phóng 弃"
+      "hv": "phóng khí"
     },
     {
       "h": "丰富",
       "p": "fēngfù",
       "v": "phong phú",
-      "ex": "我觉得丰富很重要。",
-      "exv": "Tôi nghĩ phong phú rất quan trọng.",
       "hv": "phong phú"
     },
     {
       "h": "否则",
       "p": "fǒuzé",
       "v": "nếu không",
-      "ex": "这个词在句子里常常这样用：否则。",
-      "exv": "Từ này thường được dùng như vậy trong câu: nếu không.",
       "hv": "phủ tắc"
     },
     {
       "h": "符合",
       "p": "fúhé",
       "v": "phù hợp",
-      "ex": "我觉得符合很重要。",
-      "exv": "Tôi nghĩ phù hợp rất quan trọng.",
       "hv": "phù hợp"
     },
     {
@@ -3890,992 +3020,738 @@
       "h": "复杂",
       "p": "fùzá",
       "v": "phức tạp",
-      "ex": "我觉得复杂很重要。",
-      "exv": "Tôi nghĩ phức tạp rất quan trọng.",
       "hv": "phục tạp"
     },
     {
       "h": "改变",
       "p": "gǎibiàn",
       "v": "thay đổi",
-      "ex": "我觉得改变很重要。",
-      "exv": "Tôi nghĩ thay đổi rất quan trọng.",
       "hv": "cải biến"
     },
     {
       "h": "感情",
       "p": "gǎnqíng",
       "v": "tình cảm",
-      "ex": "我觉得感情很重要。",
-      "exv": "Tôi nghĩ tình cảm rất quan trọng.",
       "hv": "cảm tình"
     },
     {
       "h": "各种",
       "p": "gèzhǒng",
       "v": "các loại",
-      "ex": "我觉得各种很重要。",
-      "exv": "Tôi nghĩ các loại rất quan trọng.",
       "hv": "các chủng"
     },
     {
       "h": "工资",
       "p": "gōngzī",
       "v": "lương",
-      "ex": "我觉得工资很重要。",
-      "exv": "Tôi nghĩ lương rất quan trọng.",
       "hv": "công tài"
     },
     {
       "h": "共同",
       "p": "gòngtóng",
       "v": "chung",
-      "ex": "我觉得共同很重要。",
-      "exv": "Tôi nghĩ chung rất quan trọng.",
       "hv": "cộng đồng"
     },
     {
       "h": "购物",
       "p": "gòuwù",
       "v": "mua sắm",
-      "ex": "请你帮我购物一下。",
-      "exv": "Phiền bạn giúp tôi mua sắm một chút.",
       "hv": "cấu vật"
     },
     {
       "h": "估计",
       "p": "gūjì",
       "v": "ước tính",
-      "ex": "我觉得估计很重要。",
-      "exv": "Tôi nghĩ ước tính rất quan trọng.",
       "hv": "cô kế"
     },
     {
       "h": "鼓励",
       "p": "gǔlì",
       "v": "khích lệ",
-      "ex": "我觉得鼓励很重要。",
-      "exv": "Tôi nghĩ khích lệ rất quan trọng.",
       "hv": "cổ lệ"
     },
     {
       "h": "顾客",
       "p": "gùkè",
       "v": "khách hàng",
-      "ex": "我觉得顾客很重要。",
-      "exv": "Tôi nghĩ khách hàng rất quan trọng.",
       "hv": "cố khách"
     },
     {
       "h": "关键",
       "p": "guānjiàn",
       "v": "then chốt",
-      "ex": "我觉得关键很重要。",
-      "exv": "Tôi nghĩ then chốt rất quan trọng.",
       "hv": "quan kiện"
     },
     {
       "h": "广告",
       "p": "guǎnggào",
       "v": "quảng cáo",
-      "ex": "我觉得广告很重要。",
-      "exv": "Tôi nghĩ quảng cáo rất quan trọng.",
       "hv": "quảng cáo"
     },
     {
       "h": "规定",
       "p": "guīdìng",
       "v": "quy định",
-      "ex": "我觉得规定很重要。",
-      "exv": "Tôi nghĩ quy định rất quan trọng.",
       "hv": "quy định"
     },
     {
       "h": "过程",
       "p": "guòchéng",
       "v": "quá trình",
-      "ex": "这个词在句子里常常这样用：过程。",
-      "exv": "Từ này thường được dùng như vậy trong câu: quá trình.",
       "hv": "quá trình"
     },
     {
       "h": "好处",
       "p": "hǎochu",
       "v": "lợi ích",
-      "ex": "我觉得好处很重要。",
-      "exv": "Tôi nghĩ lợi ích rất quan trọng.",
       "hv": "hảo xử"
     },
     {
       "h": "好像",
       "p": "hǎoxiàng",
       "v": "có vẻ như",
-      "ex": "我觉得好像很重要。",
-      "exv": "Tôi nghĩ có vẻ như rất quan trọng.",
       "hv": "hảo tượng"
     },
     {
       "h": "合理",
       "p": "hélǐ",
       "v": "hợp lý",
-      "ex": "我觉得合理很重要。",
-      "exv": "Tôi nghĩ hợp lý rất quan trọng.",
       "hv": "hợp lý"
     },
     {
       "h": "后悔",
       "p": "hòuhuǐ",
       "v": "hối hận",
-      "ex": "我觉得后悔很重要。",
-      "exv": "Tôi nghĩ hối hận rất quan trọng.",
       "hv": "hậu hối"
     },
     {
       "h": "忽然",
       "p": "hūrán",
       "v": "bỗng nhiên",
-      "ex": "我觉得忽然很重要。",
-      "exv": "Tôi nghĩ bỗng nhiên rất quan trọng.",
       "hv": "hốt nhiên"
     },
     {
       "h": "互联网",
       "p": "hùliánwǎng",
       "v": "internet",
-      "ex": "我觉得互联网很重要。",
-      "exv": "Tôi nghĩ internet rất quan trọng.",
       "hv": "hỗ liên võng"
     },
     {
       "h": "互相",
       "p": "hùxiāng",
       "v": "lẫn nhau",
-      "ex": "我觉得互相很重要。",
-      "exv": "Tôi nghĩ lẫn nhau rất quan trọng.",
       "hv": "hỗ tương"
     },
     {
       "h": "积极",
       "p": "jījí",
       "v": "tích cực",
-      "ex": "我觉得积极很重要。",
-      "exv": "Tôi nghĩ tích cực rất quan trọng.",
       "hv": "tích cực"
     },
     {
       "h": "基础",
       "p": "jīchǔ",
       "v": "cơ sở",
-      "ex": "我觉得基础很重要。",
-      "exv": "Tôi nghĩ cơ sở rất quan trọng.",
-      "hv": "cơ 础"
+      "hv": "cơ sở"
     },
     {
       "h": "即使",
       "p": "jíshǐ",
       "v": "ngay cả khi",
-      "ex": "我觉得即使很重要。",
-      "exv": "Tôi nghĩ ngay cả khi rất quan trọng.",
       "hv": "tức sử"
     },
     {
       "h": "技术",
       "p": "jìshù",
       "v": "kỹ thuật",
-      "ex": "我觉得技术很重要。",
-      "exv": "Tôi nghĩ kỹ thuật rất quan trọng.",
       "hv": "kỹ thuật"
     },
     {
       "h": "价格",
       "p": "jiàgé",
       "v": "giá cả",
-      "ex": "这个价格是我刚买的。",
-      "exv": "Giá cả này là thứ tôi vừa mua.",
       "hv": "giá cách"
     },
     {
       "h": "坚持",
       "p": "jiānchí",
       "v": "kiên trì",
-      "ex": "我觉得坚持很重要。",
-      "exv": "Tôi nghĩ kiên trì rất quan trọng.",
       "hv": "kiên trì"
     },
     {
       "h": "减少",
       "p": "jiǎnshǎo",
       "v": "giảm thiểu",
-      "ex": "我觉得减少很重要。",
-      "exv": "Tôi nghĩ giảm thiểu rất quan trọng.",
       "hv": "giảm thiểu"
     },
     {
       "h": "交流",
       "p": "jiāoliú",
       "v": "giao lưu",
-      "ex": "我觉得交流很重要。",
-      "exv": "Tôi nghĩ giao lưu rất quan trọng.",
       "hv": "giao lưu"
     },
     {
       "h": "教育",
       "p": "jiàoyù",
       "v": "giáo dục",
-      "ex": "这个教育是我刚买的。",
-      "exv": "Giáo dục này là thứ tôi vừa mua.",
       "hv": "giáo dục"
     },
     {
       "h": "结果",
       "p": "jiéguǒ",
       "v": "kết quả",
-      "ex": "我觉得结果很重要。",
-      "exv": "Tôi nghĩ kết quả rất quan trọng.",
       "hv": "kết quả"
     },
     {
       "h": "尽管",
       "p": "jǐnguǎn",
       "v": "mặc dù",
-      "ex": "请你帮我尽管一下。",
-      "exv": "Phiền bạn giúp tôi mặc dù một chút.",
-      "hv": "尽 quản"
+      "hv": "tận quản"
     },
     {
       "h": "进行",
       "p": "jìnxíng",
       "v": "tiến hành",
-      "ex": "我觉得进行很重要。",
-      "exv": "Tôi nghĩ tiến hành rất quan trọng.",
       "hv": "tiến hành"
     },
     {
       "h": "经济",
       "p": "jīngjì",
       "v": "kinh tế",
-      "ex": "我觉得经济很重要。",
-      "exv": "Tôi nghĩ kinh tế rất quan trọng.",
       "hv": "kinh tế"
     },
     {
       "h": "精彩",
       "p": "jīngcǎi",
       "v": "xuất sắc",
-      "ex": "我觉得精彩很重要。",
-      "exv": "Tôi nghĩ xuất sắc rất quan trọng.",
       "hv": "tinh thái"
     },
     {
       "h": "精神",
       "p": "jīngshén",
       "v": "tinh thần",
-      "ex": "我觉得精神很重要。",
-      "exv": "Tôi nghĩ tinh thần rất quan trọng.",
       "hv": "tinh thần"
     },
     {
       "h": "竟然",
       "p": "jìngrán",
       "v": "không ngờ",
-      "ex": "这个词在句子里常常这样用：竟然。",
-      "exv": "Từ này thường được dùng như vậy trong câu: không ngờ.",
       "hv": "cánh nhiên"
     },
     {
       "h": "举办",
       "p": "jǔbàn",
       "v": "tổ chức",
-      "ex": "我觉得举办很重要。",
-      "exv": "Tôi nghĩ tổ chức rất quan trọng.",
       "hv": "cử biện"
     },
     {
       "h": "聚会",
       "p": "jùhuì",
       "v": "họp mặt",
-      "ex": "我觉得聚会很重要。",
-      "exv": "Tôi nghĩ họp mặt rất quan trọng.",
       "hv": "tụ hội"
     },
     {
       "h": "决定",
       "p": "juédìng",
       "v": "quyết định",
-      "ex": "我觉得决定很重要。",
-      "exv": "Tôi nghĩ quyết định rất quan trọng.",
       "hv": "quyết định"
     },
     {
       "h": "看法",
       "p": "kànfǎ",
       "v": "quan điểm",
-      "ex": "明天我想看法。",
-      "exv": "Ngày mai tôi muốn quan điểm.",
       "hv": "khán pháp"
     },
     {
       "h": "考虑",
       "p": "kǎolǜ",
       "v": "suy nghĩ",
-      "ex": "我觉得考虑很重要。",
-      "exv": "Tôi nghĩ suy nghĩ rất quan trọng.",
       "hv": "khảo lự"
     },
     {
       "h": "科学",
       "p": "kēxué",
       "v": "khoa học",
-      "ex": "我们每天都要科学。",
-      "exv": "Chúng tôi đều phải khoa học mỗi ngày.",
       "hv": "khoa học"
     },
     {
       "h": "可惜",
       "p": "kěxī",
       "v": "tiếc",
-      "ex": "我觉得可惜很重要。",
-      "exv": "Tôi nghĩ tiếc rất quan trọng.",
       "hv": "khả tích"
     },
     {
       "h": "肯定",
       "p": "kěndìng",
       "v": "chắc chắn",
-      "ex": "我觉得肯定很重要。",
-      "exv": "Tôi nghĩ chắc chắn rất quan trọng.",
       "hv": "khẳng định"
     },
     {
       "h": "空气",
       "p": "kōngqì",
       "v": "không khí",
-      "ex": "这个词在句子里常常这样用：空气。",
-      "exv": "Từ này thường được dùng như vậy trong câu: không khí.",
       "hv": "không khí"
     },
     {
       "h": "控制",
       "p": "kòngzhì",
       "v": "kiểm soát",
-      "ex": "我觉得控制很重要。",
-      "exv": "Tôi nghĩ kiểm soát rất quan trọng.",
       "hv": "khống chế"
     },
     {
       "h": "困难",
       "p": "kùnnan",
       "v": "khó khăn",
-      "ex": "我每天都会困难。",
-      "exv": "Mỗi ngày tôi đều khó khăn.",
       "hv": "khốn nan"
     },
     {
       "h": "来自",
       "p": "láizì",
       "v": "đến từ",
-      "ex": "明天我想来自。",
-      "exv": "Ngày mai tôi muốn đến từ.",
       "hv": "lai tự"
     },
     {
       "h": "厉害",
       "p": "lìhai",
       "v": "giỏi",
-      "ex": "我觉得厉害很重要。",
-      "exv": "Tôi nghĩ giỏi rất quan trọng.",
       "hv": "lệ hại"
     },
     {
       "h": "联系",
       "p": "liánxì",
       "v": "liên hệ",
-      "ex": "我觉得联系很重要。",
-      "exv": "Tôi nghĩ liên hệ rất quan trọng.",
       "hv": "liên hệ"
     },
     {
       "h": "了不起",
       "p": "liǎobuqǐ",
       "v": "tuyệt vời",
-      "ex": "我觉得了不起很重要。",
-      "exv": "Tôi nghĩ tuyệt vời rất quan trọng.",
       "hv": "liễu bất khởi"
     },
     {
       "h": "流利",
       "p": "liúlì",
       "v": "trôi chảy",
-      "ex": "我觉得流利很重要。",
-      "exv": "Tôi nghĩ trôi chảy rất quan trọng.",
       "hv": "lưu lợi"
     },
     {
       "h": "满",
       "p": "mǎn",
       "v": "đầy",
-      "ex": "我觉得满很重要。",
-      "exv": "Tôi nghĩ đầy rất quan trọng.",
       "hv": "mãn"
     },
     {
       "h": "美丽",
       "p": "měilì",
       "v": "đẹp đẽ",
-      "ex": "我觉得这个美丽很明显。",
-      "exv": "Tôi thấy điều này rất đẹp đẽ.",
       "hv": "mỹ lệ"
     },
     {
       "h": "密码",
       "p": "mìmǎ",
       "v": "mật khẩu",
-      "ex": "我觉得密码很重要。",
-      "exv": "Tôi nghĩ mật khẩu rất quan trọng.",
       "hv": "mật mã"
     },
     {
       "h": "目的",
       "p": "mùdì",
       "v": "mục đích",
-      "ex": "我觉得目的很重要。",
-      "exv": "Tôi nghĩ mục đích rất quan trọng.",
       "hv": "mục đích"
     },
     {
       "h": "难道",
       "p": "nándào",
       "v": "chả lẽ",
-      "ex": "我觉得难道很重要。",
-      "exv": "Tôi nghĩ chả lẽ rất quan trọng.",
       "hv": "nan đạo"
     },
     {
       "h": "内容",
       "p": "nèiróng",
       "v": "nội dung",
-      "ex": "我觉得内容很重要。",
-      "exv": "Tôi nghĩ nội dung rất quan trọng.",
       "hv": "nội dung"
     },
     {
       "h": "能力",
       "p": "nénglì",
       "v": "năng lực",
-      "ex": "我每天都会能力。",
-      "exv": "Mỗi ngày tôi đều năng lực.",
       "hv": "năng lực"
     },
     {
       "h": "培养",
       "p": "péiyǎng",
       "v": "bồi dưỡng",
-      "ex": "我觉得培养很重要。",
-      "exv": "Tôi nghĩ bồi dưỡng rất quan trọng.",
       "hv": "bồi dưỡng"
     },
     {
       "h": "批评",
       "p": "pīpíng",
       "v": "phê bình",
-      "ex": "我觉得批评很重要。",
-      "exv": "Tôi nghĩ phê bình rất quan trọng.",
       "hv": "phê bình"
     },
     {
       "h": "亲戚",
       "p": "qīnqi",
       "v": "thân thích",
-      "ex": "我觉得亲戚很重要。",
-      "exv": "Tôi nghĩ thân thích rất quan trọng.",
-      "hv": "thân 戚"
+      "hv": "thân thích"
     },
     {
       "h": "取得",
       "p": "qǔdé",
       "v": "đạt được",
-      "ex": "我觉得取得很重要。",
-      "exv": "Tôi nghĩ đạt được rất quan trọng.",
       "hv": "thủ đắc"
     },
     {
       "h": "确实",
       "p": "quèshí",
       "v": "thực sự",
-      "ex": "我觉得确实很重要。",
-      "exv": "Tôi nghĩ thực sự rất quan trọng.",
       "hv": "xác thật"
     },
     {
       "h": "热闹",
       "p": "rènao",
       "v": "náo nhiệt",
-      "ex": "我觉得热闹很重要。",
-      "exv": "Tôi nghĩ náo nhiệt rất quan trọng.",
       "hv": "nhiệt náo"
     },
     {
       "h": "人口",
       "p": "rénkǒu",
       "v": "dân số",
-      "ex": "这个词在句子里常常这样用：人口。",
-      "exv": "Từ này thường được dùng như vậy trong câu: dân số.",
       "hv": "nhân khẩu"
     },
     {
       "h": "任何",
       "p": "rènhé",
       "v": "bất kỳ",
-      "ex": "我觉得任何很重要。",
-      "exv": "Tôi nghĩ bất kỳ rất quan trọng.",
       "hv": "nhậm hà"
     },
     {
       "h": "日记",
       "p": "rìjì",
       "v": "nhật ký",
-      "ex": "我觉得日记很重要。",
-      "exv": "Tôi nghĩ nhật ký rất quan trọng.",
       "hv": "nhật ký"
     },
     {
       "h": "商量",
       "p": "shāngliang",
       "v": "bàn bạc",
-      "ex": "这个商量是我刚买的。",
-      "exv": "Bàn bạc này là thứ tôi vừa mua.",
       "hv": "thương lượng"
     },
     {
       "h": "社会",
       "p": "shèhuì",
       "v": "xã hội",
-      "ex": "我觉得社会很重要。",
-      "exv": "Tôi nghĩ xã hội rất quan trọng.",
       "hv": "xã hội"
-    },
-    {
-      "h": "甚至",
-      "p": "shènzhì",
-      "v": "thậm chí",
-      "ex": "我觉得甚至很重要。",
-      "exv": "Tôi nghĩ thậm chí rất quan trọng.",
-      "hv": "thậm chí"
     },
     {
       "h": "失败",
       "p": "shībài",
       "v": "thất bại",
-      "ex": "我觉得失败很重要。",
-      "exv": "Tôi nghĩ thất bại rất quan trọng.",
       "hv": "thất bại"
     },
     {
       "h": "失望",
       "p": "shīwàng",
       "v": "thất vọng",
-      "ex": "我觉得失望很重要。",
-      "exv": "Tôi nghĩ thất vọng rất quan trọng.",
       "hv": "thất vọng"
     },
     {
       "h": "世界",
       "p": "shìjiè",
       "v": "thế giới",
-      "ex": "我觉得世界很重要。",
-      "exv": "Tôi nghĩ thế giới rất quan trọng.",
       "hv": "thế giới"
     },
     {
       "h": "说明",
       "p": "shuōmíng",
       "v": "giải thích",
-      "ex": "我觉得说明很重要。",
-      "exv": "Tôi nghĩ giải thích rất quan trọng.",
       "hv": "thuyết minh"
     },
     {
       "h": "思考",
       "p": "sīkǎo",
       "v": "suy nghĩ",
-      "ex": "我觉得思考很重要。",
-      "exv": "Tôi nghĩ suy nghĩ rất quan trọng.",
       "hv": "tư khảo"
     },
     {
       "h": "随着",
       "p": "suízhe",
       "v": "theo sau",
-      "ex": "我觉得随着很重要。",
-      "exv": "Tôi nghĩ theo sau rất quan trọng.",
       "hv": "tùy trước"
     },
     {
       "h": "讨论",
       "p": "tǎolùn",
       "v": "thảo luận",
-      "ex": "我觉得讨论很重要。",
-      "exv": "Tôi nghĩ thảo luận rất quan trọng.",
       "hv": "thảo luận"
     },
     {
       "h": "提高",
       "p": "tígāo",
       "v": "nâng cao",
-      "ex": "我觉得这个提高很明显。",
-      "exv": "Tôi thấy điều này rất nâng cao.",
       "hv": "đề cao"
     },
     {
       "h": "提供",
       "p": "tígōng",
       "v": "cung cấp",
-      "ex": "我觉得提供很重要。",
-      "exv": "Tôi nghĩ cung cấp rất quan trọng.",
       "hv": "đề cung"
     },
     {
       "h": "体验",
       "p": "tǐyàn",
       "v": "trải nghiệm",
-      "ex": "我觉得体验很重要。",
-      "exv": "Tôi nghĩ trải nghiệm rất quan trọng.",
       "hv": "thể nghiệm"
     },
     {
       "h": "通过",
       "p": "tōngguò",
       "v": "thông qua",
-      "ex": "我觉得通过很重要。",
-      "exv": "Tôi nghĩ thông qua rất quan trọng.",
       "hv": "thông quá"
     },
     {
       "h": "通知",
       "p": "tōngzhī",
       "v": "thông báo",
-      "ex": "这个通知是我刚买的。",
-      "exv": "Thông báo này là thứ tôi vừa mua.",
       "hv": "thông tri"
     },
     {
       "h": "推迟",
       "p": "tuīchí",
       "v": "hoãn lại",
-      "ex": "我觉得推迟很重要。",
-      "exv": "Tôi nghĩ hoãn lại rất quan trọng.",
       "hv": "thôi trì"
     },
     {
       "h": "完全",
       "p": "wánquán",
       "v": "hoàn toàn",
-      "ex": "我觉得完全很重要。",
-      "exv": "Tôi nghĩ hoàn toàn rất quan trọng.",
       "hv": "hoàn toàn"
     },
     {
       "h": "网络",
       "p": "wǎngluò",
       "v": "mạng lưới",
-      "ex": "我觉得网络很重要。",
-      "exv": "Tôi nghĩ mạng lưới rất quan trọng.",
       "hv": "võng lạc"
     },
     {
       "h": "危险",
       "p": "wēixiǎn",
       "v": "nguy hiểm",
-      "ex": "我觉得危险很重要。",
-      "exv": "Tôi nghĩ nguy hiểm rất quan trọng.",
       "hv": "nguy hiểm"
     },
     {
       "h": "未来",
       "p": "wèilái",
       "v": "tương lai",
-      "ex": "我觉得未来很重要。",
-      "exv": "Tôi nghĩ tương lai rất quan trọng.",
       "hv": "vị lai"
     },
     {
       "h": "稳定",
       "p": "wěndìng",
       "v": "ổn định",
-      "ex": "我觉得稳定很重要。",
-      "exv": "Tôi nghĩ ổn định rất quan trọng.",
       "hv": "ổn định"
     },
     {
       "h": "现代",
       "p": "xiàndài",
       "v": "hiện đại",
-      "ex": "我觉得现代很重要。",
-      "exv": "Tôi nghĩ hiện đại rất quan trọng.",
       "hv": "hiện đại"
     },
     {
       "h": "消息",
       "p": "xiāoxi",
       "v": "tin tức",
-      "ex": "我觉得消息很重要。",
-      "exv": "Tôi nghĩ tin tức rất quan trọng.",
       "hv": "tiêu tức"
     },
     {
       "h": "效果",
       "p": "xiàoguǒ",
       "v": "hiệu quả",
-      "ex": "我觉得效果很重要。",
-      "exv": "Tôi nghĩ hiệu quả rất quan trọng.",
       "hv": "hiệu quả"
     },
     {
       "h": "心情",
       "p": "xīnqíng",
       "v": "tâm trạng",
-      "ex": "我觉得心情很重要。",
-      "exv": "Tôi nghĩ tâm trạng rất quan trọng.",
       "hv": "tâm tình"
     },
     {
       "h": "信任",
       "p": "xìnrèn",
       "v": "tin tưởng",
-      "ex": "我觉得信任很重要。",
-      "exv": "Tôi nghĩ tin tưởng rất quan trọng.",
       "hv": "tín nhậm"
     },
     {
       "h": "信息",
       "p": "xìnxī",
       "v": "thông tin",
-      "ex": "我觉得信息很重要。",
-      "exv": "Tôi nghĩ thông tin rất quan trọng.",
       "hv": "tín tức"
     },
     {
       "h": "幸福",
       "p": "xìngfú",
       "v": "hạnh phúc",
-      "ex": "我觉得幸福很重要。",
-      "exv": "Tôi nghĩ hạnh phúc rất quan trọng.",
-      "hv": "hạnh 福"
+      "hv": "hạnh phúc"
     },
     {
       "h": "性格",
       "p": "xìnggé",
       "v": "tính cách",
-      "ex": "我觉得性格很重要。",
-      "exv": "Tôi nghĩ tính cách rất quan trọng.",
       "hv": "tính cách"
     },
     {
       "h": "许多",
       "p": "xǔduō",
       "v": "nhiều",
-      "ex": "我觉得许多很重要。",
-      "exv": "Tôi nghĩ nhiều rất quan trọng.",
       "hv": "hứa đa"
     },
     {
       "h": "要求",
       "p": "yāoqiú",
       "v": "yêu cầu",
-      "ex": "我觉得要求很重要。",
-      "exv": "Tôi nghĩ yêu cầu rất quan trọng.",
       "hv": "yếu cầu"
     },
     {
       "h": "也许",
       "p": "yěxǔ",
       "v": "có lẽ",
-      "ex": "我觉得也许很重要。",
-      "exv": "Tôi nghĩ có lẽ rất quan trọng.",
       "hv": "dã hứa"
     },
     {
       "h": "以后",
       "p": "yǐhòu",
       "v": "sau này",
-      "ex": "我觉得以后很重要。",
-      "exv": "Tôi nghĩ sau này rất quan trọng.",
       "hv": "dĩ hậu"
     },
     {
       "h": "以前",
       "p": "yǐqián",
       "v": "trước đây",
-      "ex": "我觉得以前很重要。",
-      "exv": "Tôi nghĩ trước đây rất quan trọng.",
       "hv": "dĩ tiền"
     },
     {
       "h": "以为",
       "p": "yǐwéi",
       "v": "tưởng rằng",
-      "ex": "我觉得以为很重要。",
-      "exv": "Tôi nghĩ tưởng rằng rất quan trọng.",
       "hv": "dĩ vi"
     },
     {
       "h": "意见",
       "p": "yìjiàn",
       "v": "ý kiến",
-      "ex": "我觉得意见很重要。",
-      "exv": "Tôi nghĩ ý kiến rất quan trọng.",
       "hv": "ý kiến"
     },
     {
       "h": "意思",
       "p": "yìsi",
       "v": "ý nghĩa",
-      "ex": "我觉得意思很重要。",
-      "exv": "Tôi nghĩ ý nghĩa rất quan trọng.",
       "hv": "ý tư"
     },
     {
       "h": "一直",
       "p": "yīzhí",
       "v": "luôn luôn",
-      "ex": "我觉得一直很重要。",
-      "exv": "Tôi nghĩ luôn luôn rất quan trọng.",
       "hv": "nhất trực"
     },
     {
       "h": "印象",
       "p": "yìnxiàng",
       "v": "ấn tượng",
-      "ex": "我觉得印象很重要。",
-      "exv": "Tôi nghĩ ấn tượng rất quan trọng.",
       "hv": "ấn tượng"
     },
     {
       "h": "优点",
       "p": "yōudiǎn",
       "v": "ưu điểm",
-      "ex": "明天我想优点。",
-      "exv": "Ngày mai tôi muốn ưu điểm.",
       "hv": "ưu điểm"
     },
     {
       "h": "有趣",
       "p": "yǒuqù",
       "v": "thú vị",
-      "ex": "我觉得有趣很重要。",
-      "exv": "Tôi nghĩ thú vị rất quan trọng.",
       "hv": "hữu thú"
     },
     {
       "h": "语言",
       "p": "yǔyán",
       "v": "ngôn ngữ",
-      "ex": "我觉得语言很重要。",
-      "exv": "Tôi nghĩ ngôn ngữ rất quan trọng.",
       "hv": "ngữ ngôn"
     },
     {
       "h": "增加",
       "p": "zēngjiā",
       "v": "tăng thêm",
-      "ex": "我每天都会增加。",
-      "exv": "Mỗi ngày tôi đều tăng thêm.",
       "hv": "tăng gia"
     },
     {
       "h": "掌握",
       "p": "zhǎngwò",
       "v": "nắm vững",
-      "ex": "我觉得掌握很重要。",
-      "exv": "Tôi nghĩ nắm vững rất quan trọng.",
       "hv": "chưởng ác"
     },
     {
       "h": "政府",
       "p": "zhèngfǔ",
       "v": "chính phủ",
-      "ex": "我觉得政府很重要。",
-      "exv": "Tôi nghĩ chính phủ rất quan trọng.",
       "hv": "chính phủ"
     },
     {
       "h": "直接",
       "p": "zhíjiē",
       "v": "trực tiếp",
-      "ex": "我觉得直接很重要。",
-      "exv": "Tôi nghĩ trực tiếp rất quan trọng.",
       "hv": "trực tiếp"
     },
     {
       "h": "质量",
       "p": "zhìliàng",
       "v": "chất lượng",
-      "ex": "我觉得质量很重要。",
-      "exv": "Tôi nghĩ chất lượng rất quan trọng.",
       "hv": "chất lượng"
     },
     {
       "h": "中文",
       "p": "Zhōngwén",
       "v": "tiếng Trung",
-      "ex": "我觉得中文很重要。",
-      "exv": "Tôi nghĩ tiếng Trung rất quan trọng.",
       "hv": "trung văn"
     },
     {
       "h": "周围",
       "p": "zhōuwéi",
       "v": "xung quanh",
-      "ex": "我的周围今天在家。",
-      "exv": "Xung quanh của tôi hôm nay ở nhà.",
       "hv": "chu vi"
     },
     {
       "h": "专门",
       "p": "zhuānmén",
       "v": "chuyên",
-      "ex": "我觉得专门很重要。",
-      "exv": "Tôi nghĩ chuyên rất quan trọng.",
       "hv": "chuyên môn"
     },
     {
       "h": "准确",
       "p": "zhǔnquè",
       "v": "chính xác",
-      "ex": "我觉得准确很重要。",
-      "exv": "Tôi nghĩ chính xác rất quan trọng.",
       "hv": "chuẩn xác"
     },
     {
       "h": "自然",
       "p": "zìrán",
       "v": "tự nhiên",
-      "ex": "我觉得自然很重要。",
-      "exv": "Tôi nghĩ tự nhiên rất quan trọng.",
       "hv": "tự nhiên"
     },
     {
       "h": "总结",
       "p": "zǒngjié",
       "v": "tổng kết",
-      "ex": "我觉得总结很重要。",
-      "exv": "Tôi nghĩ tổng kết rất quan trọng.",
       "hv": "tổng kết"
     },
     {
       "h": "最好",
       "p": "zuìhǎo",
       "v": "tốt nhất",
-      "ex": "这个词在句子里常常这样用：最好。",
-      "exv": "Từ này thường được dùng như vậy trong câu: tốt nhất.",
       "hv": "tối hảo"
     },
     {
       "h": "作业",
       "p": "zuòyè",
       "v": "bài tập",
-      "ex": "我觉得作业很重要。",
-      "exv": "Tôi nghĩ bài tập rất quan trọng.",
       "hv": "tác nghiệp"
     }
   ],
@@ -7307,14 +6183,6 @@
       "exv": "Phải khai phá thị trường mới."
     },
     {
-      "h": "感慨",
-      "p": "kǎnkě",
-      "v": "gian nan, trắc trở",
-      "hv": "khảm khả",
-      "ex": "他的一生坎坷不平。",
-      "exv": "Cuộc đời anh ấy gian nan trắc trở."
-    },
-    {
       "h": "坎坷",
       "p": "kǎnkě",
       "v": "gập ghềnh, gian nan",
@@ -7859,7 +6727,7 @@
       "exv": "Anh ấy tự trách mình không cố gắng."
     },
     {
-      "h": "彻底",
+      "h": "真诚",
       "p": "zhēnchéng",
       "v": "chân thành",
       "hv": "chân thành",

@@ -5,168 +5,128 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Học Tiếng Trung HSK</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --red:#C0392B; --gold:#D4A017; --ink:#1A1A2E; --paper:#F8F5F0;
-      --mist:#E8E2D9; --soft:#6B6560; --white:#FFFFFF; --r:12px;
-      --hsk1:#e74c3c; --hsk2:#e67e22; --hsk3:#27ae60; --hsk4:#2980b9;
-      --hsk5:#8e44ad; --hsk6:#34495e;
-    }
-    @media(prefers-color-scheme:dark){:root:not([data-theme=light]){
-      --paper:#1A1A2E;--mist:#252540;--ink:#EDE8DF;--soft:#9A9490;--white:#252540;
-    }}
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-    html{scroll-behavior:smooth}
-    body{font-family:"Be Vietnam Pro",sans-serif;background:var(--paper);color:var(--ink);min-height:100vh}
-
-    /* NAV */
-    nav{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1.5px solid var(--mist);
-        display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:54px;gap:12px}
-    .logo{font-family:"Noto Serif SC",serif;font-size:1.4rem;color:var(--red);white-space:nowrap}
-    .logo span{color:var(--gold)}
-    .nav-links{display:flex;gap:6px;flex-wrap:wrap}
-    .nav-links button{background:none;border:none;cursor:pointer;font:500 .82rem "Be Vietnam Pro",sans-serif;
-      color:var(--soft);padding:5px 12px;border-radius:20px;transition:background .15s,color .15s;white-space:nowrap}
-    .nav-links button:hover,.nav-links button.active{background:var(--red);color:#fff}
-
-    /* SECTIONS */
-    .section{display:none;padding:36px 24px;max-width:900px;margin:0 auto}
-    .section.active{display:block}
-    h1{font-family:"Noto Serif SC",serif;font-size:1.8rem;color:var(--red);margin-bottom:6px}
-    h2{font-family:"Noto Serif SC",serif;font-size:1.15rem;margin-bottom:14px}
-    .sub{color:var(--soft);font-size:.88rem;margin-bottom:24px}
-
-    /* HSK FILTER TABS */
-    .filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
-    .ftab{padding:6px 16px;border-radius:20px;border:1.5px solid var(--mist);
-      background:var(--white);cursor:pointer;font:500 .82rem "Be Vietnam Pro",sans-serif;
-      color:var(--soft);transition:all .15s}
-    .ftab.on{color:#fff;border-color:transparent}
-    .ftab[data-l="all"].on{background:var(--red)}
-    .ftab[data-l="hsk1"].on{background:var(--hsk1)}
-    .ftab[data-l="hsk2"].on{background:var(--hsk2)}
-    .ftab[data-l="hsk3"].on{background:var(--hsk3)}
-    .ftab[data-l="hsk4"].on{background:var(--hsk4)}
-    .ftab[data-l="hsk5"].on{background:var(--hsk5)}
-    .ftab[data-l="hsk6"].on{background:var(--hsk6)}
-
-    /* SEARCH */
-    .search-wrap{position:relative;margin-bottom:20px}
-    .search-wrap input{width:100%;padding:10px 16px 10px 40px;border:1.5px solid var(--mist);
-      border-radius:var(--r);background:var(--white);color:var(--ink);
-      font:400 .9rem "Be Vietnam Pro",sans-serif;outline:none;transition:border-color .15s}
-    .search-wrap input:focus{border-color:var(--red)}
-    .search-wrap::before{content:"🔍";position:absolute;left:12px;top:50%;transform:translateY(-50%);font-size:.9rem}
-
-    /* STATS BAR */
-    .stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
-    .stat-chip{background:var(--white);border:1.5px solid var(--mist);border-radius:20px;
-      padding:5px 14px;font-size:.8rem;color:var(--soft)}
-    .stat-chip strong{color:var(--ink)}
-
-    /* CARD GRID */
-    .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
-    .card{background:var(--white);border:1.5px solid var(--mist);border-radius:var(--r);
-      padding:18px 12px;text-align:center;cursor:pointer;transition:border-color .15s,transform .12s;user-select:none}
-    .card:hover{border-color:var(--red);transform:translateY(-2px)}
-    .card .lv{font-size:.65rem;font-weight:600;padding:2px 8px;border-radius:10px;
-      display:inline-block;margin-bottom:8px;color:#fff}
-    .lv-hsk1{background:var(--hsk1)}.lv-hsk2{background:var(--hsk2)}
-    .lv-hsk3{background:var(--hsk3)}.lv-hsk4{background:var(--hsk4)}
-    .lv-hsk5{background:var(--hsk5)}.lv-hsk6{background:var(--hsk6)}
-    .extra-detail{margin-top:8px;padding-top:8px;border-top:1px solid var(--mist);text-align:left;font-size:.76rem;line-height:1.55;color:var(--soft)}
-    .extra-detail .example-cn{font-family:"Noto Serif SC",serif;font-size:.95rem;color:var(--ink);margin-top:5px}
-    .extra-detail .example-vn{margin-top:2px}
-    .extra-detail .hanviet{color:var(--gold);font-weight:500}
-    .card .front,.card .back{transition:opacity .15s}
-    .card.flipped .front{display:none}
-    .card.flipped .back{display:block}
-    .card .back{display:none}
-    .hanzi{font-family:"Noto Serif SC",serif;font-size:2.2rem;color:var(--red);line-height:1}
-    .pinyin{font-size:.78rem;color:var(--gold);margin:5px 0 2px;font-weight:500}
-    .meaning{font-size:.82rem;color:var(--soft)}
-    .card-hint{font-size:.68rem;color:var(--mist);margin-top:12px}
-    .no-result{text-align:center;color:var(--soft);padding:40px;font-size:.9rem}
-
-    /* PAGINATION */
-    .pager{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:24px;flex-wrap:wrap}
-    .pager button{padding:6px 14px;border:1.5px solid var(--mist);border-radius:20px;
-      background:var(--white);cursor:pointer;font:500 .82rem "Be Vietnam Pro",sans-serif;
-      color:var(--ink);transition:all .15s}
-    .pager button:hover,.pager button.active{background:var(--red);border-color:var(--red);color:#fff}
-    .pager button:disabled{opacity:.35;cursor:default}
-    .page-info{font-size:.82rem;color:var(--soft)}
-
-    /* QUIZ */
-    .quiz-box{background:var(--white);border:1.5px solid var(--mist);border-radius:var(--r);padding:28px;text-align:center}
-    .quiz-hanzi{font-family:"Noto Serif SC",serif;font-size:4.5rem;color:var(--red);margin-bottom:6px}
-    .quiz-pinyin{font-size:.95rem;color:var(--gold);margin-bottom:6px;font-weight:500}
-    .quiz-lv{font-size:.75rem;margin-bottom:20px}
-    .quiz-choices{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:380px;margin:0 auto 16px}
-    .choice-btn{padding:10px;border:1.5px solid var(--mist);border-radius:8px;
-      background:var(--paper);cursor:pointer;font:500 .88rem "Be Vietnam Pro",sans-serif;
-      color:var(--ink);transition:background .12s,border-color .12s}
-    .choice-btn:hover{border-color:var(--red);background:var(--white)}
-    .choice-btn.correct{background:#d4edda;border-color:#28a745;color:#155724}
-    .choice-btn.wrong{background:#f8d7da;border-color:#dc3545;color:#721c24}
-    .quiz-result{font-weight:600;font-size:.95rem;min-height:22px;margin-bottom:10px}
-    .score-row{color:var(--soft);font-size:.82rem;margin-bottom:16px;display:flex;gap:16px;justify-content:center}
-    .prog-wrap{background:var(--mist);border-radius:20px;height:7px;margin:0 0 20px;overflow:hidden}
-    .prog-fill{height:100%;background:var(--red);border-radius:20px;transition:width .35s}
-    .quiz-filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px;justify-content:center}
-
-    /* BTN */
-    .btn{display:inline-block;padding:9px 22px;border-radius:24px;background:var(--red);
-      color:#fff;border:none;cursor:pointer;font:600 .88rem "Be Vietnam Pro",sans-serif;transition:opacity .15s}
-    .btn:hover{opacity:.85}
-    .btn-outline{background:none;border:1.5px solid var(--red);color:var(--red)}
-    .btn-outline:hover{background:var(--red);color:#fff;opacity:1}
-
-    /* HOME */
-    .hero{text-align:center;padding:48px 24px 36px;border-bottom:1.5px solid var(--mist)}
-    .hero-char{font-family:"Noto Serif SC",serif;font-size:6rem;color:var(--red);
-      line-height:1;display:block;margin-bottom:10px;text-shadow:3px 3px 0 var(--gold)}
-    .hero p{color:var(--soft);max-width:460px;margin:0 auto 24px;font-size:.92rem}
-    .hero-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
-    .info-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;padding:28px 0 0}
-    .info-card{background:var(--white);border:1.5px solid var(--mist);border-radius:var(--r);
-      padding:18px 14px;text-align:center}
-    .info-card .ic{font-size:1.8rem;margin-bottom:6px}
-    .info-card strong{display:block;font-size:.88rem;margin-bottom:3px}
-    .info-card span{font-size:.78rem;color:var(--soft)}
-    .hsk-overview{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px;margin-top:20px}
-    .hsk-card{border-radius:var(--r);padding:16px;color:#fff}
-    .hsk-card h3{font-family:"Noto Serif SC",serif;font-size:1rem;margin-bottom:4px}
-    .hsk-card p{font-size:.78rem;opacity:.88}
-    .hsk-card .cnt{font-size:1.8rem;font-weight:700;line-height:1;margin-bottom:4px}
-    .hsk-card[role="button"],.info-card[role="button"]{cursor:pointer;transition:transform .15s,box-shadow .15s,outline-color .15s}
-    .hsk-card[role="button"]:hover,.info-card[role="button"]:hover{transform:translateY(-3px);box-shadow:0 5px 16px #00000018}
-    .hsk-card[role="button"]:focus-visible,.info-card[role="button"]:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
-    .home-card-detail{display:none;margin-top:14px;padding:16px;border:1.5px solid var(--mist);border-radius:var(--r);background:var(--white);color:var(--ink);font-size:.88rem;line-height:1.6}
-    .home-card-detail.visible{display:block}
-
-    .divider{border:none;border-top:1.5px solid var(--mist);margin:24px 0}
-
-    /* TYPING PRACTICE */
-    .typing-box{background:var(--white);border:1.5px solid var(--mist);border-radius:var(--r);
-      padding:28px;text-align:center;max-width:620px;margin:0 auto}
-    .typing-prompt{font-size:.82rem;color:var(--soft);margin-bottom:8px}
-    .typing-meaning{font-size:1.35rem;font-weight:600;margin-bottom:8px}
-    .typing-input{width:100%;max-width:420px;padding:13px 16px;border:2px solid var(--mist);
-      border-radius:10px;background:var(--paper);color:var(--ink);font:400 1.2rem "Be Vietnam Pro",sans-serif;
-      text-align:center;outline:none;transition:border-color .15s}
-    .typing-input:focus{border-color:var(--red)}
-    .typing-input.good{border-color:#28a745;background:#d4edda;color:#155724}
-    .typing-input.bad{border-color:#dc3545}
-    .typing-answer{font-family:"Noto Serif SC",serif;font-size:1.7rem;color:var(--red);min-height:38px;margin:10px 0}
-    .typing-feedback{font-size:.88rem;min-height:24px;margin-bottom:12px;color:var(--soft)}
-    .typing-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
-    .typing-stats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 0 18px}
-    .typing-note{font-size:.78rem;color:var(--soft);margin-top:16px;line-height:1.5}
-    @media(max-width:600px){nav{padding:0 10px;height:auto;min-height:54px;align-items:flex-start;flex-direction:column;padding-top:8px;padding-bottom:8px}
-      .nav-links{width:100%;gap:2px}.nav-links button{padding:6px 9px;font-size:.76rem}
-      .typing-box{padding:20px 14px}.typing-meaning{font-size:1.15rem}}
-  </style>
+  <style>:root{--bg:#F4F6FB;--surface:#FFFFFF;--ink:#16203A;--soft:#5E6A85;--line:#E2E7F1;--primary:#3B5BDB;--primary-ink:#fff;--accent:#0C8599;--ok:#1E9E62;--okbg:#E3F6EC;--bad:#D6384A;--badbg:#FCE8EB;
+--hsk1:#E5484D;--hsk2:#F08A24;--hsk3:#30A46C;--hsk4:#0091FF;--hsk5:#8E4EC6;--hsk6:#5B6B85;--r:14px;--sh:0 1px 2px #16203A0F,0 4px 14px #16203A0A;
+--red:var(--primary);--gold:var(--accent);--paper:var(--bg);--mist:var(--line);--white:var(--surface)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0E1220;--surface:#171D31;--ink:#E9EDF8;--soft:#98A2BC;--line:#2A3250;--primary:#7C93FF;--primary-ink:#0E1220;--accent:#4CC9DC;--ok:#4CD08B;--okbg:#12301F;--bad:#FF6B7A;--badbg:#3A1820;--sh:none}}
+:root[data-theme=dark]{--bg:#0E1220;--surface:#171D31;--ink:#E9EDF8;--soft:#98A2BC;--line:#2A3250;--primary:#7C93FF;--primary-ink:#0E1220;--accent:#4CC9DC;--ok:#4CD08B;--okbg:#12301F;--bad:#FF6B7A;--badbg:#3A1820;--sh:none}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Be Vietnam Pro",system-ui,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;line-height:1.5;padding-bottom:env(safe-area-inset-bottom)}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--primary);outline-offset:2px}
+kbd{font:500 .7rem monospace;border:1px solid var(--line);border-radius:5px;padding:0 5px;background:var(--bg);color:var(--soft)}
+nav{position:sticky;top:0;z-index:100;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:env(safe-area-inset-top) 24px 0;min-height:58px;gap:12px}
+.logo{font-family:"Noto Serif SC",serif;font-weight:700;font-size:1.35rem;color:var(--ink);white-space:nowrap}
+.logo span{color:var(--primary)}
+.nav-links{display:flex;gap:4px;align-items:center;overflow-x:auto;scrollbar-width:none}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-links button{background:none;border:none;cursor:pointer;font:500 .84rem "Be Vietnam Pro",sans-serif;color:var(--soft);padding:7px 13px;border-radius:10px;transition:background .15s,color .15s;white-space:nowrap}
+.nav-links button:hover{background:var(--bg);color:var(--ink)}
+.nav-links button.active{background:var(--primary);color:var(--primary-ink)}
+.nav-links .theme{font-size:1rem;padding:6px 10px}
+.badge{display:inline-block;min-width:18px;padding:0 5px;margin-left:4px;border-radius:9px;background:var(--bad);color:#fff;font-size:.68rem;font-weight:600;text-align:center;line-height:18px}
+.badge:empty{display:none}
+.section{display:none;padding:36px 24px 60px;max-width:960px;margin:0 auto}
+.section.active{display:block}
+h1{font-family:"Noto Serif SC",serif;font-size:1.9rem;line-height:1.25;margin-bottom:6px}
+h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
+.sub{color:var(--soft);font-size:.9rem;margin-bottom:24px;max-width:68ch}
+.filter-bar,.quiz-filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.quiz-filter{justify-content:center}
+.ftab{padding:6px 15px;border-radius:999px;border:1px solid var(--line);background:var(--surface);cursor:pointer;font:500 .82rem "Be Vietnam Pro",sans-serif;color:var(--soft);transition:all .15s}
+.ftab:hover{border-color:var(--primary);color:var(--ink)}
+.ftab.on{color:#fff;border-color:transparent}
+.ftab[data-l=all].on{background:var(--primary)}
+.ftab[data-l=hsk1].on{background:var(--hsk1)}.ftab[data-l=hsk2].on{background:var(--hsk2)}.ftab[data-l=hsk3].on{background:var(--hsk3)}
+.ftab[data-l=hsk4].on{background:var(--hsk4)}.ftab[data-l=hsk5].on{background:var(--hsk5)}.ftab[data-l=hsk6].on{background:var(--hsk6)}
+.search-wrap{position:relative;margin-bottom:18px}
+.search-wrap input{width:100%;padding:12px 16px 12px 42px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink);font:400 .92rem "Be Vietnam Pro",sans-serif;box-shadow:var(--sh);outline:none}
+.search-wrap input:focus{border-color:var(--primary)}
+.search-wrap::before{content:"🔍";position:absolute;left:14px;top:50%;transform:translateY(-50%);font-size:.9rem}
+.stats,.typing-stats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.typing-stats{justify-content:center}
+.stat-chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px 13px;font-size:.8rem;color:var(--soft)}
+.stat-chip strong{color:var(--ink)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 14px;text-align:center;cursor:pointer;user-select:none;box-shadow:var(--sh);transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--primary);transform:translateY(-2px)}
+.card .lv{font-size:.65rem;font-weight:600;padding:2px 9px;border-radius:999px;display:inline-block;margin-bottom:10px;color:#fff}
+.lv-hsk1{background:var(--hsk1)}.lv-hsk2{background:var(--hsk2)}.lv-hsk3{background:var(--hsk3)}.lv-hsk4{background:var(--hsk4)}.lv-hsk5{background:var(--hsk5)}.lv-hsk6{background:var(--hsk6)}
+.card .back{display:none}
+.card.flipped .front{display:none}
+.card.flipped .back{display:block;animation:flip .2s ease-out}
+@keyframes flip{from{opacity:0;transform:rotateY(70deg)}to{opacity:1;transform:none}}
+.hanzi{font-family:"Noto Serif SC",serif;font-size:2.2rem;line-height:1.1;color:var(--ink)}
+.pinyin{font-size:.8rem;color:var(--accent);margin:6px 0 2px;font-weight:500}
+.meaning{font-size:.84rem;color:var(--ink);font-weight:500}
+.card-hint{font-size:.7rem;color:var(--soft);margin-top:12px}
+.extra-detail{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);text-align:left;font-size:.76rem;line-height:1.55;color:var(--soft)}
+.extra-detail .example-cn{font-family:"Noto Serif SC",serif;font-size:.95rem;color:var(--ink);margin-top:5px}
+.extra-detail .hanviet{color:var(--accent);font-weight:500}
+.mini{margin-top:10px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--soft);font:500 .72rem "Be Vietnam Pro",sans-serif;cursor:pointer}
+.mini:hover,.mini.added{border-color:var(--primary);color:var(--primary)}
+.no-result{text-align:center;color:var(--soft);padding:40px;font-size:.9rem;grid-column:1/-1}
+.pager{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:26px;flex-wrap:wrap}
+.pager button{min-width:36px;padding:6px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;font:500 .82rem "Be Vietnam Pro",sans-serif;color:var(--ink)}
+.pager button:hover,.pager button.active{background:var(--primary);border-color:var(--primary);color:#fff}
+.pager button:disabled{opacity:.35;cursor:default}
+.page-info{font-size:.82rem;color:var(--soft)}
+.quiz-box,.typing-box{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px 24px;text-align:center;box-shadow:var(--sh)}
+.typing-box{max-width:640px;margin:0 auto}
+.quiz-hanzi{font-family:"Noto Serif SC",serif;font-size:4.5rem;line-height:1.15;margin-bottom:6px}
+.quiz-pinyin{font-size:1rem;color:var(--accent);margin-bottom:8px;font-weight:500}
+.quiz-lv{margin-bottom:20px}
+.quiz-choices{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:420px;margin:0 auto 16px}
+.choice-btn{padding:12px 10px;border:1px solid var(--line);border-radius:12px;background:var(--bg);cursor:pointer;font:500 .9rem "Be Vietnam Pro",sans-serif;color:var(--ink);transition:all .12s}
+.choice-btn:hover{border-color:var(--primary);background:var(--surface)}
+.choice-btn.correct{background:var(--okbg);border-color:var(--ok);color:var(--ok)}
+.choice-btn.wrong{background:var(--badbg);border-color:var(--bad);color:var(--bad)}
+.quiz-result{font-weight:600;min-height:24px;margin-bottom:10px}
+.score-row{color:var(--soft);font-size:.84rem;margin-bottom:12px;display:flex;gap:18px;justify-content:center}
+.prog-wrap{background:var(--line);border-radius:999px;height:6px;margin:0 0 20px;overflow:hidden}
+.prog-fill{height:100%;background:var(--primary);border-radius:999px;transition:width .35s}
+.btn{display:inline-block;padding:10px 22px;border-radius:12px;background:var(--primary);color:var(--primary-ink);border:1px solid var(--primary);cursor:pointer;font:600 .88rem "Be Vietnam Pro",sans-serif;transition:filter .15s}
+.btn:hover{filter:brightness(1.08)}
+.btn-outline{background:transparent;color:var(--primary)}
+.btn-outline:hover{background:var(--primary);color:var(--primary-ink)}
+.btn-ok{background:var(--ok);border-color:var(--ok)}.btn-bad{background:var(--bad);border-color:var(--bad)}.btn-mid{background:var(--hsk2);border-color:var(--hsk2)}
+.hero{padding:44px 0 36px;text-align:center;border-bottom:1px solid var(--line)}
+.hero-char{font-family:"Noto Serif SC",serif;font-size:5.5rem;line-height:1;display:block;margin-bottom:12px;color:var(--primary)}
+.hero p{color:var(--soft);max-width:520px;margin:0 auto 24px;font-size:.95rem}
+.hero-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.info-grid,.hsk-overview{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px;margin-top:20px}
+.info-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 16px;box-shadow:var(--sh)}
+.info-card .ic{font-size:1.6rem;margin-bottom:6px}
+.info-card strong{display:block;font-size:.9rem;margin-bottom:3px}
+.info-card span{font-size:.78rem;color:var(--soft)}
+.hsk-card{border-radius:var(--r);padding:18px;color:#fff;box-shadow:var(--sh)}
+.hsk-card h3{font-size:1rem;margin-bottom:4px}
+.hsk-card p{font-size:.78rem;opacity:.92}
+.hsk-card .cnt{font-size:1.7rem;font-weight:700;line-height:1.1;margin-bottom:4px}
+.hsk-card[role=button],.info-card[role=button]{cursor:pointer;transition:transform .15s}
+.hsk-card[role=button]:hover,.info-card[role=button]:hover{transform:translateY(-3px)}
+.home-card-detail{display:none}
+.divider{border:none;border-top:1px solid var(--line);margin:28px 0}
+.typing-prompt{font-size:.82rem;color:var(--soft);margin-bottom:8px}
+.typing-meaning{font-size:1.4rem;font-weight:600;margin-bottom:14px}
+.typing-input{width:100%;max-width:420px;padding:13px 16px;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:400 1.2rem "Be Vietnam Pro",sans-serif;text-align:center;outline:none}
+.typing-input:focus{border-color:var(--primary)}
+.typing-input.good{border-color:var(--ok);background:var(--okbg);color:var(--ok)}
+.typing-input.bad{border-color:var(--bad)}
+.typing-answer{font-family:"Noto Serif SC",serif;font-size:1.8rem;min-height:40px;margin:10px 0}
+.typing-feedback{font-size:.88rem;min-height:24px;margin-bottom:12px;color:var(--soft)}
+.typing-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.typing-note{font-size:.78rem;color:var(--soft);margin-top:18px;line-height:1.6}
+.rv-add{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+.rv-add select{padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:500 .86rem "Be Vietnam Pro",sans-serif}
+.rv-rate{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
+.rv-meta{font-size:.78rem;color:var(--soft);margin-bottom:14px}
+.rv-detail{max-width:440px;margin:14px auto 0;text-align:left}
+.rv-empty{padding:20px 0;color:var(--soft)}
+@media(max-width:600px){nav{padding:env(safe-area-inset-top) 12px 0}.section{padding:24px 14px 50px}h1{font-size:1.5rem}.hero-char{font-size:4rem}.quiz-hanzi{font-size:3.6rem}.card-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}.typing-box,.quiz-box{padding:24px 14px}.logo{font-size:1.15rem}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
 </head>
 <body>
 <nav>
@@ -175,6 +135,9 @@
     <button onclick="show('home')" class="active" id="btn-home">Trang chủ</button>
     <button onclick="show('vocab')" id="btn-vocab">Từ vựng</button>
     <button onclick="show('quiz')" id="btn-quiz">Quiz</button>
+    <button onclick="show('typing')" id="btn-typing">Luyện gõ</button>
+    <button onclick="show('review')" id="btn-review">Ôn tập<span class="badge" id="due-badge"></span></button>
+    <button class="theme" onclick="toggleTheme()" aria-label="Đổi giao diện sáng hoặc tối">◐</button>
   </div>
 </nav>
 
@@ -229,6 +192,7 @@
       <div class="info-card" role="button" tabindex="0" data-home-action="search"><div class="ic">🔍</div><strong>Tìm kiếm</strong><span>Tìm theo chữ Hán hoặc nghĩa</span></div>
       <div class="info-card" role="button" tabindex="0" data-home-action="flashcard"><div class="ic">🃏</div><strong>Thẻ lật</strong><span>Nhấn để xem nghĩa</span></div>
       <div class="info-card" role="button" tabindex="0" data-home-action="quiz"><div class="ic">🧠</div><strong>Quiz thích ứng</strong><span>Lọc theo cấp độ</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="review"><div class="ic">🔁</div><strong>Ôn tập thông minh</strong><span>Từ hay quên được nhắc lại đúng lúc</span></div>
     </div>
     <div class="home-card-detail" id="home-card-detail" aria-live="polite"></div>
   </div>
@@ -284,6 +248,25 @@
     <button class="btn" id="q-next" onclick="nextQ()" style="display:none">Câu tiếp →</button>
     <button class="btn btn-outline" onclick="resetQuiz()" style="margin-top:12px">Làm lại từ đầu</button>
   </div>
+</div>
+
+<!-- REVIEW -->
+<div class="section" id="review">
+  <h1>Ôn Tập Thông Minh</h1>
+  <p class="sub">Từ bạn làm sai trong quiz hoặc luyện gõ sẽ tự vào đây. Từ nhớ tốt được nhắc lại thưa dần, từ hay quên quay lại sớm hơn.</p>
+  <div class="stats">
+    <div class="stat-chip">Cần ôn hôm nay: <strong id="rv-due">0</strong></div>
+    <div class="stat-chip">Đang học: <strong id="rv-total">0</strong></div>
+    <div class="stat-chip">Đã thuộc: <strong id="rv-done">0</strong></div>
+  </div>
+  <div class="rv-add">
+    <select id="rv-level" aria-label="Chọn cấp độ từ mới">
+      <option value="all">Tất cả cấp độ</option><option value="hsk1">HSK 1</option><option value="hsk2">HSK 2</option>
+      <option value="hsk3">HSK 3</option><option value="hsk4">HSK 4</option><option value="hsk5">HSK 5</option><option value="hsk6">HSK 6</option>
+    </select>
+    <button class="btn btn-outline" onclick="addNewWords()">Thêm 10 từ mới</button>
+  </div>
+  <div class="quiz-box" id="rv-box"></div>
 </div>
 
 <!-- TYPING PRACTICE -->
@@ -381,6 +364,7 @@ function renderPage(){
           <div class="hanzi">${escapeHTML(w.h)}</div>
           <div class="pinyin">${escapeHTML(w.p)}</div>
           <div class="meaning">${escapeHTML(w.v)}</div>
+          <button class="mini${srs[wk(w)]?" added":""}" data-k="${escapeHTML(wk(w))}">${srs[wk(w)]?"✓ Đã trong ôn tập":"＋ Ôn tập"}</button>
           ${(w.hv || w.ex || w.exv) ? `<div class="extra-detail">
             ${w.hv ? `<div class="hanviet">Hán Việt: ${escapeHTML(w.hv)}</div>` : ""}
             ${w.ex ? `<div class="example-cn">${escapeHTML(w.ex)}</div>` : ""}
@@ -410,10 +394,7 @@ function goPage(p){ curPage=p; renderPage(); window.scrollTo(0,0); }
 // ── QUIZ ──
 let qLevel="all", qScore=0, qTotal=0, qAnswered=false, qPool=[], qCurrent=null;
 
-const LV_COLORS = {
-  hsk1:"#e74c3c", hsk2:"#e67e22", hsk3:"#27ae60",
-  hsk4:"#2980b9", hsk5:"#8e44ad", hsk6:"#34495e"
-};
+const LV_COLORS = {hsk1:"#E5484D",hsk2:"#F08A24",hsk3:"#30A46C",hsk4:"#0091FF",hsk5:"#8E4EC6",hsk6:"#5B6B85"};
 
 function setQuizLevel(l){
   qLevel=l;
@@ -445,7 +426,8 @@ function nextQ(){
   document.getElementById("q-next").style.display="none";
   document.getElementById("q-result").textContent="";
 
-  qCurrent=qPool[Math.floor(Math.random()*qPool.length)];
+  const prevQ=qCurrent;
+  do{ qCurrent=qPool[Math.floor(Math.random()*qPool.length)]; }while(qPool.length>1&&qCurrent===prevQ);
   document.getElementById("q-hanzi").textContent=qCurrent.h;
   document.getElementById("q-pinyin").textContent=qCurrent.p;
   document.getElementById("q-lv").innerHTML=
@@ -470,7 +452,7 @@ function nextQ(){
         document.getElementById("q-result").textContent="✅ Chính xác!";
         document.getElementById("q-result").style.color="#28a745";
       } else {
-        btn.classList.add("wrong");
+        btn.classList.add("wrong"); srsAdd(qCurrent);
         document.getElementById("q-result").textContent="❌ Sai — đáp án: "+qCurrent.v;
         document.getElementById("q-result").style.color="#dc3545";
         choices.querySelectorAll(".choice-btn").forEach(b=>{if(b.textContent===qCurrent.v)b.classList.add("correct")});
@@ -573,6 +555,7 @@ function updateTypingStats(){
 function showTypingAnswer(){
   if(!typingCurrent) return;
   clearTimeout(typingAdvanceTimer);
+  srsAdd(typingCurrent);
   typingTotal++;
   updateTypingStats();
   const input = document.getElementById("typing-input");
@@ -585,6 +568,7 @@ function showTypingAnswer(){
 function skipTyping(){
   if(!typingCurrent) return;
   clearTimeout(typingAdvanceTimer);
+  srsAdd(typingCurrent);
   typingTotal++;
   updateTypingStats();
   nextTypingWord();
@@ -621,6 +605,82 @@ document.addEventListener("keydown", event => {
   }
 });
 
+// ── GIAO DIỆN SÁNG/TỐI ──
+function applyTheme(t){ if(t) document.documentElement.dataset.theme=t; else delete document.documentElement.dataset.theme; }
+function toggleTheme(){
+  const dark = document.documentElement.dataset.theme
+    ? document.documentElement.dataset.theme==="dark"
+    : matchMedia("(prefers-color-scheme:dark)").matches;
+  const next = dark ? "light" : "dark";
+  applyTheme(next);
+  try{ localStorage.setItem("hsk-theme",next); }catch(e){}
+}
+try{ applyTheme(localStorage.getItem("hsk-theme")); }catch(e){}
+
+// ── ÔN TẬP THÔNG MINH (hộp Leitner, lưu trên máy này) ──
+const SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
+let srs={}; try{ srs=JSON.parse(localStorage.getItem(SRS_KEY)||"{}"); }catch(e){}
+let rvQueue=[], rvCur=null, rvShown=false;
+const wk = w => w.h+"|"+w.p;
+function srsSave(){ try{ localStorage.setItem(SRS_KEY,JSON.stringify(srs)); }catch(e){} updateBadge(); }
+function srsAdd(w, reset=true){
+  if(!w) return;
+  const k=wk(w);
+  if(!srs[k]) srs[k]={box:0,due:Date.now()};
+  else if(reset){ srs[k].box=0; srs[k].due=Date.now(); }
+  srsSave();
+}
+function dueWords(){ const now=Date.now(); return allWords.filter(w=>srs[wk(w)] && srs[wk(w)].due<=now); }
+function updateBadge(){
+  const n=allWords.length?dueWords().length:0;
+  const b=document.getElementById("due-badge"); if(b) b.textContent=n||"";
+}
+function buildReviewQueue(){ rvQueue=shuffle(dueWords()).slice(0,30); rvCur=null; rvShown=false; }
+function addNewWords(){
+  const lv=document.getElementById("rv-level").value;
+  const fresh=allWords.filter(w=>(lv==="all"||w.lvl===lv) && !srs[wk(w)]).slice(0,10);
+  fresh.forEach(w=>{ srs[wk(w)]={box:0,due:Date.now()}; });
+  srsSave(); buildReviewQueue(); renderReview();
+}
+function renderReview(){
+  if(!allWords.length) return;
+  if(!rvCur && !rvQueue.length) buildReviewQueue();
+  const keys=Object.keys(srs);
+  document.getElementById("rv-due").textContent=dueWords().length;
+  document.getElementById("rv-total").textContent=keys.length;
+  document.getElementById("rv-done").textContent=keys.filter(k=>srs[k].box>=4).length;
+  const box=document.getElementById("rv-box");
+  if(!rvCur) rvCur=rvQueue.shift();
+  if(!rvCur){
+    box.innerHTML='<div class="rv-empty">'+(keys.length
+      ? "Hôm nay bạn đã ôn xong. Thêm từ mới hoặc quay lại vào ngày mai."
+      : "Chưa có từ nào để ôn. Nhấn <strong>Thêm 10 từ mới</strong>, hoặc làm quiz và luyện gõ, từ sai sẽ tự vào đây.")+"</div>";
+    return;
+  }
+  const w=rvCur, s=srs[wk(w)];
+  let h='<div class="rv-meta">Còn '+(rvQueue.length+1)+' từ trong lượt này · Hộp '+(s.box+1)+'/6</div>'
+    +'<span class="lv lv-'+w.lvl+'" style="padding:2px 10px;border-radius:999px;color:#fff;font-size:.7rem;font-weight:600">'+w.lvl.toUpperCase()+'</span>'
+    +'<div class="quiz-hanzi">'+escapeHTML(w.h)+'</div><div class="quiz-pinyin">'+escapeHTML(w.p)+'</div>';
+  if(!rvShown){
+    h+='<button class="btn" onclick="rvReveal()">Xem nghĩa</button>';
+  } else {
+    h+='<div class="meaning" style="font-size:1.15rem">'+escapeHTML(w.v)+'</div>'
+      +((w.hv||w.ex)?'<div class="extra-detail rv-detail">'+(w.hv?'<div class="hanviet">Hán Việt: '+escapeHTML(w.hv)+'</div>':'')
+      +(w.ex?'<div class="example-cn">'+escapeHTML(w.ex)+'</div>':'')+(w.exv?'<div>'+escapeHTML(w.exv)+'</div>':'')+'</div>':'')
+      +'<div class="rv-rate"><button class="btn btn-bad" onclick="rvRate(0)">Quên</button>'
+      +'<button class="btn btn-mid" onclick="rvRate(1)">Khó nhớ</button><button class="btn btn-ok" onclick="rvRate(2)">Nhớ</button></div>';
+  }
+  box.innerHTML=h;
+}
+function rvReveal(){ rvShown=true; renderReview(); }
+function rvRate(r){
+  const w=rvCur, s=srs[wk(w)], now=Date.now();
+  if(r===0){ s.box=0; s.due=now; rvQueue.push(w); }
+  else if(r===1){ s.due=now+DAY; }
+  else { s.box=Math.min(SRS_DAYS.length-1,s.box+1); s.due=now+SRS_DAYS[s.box]*DAY; }
+  srsSave(); rvCur=null; rvShown=false; renderReview();
+}
+
 // ── NAV ──
 function show(id){
   document.querySelectorAll(".section").forEach(s=>s.classList.remove("active"));
@@ -631,6 +691,7 @@ function show(id){
   window.scrollTo(0,0);
   if(id==="quiz"&&qTotal===0&&allWords.length) resetQuiz();
   if(id==="typing"&&allWords.length&&!typingCurrent) resetTyping();
+  if(id==="review") renderReview();
   if(id==="typing") setTimeout(()=>document.getElementById("typing-input").focus(), 50);
 }
 
@@ -664,6 +725,7 @@ async function loadVocabulary(){
     });
     document.getElementById("total-word-count").textContent = allWords.length;
 
+    updateBadge();
     filterCards();
     resetQuiz();
     resetTyping();
@@ -700,6 +762,8 @@ function activateHomeCard(target){
   } else if(action === "flashcard"){
     show("vocab");
     document.getElementById("card-grid").scrollIntoView({behavior:"smooth",block:"start"});
+  } else if(action === "review"){
+    show("review");
   } else if(action === "quiz"){
     show("quiz");
     if(allWords.length && qTotal === 0) resetQuiz();
@@ -718,6 +782,13 @@ document.querySelectorAll("[data-home-level], [data-home-action]").forEach(card 
 
 // Lật thẻ từ vựng bằng chuột hoặc bàn phím.
 document.getElementById("card-grid").addEventListener("click", event => {
+  const addBtn = event.target.closest("[data-k]");
+  if(addBtn){
+    const w = allWords.find(x => wk(x) === addBtn.dataset.k);
+    srsAdd(w, false);
+    addBtn.textContent = "✓ Đã trong ôn tập"; addBtn.classList.add("added");
+    return;
+  }
   const card = event.target.closest(".card");
   if(card) card.classList.toggle("flipped");
 });
