@@ -152,7 +152,6 @@
       padding:28px;text-align:center;max-width:620px;margin:0 auto}
     .typing-prompt{font-size:.82rem;color:var(--soft);margin-bottom:8px}
     .typing-meaning{font-size:1.35rem;font-weight:600;margin-bottom:8px}
-    .typing-pinyin{font-size:1rem;color:var(--gold);font-weight:500;margin-bottom:18px}
     .typing-input{width:100%;max-width:420px;padding:13px 16px;border:2px solid var(--mist);
       border-radius:10px;background:var(--paper);color:var(--ink);font:400 1.2rem "Be Vietnam Pro",sans-serif;
       text-align:center;outline:none;transition:border-color .15s}
@@ -176,7 +175,6 @@
     <button onclick="show('home')" class="active" id="btn-home">Trang chủ</button>
     <button onclick="show('vocab')" id="btn-vocab">Từ vựng</button>
     <button onclick="show('quiz')" id="btn-quiz">Quiz</button>
-    <button onclick="show('typing')" id="btn-typing">✍️ Gõ chữ</button>
   </div>
 </nav>
 
@@ -227,7 +225,7 @@
     </div>
     <hr class="divider">
     <div class="info-grid">
-      <div class="info-card" role="button" tabindex="0" data-home-action="json"><div class="ic">📂</div><strong>Dữ liệu JSON</strong><span>Tách riêng, dễ mở rộng</span></div>
+      <div class="info-card" role="button" tabindex="0" data-home-action="typing"><div class="ic">✍️</div><strong>Luyện gõ chữ Hán</strong><span>Nhìn nghĩa tiếng Việt, gõ chữ Hán và tự động chuyển từ</span></div>
       <div class="info-card" role="button" tabindex="0" data-home-action="search"><div class="ic">🔍</div><strong>Tìm kiếm</strong><span>Tìm theo chữ Hán hoặc nghĩa</span></div>
       <div class="info-card" role="button" tabindex="0" data-home-action="flashcard"><div class="ic">🃏</div><strong>Thẻ lật</strong><span>Nhấn để xem nghĩa</span></div>
       <div class="info-card" role="button" tabindex="0" data-home-action="quiz"><div class="ic">🧠</div><strong>Quiz thích ứng</strong><span>Lọc theo cấp độ</span></div>
@@ -291,7 +289,7 @@
 <!-- TYPING PRACTICE -->
 <div class="section" id="typing">
   <h1>Luyện Gõ Chữ Hán</h1>
-  <p class="sub">Nhìn nghĩa tiếng Việt và pinyin, sau đó gõ đúng từ tiếng Trung. Nhập chính xác là tự động chuyển sang từ tiếp theo.</p>
+  <p class="sub">Nhìn nghĩa tiếng Việt, gõ đúng chữ Hán tương ứng. Khi nhập chính xác, hệ thống tự động chuyển sang từ tiếp theo.</p>
   <div class="filter-bar" id="typing-filter">
     <button class="ftab on" data-l="all" onclick="setTypingLevel('all')">Tất cả</button>
     <button class="ftab" data-l="hsk1" onclick="setTypingLevel('hsk1')">HSK 1</button>
@@ -309,7 +307,6 @@
   <div class="typing-box">
     <div class="typing-prompt">Hãy gõ từ tiếng Trung tương ứng với nghĩa:</div>
     <div class="typing-meaning" id="typing-meaning">Đang tải từ vựng...</div>
-    <div class="typing-pinyin" id="typing-pinyin"></div>
     <input class="typing-input" id="typing-input" type="text" lang="zh" autocomplete="off"
       autocapitalize="off" spellcheck="false" placeholder="输入中文..." aria-label="Gõ từ tiếng Trung">
     <div class="typing-answer" id="typing-answer" aria-live="polite"></div>
@@ -528,7 +525,6 @@ function nextTypingWord(){
   input.disabled = false;
   input.classList.remove("good","bad");
   document.getElementById("typing-meaning").textContent = typingCurrent.v;
-  document.getElementById("typing-pinyin").textContent = typingCurrent.p;
   document.getElementById("typing-answer").textContent = "";
   document.getElementById("typing-feedback").textContent = "Hãy nhập chữ Hán chính xác.";
   input.focus();
@@ -607,7 +603,8 @@ function show(id){
   document.querySelectorAll(".section").forEach(s=>s.classList.remove("active"));
   document.querySelectorAll(".nav-links button").forEach(b=>b.classList.remove("active"));
   document.getElementById(id).classList.add("active");
-  document.getElementById("btn-"+id).classList.add("active");
+  const activeNavButton = document.getElementById("btn-"+id);
+  if(activeNavButton) activeNavButton.classList.add("active");
   window.scrollTo(0,0);
   if(id==="quiz"&&qTotal===0&&allWords.length) resetQuiz();
   if(id==="typing"&&allWords.length&&!typingCurrent) resetTyping();
@@ -671,10 +668,9 @@ function activateHomeCard(target){
   const actionCard = target.closest("[data-home-action]");
   if(!actionCard) return;
   const action = actionCard.dataset.homeAction;
-  if(action === "json"){
-    const detail = document.getElementById("home-card-detail");
-    detail.textContent = "Dữ liệu từ vựng được tải trực tiếp từ file hsk-words.json nằm cùng thư mục với index.html. Bạn có thể thêm, sửa hoặc xóa từ trong JSON; số lượng từ sẽ được cập nhật tự động khi tải lại trang.";
-    detail.classList.add("visible");
+  if(action === "typing"){
+    show("typing");
+    if(allWords.length && !typingCurrent) resetTyping();
   } else if(action === "search"){
     show("vocab");
     document.getElementById("search-input").focus();
