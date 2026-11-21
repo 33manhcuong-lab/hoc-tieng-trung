@@ -217,7 +217,7 @@
 <!-- VOCAB -->
 <div class="section" id="vocab">
   <h1>Từ Vựng HSK</h1>
-  <p class="sub">Nhấn thẻ để lật xem nghĩa. Lọc theo cấp hoặc tìm kiếm.</p>
+  <p class="sub">Bộ thẻ lật bao gồm HSK 1–6. Chọn cấp độ HSK 5 hoặc HSK 6 để học riêng, hoặc chọn Tất cả để xem toàn bộ từ vựng. Nhấn thẻ để xem nghĩa, Hán Việt và ví dụ (nếu có).</p>
   <div class="search-wrap"><input type="text" id="search-input" placeholder="Tìm chữ Hán hoặc nghĩa... ví dụ: 你好 hoặc xin chào" oninput="filterCards()"></div>
   <div class="filter-bar">
     <button class="ftab on" data-l="all" onclick="setLevel('all')">Tất cả</button>
@@ -455,14 +455,18 @@ async function loadVocabulary(){
 
     HSK = data;
     allWords = [];
-    for(const [level, words] of Object.entries(HSK)){
-      if(!Array.isArray(words)) continue;
-      words.forEach(word => allWords.push({...word, lvl: level}));
-    }
 
-    // Tự động cập nhật số lượng theo dữ liệu thực tế trong JSON.
+    // Nạp tường minh đủ 6 cấp độ để HSK5 và HSK6 luôn được đưa vào bộ thẻ lật.
+    levels.forEach(level => {
+      HSK[level].forEach(word => allWords.push({...word, lvl: level}));
+    });
+
+    // Cập nhật số lượng trên thẻ cấp độ trang chủ và bộ lọc thẻ lật.
     levels.forEach((level, index) => {
-      document.getElementById(`cnt${index + 1}`).textContent = `${HSK[level].length} từ`;
+      const count = HSK[level].length;
+      document.getElementById(`cnt${index + 1}`).textContent = `${count} từ`;
+      const filterButton = document.querySelector(`.filter-bar .ftab[data-l="${level}"]`);
+      if(filterButton) filterButton.textContent = `HSK ${index + 1} (${count})`;
     });
     document.getElementById("total-word-count").textContent = allWords.length;
 
