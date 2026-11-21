@@ -10,6 +10,7 @@
       --red:#C0392B; --gold:#D4A017; --ink:#1A1A2E; --paper:#F8F5F0;
       --mist:#E8E2D9; --soft:#6B6560; --white:#FFFFFF; --r:12px;
       --hsk1:#e74c3c; --hsk2:#e67e22; --hsk3:#27ae60; --hsk4:#2980b9;
+      --hsk5:#8e44ad; --hsk6:#34495e;
     }
     @media(prefers-color-scheme:dark){:root:not([data-theme=light]){
       --paper:#1A1A2E;--mist:#252540;--ink:#EDE8DF;--soft:#9A9490;--white:#252540;
@@ -46,6 +47,8 @@
     .ftab[data-l="hsk2"].on{background:var(--hsk2)}
     .ftab[data-l="hsk3"].on{background:var(--hsk3)}
     .ftab[data-l="hsk4"].on{background:var(--hsk4)}
+    .ftab[data-l="hsk5"].on{background:var(--hsk5)}
+    .ftab[data-l="hsk6"].on{background:var(--hsk6)}
 
     /* SEARCH */
     .search-wrap{position:relative;margin-bottom:20px}
@@ -70,6 +73,11 @@
       display:inline-block;margin-bottom:8px;color:#fff}
     .lv-hsk1{background:var(--hsk1)}.lv-hsk2{background:var(--hsk2)}
     .lv-hsk3{background:var(--hsk3)}.lv-hsk4{background:var(--hsk4)}
+    .lv-hsk5{background:var(--hsk5)}.lv-hsk6{background:var(--hsk6)}
+    .extra-detail{margin-top:8px;padding-top:8px;border-top:1px solid var(--mist);text-align:left;font-size:.76rem;line-height:1.55;color:var(--soft)}
+    .extra-detail .example-cn{font-family:"Noto Serif SC",serif;font-size:.95rem;color:var(--ink);margin-top:5px}
+    .extra-detail .example-vn{margin-top:2px}
+    .extra-detail .hanviet{color:var(--gold);font-weight:500}
     .card .front,.card .back{transition:opacity .15s}
     .card.flipped .front{display:none}
     .card.flipped .back{display:block}
@@ -155,14 +163,14 @@
   <div class="hero">
     <span class="hero-char">你好</span>
     <h1>Học Tiếng Trung HSK</h1>
-    <p>609 từ vựng chuẩn HSK 1–4, tách file JSON riêng, lọc theo cấp độ, tìm kiếm, và quiz tương tác.</p>
+    <p><strong id="total-word-count">—</strong> từ vựng HSK 1–6, tải từ file JSON riêng, có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
     <div class="hero-btns">
       <button class="btn" onclick="show('vocab')">Học từ vựng</button>
       <button class="btn btn-outline" onclick="show('quiz')">Làm quiz</button>
     </div>
   </div>
   <div style="max-width:900px;margin:0 auto;padding:28px 0 0">
-    <h2>4 cấp độ HSK</h2>
+    <h2>6 cấp độ HSK</h2>
     <div class="hsk-overview">
       <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk1" aria-label="Mở từ vựng HSK 1" style="background:var(--hsk1)">
         <div class="cnt" id="cnt1">—</div>
@@ -183,6 +191,16 @@
         <div class="cnt" id="cnt4">—</div>
         <h3>HSK 4</h3>
         <p>Thảo luận, diễn đạt quan điểm phức tạp</p>
+      </div>
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk5" aria-label="Mở từ vựng HSK 5" style="background:var(--hsk5)">
+        <div class="cnt" id="cnt5">—</div>
+        <h3>HSK 5</h3>
+        <p>Nâng cao, đọc hiểu và diễn đạt chủ đề đa dạng</p>
+      </div>
+      <div class="hsk-card" role="button" tabindex="0" data-home-level="hsk6" aria-label="Mở từ vựng HSK 6" style="background:var(--hsk6)">
+        <div class="cnt" id="cnt6">—</div>
+        <h3>HSK 6</h3>
+        <p>Nâng cao chuyên sâu, hiểu và sử dụng từ vựng phức tạp</p>
       </div>
     </div>
     <hr class="divider">
@@ -207,6 +225,8 @@
     <button class="ftab" data-l="hsk2" onclick="setLevel('hsk2')">HSK 2</button>
     <button class="ftab" data-l="hsk3" onclick="setLevel('hsk3')">HSK 3</button>
     <button class="ftab" data-l="hsk4" onclick="setLevel('hsk4')">HSK 4</button>
+    <button class="ftab" data-l="hsk5" onclick="setLevel('hsk5')">HSK 5</button>
+    <button class="ftab" data-l="hsk6" onclick="setLevel('hsk6')">HSK 6</button>
   </div>
   <div class="stats">
     <div class="stat-chip">Hiển thị: <strong id="showing-count">0</strong> từ</div>
@@ -226,6 +246,8 @@
     <button class="ftab" data-l="hsk2" onclick="setQuizLevel('hsk2')">HSK 2</button>
     <button class="ftab" data-l="hsk3" onclick="setQuizLevel('hsk3')">HSK 3</button>
     <button class="ftab" data-l="hsk4" onclick="setQuizLevel('hsk4')">HSK 4</button>
+    <button class="ftab" data-l="hsk5" onclick="setQuizLevel('hsk5')">HSK 5</button>
+    <button class="ftab" data-l="hsk6" onclick="setQuizLevel('hsk6')">HSK 6</button>
   </div>
   <div class="score-row">
     <span>Điểm: <strong id="score">0</strong></span>
@@ -249,6 +271,13 @@
 let HSK = {};
 let allWords = [];
 
+
+// Escape JSON text before inserting it into HTML.
+function escapeHTML(value){
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  }[char]));
+}
 
 // ── VOCAB ──
 const PAGE_SIZE = 60;
@@ -286,18 +315,23 @@ function renderPage(){
     grid.innerHTML = '<div class="no-result">Không tìm thấy từ nào phù hợp.</div>';
   } else {
     grid.innerHTML = slice.map(w => `
-      <div class="card" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa">
+      <div class="card" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa và ví dụ">
         <div class="front">
           <span class="lv lv-${w.lvl}">${w.lvl.toUpperCase()}</span>
-          <div class="hanzi">${w.h}</div>
-          <div class="pinyin">${w.p}</div>
+          <div class="hanzi">${escapeHTML(w.h)}</div>
+          <div class="pinyin">${escapeHTML(w.p)}</div>
           <div class="card-hint">nhấn để xem nghĩa</div>
         </div>
         <div class="back">
           <span class="lv lv-${w.lvl}">${w.lvl.toUpperCase()}</span>
-          <div class="hanzi">${w.h}</div>
-          <div class="pinyin">${w.p}</div>
-          <div class="meaning">${w.v}</div>
+          <div class="hanzi">${escapeHTML(w.h)}</div>
+          <div class="pinyin">${escapeHTML(w.p)}</div>
+          <div class="meaning">${escapeHTML(w.v)}</div>
+          ${(w.hv || w.ex || w.exv) ? `<div class="extra-detail">
+            ${w.hv ? `<div class="hanviet">Hán Việt: ${escapeHTML(w.hv)}</div>` : ""}
+            ${w.ex ? `<div class="example-cn">${escapeHTML(w.ex)}</div>` : ""}
+            ${w.exv ? `<div class="example-vn">${escapeHTML(w.exv)}</div>` : ""}
+          </div>` : ""}
         </div>
       </div>`).join("");
   }
@@ -322,7 +356,10 @@ function goPage(p){ curPage=p; renderPage(); window.scrollTo(0,0); }
 // ── QUIZ ──
 let qLevel="all", qScore=0, qTotal=0, qAnswered=false, qPool=[], qCurrent=null;
 
-const LV_COLORS = {hsk1:"#e74c3c",hsk2:"#e67e22",hsk3:"#27ae60",hsk4:"#2980b9"};
+const LV_COLORS = {
+  hsk1:"#e74c3c", hsk2:"#e67e22", hsk3:"#27ae60",
+  hsk4:"#2980b9", hsk5:"#8e44ad", hsk6:"#34495e"
+};
 
 function setQuizLevel(l){
   qLevel=l;
@@ -411,7 +448,7 @@ async function loadVocabulary(){
     if(!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const data = await response.json();
-    const levels = ["hsk1", "hsk2", "hsk3", "hsk4"];
+    const levels = ["hsk1", "hsk2", "hsk3", "hsk4", "hsk5", "hsk6"];
     for(const level of levels){
       if(!Array.isArray(data[level])) throw new Error(`Dữ liệu ${level} không hợp lệ`);
     }
@@ -427,6 +464,7 @@ async function loadVocabulary(){
     levels.forEach((level, index) => {
       document.getElementById(`cnt${index + 1}`).textContent = `${HSK[level].length} từ`;
     });
+    document.getElementById("total-word-count").textContent = allWords.length;
 
     filterCards();
     resetQuiz();
