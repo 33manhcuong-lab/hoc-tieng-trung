@@ -3051,5 +3051,3073 @@
       "p": "zuòyè",
       "v": "bài tập"
     }
+  ],
+  "hsk5": [
+    {
+      "h": "爱护",
+      "p": "àihù",
+      "v": "yêu quý và bảo vệ",
+      "hv": "ái hộ",
+      "ex": "我们要爱护环境。",
+      "exv": "Chúng ta phải yêu quý và bảo vệ môi trường."
+    },
+    {
+      "h": "爱惜",
+      "p": "àixī",
+      "v": "trân trọng, quý tiếc",
+      "hv": "ái tích",
+      "ex": "要爱惜时间。",
+      "exv": "Phải trân trọng thời gian."
+    },
+    {
+      "h": "爱心",
+      "p": "àixīn",
+      "v": "tấm lòng yêu thương",
+      "hv": "ái tâm",
+      "ex": "她有一颗爱心。",
+      "exv": "Cô ấy có tấm lòng yêu thương."
+    },
+    {
+      "h": "安慰",
+      "p": "ānwèi",
+      "v": "an ủi",
+      "hv": "an ủy",
+      "ex": "他安慰了难过的朋友。",
+      "exv": "Anh ấy an ủi người bạn đang buồn."
+    },
+    {
+      "h": "安装",
+      "p": "ānzhuāng",
+      "v": "lắp đặt, cài đặt",
+      "hv": "an trang",
+      "ex": "我安装了一个新软件。",
+      "exv": "Tôi đã cài đặt một phần mềm mới."
+    },
+    {
+      "h": "暗",
+      "p": "àn",
+      "v": "tối, tối tăm",
+      "hv": "ám",
+      "ex": "房间里很暗。",
+      "exv": "Căn phòng rất tối."
+    },
+    {
+      "h": "熬夜",
+      "p": "áoyè",
+      "v": "thức khuya",
+      "hv": "ngao dạ",
+      "ex": "他经常熬夜工作。",
+      "exv": "Anh ấy thường xuyên thức khuya làm việc."
+    },
+    {
+      "h": "把握",
+      "p": "bǎwò",
+      "v": "nắm chắc, cơ hội",
+      "hv": "bả ác",
+      "ex": "要把握好这次机会。",
+      "exv": "Phải nắm chắc cơ hội lần này."
+    },
+    {
+      "h": "摆",
+      "p": "bǎi",
+      "v": "bày, xếp",
+      "hv": "bài",
+      "ex": "她把花摆在桌子上。",
+      "exv": "Cô ấy bày hoa lên bàn."
+    },
+    {
+      "h": "办理",
+      "p": "bànlǐ",
+      "v": "làm thủ tục, giải quyết",
+      "hv": "biện lý",
+      "ex": "我去银行办理业务。",
+      "exv": "Tôi đến ngân hàng làm thủ tục giao dịch."
+    },
+    {
+      "h": "傍晚",
+      "p": "bàngwǎn",
+      "v": "buổi chiều tối",
+      "hv": "bàng vãn",
+      "ex": "傍晚时分，天空很美。",
+      "exv": "Vào lúc chiều tối, bầu trời rất đẹp."
+    },
+    {
+      "h": "包含",
+      "p": "bāohán",
+      "v": "bao gồm, chứa đựng",
+      "hv": "bao hàm",
+      "ex": "这本书包含很多知识。",
+      "exv": "Cuốn sách này bao gồm rất nhiều kiến thức."
+    },
+    {
+      "h": "包括",
+      "p": "bāokuò",
+      "v": "bao gồm",
+      "hv": "bao quát",
+      "ex": "价格包括税费。",
+      "exv": "Giá đã bao gồm thuế phí."
+    },
+    {
+      "h": "保持",
+      "p": "bǎochí",
+      "v": "duy trì, giữ gìn",
+      "hv": "bảo trì",
+      "ex": "保持健康很重要。",
+      "exv": "Duy trì sức khỏe rất quan trọng."
+    },
+    {
+      "h": "保存",
+      "p": "bǎocún",
+      "v": "bảo tồn, lưu giữ",
+      "hv": "bảo tồn",
+      "ex": "请保存好这份文件。",
+      "exv": "Hãy lưu giữ tài liệu này cẩn thận."
+    },
+    {
+      "h": "报告",
+      "p": "bàogào",
+      "v": "báo cáo",
+      "hv": "báo cáo",
+      "ex": "他做了年终报告。",
+      "exv": "Anh ấy đã làm báo cáo cuối năm."
+    },
+    {
+      "h": "背景",
+      "p": "bèijǐng",
+      "v": "nền, bối cảnh",
+      "hv": "bối cảnh",
+      "ex": "了解历史背景很重要。",
+      "exv": "Hiểu bối cảnh lịch sử rất quan trọng."
+    },
+    {
+      "h": "被迫",
+      "p": "bèipò",
+      "v": "bị bức, bị ép buộc",
+      "hv": "bị bức",
+      "ex": "他被迫离开了家乡。",
+      "exv": "Anh ấy bị buộc phải rời quê hương."
+    },
+    {
+      "h": "本质",
+      "p": "běnzhì",
+      "v": "bản chất",
+      "hv": "bản chất",
+      "ex": "要看清问题的本质。",
+      "exv": "Phải nhìn rõ bản chất của vấn đề."
+    },
+    {
+      "h": "比例",
+      "p": "bǐlì",
+      "v": "tỷ lệ",
+      "hv": "tỉ lệ",
+      "ex": "男女比例相差不大。",
+      "exv": "Tỷ lệ nam nữ không chênh lệch nhiều."
+    },
+    {
+      "h": "毕竟",
+      "p": "bìjìng",
+      "v": "dù sao, xét cho cùng",
+      "hv": "tất cánh",
+      "ex": "毕竟他还是个孩子。",
+      "exv": "Dù sao anh ấy vẫn còn là đứa trẻ."
+    },
+    {
+      "h": "编辑",
+      "p": "biānjí",
+      "v": "biên tập, chỉnh sửa",
+      "hv": "biên tập",
+      "ex": "他在出版社做编辑。",
+      "exv": "Anh ấy làm biên tập ở nhà xuất bản."
+    },
+    {
+      "h": "辩论",
+      "p": "biànlùn",
+      "v": "biện luận, tranh luận",
+      "hv": "biện luận",
+      "ex": "他们就这个问题展开辩论。",
+      "exv": "Họ tranh luận về vấn đề này."
+    },
+    {
+      "h": "标准",
+      "p": "biāozhǔn",
+      "v": "tiêu chuẩn",
+      "hv": "tiêu chuẩn",
+      "ex": "这个产品符合国际标准。",
+      "exv": "Sản phẩm này đáp ứng tiêu chuẩn quốc tế."
+    },
+    {
+      "h": "表面",
+      "p": "biǎomiàn",
+      "v": "bề mặt, bề ngoài",
+      "hv": "biểu diện",
+      "ex": "不要只看表面现象。",
+      "exv": "Đừng chỉ nhìn vào hiện tượng bề ngoài."
+    },
+    {
+      "h": "表明",
+      "p": "biǎomíng",
+      "v": "biểu minh, chứng tỏ",
+      "hv": "biểu minh",
+      "ex": "研究结果表明这种方法有效。",
+      "exv": "Kết quả nghiên cứu chứng tỏ phương pháp này hiệu quả."
+    },
+    {
+      "h": "冰激凌",
+      "p": "bīngjīlíng",
+      "v": "kem",
+      "hv": "băng kích lăng",
+      "ex": "夏天吃冰激凌很凉快。",
+      "exv": "Mùa hè ăn kem rất mát."
+    },
+    {
+      "h": "博士",
+      "p": "bóshì",
+      "v": "tiến sĩ",
+      "hv": "bác sĩ (học vị)",
+      "ex": "他获得了博士学位。",
+      "exv": "Anh ấy đã nhận bằng tiến sĩ."
+    },
+    {
+      "h": "不得不",
+      "p": "bùdébù",
+      "v": "không thể không, buộc phải",
+      "hv": "bất đắc bất",
+      "ex": "我不得不放弃这个计划。",
+      "exv": "Tôi buộc phải từ bỏ kế hoạch này."
+    },
+    {
+      "h": "不断",
+      "p": "búduàn",
+      "v": "không ngừng, liên tục",
+      "hv": "bất đoạn",
+      "ex": "他不断努力提高自己。",
+      "exv": "Anh ấy không ngừng cố gắng nâng cao bản thân."
+    },
+    {
+      "h": "不免",
+      "p": "bùmiǎn",
+      "v": "không tránh khỏi",
+      "hv": "bất miễn",
+      "ex": "听到这个消息，不免有些担心。",
+      "exv": "Nghe tin này, không tránh khỏi lo lắng đôi chút."
+    },
+    {
+      "h": "不足",
+      "p": "bùzú",
+      "v": "không đủ, thiếu hụt",
+      "hv": "bất túc",
+      "ex": "时间不足是个问题。",
+      "exv": "Thiếu thời gian là một vấn đề."
+    },
+    {
+      "h": "采取",
+      "p": "cǎiqǔ",
+      "v": "áp dụng, thực hiện",
+      "hv": "thái thủ",
+      "ex": "我们要采取有效措施。",
+      "exv": "Chúng ta phải thực hiện các biện pháp hiệu quả."
+    },
+    {
+      "h": "参考",
+      "p": "cānkǎo",
+      "v": "tham khảo",
+      "hv": "tham khảo",
+      "ex": "这本书可以作为参考。",
+      "exv": "Cuốn sách này có thể dùng để tham khảo."
+    },
+    {
+      "h": "惭愧",
+      "p": "cánkuì",
+      "v": "xấu hổ, hổ thẹn",
+      "hv": "tàm quý",
+      "ex": "他感到很惭愧。",
+      "exv": "Anh ấy cảm thấy rất xấu hổ."
+    },
+    {
+      "h": "操心",
+      "p": "cāoxīn",
+      "v": "lo lắng, bận tâm",
+      "hv": "thao tâm",
+      "ex": "妈妈总是为孩子操心。",
+      "exv": "Mẹ luôn lo lắng cho con cái."
+    },
+    {
+      "h": "侧面",
+      "p": "cèmiàn",
+      "v": "mặt bên, góc độ khác",
+      "hv": "trắc diện",
+      "ex": "从侧面了解一个人。",
+      "exv": "Hiểu một người từ góc độ khác."
+    },
+    {
+      "h": "曾经",
+      "p": "céngjīng",
+      "v": "đã từng",
+      "hv": "tằng kinh",
+      "ex": "我曾经去过那个地方。",
+      "exv": "Tôi đã từng đến nơi đó."
+    },
+    {
+      "h": "差距",
+      "p": "chājù",
+      "v": "khoảng cách, chênh lệch",
+      "hv": "sai cự",
+      "ex": "两者之间差距很大。",
+      "exv": "Khoảng cách giữa hai bên rất lớn."
+    },
+    {
+      "h": "长途",
+      "p": "chángtú",
+      "v": "đường dài, đường xa",
+      "hv": "trường đồ",
+      "ex": "长途旅行很累。",
+      "exv": "Du lịch đường dài rất mệt."
+    },
+    {
+      "h": "彻底",
+      "p": "chèdǐ",
+      "v": "triệt để, hoàn toàn",
+      "hv": "triệt để",
+      "ex": "要彻底解决这个问题。",
+      "exv": "Phải giải quyết triệt để vấn đề này."
+    },
+    {
+      "h": "趁",
+      "p": "chèn",
+      "v": "nhân lúc, tranh thủ",
+      "hv": "sấn",
+      "ex": "趁年轻多学习。",
+      "exv": "Nhân lúc còn trẻ hãy học nhiều hơn."
+    },
+    {
+      "h": "称赞",
+      "p": "chēngzàn",
+      "v": "khen ngợi, ca ngợi",
+      "hv": "xưng tán",
+      "ex": "老师称赞了他的作文。",
+      "exv": "Giáo viên khen ngợi bài văn của anh ấy."
+    },
+    {
+      "h": "承担",
+      "p": "chéngdān",
+      "v": "gánh chịu, đảm nhận",
+      "hv": "thừa đảm",
+      "ex": "他承担了所有责任。",
+      "exv": "Anh ấy gánh chịu tất cả trách nhiệm."
+    },
+    {
+      "h": "承认",
+      "p": "chéngrèn",
+      "v": "thừa nhận, công nhận",
+      "hv": "thừa nhận",
+      "ex": "他承认了自己的错误。",
+      "exv": "Anh ấy thừa nhận lỗi lầm của mình."
+    },
+    {
+      "h": "诚实",
+      "p": "chéngshí",
+      "v": "thành thật, trung thực",
+      "hv": "thành thật",
+      "ex": "诚实是最重要的品质。",
+      "exv": "Thành thật là phẩm chất quan trọng nhất."
+    },
+    {
+      "h": "吃亏",
+      "p": "chīkuī",
+      "v": "chịu thiệt, bị thua",
+      "hv": "ngật khuy",
+      "ex": "他这次吃亏了。",
+      "exv": "Lần này anh ấy chịu thiệt rồi."
+    },
+    {
+      "h": "持续",
+      "p": "chíxù",
+      "v": "duy trì liên tục, kéo dài",
+      "hv": "trì tục",
+      "ex": "经济持续增长。",
+      "exv": "Kinh tế tăng trưởng liên tục."
+    },
+    {
+      "h": "冲突",
+      "p": "chōngtū",
+      "v": "xung đột, mâu thuẫn",
+      "hv": "xung đột",
+      "ex": "两国之间发生了冲突。",
+      "exv": "Xung đột nổ ra giữa hai nước."
+    },
+    {
+      "h": "充分",
+      "p": "chōngfèn",
+      "v": "đầy đủ, sung mãn",
+      "hv": "sung phân",
+      "ex": "要充分利用时间。",
+      "exv": "Phải tận dụng thời gian đầy đủ."
+    },
+    {
+      "h": "出口",
+      "p": "chūkǒu",
+      "v": "xuất khẩu, lối ra",
+      "hv": "xuất khẩu",
+      "ex": "中国的出口额不断增加。",
+      "exv": "Kim ngạch xuất khẩu của Trung Quốc không ngừng tăng."
+    },
+    {
+      "h": "出色",
+      "p": "chūsè",
+      "v": "xuất sắc, nổi bật",
+      "hv": "xuất sắc",
+      "ex": "她的表现非常出色。",
+      "exv": "Màn trình diễn của cô ấy rất xuất sắc."
+    },
+    {
+      "h": "创造",
+      "p": "chuàngzào",
+      "v": "sáng tạo, tạo ra",
+      "hv": "sáng tạo",
+      "ex": "他创造了一个新纪录。",
+      "exv": "Anh ấy đã lập một kỷ lục mới."
+    },
+    {
+      "h": "促进",
+      "p": "cùjìn",
+      "v": "thúc đẩy, xúc tiến",
+      "hv": "xúc tiến",
+      "ex": "贸易促进了经济发展。",
+      "exv": "Thương mại thúc đẩy phát triển kinh tế."
+    },
+    {
+      "h": "存在",
+      "p": "cúnzài",
+      "v": "tồn tại",
+      "hv": "tồn tại",
+      "ex": "问题依然存在。",
+      "exv": "Vấn đề vẫn tồn tại."
+    },
+    {
+      "h": "达到",
+      "p": "dádào",
+      "v": "đạt đến, đạt được",
+      "hv": "đạt đáo",
+      "ex": "他达到了自己的目标。",
+      "exv": "Anh ấy đã đạt được mục tiêu của mình."
+    },
+    {
+      "h": "打扰",
+      "p": "dǎrǎo",
+      "v": "làm phiền, quấy rầy",
+      "hv": "đả nhiễu",
+      "ex": "对不起，打扰你了。",
+      "exv": "Xin lỗi, tôi đã làm phiền bạn."
+    },
+    {
+      "h": "大臣",
+      "p": "dàchén",
+      "v": "đại thần",
+      "hv": "đại thần",
+      "ex": "皇帝召集大臣开会。",
+      "exv": "Hoàng đế triệu tập đại thần họp."
+    },
+    {
+      "h": "大量",
+      "p": "dàliàng",
+      "v": "lượng lớn, nhiều",
+      "hv": "đại lượng",
+      "ex": "他阅读了大量的书籍。",
+      "exv": "Anh ấy đã đọc lượng lớn sách."
+    },
+    {
+      "h": "大气",
+      "p": "dàqì",
+      "v": "khí quyển, bầu không khí",
+      "hv": "đại khí",
+      "ex": "大气污染越来越严重。",
+      "exv": "Ô nhiễm khí quyển ngày càng nghiêm trọng."
+    },
+    {
+      "h": "担任",
+      "p": "dānrèn",
+      "v": "đảm nhận, giữ chức vụ",
+      "hv": "đảm nhậm",
+      "ex": "他担任了公司总经理。",
+      "exv": "Anh ấy đảm nhận chức tổng giám đốc công ty."
+    },
+    {
+      "h": "导致",
+      "p": "dǎozhì",
+      "v": "dẫn đến, gây ra",
+      "hv": "đạo chí",
+      "ex": "压力过大导致失眠。",
+      "exv": "Áp lực quá lớn dẫn đến mất ngủ."
+    },
+    {
+      "h": "登记",
+      "p": "dēngjì",
+      "v": "đăng ký, ghi danh",
+      "hv": "đăng ký",
+      "ex": "请先登记你的个人信息。",
+      "exv": "Hãy đăng ký thông tin cá nhân trước."
+    },
+    {
+      "h": "等待",
+      "p": "děngdài",
+      "v": "chờ đợi",
+      "hv": "đẳng đãi",
+      "ex": "他在等待消息。",
+      "exv": "Anh ấy đang chờ đợi tin tức."
+    },
+    {
+      "h": "地位",
+      "p": "dìwèi",
+      "v": "địa vị, vị trí",
+      "hv": "địa vị",
+      "ex": "她在公司的地位很高。",
+      "exv": "Địa vị của cô ấy trong công ty rất cao."
+    },
+    {
+      "h": "点击",
+      "p": "diǎnjī",
+      "v": "nhấp chuột, bấm vào",
+      "hv": "điểm kích",
+      "ex": "点击这里查看详情。",
+      "exv": "Nhấp vào đây để xem chi tiết."
+    },
+    {
+      "h": "顶",
+      "p": "dǐng",
+      "v": "đỉnh, chóp, chống đỡ",
+      "hv": "đỉnh",
+      "ex": "山顶上有一座寺庙。",
+      "exv": "Trên đỉnh núi có một ngôi chùa."
+    },
+    {
+      "h": "定期",
+      "p": "dìngqī",
+      "v": "định kỳ",
+      "hv": "định kỳ",
+      "ex": "要定期检查身体。",
+      "exv": "Phải kiểm tra sức khỏe định kỳ."
+    },
+    {
+      "h": "独特",
+      "p": "dútè",
+      "v": "độc đáo, đặc biệt",
+      "hv": "độc đặc",
+      "ex": "她有独特的个人风格。",
+      "exv": "Cô ấy có phong cách cá nhân độc đáo."
+    },
+    {
+      "h": "端",
+      "p": "duān",
+      "v": "đầu, đoan chính, bưng",
+      "hv": "đoan",
+      "ex": "他端来了一杯茶。",
+      "exv": "Anh ấy bưng đến một tách trà."
+    },
+    {
+      "h": "对待",
+      "p": "duìdài",
+      "v": "đối đãi, đối xử",
+      "hv": "đối đãi",
+      "ex": "要平等对待每个人。",
+      "exv": "Phải đối xử bình đẳng với mọi người."
+    },
+    {
+      "h": "反映",
+      "p": "fǎnyìng",
+      "v": "phản ánh, phản chiếu",
+      "hv": "phản ánh",
+      "ex": "这部电影反映了社会现实。",
+      "exv": "Bộ phim này phản ánh thực tế xã hội."
+    },
+    {
+      "h": "方案",
+      "p": "fāng'àn",
+      "v": "phương án, kế hoạch",
+      "hv": "phương án",
+      "ex": "我们提出了一个新方案。",
+      "exv": "Chúng tôi đề xuất một phương án mới."
+    },
+    {
+      "h": "防止",
+      "p": "fángzhǐ",
+      "v": "ngăn chặn, phòng ngừa",
+      "hv": "phòng chỉ",
+      "ex": "要防止火灾发生。",
+      "exv": "Phải ngăn chặn hỏa hoạn xảy ra."
+    },
+    {
+      "h": "飞速",
+      "p": "fēisù",
+      "v": "tốc độ bay, nhanh vùn vụt",
+      "hv": "phi tốc",
+      "ex": "科技飞速发展。",
+      "exv": "Khoa học công nghệ phát triển nhanh vùn vụt."
+    },
+    {
+      "h": "分析",
+      "p": "fēnxī",
+      "v": "phân tích",
+      "hv": "phân tích",
+      "ex": "我们需要仔细分析问题。",
+      "exv": "Chúng ta cần phân tích vấn đề cẩn thận."
+    },
+    {
+      "h": "丰收",
+      "p": "fēngshōu",
+      "v": "được mùa, thu hoạch bội",
+      "hv": "phong thu",
+      "ex": "今年粮食丰收了。",
+      "exv": "Năm nay lương thực được mùa."
+    },
+    {
+      "h": "否定",
+      "p": "fǒudìng",
+      "v": "phủ định, bác bỏ",
+      "hv": "phủ định",
+      "ex": "他否定了这个观点。",
+      "exv": "Anh ấy bác bỏ quan điểm này."
+    },
+    {
+      "h": "付出",
+      "p": "fùchū",
+      "v": "bỏ ra, cống hiến",
+      "hv": "phó xuất",
+      "ex": "他付出了很多努力。",
+      "exv": "Anh ấy đã bỏ ra rất nhiều công sức."
+    },
+    {
+      "h": "感激",
+      "p": "gǎnjī",
+      "v": "biết ơn, cảm kích",
+      "hv": "cảm kích",
+      "ex": "我非常感激你的帮助。",
+      "exv": "Tôi vô cùng biết ơn sự giúp đỡ của bạn."
+    },
+    {
+      "h": "感受",
+      "p": "gǎnshòu",
+      "v": "cảm nhận, cảm xúc",
+      "hv": "cảm thụ",
+      "ex": "分享你的感受吧。",
+      "exv": "Hãy chia sẻ cảm nhận của bạn."
+    },
+    {
+      "h": "港口",
+      "p": "gǎngkǒu",
+      "v": "cảng, bến cảng",
+      "hv": "cảng khẩu",
+      "ex": "这个港口非常繁忙。",
+      "exv": "Cảng này rất nhộn nhịp."
+    },
+    {
+      "h": "高峰",
+      "p": "gāofēng",
+      "v": "đỉnh cao, giờ cao điểm",
+      "hv": "cao phong",
+      "ex": "早上是交通高峰时段。",
+      "exv": "Sáng sớm là giờ cao điểm giao thông."
+    },
+    {
+      "h": "格外",
+      "p": "géwài",
+      "v": "đặc biệt, hơn thường lệ",
+      "hv": "cách ngoại",
+      "ex": "今天他格外高兴。",
+      "exv": "Hôm nay anh ấy đặc biệt vui."
+    },
+    {
+      "h": "各自",
+      "p": "gèzì",
+      "v": "mỗi người, riêng từng người",
+      "hv": "các tự",
+      "ex": "大家各自回到自己的座位。",
+      "exv": "Mọi người ai về chỗ nấy."
+    },
+    {
+      "h": "根本",
+      "p": "gēnběn",
+      "v": "căn bản, cơ bản, hoàn toàn",
+      "hv": "căn bản",
+      "ex": "这根本不是问题。",
+      "exv": "Đây hoàn toàn không phải vấn đề."
+    },
+    {
+      "h": "公平",
+      "p": "gōngpíng",
+      "v": "công bằng",
+      "hv": "công bình",
+      "ex": "要公平对待所有人。",
+      "exv": "Phải đối xử công bằng với tất cả mọi người."
+    },
+    {
+      "h": "贡献",
+      "p": "gòngxiàn",
+      "v": "cống hiến, đóng góp",
+      "hv": "cống hiến",
+      "ex": "他为社会做出了贡献。",
+      "exv": "Anh ấy đã cống hiến cho xã hội."
+    },
+    {
+      "h": "沟通",
+      "p": "gōutōng",
+      "v": "giao tiếp, kết nối",
+      "hv": "câu thông",
+      "ex": "良好的沟通很重要。",
+      "exv": "Giao tiếp tốt rất quan trọng."
+    },
+    {
+      "h": "孤独",
+      "p": "gūdú",
+      "v": "cô đơn, cô độc",
+      "hv": "cô độc",
+      "ex": "他感到很孤独。",
+      "exv": "Anh ấy cảm thấy rất cô đơn."
+    },
+    {
+      "h": "固定",
+      "p": "gùdìng",
+      "v": "cố định, ổn định",
+      "hv": "cố định",
+      "ex": "他有一份固定的工作。",
+      "exv": "Anh ấy có một công việc cố định."
+    },
+    {
+      "h": "观察",
+      "p": "guānchá",
+      "v": "quan sát",
+      "hv": "quan sát",
+      "ex": "仔细观察周围的事物。",
+      "exv": "Quan sát kỹ những sự vật xung quanh."
+    },
+    {
+      "h": "观点",
+      "p": "guāndiǎn",
+      "v": "quan điểm",
+      "hv": "quan điểm",
+      "ex": "每个人都有自己的观点。",
+      "exv": "Mỗi người đều có quan điểm riêng của mình."
+    },
+    {
+      "h": "管理",
+      "p": "guǎnlǐ",
+      "v": "quản lý",
+      "hv": "quản lý",
+      "ex": "他负责管理这个部门。",
+      "exv": "Anh ấy phụ trách quản lý bộ phận này."
+    },
+    {
+      "h": "光明",
+      "p": "guāngmíng",
+      "v": "sáng sủa, quang minh",
+      "hv": "quang minh",
+      "ex": "未来是光明的。",
+      "exv": "Tương lai là sáng sủa."
+    },
+    {
+      "h": "规律",
+      "p": "guīlǜ",
+      "v": "quy luật",
+      "hv": "quy luật",
+      "ex": "自然界有很多规律。",
+      "exv": "Giới tự nhiên có rất nhiều quy luật."
+    },
+    {
+      "h": "果断",
+      "p": "guǒduàn",
+      "v": "quyết đoán, dứt khoát",
+      "hv": "quả đoán",
+      "ex": "他做事很果断。",
+      "exv": "Anh ấy làm việc rất quyết đoán."
+    },
+    {
+      "h": "过分",
+      "p": "guòfèn",
+      "v": "quá mức, thái quá",
+      "hv": "quá phận",
+      "ex": "不要过分担心。",
+      "exv": "Đừng lo lắng thái quá."
+    },
+    {
+      "h": "含",
+      "p": "hán",
+      "v": "chứa, hàm chứa",
+      "hv": "hàm",
+      "ex": "这种水果含有丰富的维生素。",
+      "exv": "Loại quả này chứa nhiều vitamin."
+    },
+    {
+      "h": "喊",
+      "p": "hǎn",
+      "v": "hét, kêu to",
+      "hv": "hám",
+      "ex": "他大声喊道：'救命！'",
+      "exv": "Anh ấy hét to: 'Cứu tôi với!'"
+    },
+    {
+      "h": "行业",
+      "p": "hángyè",
+      "v": "ngành nghề",
+      "hv": "hành nghiệp",
+      "ex": "他在金融行业工作。",
+      "exv": "Anh ấy làm việc trong ngành tài chính."
+    },
+    {
+      "h": "合并",
+      "p": "hébìng",
+      "v": "hợp nhất, sáp nhập",
+      "hv": "hợp tính",
+      "ex": "两家公司合并了。",
+      "exv": "Hai công ty đã sáp nhập."
+    },
+    {
+      "h": "合同",
+      "p": "hétong",
+      "v": "hợp đồng",
+      "hv": "hợp đồng",
+      "ex": "双方签订了合同。",
+      "exv": "Hai bên đã ký kết hợp đồng."
+    },
+    {
+      "h": "核心",
+      "p": "héxīn",
+      "v": "hạt nhân, trung tâm cốt lõi",
+      "hv": "hạch tâm",
+      "ex": "这是问题的核心。",
+      "exv": "Đây là cốt lõi của vấn đề."
+    },
+    {
+      "h": "恨",
+      "p": "hèn",
+      "v": "thù hận, oán giận",
+      "hv": "hận",
+      "ex": "他很恨那个骗了他的人。",
+      "exv": "Anh ấy rất thù hận người đã lừa anh ấy."
+    },
+    {
+      "h": "后果",
+      "p": "hòuguǒ",
+      "v": "hậu quả",
+      "hv": "hậu quả",
+      "ex": "不要忽视行为的后果。",
+      "exv": "Đừng bỏ qua hậu quả của hành động."
+    },
+    {
+      "h": "忽视",
+      "p": "hūshì",
+      "v": "bỏ qua, xem thường",
+      "hv": "hốt thị",
+      "ex": "不能忽视细节。",
+      "exv": "Không thể bỏ qua chi tiết."
+    },
+    {
+      "h": "机构",
+      "p": "jīgòu",
+      "v": "cơ quan, tổ chức",
+      "hv": "cơ cấu",
+      "ex": "政府机构需要改革。",
+      "exv": "Cơ quan chính phủ cần cải cách."
+    },
+    {
+      "h": "机器",
+      "p": "jīqì",
+      "v": "máy móc",
+      "hv": "cơ khí",
+      "ex": "工厂里有很多机器。",
+      "exv": "Trong nhà máy có rất nhiều máy móc."
+    },
+    {
+      "h": "极端",
+      "p": "jíduān",
+      "v": "cực đoan, cực kỳ",
+      "hv": "cực đoan",
+      "ex": "不要走极端。",
+      "exv": "Đừng đi vào cực đoan."
+    },
+    {
+      "h": "集中",
+      "p": "jízhōng",
+      "v": "tập trung",
+      "hv": "tập trung",
+      "ex": "要集中注意力学习。",
+      "exv": "Phải tập trung chú ý học tập."
+    },
+    {
+      "h": "计划",
+      "p": "jìhuà",
+      "v": "kế hoạch, lên kế hoạch",
+      "hv": "kế hoạch",
+      "ex": "我们要提前做好计划。",
+      "exv": "Chúng ta phải lập kế hoạch sớm."
+    },
+    {
+      "h": "记录",
+      "p": "jìlù",
+      "v": "ghi chép, hồ sơ",
+      "hv": "ký lục",
+      "ex": "请把会议内容记录下来。",
+      "exv": "Hãy ghi chép lại nội dung cuộc họp."
+    },
+    {
+      "h": "价值",
+      "p": "jiàzhí",
+      "v": "giá trị",
+      "hv": "giá trị",
+      "ex": "这幅画很有价值。",
+      "exv": "Bức tranh này rất có giá trị."
+    },
+    {
+      "h": "建立",
+      "p": "jiànlì",
+      "v": "thiết lập, xây dựng",
+      "hv": "kiến lập",
+      "ex": "两国建立了外交关系。",
+      "exv": "Hai nước đã thiết lập quan hệ ngoại giao."
+    },
+    {
+      "h": "建设",
+      "p": "jiànshè",
+      "v": "xây dựng",
+      "hv": "kiến thiết",
+      "ex": "国家正在大力建设基础设施。",
+      "exv": "Nhà nước đang tích cực xây dựng cơ sở hạ tầng."
+    },
+    {
+      "h": "将来",
+      "p": "jiānglái",
+      "v": "tương lai, sau này",
+      "hv": "tương lai",
+      "ex": "将来你想做什么？",
+      "exv": "Tương lai bạn muốn làm gì?"
+    },
+    {
+      "h": "交际",
+      "p": "jiāojì",
+      "v": "giao tiếp xã hội",
+      "hv": "giao tế",
+      "ex": "他的交际能力很强。",
+      "exv": "Khả năng giao tiếp xã hội của anh ấy rất tốt."
+    },
+    {
+      "h": "角色",
+      "p": "juésè",
+      "v": "vai trò",
+      "hv": "giác sắc",
+      "ex": "他在电影中扮演重要角色。",
+      "exv": "Anh ấy đóng vai trò quan trọng trong bộ phim."
+    },
+    {
+      "h": "接受",
+      "p": "jiēshòu",
+      "v": "tiếp nhận, chấp nhận",
+      "hv": "tiếp thụ",
+      "ex": "他接受了这份工作。",
+      "exv": "Anh ấy đã chấp nhận công việc này."
+    },
+    {
+      "h": "紧急",
+      "p": "jǐnjí",
+      "v": "khẩn cấp",
+      "hv": "khẩn cấp",
+      "ex": "这是一个紧急情况。",
+      "exv": "Đây là tình huống khẩn cấp."
+    },
+    {
+      "h": "紧张",
+      "p": "jǐnzhāng",
+      "v": "căng thẳng",
+      "hv": "khẩn trương",
+      "ex": "考试前他很紧张。",
+      "exv": "Trước kỳ thi anh ấy rất căng thẳng."
+    },
+    {
+      "h": "进步",
+      "p": "jìnbù",
+      "v": "tiến bộ",
+      "hv": "tiến bộ",
+      "ex": "他的汉语进步很快。",
+      "exv": "Tiếng Trung của anh ấy tiến bộ rất nhanh."
+    },
+    {
+      "h": "敬佩",
+      "p": "jìngpèi",
+      "v": "kính phục, nể phục",
+      "hv": "kính bội",
+      "ex": "我非常敬佩他的精神。",
+      "exv": "Tôi rất kính phục tinh thần của anh ấy."
+    },
+    {
+      "h": "举例",
+      "p": "jǔlì",
+      "v": "lấy ví dụ",
+      "hv": "cử lệ",
+      "ex": "老师举了很多例子。",
+      "exv": "Giáo viên đã lấy rất nhiều ví dụ."
+    },
+    {
+      "h": "开发",
+      "p": "kāifā",
+      "v": "khai thác, phát triển",
+      "hv": "khai phát",
+      "ex": "公司正在开发新产品。",
+      "exv": "Công ty đang phát triển sản phẩm mới."
+    },
+    {
+      "h": "开放",
+      "p": "kāifàng",
+      "v": "mở cửa, cởi mở",
+      "hv": "khai phóng",
+      "ex": "这个城市很开放。",
+      "exv": "Thành phố này rất cởi mở."
+    },
+    {
+      "h": "开心",
+      "p": "kāixīn",
+      "v": "vui vẻ, phấn khởi",
+      "hv": "khai tâm",
+      "ex": "看到孩子，她很开心。",
+      "exv": "Nhìn thấy đứa con, cô ấy rất vui."
+    },
+    {
+      "h": "可靠",
+      "p": "kěkào",
+      "v": "đáng tin cậy",
+      "hv": "khả cậy",
+      "ex": "他是一个可靠的人。",
+      "exv": "Anh ấy là người đáng tin cậy."
+    },
+    {
+      "h": "客观",
+      "p": "kèguān",
+      "v": "khách quan",
+      "hv": "khách quan",
+      "ex": "要客观地分析问题。",
+      "exv": "Phải phân tích vấn đề một cách khách quan."
+    },
+    {
+      "h": "空间",
+      "p": "kōngjiān",
+      "v": "không gian",
+      "hv": "không gian",
+      "ex": "这个房间空间很大。",
+      "exv": "Căn phòng này có không gian rất rộng."
+    },
+    {
+      "h": "跨越",
+      "p": "kuàyuè",
+      "v": "vượt qua, vượt lên",
+      "hv": "khoa việt",
+      "ex": "他跨越了重重困难。",
+      "exv": "Anh ấy đã vượt qua muôn vàn khó khăn."
+    },
+    {
+      "h": "宽",
+      "p": "kuān",
+      "v": "rộng, khoan dung",
+      "hv": "khoan",
+      "ex": "这条路很宽。",
+      "exv": "Con đường này rất rộng."
+    },
+    {
+      "h": "困惑",
+      "p": "kùnhuò",
+      "v": "bối rối, hoang mang",
+      "hv": "khốn hoặc",
+      "ex": "他感到困惑。",
+      "exv": "Anh ấy cảm thấy bối rối."
+    },
+    {
+      "h": "扩大",
+      "p": "kuòdà",
+      "v": "mở rộng, nâng cao",
+      "hv": "khoát đại",
+      "ex": "公司要扩大生产规模。",
+      "exv": "Công ty muốn mở rộng quy mô sản xuất."
+    },
+    {
+      "h": "劳动",
+      "p": "láodòng",
+      "v": "lao động",
+      "hv": "lao động",
+      "ex": "劳动人民创造了历史。",
+      "exv": "Nhân dân lao động đã tạo nên lịch sử."
+    },
+    {
+      "h": "力量",
+      "p": "lìliang",
+      "v": "sức mạnh, lực lượng",
+      "hv": "lực lượng",
+      "ex": "团结就是力量。",
+      "exv": "Đoàn kết là sức mạnh."
+    },
+    {
+      "h": "理解",
+      "p": "lǐjiě",
+      "v": "lý giải, hiểu",
+      "hv": "lý giải",
+      "ex": "我理解你的感受。",
+      "exv": "Tôi hiểu cảm xúc của bạn."
+    },
+    {
+      "h": "良好",
+      "p": "liánghǎo",
+      "v": "tốt lành, tốt đẹp",
+      "hv": "lương hảo",
+      "ex": "他有良好的学习习惯。",
+      "exv": "Anh ấy có thói quen học tập tốt."
+    },
+    {
+      "h": "领导",
+      "p": "lǐngdǎo",
+      "v": "lãnh đạo",
+      "hv": "lĩnh đạo",
+      "ex": "他是一位优秀的领导。",
+      "exv": "Anh ấy là một nhà lãnh đạo xuất sắc."
+    },
+    {
+      "h": "领域",
+      "p": "lǐngyù",
+      "v": "lĩnh vực",
+      "hv": "lĩnh vực",
+      "ex": "他在科技领域有所成就。",
+      "exv": "Anh ấy có thành tựu trong lĩnh vực khoa học công nghệ."
+    },
+    {
+      "h": "论文",
+      "p": "lùnwén",
+      "v": "luận văn, luận án",
+      "hv": "luận văn",
+      "ex": "他正在写博士论文。",
+      "exv": "Anh ấy đang viết luận án tiến sĩ."
+    },
+    {
+      "h": "逻辑",
+      "p": "luójí",
+      "v": "logic, luận lý",
+      "hv": "luận lý",
+      "ex": "他的思维很有逻辑。",
+      "exv": "Tư duy của anh ấy rất có logic."
+    },
+    {
+      "h": "迷茫",
+      "p": "mímáng",
+      "v": "mơ hồ, mê mang",
+      "hv": "mê mang",
+      "ex": "他对未来感到迷茫。",
+      "exv": "Anh ấy cảm thấy mơ hồ về tương lai."
+    },
+    {
+      "h": "敏感",
+      "p": "mǐngǎn",
+      "v": "nhạy cảm",
+      "hv": "mẫn cảm",
+      "ex": "他对批评很敏感。",
+      "exv": "Anh ấy rất nhạy cảm với lời phê bình."
+    },
+    {
+      "h": "模仿",
+      "p": "mófǎng",
+      "v": "bắt chước, mô phỏng",
+      "hv": "mô phỏng",
+      "ex": "孩子喜欢模仿大人。",
+      "exv": "Trẻ em thích bắt chước người lớn."
+    },
+    {
+      "h": "目标",
+      "p": "mùbiāo",
+      "v": "mục tiêu",
+      "hv": "mục tiêu",
+      "ex": "要设定明确的目标。",
+      "exv": "Phải đặt ra mục tiêu rõ ràng."
+    },
+    {
+      "h": "耐心",
+      "p": "nàixīn",
+      "v": "kiên nhẫn, nhẫn nại",
+      "hv": "nại tâm",
+      "ex": "教孩子要有耐心。",
+      "exv": "Dạy trẻ phải có kiên nhẫn."
+    },
+    {
+      "h": "难以",
+      "p": "nányǐ",
+      "v": "khó có thể, khó mà",
+      "hv": "nan dĩ",
+      "ex": "这个问题难以解决。",
+      "exv": "Vấn đề này khó có thể giải quyết."
+    },
+    {
+      "h": "内部",
+      "p": "nèibù",
+      "v": "nội bộ, bên trong",
+      "hv": "nội bộ",
+      "ex": "公司内部需要整顿。",
+      "exv": "Nội bộ công ty cần chỉnh đốn."
+    },
+    {
+      "h": "能源",
+      "p": "néngyuán",
+      "v": "năng lượng",
+      "hv": "năng nguyên",
+      "ex": "要节约能源。",
+      "exv": "Phải tiết kiệm năng lượng."
+    },
+    {
+      "h": "批准",
+      "p": "pīzhǔn",
+      "v": "phê chuẩn, chấp thuận",
+      "hv": "phê chuẩn",
+      "ex": "方案已经获得批准。",
+      "exv": "Phương án đã được phê chuẩn."
+    },
+    {
+      "h": "品质",
+      "p": "pǐnzhì",
+      "v": "phẩm chất, chất lượng",
+      "hv": "phẩm chất",
+      "ex": "他有高尚的品质。",
+      "exv": "Anh ấy có phẩm chất cao thượng."
+    },
+    {
+      "h": "平衡",
+      "p": "pínghéng",
+      "v": "cân bằng",
+      "hv": "bình hành",
+      "ex": "要保持工作和生活的平衡。",
+      "exv": "Phải duy trì sự cân bằng giữa công việc và cuộc sống."
+    },
+    {
+      "h": "评价",
+      "p": "píngjià",
+      "v": "đánh giá",
+      "hv": "bình giá",
+      "ex": "老师对他的评价很高。",
+      "exv": "Giáo viên đánh giá rất cao về anh ấy."
+    },
+    {
+      "h": "迫切",
+      "p": "pòqiē",
+      "v": "cấp bách, bức thiết",
+      "hv": "bức thiết",
+      "ex": "解决这个问题很迫切。",
+      "exv": "Giải quyết vấn đề này rất cấp bách."
+    },
+    {
+      "h": "启发",
+      "p": "qǐfā",
+      "v": "gợi mở, khai sáng",
+      "hv": "khải phát",
+      "ex": "这本书给了我很多启发。",
+      "exv": "Cuốn sách này đã gợi mở cho tôi rất nhiều."
+    },
+    {
+      "h": "气候",
+      "p": "qìhòu",
+      "v": "khí hậu",
+      "hv": "khí hậu",
+      "ex": "这里的气候很宜人。",
+      "exv": "Khí hậu ở đây rất dễ chịu."
+    },
+    {
+      "h": "前途",
+      "p": "qiántú",
+      "v": "tiền đồ, tương lai",
+      "hv": "tiền đồ",
+      "ex": "他的前途一片光明。",
+      "exv": "Tiền đồ của anh ấy tươi sáng."
+    },
+    {
+      "h": "强调",
+      "p": "qiángdiào",
+      "v": "nhấn mạnh",
+      "hv": "cường điệu",
+      "ex": "老师强调了学习的重要性。",
+      "exv": "Giáo viên nhấn mạnh tầm quan trọng của việc học."
+    },
+    {
+      "h": "亲自",
+      "p": "qīnzì",
+      "v": "tự mình, đích thân",
+      "hv": "thân tự",
+      "ex": "他亲自去机场接朋友。",
+      "exv": "Anh ấy đích thân ra sân bay đón bạn."
+    },
+    {
+      "h": "情绪",
+      "p": "qíngxù",
+      "v": "cảm xúc, tâm trạng",
+      "hv": "tình tự",
+      "ex": "要控制好自己的情绪。",
+      "exv": "Phải kiểm soát tốt cảm xúc của mình."
+    },
+    {
+      "h": "区别",
+      "p": "qūbié",
+      "v": "sự khác biệt, phân biệt",
+      "hv": "khu biệt",
+      "ex": "两者之间有什么区别？",
+      "exv": "Có sự khác biệt gì giữa hai cái?"
+    },
+    {
+      "h": "权利",
+      "p": "quánlì",
+      "v": "quyền lợi",
+      "hv": "quyền lợi",
+      "ex": "每个人都有平等的权利。",
+      "exv": "Mọi người đều có quyền lợi bình đẳng."
+    },
+    {
+      "h": "热爱",
+      "p": "rè'ài",
+      "v": "yêu mến, nhiệt tình yêu",
+      "hv": "nhiệt ái",
+      "ex": "他热爱自己的工作。",
+      "exv": "Anh ấy yêu mến công việc của mình."
+    },
+    {
+      "h": "人才",
+      "p": "réncái",
+      "v": "nhân tài",
+      "hv": "nhân tài",
+      "ex": "公司需要优秀的人才。",
+      "exv": "Công ty cần những nhân tài xuất sắc."
+    },
+    {
+      "h": "人类",
+      "p": "rénlèi",
+      "v": "nhân loại, loài người",
+      "hv": "nhân loại",
+      "ex": "环境保护是人类共同的责任。",
+      "exv": "Bảo vệ môi trường là trách nhiệm chung của nhân loại."
+    },
+    {
+      "h": "人生",
+      "p": "rénshēng",
+      "v": "nhân sinh, cuộc đời",
+      "hv": "nhân sinh",
+      "ex": "人生不可能一帆风顺。",
+      "exv": "Cuộc đời không thể thuận buồm xuôi gió."
+    },
+    {
+      "h": "任务",
+      "p": "rènwu",
+      "v": "nhiệm vụ",
+      "hv": "nhiệm vụ",
+      "ex": "他完成了所有任务。",
+      "exv": "Anh ấy hoàn thành tất cả nhiệm vụ."
+    },
+    {
+      "h": "融合",
+      "p": "rónghé",
+      "v": "hòa nhập, dung hợp",
+      "hv": "dung hợp",
+      "ex": "两种文化的融合产生了新的艺术形式。",
+      "exv": "Sự hòa nhập của hai nền văn hóa tạo ra hình thức nghệ thuật mới."
+    },
+    {
+      "h": "如今",
+      "p": "rújīn",
+      "v": "hiện nay, bây giờ",
+      "hv": "như kim",
+      "ex": "如今科技非常发达。",
+      "exv": "Hiện nay khoa học công nghệ rất phát triển."
+    },
+    {
+      "h": "散步",
+      "p": "sànbù",
+      "v": "đi dạo",
+      "hv": "tản bộ",
+      "ex": "饭后散步有益健康。",
+      "exv": "Đi dạo sau bữa ăn có lợi cho sức khỏe."
+    },
+    {
+      "h": "稍微",
+      "p": "shāowēi",
+      "v": "hơi, một chút",
+      "hv": "sảo vi",
+      "ex": "稍微等一下。",
+      "exv": "Chờ một chút."
+    },
+    {
+      "h": "设备",
+      "p": "shèbèi",
+      "v": "thiết bị",
+      "hv": "thiết bị",
+      "ex": "工厂更新了设备。",
+      "exv": "Nhà máy đã cập nhật thiết bị."
+    },
+    {
+      "h": "深刻",
+      "p": "shēnkè",
+      "v": "sâu sắc",
+      "hv": "thâm khắc",
+      "ex": "这部电影给我留下了深刻的印象。",
+      "exv": "Bộ phim này để lại ấn tượng sâu sắc trong tôi."
+    },
+    {
+      "h": "审查",
+      "p": "shěnchá",
+      "v": "xem xét, kiểm tra",
+      "hv": "thẩm tra",
+      "ex": "文件需要经过审查。",
+      "exv": "Tài liệu cần phải qua xem xét."
+    },
+    {
+      "h": "甚至",
+      "p": "shènzhì",
+      "v": "thậm chí",
+      "hv": "thậm chí",
+      "ex": "他甚至不知道自己的名字。",
+      "exv": "Anh ấy thậm chí không biết tên mình."
+    },
+    {
+      "h": "失去",
+      "p": "shīqù",
+      "v": "mất đi",
+      "hv": "thất khứ",
+      "ex": "他失去了工作。",
+      "exv": "Anh ấy đã mất việc làm."
+    },
+    {
+      "h": "时代",
+      "p": "shídài",
+      "v": "thời đại",
+      "hv": "thời đại",
+      "ex": "我们生活在科技时代。",
+      "exv": "Chúng ta sống trong thời đại khoa học công nghệ."
+    },
+    {
+      "h": "时刻",
+      "p": "shíkè",
+      "v": "lúc nào, từng khoảnh khắc",
+      "hv": "thời khắc",
+      "ex": "时刻保持警惕。",
+      "exv": "Luôn luôn giữ cảnh giác."
+    },
+    {
+      "h": "实现",
+      "p": "shíxiàn",
+      "v": "thực hiện, hiện thực hóa",
+      "hv": "thực hiện",
+      "ex": "他实现了自己的梦想。",
+      "exv": "Anh ấy đã thực hiện được ước mơ của mình."
+    },
+    {
+      "h": "收获",
+      "p": "shōuhuò",
+      "v": "thu hoạch, thu được",
+      "hv": "thu hoạch",
+      "ex": "这次旅行收获很多。",
+      "exv": "Chuyến đi lần này thu được rất nhiều."
+    },
+    {
+      "h": "熟练",
+      "p": "shúliàn",
+      "v": "thành thạo, thuần thục",
+      "hv": "thục luyện",
+      "ex": "他操作机器很熟练。",
+      "exv": "Anh ấy vận hành máy rất thành thạo."
+    },
+    {
+      "h": "顺利",
+      "p": "shùnlì",
+      "v": "thuận lợi, suôn sẻ",
+      "hv": "thuận lợi",
+      "ex": "希望你一切顺利。",
+      "exv": "Chúc bạn mọi sự thuận lợi."
+    },
+    {
+      "h": "说服",
+      "p": "shuōfú",
+      "v": "thuyết phục",
+      "hv": "thuyết phục",
+      "ex": "他说服了我改变想法。",
+      "exv": "Anh ấy đã thuyết phục tôi thay đổi suy nghĩ."
+    },
+    {
+      "h": "丝绸",
+      "p": "sīchóu",
+      "v": "tơ lụa",
+      "hv": "ti trù",
+      "ex": "中国的丝绸很有名。",
+      "exv": "Tơ lụa Trung Quốc rất nổi tiếng."
+    },
+    {
+      "h": "似乎",
+      "p": "sìhū",
+      "v": "dường như, có vẻ như",
+      "hv": "tự hồ",
+      "ex": "他似乎不太高兴。",
+      "exv": "Anh ấy có vẻ không vui lắm."
+    },
+    {
+      "h": "素质",
+      "p": "sùzhì",
+      "v": "tố chất, phẩm chất",
+      "hv": "tố chất",
+      "ex": "要提高全民素质。",
+      "exv": "Phải nâng cao tố chất toàn dân."
+    },
+    {
+      "h": "随时",
+      "p": "suíshí",
+      "v": "bất cứ lúc nào",
+      "hv": "tùy thời",
+      "ex": "有问题随时联系我。",
+      "exv": "Có vấn đề gì hãy liên hệ với tôi bất cứ lúc nào."
+    },
+    {
+      "h": "探索",
+      "p": "tànsuǒ",
+      "v": "thám hiểm, khám phá",
+      "hv": "thám sách",
+      "ex": "科学家探索宇宙的奥秘。",
+      "exv": "Các nhà khoa học khám phá bí ẩn của vũ trụ."
+    },
+    {
+      "h": "特征",
+      "p": "tèzhēng",
+      "v": "đặc trưng, đặc điểm",
+      "hv": "đặc trưng",
+      "ex": "每种文化都有自己的特征。",
+      "exv": "Mỗi nền văn hóa đều có đặc trưng riêng."
+    },
+    {
+      "h": "提倡",
+      "p": "tíchàng",
+      "v": "đề xướng, khuyến khích",
+      "hv": "đề xướng",
+      "ex": "政府提倡节约用水。",
+      "exv": "Chính phủ khuyến khích tiết kiệm nước."
+    },
+    {
+      "h": "体系",
+      "p": "tǐxì",
+      "v": "hệ thống",
+      "hv": "thể hệ",
+      "ex": "要建立完善的教育体系。",
+      "exv": "Phải xây dựng hệ thống giáo dục hoàn thiện."
+    },
+    {
+      "h": "天才",
+      "p": "tiāncái",
+      "v": "thiên tài",
+      "hv": "thiên tài",
+      "ex": "他是一个音乐天才。",
+      "exv": "Anh ấy là một thiên tài âm nhạc."
+    },
+    {
+      "h": "天然",
+      "p": "tiānrán",
+      "v": "thiên nhiên, tự nhiên",
+      "hv": "thiên nhiên",
+      "ex": "这里有丰富的天然资源。",
+      "exv": "Nơi đây có nguồn tài nguyên thiên nhiên phong phú."
+    },
+    {
+      "h": "调整",
+      "p": "tiáozhěng",
+      "v": "điều chỉnh",
+      "hv": "điều chỉnh",
+      "ex": "我们需要调整计划。",
+      "exv": "Chúng ta cần điều chỉnh kế hoạch."
+    },
+    {
+      "h": "同情",
+      "p": "tóngqíng",
+      "v": "thông cảm, đồng cảm",
+      "hv": "đồng tình",
+      "ex": "我对他的遭遇感到同情。",
+      "exv": "Tôi cảm thấy thông cảm với hoàn cảnh của anh ấy."
+    },
+    {
+      "h": "推广",
+      "p": "tuīguǎng",
+      "v": "quảng bá, mở rộng",
+      "hv": "thôi quảng",
+      "ex": "要推广普通话。",
+      "exv": "Phải quảng bá tiếng Phổ thông."
+    },
+    {
+      "h": "晚期",
+      "p": "wǎnqī",
+      "v": "giai đoạn cuối",
+      "hv": "vãn kỳ",
+      "ex": "他的癌症已经到了晚期。",
+      "exv": "Ung thư của anh ấy đã đến giai đoạn cuối."
+    },
+    {
+      "h": "维护",
+      "p": "wéihù",
+      "v": "duy trì, bảo vệ",
+      "hv": "duy hộ",
+      "ex": "要维护社会稳定。",
+      "exv": "Phải duy trì sự ổn định xã hội."
+    },
+    {
+      "h": "位于",
+      "p": "wèiyú",
+      "v": "nằm ở, tọa lạc tại",
+      "hv": "vị vu",
+      "ex": "北京位于中国北部。",
+      "exv": "Bắc Kinh nằm ở phía bắc Trung Quốc."
+    },
+    {
+      "h": "文明",
+      "p": "wénmíng",
+      "v": "văn minh",
+      "hv": "văn minh",
+      "ex": "中华文明历史悠久。",
+      "exv": "Văn minh Trung Hoa có lịch sử lâu đời."
+    },
+    {
+      "h": "无论",
+      "p": "wúlùn",
+      "v": "dù sao, bất kể",
+      "hv": "vô luận",
+      "ex": "无论如何，我都会支持你。",
+      "exv": "Dù sao đi nữa, tôi sẽ ủng hộ bạn."
+    },
+    {
+      "h": "误解",
+      "p": "wùjiě",
+      "v": "hiểu lầm",
+      "hv": "ngộ giải",
+      "ex": "这是一个误解。",
+      "exv": "Đây là một sự hiểu lầm."
+    },
+    {
+      "h": "吸收",
+      "p": "xīshōu",
+      "v": "hấp thụ, tiếp thu",
+      "hv": "hấp thụ",
+      "ex": "植物吸收阳光和水分。",
+      "exv": "Cây cối hấp thụ ánh sáng mặt trời và nước."
+    },
+    {
+      "h": "细节",
+      "p": "xìjié",
+      "v": "chi tiết",
+      "hv": "tế tiết",
+      "ex": "要注意每一个细节。",
+      "exv": "Phải chú ý từng chi tiết một."
+    },
+    {
+      "h": "限制",
+      "p": "xiànzhì",
+      "v": "giới hạn, hạn chế",
+      "hv": "hạn chế",
+      "ex": "网速有所限制。",
+      "exv": "Tốc độ mạng có phần hạn chế."
+    },
+    {
+      "h": "现象",
+      "p": "xiànxiàng",
+      "v": "hiện tượng",
+      "hv": "hiện tượng",
+      "ex": "这是一种自然现象。",
+      "exv": "Đây là một hiện tượng tự nhiên."
+    },
+    {
+      "h": "相处",
+      "p": "xiāngchǔ",
+      "v": "sống chung, cư xử",
+      "hv": "tương xử",
+      "ex": "他们相处得很融洽。",
+      "exv": "Họ sống chung rất hòa thuận."
+    },
+    {
+      "h": "相对",
+      "p": "xiāngduì",
+      "v": "tương đối",
+      "hv": "tương đối",
+      "ex": "这个价格相对合理。",
+      "exv": "Giá này tương đối hợp lý."
+    },
+    {
+      "h": "向往",
+      "p": "xiàngwǎng",
+      "v": "ngưỡng vọng, mơ ước",
+      "hv": "hướng vãng",
+      "ex": "他向往自由的生活。",
+      "exv": "Anh ấy mơ ước cuộc sống tự do."
+    },
+    {
+      "h": "协调",
+      "p": "xiétiáo",
+      "v": "phối hợp, điều phối",
+      "hv": "hiệp điều",
+      "ex": "各部门需要协调工作。",
+      "exv": "Các bộ phận cần phối hợp công việc."
+    },
+    {
+      "h": "心态",
+      "p": "xīntài",
+      "v": "tâm thái, tâm lý",
+      "hv": "tâm thái",
+      "ex": "保持良好的心态很重要。",
+      "exv": "Duy trì tâm thái tốt rất quan trọng."
+    },
+    {
+      "h": "行为",
+      "p": "xíngwéi",
+      "v": "hành vi",
+      "hv": "hành vi",
+      "ex": "他的行为让人失望。",
+      "exv": "Hành vi của anh ấy khiến người ta thất vọng."
+    },
+    {
+      "h": "雄厚",
+      "p": "xiónghòu",
+      "v": "hùng hậu, dồi dào",
+      "hv": "hùng hậu",
+      "ex": "公司资金雄厚。",
+      "exv": "Công ty có nguồn vốn dồi dào."
+    },
+    {
+      "h": "虚心",
+      "p": "xūxīn",
+      "v": "khiêm tốn, hư tâm",
+      "hv": "hư tâm",
+      "ex": "要虚心接受批评。",
+      "exv": "Phải khiêm tốn tiếp nhận phê bình."
+    },
+    {
+      "h": "需求",
+      "p": "xūqiú",
+      "v": "nhu cầu",
+      "hv": "nhu cầu",
+      "ex": "市场对这种产品的需求很大。",
+      "exv": "Nhu cầu của thị trường đối với sản phẩm này rất lớn."
+    },
+    {
+      "h": "循环",
+      "p": "xúnhuán",
+      "v": "tuần hoàn, chu kỳ",
+      "hv": "tuần hoàn",
+      "ex": "水循环是自然界重要的过程。",
+      "exv": "Chu trình nước là quá trình quan trọng trong tự nhiên."
+    },
+    {
+      "h": "压力",
+      "p": "yālì",
+      "v": "áp lực",
+      "hv": "áp lực",
+      "ex": "他承受着巨大的工作压力。",
+      "exv": "Anh ấy chịu áp lực công việc rất lớn."
+    },
+    {
+      "h": "严格",
+      "p": "yángé",
+      "v": "nghiêm khắc",
+      "hv": "nghiêm cách",
+      "ex": "老师对学生要求很严格。",
+      "exv": "Giáo viên yêu cầu học sinh rất nghiêm khắc."
+    },
+    {
+      "h": "严重",
+      "p": "yánzhòng",
+      "v": "nghiêm trọng",
+      "hv": "nghiêm trọng",
+      "ex": "问题越来越严重了。",
+      "exv": "Vấn đề ngày càng nghiêm trọng hơn."
+    },
+    {
+      "h": "研究",
+      "p": "yánjiū",
+      "v": "nghiên cứu",
+      "hv": "nghiên cứu",
+      "ex": "他正在研究新课题。",
+      "exv": "Anh ấy đang nghiên cứu đề tài mới."
+    },
+    {
+      "h": "一旦",
+      "p": "yīdàn",
+      "v": "một khi, ngay khi",
+      "hv": "nhất đán",
+      "ex": "一旦决定了就不要后悔。",
+      "exv": "Một khi đã quyết định thì đừng hối hận."
+    },
+    {
+      "h": "一致",
+      "p": "yīzhì",
+      "v": "nhất trí, đồng lòng",
+      "hv": "nhất trí",
+      "ex": "大家的意见一致。",
+      "exv": "Ý kiến của mọi người nhất trí."
+    },
+    {
+      "h": "依靠",
+      "p": "yīkào",
+      "v": "dựa vào, nương tựa",
+      "hv": "y cậy",
+      "ex": "他依靠自己的努力取得成功。",
+      "exv": "Anh ấy dựa vào nỗ lực bản thân để đạt thành công."
+    },
+    {
+      "h": "遗憾",
+      "p": "yíhàn",
+      "v": "tiếc nuối, đáng tiếc",
+      "hv": "di hận",
+      "ex": "不能参加这次活动，真遗憾。",
+      "exv": "Không thể tham gia hoạt động lần này, thật tiếc."
+    },
+    {
+      "h": "以往",
+      "p": "yǐwǎng",
+      "v": "từ trước đến nay, trước đây",
+      "hv": "dĩ vãng",
+      "ex": "以往他从不迟到。",
+      "exv": "Trước đây anh ấy không bao giờ đến muộn."
+    },
+    {
+      "h": "因此",
+      "p": "yīncǐ",
+      "v": "vì vậy, do đó",
+      "hv": "nhân thử",
+      "ex": "他努力学习，因此取得了好成绩。",
+      "exv": "Anh ấy học tập chăm chỉ, vì vậy đạt kết quả tốt."
+    },
+    {
+      "h": "引起",
+      "p": "yǐnqǐ",
+      "v": "dẫn đến, gây ra",
+      "hv": "dẫn khởi",
+      "ex": "他的话引起了大家的兴趣。",
+      "exv": "Lời nói của anh ấy gây ra sự hứng thú của mọi người."
+    },
+    {
+      "h": "营养",
+      "p": "yíngyǎng",
+      "v": "dinh dưỡng",
+      "hv": "doanh dưỡng",
+      "ex": "要注意饮食营养均衡。",
+      "exv": "Phải chú ý dinh dưỡng cân bằng trong chế độ ăn uống."
+    },
+    {
+      "h": "应对",
+      "p": "yìngduì",
+      "v": "ứng phó, đối phó",
+      "hv": "ứng đối",
+      "ex": "要学会应对突发情况。",
+      "exv": "Phải học cách ứng phó với tình huống bất ngờ."
+    },
+    {
+      "h": "有利",
+      "p": "yǒulì",
+      "v": "có lợi, thuận lợi",
+      "hv": "hữu lợi",
+      "ex": "运动对健康有利。",
+      "exv": "Thể dục có lợi cho sức khỏe."
+    },
+    {
+      "h": "预防",
+      "p": "yùfáng",
+      "v": "phòng ngừa",
+      "hv": "dự phòng",
+      "ex": "预防疾病比治疗更重要。",
+      "exv": "Phòng ngừa bệnh quan trọng hơn chữa trị."
+    },
+    {
+      "h": "原则",
+      "p": "yuánzé",
+      "v": "nguyên tắc",
+      "hv": "nguyên tắc",
+      "ex": "他做事有原则。",
+      "exv": "Anh ấy làm việc có nguyên tắc."
+    },
+    {
+      "h": "约束",
+      "p": "yuēshù",
+      "v": "ràng buộc, hạn chế",
+      "hv": "ước thúc",
+      "ex": "法律对人们的行为有约束。",
+      "exv": "Pháp luật có sự ràng buộc đối với hành vi của con người."
+    },
+    {
+      "h": "责任",
+      "p": "zérèn",
+      "v": "trách nhiệm",
+      "hv": "trách nhiệm",
+      "ex": "要勇于承担责任。",
+      "exv": "Phải dũng cảm đảm nhận trách nhiệm."
+    },
+    {
+      "h": "增长",
+      "p": "zēngzhǎng",
+      "v": "tăng trưởng",
+      "hv": "tăng trưởng",
+      "ex": "GDP每年稳定增长。",
+      "exv": "GDP tăng trưởng ổn định hàng năm."
+    },
+    {
+      "h": "展示",
+      "p": "zhǎnshì",
+      "v": "trình bày, trưng bày",
+      "hv": "triển thị",
+      "ex": "她展示了自己的作品。",
+      "exv": "Cô ấy trình bày tác phẩm của mình."
+    },
+    {
+      "h": "整体",
+      "p": "zhěngtǐ",
+      "v": "toàn thể, chỉnh thể",
+      "hv": "chỉnh thể",
+      "ex": "要从整体上考虑问题。",
+      "exv": "Phải xem xét vấn đề từ tổng thể."
+    },
+    {
+      "h": "支持",
+      "p": "zhīchí",
+      "v": "ủng hộ, hỗ trợ",
+      "hv": "chi trì",
+      "ex": "感谢大家的支持。",
+      "exv": "Cảm ơn sự ủng hộ của mọi người."
+    },
+    {
+      "h": "执行",
+      "p": "zhíxíng",
+      "v": "thi hành, thực hiện",
+      "hv": "chấp hành",
+      "ex": "要严格执行规定。",
+      "exv": "Phải thi hành quy định nghiêm túc."
+    },
+    {
+      "h": "制度",
+      "p": "zhìdù",
+      "v": "chế độ, thể chế",
+      "hv": "chế độ",
+      "ex": "要完善法律制度。",
+      "exv": "Phải hoàn thiện chế độ pháp luật."
+    },
+    {
+      "h": "制造",
+      "p": "zhìzào",
+      "v": "chế tạo, sản xuất",
+      "hv": "chế tạo",
+      "ex": "中国制造的产品遍布全球。",
+      "exv": "Sản phẩm sản xuất tại Trung Quốc có mặt khắp toàn cầu."
+    },
+    {
+      "h": "中心",
+      "p": "zhōngxīn",
+      "v": "trung tâm",
+      "hv": "trung tâm",
+      "ex": "北京是中国的政治中心。",
+      "exv": "Bắc Kinh là trung tâm chính trị của Trung Quốc."
+    },
+    {
+      "h": "逐渐",
+      "p": "zhújiàn",
+      "v": "dần dần",
+      "hv": "trục tiệm",
+      "ex": "他的汉语逐渐进步了。",
+      "exv": "Tiếng Trung của anh ấy dần dần tiến bộ."
+    },
+    {
+      "h": "主张",
+      "p": "zhǔzhāng",
+      "v": "chủ trương, đề xuất",
+      "hv": "chủ trương",
+      "ex": "他主张和平解决问题。",
+      "exv": "Anh ấy chủ trương giải quyết vấn đề bằng hòa bình."
+    },
+    {
+      "h": "专业",
+      "p": "zhuānyè",
+      "v": "chuyên ngành, chuyên nghiệp",
+      "hv": "chuyên nghiệp",
+      "ex": "他学的是计算机专业。",
+      "exv": "Anh ấy học chuyên ngành máy tính."
+    },
+    {
+      "h": "资源",
+      "p": "zīyuán",
+      "v": "tài nguyên, nguồn lực",
+      "hv": "tài nguyên",
+      "ex": "要合理利用自然资源。",
+      "exv": "Phải sử dụng tài nguyên thiên nhiên hợp lý."
+    },
+    {
+      "h": "自信",
+      "p": "zìxìn",
+      "v": "tự tin",
+      "hv": "tự tín",
+      "ex": "要对自己有自信。",
+      "exv": "Phải tự tin vào bản thân."
+    },
+    {
+      "h": "自由",
+      "p": "zìyóu",
+      "v": "tự do",
+      "hv": "tự do",
+      "ex": "每个人都渴望自由。",
+      "exv": "Mọi người đều khao khát tự do."
+    },
+    {
+      "h": "总体",
+      "p": "zǒngtǐ",
+      "v": "tổng thể",
+      "hv": "tổng thể",
+      "ex": "总体来说，情况不错。",
+      "exv": "Nhìn tổng thể, tình hình không tệ."
+    },
+    {
+      "h": "遵守",
+      "p": "zūnshǒu",
+      "v": "tuân thủ",
+      "hv": "tuân thủ",
+      "ex": "要遵守交通规则。",
+      "exv": "Phải tuân thủ luật giao thông."
+    }
+  ],
+  "hsk6": [
+    {
+      "h": "哀愁",
+      "p": "āichóu",
+      "v": "u sầu, buồn rầu",
+      "hv": "ai sầu",
+      "ex": "她的脸上满是哀愁。",
+      "exv": "Trên mặt cô ấy đầy vẻ u sầu."
+    },
+    {
+      "h": "暧昧",
+      "p": "àimèi",
+      "v": "mơ hồ, không rõ ràng",
+      "hv": "ái muội",
+      "ex": "他们的关系很暧昧。",
+      "exv": "Mối quan hệ của họ rất mơ hồ."
+    },
+    {
+      "h": "遏制",
+      "p": "èzhì",
+      "v": "kìm chế, ngăn chặn",
+      "hv": "át chế",
+      "ex": "要遏制腐败现象的蔓延。",
+      "exv": "Phải kìm chế sự lan rộng của tham nhũng."
+    },
+    {
+      "h": "包容",
+      "p": "bāoróng",
+      "v": "bao dung, khoan dung",
+      "hv": "bao dung",
+      "ex": "父母对孩子要有包容心。",
+      "exv": "Cha mẹ cần có lòng bao dung với con cái."
+    },
+    {
+      "h": "背叛",
+      "p": "bèipàn",
+      "v": "phản bội",
+      "hv": "bội phản",
+      "ex": "他背叛了朋友的信任。",
+      "exv": "Anh ấy đã phản bội lòng tin của bạn bè."
+    },
+    {
+      "h": "辩证",
+      "p": "biànzhèng",
+      "v": "biện chứng",
+      "hv": "biện chứng",
+      "ex": "要用辩证的观点看问题。",
+      "exv": "Phải nhìn vấn đề bằng quan điểm biện chứng."
+    },
+    {
+      "h": "博大",
+      "p": "bódà",
+      "v": "bác đại, rộng lớn",
+      "hv": "bác đại",
+      "ex": "中国文化博大精深。",
+      "exv": "Văn hóa Trung Quốc bác đại tinh thâm."
+    },
+    {
+      "h": "惨",
+      "p": "cǎn",
+      "v": "thảm khốc, bi thảm",
+      "hv": "thảm",
+      "ex": "这场事故非常惨。",
+      "exv": "Vụ tai nạn này rất thảm khốc."
+    },
+    {
+      "h": "成就",
+      "p": "chéngjiù",
+      "v": "thành tựu",
+      "hv": "thành tựu",
+      "ex": "他取得了巨大的成就。",
+      "exv": "Anh ấy đạt được thành tựu to lớn."
+    },
+    {
+      "h": "迟疑",
+      "p": "chíyí",
+      "v": "do dự, lưỡng lự",
+      "hv": "trì nghi",
+      "ex": "他迟疑了一下，然后说。",
+      "exv": "Anh ấy do dự một chút rồi mới nói."
+    },
+    {
+      "h": "丑陋",
+      "p": "chǒulòu",
+      "v": "xấu xí, thô lỗ",
+      "hv": "xú lậu",
+      "ex": "他的行为非常丑陋。",
+      "exv": "Hành vi của anh ấy rất xấu xí."
+    },
+    {
+      "h": "出路",
+      "p": "chūlù",
+      "v": "lối thoát, con đường",
+      "hv": "xuất lộ",
+      "ex": "要为年轻人提供更多出路。",
+      "exv": "Phải cung cấp nhiều lối thoát hơn cho người trẻ."
+    },
+    {
+      "h": "创新",
+      "p": "chuàngxīn",
+      "v": "sáng tạo, đổi mới",
+      "hv": "sáng tân",
+      "ex": "创新是企业发展的动力。",
+      "exv": "Sáng tạo là động lực phát triển của doanh nghiệp."
+    },
+    {
+      "h": "从容",
+      "p": "cóngróng",
+      "v": "thư thái, bình tĩnh",
+      "hv": "tòng dung",
+      "ex": "他处理事情很从容。",
+      "exv": "Anh ấy xử lý việc rất thư thái."
+    },
+    {
+      "h": "存亡",
+      "p": "cúnwáng",
+      "v": "tồn vong, sống còn",
+      "hv": "tồn vong",
+      "ex": "这关系到企业的存亡。",
+      "exv": "Điều này liên quan đến sự tồn vong của doanh nghiệp."
+    },
+    {
+      "h": "代价",
+      "p": "dàijià",
+      "v": "cái giá, đổi lại",
+      "hv": "đại giá",
+      "ex": "成功需要付出代价。",
+      "exv": "Thành công cần phải trả giá."
+    },
+    {
+      "h": "淡薄",
+      "p": "dànbó",
+      "v": "nhạt nhẽo, không rõ nét",
+      "hv": "đạm bạc",
+      "ex": "感情渐渐淡薄了。",
+      "exv": "Tình cảm dần trở nên nhạt nhẽo."
+    },
+    {
+      "h": "淡化",
+      "p": "dànhuà",
+      "v": "làm nhạt, giảm bớt",
+      "hv": "đạm hóa",
+      "ex": "要淡化矛盾。",
+      "exv": "Phải giảm bớt mâu thuẫn."
+    },
+    {
+      "h": "颠覆",
+      "p": "diānfù",
+      "v": "lật đổ, đảo lộn",
+      "hv": "điên phúc",
+      "ex": "新技术颠覆了传统行业。",
+      "exv": "Công nghệ mới đã lật đổ ngành truyền thống."
+    },
+    {
+      "h": "鼎盛",
+      "p": "dǐngshèng",
+      "v": "hưng thịnh, cực thịnh",
+      "hv": "đỉnh thịnh",
+      "ex": "唐朝是中国历史的鼎盛时期。",
+      "exv": "Nhà Đường là thời kỳ cực thịnh của lịch sử Trung Quốc."
+    },
+    {
+      "h": "独到",
+      "p": "dúdào",
+      "v": "độc đáo, sâu sắc",
+      "hv": "độc đáo",
+      "ex": "他有独到的见解。",
+      "exv": "Anh ấy có kiến giải độc đáo."
+    },
+    {
+      "h": "堕落",
+      "p": "duòluò",
+      "v": "sa ngã, trụy lạc",
+      "hv": "đọa lạc",
+      "ex": "他因为贪婪而堕落了。",
+      "exv": "Anh ấy sa ngã vì lòng tham."
+    },
+    {
+      "h": "发掘",
+      "p": "fājué",
+      "v": "khai quật, phát hiện",
+      "hv": "phát quật",
+      "ex": "要善于发掘人才。",
+      "exv": "Phải khéo léo phát hiện nhân tài."
+    },
+    {
+      "h": "繁荣",
+      "p": "fánróng",
+      "v": "phồn vinh, phát triển",
+      "hv": "phồn vinh",
+      "ex": "经济繁荣使人民生活水平提高。",
+      "exv": "Kinh tế phồn vinh nâng cao mức sống của người dân."
+    },
+    {
+      "h": "反思",
+      "p": "fǎnsī",
+      "v": "phản tư, suy nghĩ lại",
+      "hv": "phản tư",
+      "ex": "失败后要反思自己的行为。",
+      "exv": "Sau khi thất bại phải suy nghĩ lại hành vi của mình."
+    },
+    {
+      "h": "丰功伟绩",
+      "p": "fēng gōng wěi jì",
+      "v": "công lao vĩ đại",
+      "hv": "phong công vĩ tích",
+      "ex": "他立下了丰功伟绩。",
+      "exv": "Anh ấy đã lập nên công lao vĩ đại."
+    },
+    {
+      "h": "否认",
+      "p": "fǒurèn",
+      "v": "phủ nhận, bác bỏ",
+      "hv": "phủ nhận",
+      "ex": "他否认了这件事。",
+      "exv": "Anh ấy phủ nhận sự việc này."
+    },
+    {
+      "h": "腐败",
+      "p": "fǔbài",
+      "v": "tham nhũng, thối nát",
+      "hv": "hủ bại",
+      "ex": "要严厉打击腐败行为。",
+      "exv": "Phải đấu tranh mạnh mẽ chống tham nhũng."
+    },
+    {
+      "h": "干预",
+      "p": "gānyù",
+      "v": "can thiệp",
+      "hv": "can dự",
+      "ex": "不要干预别人的私事。",
+      "exv": "Đừng can thiệp vào việc riêng của người khác."
+    },
+    {
+      "h": "感慨",
+      "p": "gǎnkǎi",
+      "v": "cảm khái, xúc động mạnh",
+      "hv": "cảm khái",
+      "ex": "他感慨万千。",
+      "exv": "Anh ấy cảm khái muôn phần."
+    },
+    {
+      "h": "格局",
+      "p": "géjú",
+      "v": "cục diện, khuôn khổ",
+      "hv": "cách cục",
+      "ex": "他的思维格局很大。",
+      "exv": "Khuôn khổ tư duy của anh ấy rất rộng."
+    },
+    {
+      "h": "根深蒂固",
+      "p": "gēn shēn dì gù",
+      "v": "ăn sâu bám rễ, cố hữu",
+      "hv": "căn thâm đế cố",
+      "ex": "这种观念根深蒂固。",
+      "exv": "Quan niệm này đã ăn sâu bám rễ."
+    },
+    {
+      "h": "功利",
+      "p": "gōnglì",
+      "v": "thực dụng, lợi ích",
+      "hv": "công lợi",
+      "ex": "不要太功利。",
+      "exv": "Đừng quá thực dụng."
+    },
+    {
+      "h": "估量",
+      "p": "gūliáng",
+      "v": "ước lượng, đánh giá",
+      "hv": "cô lượng",
+      "ex": "难以估量这次损失的大小。",
+      "exv": "Khó có thể ước lượng quy mô tổn thất lần này."
+    },
+    {
+      "h": "固执",
+      "p": "gùzhí",
+      "v": "cố chấp, bướng bỉnh",
+      "hv": "cố chấp",
+      "ex": "他太固执了，不听别人的意见。",
+      "exv": "Anh ấy quá cố chấp, không nghe ý kiến người khác."
+    },
+    {
+      "h": "惯例",
+      "p": "guànlì",
+      "v": "thông lệ, lệ thường",
+      "hv": "quán lệ",
+      "ex": "按照惯例，会议每月举行一次。",
+      "exv": "Theo thông lệ, cuộc họp được tổ chức mỗi tháng một lần."
+    },
+    {
+      "h": "过渡",
+      "p": "guòdù",
+      "v": "giai đoạn chuyển tiếp",
+      "hv": "quá độ",
+      "ex": "现在处于过渡时期。",
+      "exv": "Hiện nay đang trong giai đoạn quá độ."
+    },
+    {
+      "h": "含蓄",
+      "p": "hánxù",
+      "v": "ý tứ, kín đáo",
+      "hv": "hàm súc",
+      "ex": "中国人说话比较含蓄。",
+      "exv": "Người Trung Quốc nói chuyện khá kín đáo, ý tứ."
+    },
+    {
+      "h": "和谐",
+      "p": "héxié",
+      "v": "hài hòa, hòa thuận",
+      "hv": "hòa hài",
+      "ex": "要建设和谐社会。",
+      "exv": "Phải xây dựng xã hội hài hòa."
+    },
+    {
+      "h": "宏观",
+      "p": "hóngguān",
+      "v": "vĩ mô",
+      "hv": "hoành quan",
+      "ex": "要从宏观角度分析问题。",
+      "exv": "Phải phân tích vấn đề từ góc độ vĩ mô."
+    },
+    {
+      "h": "唤醒",
+      "p": "huànxǐng",
+      "v": "đánh thức",
+      "hv": "hoán tỉnh",
+      "ex": "音乐唤醒了他内心的感情。",
+      "exv": "Âm nhạc đánh thức cảm xúc trong lòng anh ấy."
+    },
+    {
+      "h": "辉煌",
+      "p": "huīhuáng",
+      "v": "huy hoàng, rực rỡ",
+      "hv": "huy hoàng",
+      "ex": "中华民族有辉煌的历史。",
+      "exv": "Dân tộc Trung Hoa có lịch sử huy hoàng."
+    },
+    {
+      "h": "机遇",
+      "p": "jīyù",
+      "v": "cơ hội",
+      "hv": "cơ ngộ",
+      "ex": "要善于抓住机遇。",
+      "exv": "Phải khéo léo nắm bắt cơ hội."
+    },
+    {
+      "h": "激励",
+      "p": "jīlì",
+      "v": "khích lệ, động viên",
+      "hv": "kích lệ",
+      "ex": "老师的话激励了学生。",
+      "exv": "Lời nói của giáo viên khích lệ học sinh."
+    },
+    {
+      "h": "极致",
+      "p": "jízhì",
+      "v": "tột cùng, cực độ",
+      "hv": "cực trí",
+      "ex": "他追求极致的完美。",
+      "exv": "Anh ấy theo đuổi sự hoàn hảo tột cùng."
+    },
+    {
+      "h": "继承",
+      "p": "jìchéng",
+      "v": "kế thừa",
+      "hv": "kế thừa",
+      "ex": "要继承和发扬传统文化。",
+      "exv": "Phải kế thừa và phát huy văn hóa truyền thống."
+    },
+    {
+      "h": "坚定",
+      "p": "jiāndìng",
+      "v": "kiên định, vững chắc",
+      "hv": "kiên định",
+      "ex": "他意志坚定，从不退缩。",
+      "exv": "Ý chí anh ấy kiên định, không bao giờ thoái lui."
+    },
+    {
+      "h": "简洁",
+      "p": "jiǎnjié",
+      "v": "súc tích, ngắn gọn",
+      "hv": "giản khiết",
+      "ex": "文章要简洁明了。",
+      "exv": "Bài văn phải súc tích rõ ràng."
+    },
+    {
+      "h": "鉴别",
+      "p": "jiànbié",
+      "v": "giám định, phân biệt",
+      "hv": "giám biệt",
+      "ex": "要学会鉴别真假。",
+      "exv": "Phải học cách phân biệt thật giả."
+    },
+    {
+      "h": "境界",
+      "p": "jìngjiè",
+      "v": "cảnh giới, tầm mức",
+      "hv": "cảnh giới",
+      "ex": "他的艺术已达到很高的境界。",
+      "exv": "Nghệ thuật của anh ấy đã đạt đến cảnh giới rất cao."
+    },
+    {
+      "h": "开拓",
+      "p": "kāituò",
+      "v": "khai phá, mở mang",
+      "hv": "khai thác",
+      "ex": "要开拓新的市场。",
+      "exv": "Phải khai phá thị trường mới."
+    },
+    {
+      "h": "感慨",
+      "p": "kǎnkě",
+      "v": "gian nan, trắc trở",
+      "hv": "khảm khả",
+      "ex": "他的一生坎坷不平。",
+      "exv": "Cuộc đời anh ấy gian nan trắc trở."
+    },
+    {
+      "h": "坎坷",
+      "p": "kǎnkě",
+      "v": "gập ghềnh, gian nan",
+      "hv": "khảm khả",
+      "ex": "人生坎坷，但要勇敢面对。",
+      "exv": "Cuộc đời gập ghềnh nhưng phải dũng cảm đối mặt."
+    },
+    {
+      "h": "慷慨",
+      "p": "kāngkǎi",
+      "v": "hào phóng, hào sảng",
+      "hv": "khảng khái",
+      "ex": "他非常慷慨，乐于助人。",
+      "exv": "Anh ấy rất hào phóng, vui lòng giúp đỡ mọi người."
+    },
+    {
+      "h": "可观",
+      "p": "kěguān",
+      "v": "đáng kể, khả quan",
+      "hv": "khả quan",
+      "ex": "公司的利润相当可观。",
+      "exv": "Lợi nhuận công ty khá đáng kể."
+    },
+    {
+      "h": "困境",
+      "p": "kùnjìng",
+      "v": "hoàn cảnh khó khăn, bế tắc",
+      "hv": "khốn cảnh",
+      "ex": "他陷入了困境。",
+      "exv": "Anh ấy rơi vào hoàn cảnh khó khăn."
+    },
+    {
+      "h": "扩展",
+      "p": "kuòzhǎn",
+      "v": "mở rộng, khuếch trương",
+      "hv": "khoát triển",
+      "ex": "公司正在扩展业务。",
+      "exv": "Công ty đang mở rộng kinh doanh."
+    },
+    {
+      "h": "懒惰",
+      "p": "lǎnduò",
+      "v": "lười biếng",
+      "hv": "lãn đọa",
+      "ex": "懒惰是成功的最大敌人。",
+      "exv": "Lười biếng là kẻ thù lớn nhất của thành công."
+    },
+    {
+      "h": "冷静",
+      "p": "lěngjìng",
+      "v": "bình tĩnh, điềm tĩnh",
+      "hv": "lãnh tĩnh",
+      "ex": "遇到困难要保持冷静。",
+      "exv": "Gặp khó khăn phải giữ bình tĩnh."
+    },
+    {
+      "h": "理念",
+      "p": "lǐniàn",
+      "v": "lý niệm, quan niệm",
+      "hv": "lý niệm",
+      "ex": "公司有先进的管理理念。",
+      "exv": "Công ty có lý niệm quản lý tiên tiến."
+    },
+    {
+      "h": "立场",
+      "p": "lìchǎng",
+      "v": "lập trường",
+      "hv": "lập trường",
+      "ex": "他的立场非常坚定。",
+      "exv": "Lập trường của anh ấy rất kiên định."
+    },
+    {
+      "h": "良心",
+      "p": "liángxīn",
+      "v": "lương tâm",
+      "hv": "lương tâm",
+      "ex": "要凭良心做事。",
+      "exv": "Phải làm việc theo lương tâm."
+    },
+    {
+      "h": "淋漓",
+      "p": "línlí",
+      "v": "thấm đẫm, thỏa thích",
+      "hv": "lâm ly",
+      "ex": "他把感情表达得淋漓尽致。",
+      "exv": "Anh ấy biểu đạt tình cảm một cách thỏa thích."
+    },
+    {
+      "h": "领悟",
+      "p": "lǐngwù",
+      "v": "lĩnh hội, thấu hiểu",
+      "hv": "lĩnh ngộ",
+      "ex": "他终于领悟了老师的意思。",
+      "exv": "Anh ấy cuối cùng đã lĩnh hội được ý của giáo viên."
+    },
+    {
+      "h": "慢慢",
+      "p": "mànman",
+      "v": "từ từ, chầm chậm",
+      "hv": "mạn mạn",
+      "ex": "慢慢来，不用着急。",
+      "exv": "Từ từ thôi, không cần vội."
+    },
+    {
+      "h": "迷失",
+      "p": "míshī",
+      "v": "lạc lối, mất phương hướng",
+      "hv": "mê thất",
+      "ex": "他在人生的道路上迷失了方向。",
+      "exv": "Anh ấy đã lạc lối trên con đường đời."
+    },
+    {
+      "h": "魅力",
+      "p": "mèilì",
+      "v": "sức hấp dẫn, quyến rũ",
+      "hv": "mị lực",
+      "ex": "她有无穷的魅力。",
+      "exv": "Cô ấy có sức hấp dẫn vô tận."
+    },
+    {
+      "h": "模糊",
+      "p": "móhu",
+      "v": "mờ nhạt, không rõ ràng",
+      "hv": "mô hồ",
+      "ex": "照片很模糊，看不清楚。",
+      "exv": "Ảnh rất mờ nhạt, không nhìn rõ."
+    },
+    {
+      "h": "默默",
+      "p": "mòmò",
+      "v": "âm thầm, lặng lẽ",
+      "hv": "mặc mặc",
+      "ex": "他默默地努力工作。",
+      "exv": "Anh ấy âm thầm nỗ lực làm việc."
+    },
+    {
+      "h": "内涵",
+      "p": "nèihán",
+      "v": "nội hàm, chiều sâu",
+      "hv": "nội hàm",
+      "ex": "这首诗的内涵很深刻。",
+      "exv": "Nội hàm của bài thơ này rất sâu sắc."
+    },
+    {
+      "h": "凝聚",
+      "p": "níngjù",
+      "v": "kết tụ, đoàn kết",
+      "hv": "ngưng tụ",
+      "ex": "要凝聚全国人民的力量。",
+      "exv": "Phải đoàn kết sức mạnh toàn thể nhân dân."
+    },
+    {
+      "h": "批判",
+      "p": "pīpàn",
+      "v": "phê phán",
+      "hv": "phê phán",
+      "ex": "要用批判的眼光看问题。",
+      "exv": "Phải nhìn vấn đề bằng con mắt phê phán."
+    },
+    {
+      "h": "飘逸",
+      "p": "piāoyì",
+      "v": "nhẹ nhàng, phiêu dật",
+      "hv": "phiêu dật",
+      "ex": "她的舞姿非常飘逸。",
+      "exv": "Vũ đạo của cô ấy rất nhẹ nhàng phiêu dật."
+    },
+    {
+      "h": "品味",
+      "p": "pǐnwèi",
+      "v": "thưởng thức, phẩm vị",
+      "hv": "phẩm vị",
+      "ex": "他有很高的品味。",
+      "exv": "Anh ấy có phẩm vị rất cao."
+    },
+    {
+      "h": "平静",
+      "p": "píngjìng",
+      "v": "bình lặng, yên tĩnh",
+      "hv": "bình tĩnh",
+      "ex": "心情要保持平静。",
+      "exv": "Tâm trạng phải giữ bình lặng."
+    },
+    {
+      "h": "迫不及待",
+      "p": "pò bù jí dài",
+      "v": "nóng lòng chờ đợi, bức bách",
+      "hv": "bức bất cập đãi",
+      "ex": "他迫不及待地打开礼物。",
+      "exv": "Anh ấy nóng lòng mở quà tặng."
+    },
+    {
+      "h": "启示",
+      "p": "qǐshì",
+      "v": "sự gợi ý, bài học",
+      "hv": "khải thị",
+      "ex": "这件事给了我们很多启示。",
+      "exv": "Sự việc này đã cho chúng ta nhiều bài học."
+    },
+    {
+      "h": "情操",
+      "p": "qíngcāo",
+      "v": "tình tao, cảm xúc lành mạnh",
+      "hv": "tình tháo",
+      "ex": "要培养高尚的情操。",
+      "exv": "Phải bồi dưỡng tình tao cao thượng."
+    },
+    {
+      "h": "群体",
+      "p": "qúntǐ",
+      "v": "nhóm người, tập thể",
+      "hv": "quần thể",
+      "ex": "这个政策影响了大量群体。",
+      "exv": "Chính sách này ảnh hưởng đến số lượng lớn nhóm người."
+    },
+    {
+      "h": "热衷",
+      "p": "rèzhōng",
+      "v": "say mê, nhiệt tình",
+      "hv": "nhiệt trung",
+      "ex": "他热衷于公益事业。",
+      "exv": "Anh ấy say mê với hoạt động từ thiện."
+    },
+    {
+      "h": "人文",
+      "p": "rénwén",
+      "v": "nhân văn",
+      "hv": "nhân văn",
+      "ex": "这所大学有浓厚的人文气息。",
+      "exv": "Trường đại học này có không khí nhân văn đậm đà."
+    },
+    {
+      "h": "容纳",
+      "p": "róngnà",
+      "v": "chứa đựng, dung nạp",
+      "hv": "dung nạp",
+      "ex": "这个体育场可以容纳八万观众。",
+      "exv": "Sân vận động này có thể chứa 80.000 khán giả."
+    },
+    {
+      "h": "融洽",
+      "p": "róngqià",
+      "v": "hòa thuận, hài hòa",
+      "hv": "dung kháp",
+      "ex": "他们相处得非常融洽。",
+      "exv": "Họ sống với nhau rất hòa thuận."
+    },
+    {
+      "h": "儒家",
+      "p": "Rújiā",
+      "v": "Nho gia, Nho học",
+      "hv": "nho gia",
+      "ex": "儒家思想影响了中国几千年。",
+      "exv": "Tư tưởng Nho gia đã ảnh hưởng đến Trung Quốc hàng nghìn năm."
+    },
+    {
+      "h": "深远",
+      "p": "shēnyuǎn",
+      "v": "sâu xa, lâu dài",
+      "hv": "thâm viễn",
+      "ex": "这个决定影响深远。",
+      "exv": "Quyết định này có ảnh hưởng sâu xa."
+    },
+    {
+      "h": "慎重",
+      "p": "shènzhòng",
+      "v": "thận trọng",
+      "hv": "thận trọng",
+      "ex": "做重大决定要慎重。",
+      "exv": "Đưa ra quyết định quan trọng phải thận trọng."
+    },
+    {
+      "h": "升华",
+      "p": "shēnghuá",
+      "v": "thăng hoa, nâng cao",
+      "hv": "thăng hoa",
+      "ex": "通过学习，他的思想得到了升华。",
+      "exv": "Qua học tập, tư tưởng của anh ấy được thăng hoa."
+    },
+    {
+      "h": "实质",
+      "p": "shízhì",
+      "v": "thực chất, bản chất",
+      "hv": "thực chất",
+      "ex": "要看清问题的实质。",
+      "exv": "Phải nhìn rõ thực chất của vấn đề."
+    },
+    {
+      "h": "双赢",
+      "p": "shuāngyíng",
+      "v": "đôi bên cùng có lợi",
+      "hv": "song doanh",
+      "ex": "谈判的目标是实现双赢。",
+      "exv": "Mục tiêu đàm phán là đạt được đôi bên cùng có lợi."
+    },
+    {
+      "h": "顺应",
+      "p": "shùnyìng",
+      "v": "thuận theo, thích ứng",
+      "hv": "thuận ứng",
+      "ex": "要顺应时代的发展。",
+      "exv": "Phải thuận theo sự phát triển của thời đại."
+    },
+    {
+      "h": "说到底",
+      "p": "shuō dào dǐ",
+      "v": "xét cho cùng, nói cho cùng",
+      "hv": "thuyết đáo để",
+      "ex": "说到底，问题在于缺乏沟通。",
+      "exv": "Xét cho cùng, vấn đề nằm ở chỗ thiếu giao tiếp."
+    },
+    {
+      "h": "探讨",
+      "p": "tàntǎo",
+      "v": "thăm dò, nghiên cứu",
+      "hv": "thám thảo",
+      "ex": "我们探讨了这个问题的各个方面。",
+      "exv": "Chúng tôi đã nghiên cứu các phương diện của vấn đề này."
+    },
+    {
+      "h": "淘汰",
+      "p": "táotài",
+      "v": "đào thải, loại bỏ",
+      "hv": "đào thải",
+      "ex": "落后就要被淘汰。",
+      "exv": "Lạc hậu thì sẽ bị đào thải."
+    },
+    {
+      "h": "体悟",
+      "p": "tǐwù",
+      "v": "trải nghiệm và lĩnh hội",
+      "hv": "thể ngộ",
+      "ex": "要认真体悟生活中的哲理。",
+      "exv": "Phải nghiêm túc lĩnh hội triết lý trong cuộc sống."
+    },
+    {
+      "h": "天赋",
+      "p": "tiānfù",
+      "v": "thiên phú, năng khiếu trời cho",
+      "hv": "thiên phú",
+      "ex": "他有音乐方面的天赋。",
+      "exv": "Anh ấy có năng khiếu âm nhạc."
+    },
+    {
+      "h": "恬静",
+      "p": "tiánjìng",
+      "v": "yên tĩnh, bình yên",
+      "hv": "điềm tĩnh",
+      "ex": "她过着恬静的田园生活。",
+      "exv": "Cô ấy sống cuộc sống điền viên yên tĩnh."
+    },
+    {
+      "h": "通俗",
+      "p": "tōngsú",
+      "v": "thông tục, dễ hiểu",
+      "hv": "thông tục",
+      "ex": "他讲课很通俗易懂。",
+      "exv": "Anh ấy giảng bài rất thông tục dễ hiểu."
+    },
+    {
+      "h": "透彻",
+      "p": "tòuchè",
+      "v": "thấu đáo, sâu sắc",
+      "hv": "thấu triệt",
+      "ex": "他分析问题非常透彻。",
+      "exv": "Anh ấy phân tích vấn đề rất thấu đáo."
+    },
+    {
+      "h": "推崇",
+      "p": "tuīchóng",
+      "v": "đề cao, tôn sùng",
+      "hv": "thôi sùng",
+      "ex": "他被大家推崇为艺术家。",
+      "exv": "Anh ấy được mọi người tôn sùng như một nghệ sĩ."
+    },
+    {
+      "h": "退步",
+      "p": "tuìbù",
+      "v": "thụt lùi, thoái bộ",
+      "hv": "thoái bộ",
+      "ex": "最近他的成绩有所退步。",
+      "exv": "Gần đây thành tích của anh ấy có phần thoái bộ."
+    },
+    {
+      "h": "完善",
+      "p": "wánshàn",
+      "v": "hoàn thiện",
+      "hv": "hoàn thiện",
+      "ex": "要不断完善自我。",
+      "exv": "Phải không ngừng hoàn thiện bản thân."
+    },
+    {
+      "h": "唯一",
+      "p": "wéiyī",
+      "v": "duy nhất",
+      "hv": "duy nhất",
+      "ex": "这是唯一的解决方法。",
+      "exv": "Đây là phương pháp giải quyết duy nhất."
+    },
+    {
+      "h": "务必",
+      "p": "wùbì",
+      "v": "nhất thiết phải, cần phải",
+      "hv": "vụ tất",
+      "ex": "务必准时到达。",
+      "exv": "Nhất thiết phải đến đúng giờ."
+    },
+    {
+      "h": "显著",
+      "p": "xiǎnzhù",
+      "v": "rõ rệt, hiển nhiên",
+      "hv": "hiển trứ",
+      "ex": "成效非常显著。",
+      "exv": "Hiệu quả rất rõ rệt."
+    },
+    {
+      "h": "心灵",
+      "p": "xīnlíng",
+      "v": "tâm hồn",
+      "hv": "tâm linh",
+      "ex": "音乐能净化人的心灵。",
+      "exv": "Âm nhạc có thể thanh lọc tâm hồn con người."
+    },
+    {
+      "h": "雄心",
+      "p": "xióngxīn",
+      "v": "hùng tâm, chí lớn",
+      "hv": "hùng tâm",
+      "ex": "他有远大的雄心壮志。",
+      "exv": "Anh ấy có hùng tâm tráng chí xa lớn."
+    },
+    {
+      "h": "虚伪",
+      "p": "xūwěi",
+      "v": "giả dối, hư ngụy",
+      "hv": "hư ngụy",
+      "ex": "他是个虚伪的人。",
+      "exv": "Anh ấy là người giả dối."
+    },
+    {
+      "h": "熏陶",
+      "p": "xūntáo",
+      "v": "hun đúc, giáo hóa",
+      "hv": "huân đào",
+      "ex": "良好的环境对人有熏陶作用。",
+      "exv": "Môi trường tốt có tác dụng hun đúc con người."
+    },
+    {
+      "h": "言论",
+      "p": "yánlùn",
+      "v": "ngôn luận",
+      "hv": "ngôn luận",
+      "ex": "要保护公民的言论自由。",
+      "exv": "Phải bảo vệ tự do ngôn luận của công dân."
+    },
+    {
+      "h": "彦",
+      "p": "yàn",
+      "v": "người tài đức",
+      "hv": "ngạn",
+      "ex": "古代圣彦的思想影响深远。",
+      "exv": "Tư tưởng của bậc hiền tài thời cổ đại có ảnh hưởng sâu xa."
+    },
+    {
+      "h": "遥远",
+      "p": "yáoyuǎn",
+      "v": "xa xôi",
+      "hv": "dao viễn",
+      "ex": "那是一个遥远的地方。",
+      "exv": "Đó là một nơi xa xôi."
+    },
+    {
+      "h": "一贯",
+      "p": "yīguàn",
+      "v": "nhất quán, luôn luôn",
+      "hv": "nhất quán",
+      "ex": "他一贯守时。",
+      "exv": "Anh ấy luôn luôn đúng giờ."
+    },
+    {
+      "h": "一味",
+      "p": "yīwèi",
+      "v": "một mực, cứ mãi",
+      "hv": "nhất vị",
+      "ex": "不能一味地追求金钱。",
+      "exv": "Không thể một mực chạy theo tiền bạc."
+    },
+    {
+      "h": "遗产",
+      "p": "yíchǎn",
+      "v": "di sản",
+      "hv": "di sản",
+      "ex": "要保护文化遗产。",
+      "exv": "Phải bảo vệ di sản văn hóa."
+    },
+    {
+      "h": "意志",
+      "p": "yìzhì",
+      "v": "ý chí",
+      "hv": "ý chí",
+      "ex": "要有坚强的意志。",
+      "exv": "Phải có ý chí kiên cường."
+    },
+    {
+      "h": "印证",
+      "p": "yìnzhèng",
+      "v": "ấn chứng, xác nhận",
+      "hv": "ấn chứng",
+      "ex": "事实印证了他的判断。",
+      "exv": "Sự thật đã xác nhận phán đoán của anh ấy."
+    },
+    {
+      "h": "有所",
+      "p": "yǒusuǒ",
+      "v": "có phần, một phần",
+      "hv": "hữu sở",
+      "ex": "他最近有所进步。",
+      "exv": "Gần đây anh ấy có phần tiến bộ."
+    },
+    {
+      "h": "约定",
+      "p": "yuēdìng",
+      "v": "thỏa thuận, hẹn",
+      "hv": "ước định",
+      "ex": "他们约定明天见面。",
+      "exv": "Họ hẹn gặp nhau vào ngày mai."
+    },
+    {
+      "h": "蕴含",
+      "p": "yùnhán",
+      "v": "hàm chứa, tiềm ẩn",
+      "hv": "uẩn hàm",
+      "ex": "这首诗蕴含着深刻的哲理。",
+      "exv": "Bài thơ này hàm chứa triết lý sâu sắc."
+    },
+    {
+      "h": "责备",
+      "p": "zébèi",
+      "v": "trách cứ, chỉ trích",
+      "hv": "trách bị",
+      "ex": "他责备自己没有努力。",
+      "exv": "Anh ấy tự trách mình không cố gắng."
+    },
+    {
+      "h": "彻底",
+      "p": "zhēnchéng",
+      "v": "chân thành",
+      "hv": "chân thành",
+      "ex": "他真诚地道歉了。",
+      "exv": "Anh ấy chân thành xin lỗi."
+    },
+    {
+      "h": "执着",
+      "p": "zhízhuó",
+      "v": "chấp nhất, kiên định",
+      "hv": "chấp trước",
+      "ex": "他对理想非常执着。",
+      "exv": "Anh ấy rất kiên định với lý tưởng."
+    },
+    {
+      "h": "制约",
+      "p": "zhìyuē",
+      "v": "chế ước, ràng buộc",
+      "hv": "chế ước",
+      "ex": "规则制约着人们的行为。",
+      "exv": "Quy tắc ràng buộc hành vi của con người."
+    },
+    {
+      "h": "智慧",
+      "p": "zhìhuì",
+      "v": "trí tuệ, trí huệ",
+      "hv": "trí tuệ",
+      "ex": "要用智慧解决问题。",
+      "exv": "Phải dùng trí tuệ giải quyết vấn đề."
+    },
+    {
+      "h": "中庸",
+      "p": "zhōngyōng",
+      "v": "trung dung",
+      "hv": "trung dung",
+      "ex": "儒家提倡中庸之道。",
+      "exv": "Nho gia đề xướng đạo trung dung."
+    },
+    {
+      "h": "自强",
+      "p": "zìqiáng",
+      "v": "tự cường, tự lực",
+      "hv": "tự cường",
+      "ex": "要自强不息。",
+      "exv": "Phải không ngừng tự cường."
+    },
+    {
+      "h": "自相矛盾",
+      "p": "zì xiāng máodùn",
+      "v": "tự mâu thuẫn với nhau",
+      "hv": "tự tương mâu thuẫn",
+      "ex": "他说的话自相矛盾。",
+      "exv": "Lời nói của anh ấy tự mâu thuẫn với nhau."
+    },
+    {
+      "h": "综合",
+      "p": "zōnghé",
+      "v": "tổng hợp",
+      "hv": "tổng hợp",
+      "ex": "要综合考虑各种因素。",
+      "exv": "Phải tổng hợp xem xét các nhân tố."
+    },
+    {
+      "h": "尊严",
+      "p": "zūnyán",
+      "v": "nhân cách, phẩm giá",
+      "hv": "tôn nghiêm",
+      "ex": "要维护自己的尊严。",
+      "exv": "Phải bảo vệ nhân cách của mình."
+    },
+    {
+      "h": "尊重",
+      "p": "zūnzhòng",
+      "v": "tôn trọng",
+      "hv": "tôn trọng",
+      "ex": "要尊重他人的选择。",
+      "exv": "Phải tôn trọng lựa chọn của người khác."
+    },
+    {
+      "h": "作风",
+      "p": "zuòfēng",
+      "v": "tác phong, phong cách làm việc",
+      "hv": "tác phong",
+      "ex": "要改进工作作风。",
+      "exv": "Phải cải thiện tác phong làm việc."
+    }
   ]
 }
