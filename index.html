@@ -312,11 +312,11 @@
     <div class="typing-answer" id="typing-answer" aria-live="polite"></div>
     <div class="typing-feedback" id="typing-feedback" aria-live="polite">Bật bộ gõ tiếng Trung (Pinyin) để nhập chữ Hán.</div>
     <div class="typing-actions">
-      <button class="btn btn-outline" onclick="showTypingAnswer()">Xem đáp án</button>
-      <button class="btn btn-outline" onclick="skipTyping()">Bỏ qua →</button>
-      <button class="btn" onclick="resetTyping()">Luyện lại</button>
+      <button class="btn btn-outline" onclick="showTypingAnswer()" title="Phím tắt: Ctrl + Enter">Xem đáp án <kbd>Ctrl ↵</kbd></button>
+      <button class="btn btn-outline" onclick="skipTyping()" title="Phím tắt: Ctrl + →">Bỏ qua → <kbd>Ctrl →</kbd></button>
+      <button class="btn" onclick="resetTyping()" title="Phím tắt: Ctrl + Shift + Backspace">Luyện lại</button>
     </div>
-    <div class="typing-note">Mẹo: Trên máy tính hoặc điện thoại, hãy bật bàn phím tiếng Trung Pinyin. Ví dụ: gõ “nihao” để chọn “你好”.</div>
+    <div class="typing-note">Mẹo: Bật bộ gõ tiếng Trung Pinyin để nhập chữ Hán. Phím tắt: <kbd>Ctrl + Enter</kbd> xem đáp án · <kbd>Ctrl + →</kbd> bỏ qua · <kbd>Ctrl + Shift + Backspace</kbd> luyện lại. Sau khi xem đáp án, nhấn <kbd>Enter</kbd> để sang từ tiếp theo.</div>
   </div>
 </div>
 
@@ -592,9 +592,32 @@ function skipTyping(){
 
 document.getElementById("typing-input").addEventListener("input", handleTypingInput);
 document.getElementById("typing-input").addEventListener("keydown", event => {
-  if(event.key === "Enter" && typingCurrent && !event.isComposing){
+  // Enter chỉ chuyển từ sau khi đáp án đã được mở; không can thiệp lúc IME đang chọn chữ.
+  if(event.key === "Enter" && typingCurrent && !event.isComposing &&
+     document.getElementById("typing-input").disabled){
     event.preventDefault();
-    if(document.getElementById("typing-input").disabled) nextTypingWord();
+    nextTypingWord();
+  }
+});
+
+// Phím tắt dùng được khi đang ở khu vực luyện gõ, kể cả lúc con trỏ nằm trong ô nhập.
+document.addEventListener("keydown", event => {
+  const typingSection = document.getElementById("typing");
+  if(!typingSection || !typingSection.classList.contains("active") ||
+     event.isComposing || event.repeat) return;
+
+  const modifier = event.ctrlKey || event.metaKey;
+  if(!modifier) return;
+
+  if(event.key === "Enter"){
+    event.preventDefault();
+    showTypingAnswer();
+  } else if(event.key === "ArrowRight"){
+    event.preventDefault();
+    skipTyping();
+  } else if(event.key === "Backspace" && event.shiftKey){
+    event.preventDefault();
+    resetTyping();
   }
 });
 
