@@ -392,10 +392,11 @@ function renderPage(){
           <div class="pinyin">${escapeHTML(w.p)}</div>
           <div class="meaning">${escapeHTML(w.v)}</div>
           <button class="mini${srs[wk(w)]?" added":""}" data-k="${escapeHTML(wk(w))}">${srs[wk(w)]?"✓ Đã trong ôn tập":"＋ Ôn tập"}</button>
-          ${(w.hv || w.ex || w.exv) ? `<div class="extra-detail">
+          ${(w.hv || w.ex || w.exv || w.note) ? `<div class="extra-detail">
             ${w.hv ? `<div class="hanviet">Hán Việt: ${escapeHTML(w.hv)}</div>` : ""}
             ${w.ex ? `<div class="example-cn">${escapeHTML(w.ex)}</div>` : ""}
             ${w.exv ? `<div class="example-vn">${escapeHTML(w.exv)}</div>` : ""}
+            ${w.note ? `<div class="example-vn">Phân biệt: ${escapeHTML(w.note)}</div>` : ""}
           </div>` : ""}
         </div>
       </div>`).join("");
@@ -695,8 +696,8 @@ function renderReview(){
     h+='<button class="btn" onclick="rvReveal()">Xem nghĩa</button>';
   } else {
     h+='<div class="meaning" style="font-size:1.15rem">'+escapeHTML(w.v)+'</div>'
-      +((w.hv||w.ex)?'<div class="extra-detail rv-detail">'+(w.hv?'<div class="hanviet">Hán Việt: '+escapeHTML(w.hv)+'</div>':'')
-      +(w.ex?'<div class="example-cn">'+escapeHTML(w.ex)+'</div>':'')+(w.exv?'<div>'+escapeHTML(w.exv)+'</div>':'')+'</div>':'')
+      +((w.hv||w.ex||w.note)?'<div class="extra-detail rv-detail">'+(w.hv?'<div class="hanviet">Hán Việt: '+escapeHTML(w.hv)+'</div>':'')
+      +(w.ex?'<div class="example-cn">'+escapeHTML(w.ex)+'</div>':'')+(w.exv?'<div>'+escapeHTML(w.exv)+'</div>':'')+(w.note?'<div>Phân biệt: '+escapeHTML(w.note)+'</div>':'')+'</div>':'')
       +'<div class="rv-rate"><button class="btn btn-bad" onclick="rvRate(0)">Quên</button>'
       +'<button class="btn btn-mid" onclick="rvRate(1)">Khó nhớ</button><button class="btn btn-ok" onclick="rvRate(2)">Nhớ</button></div>';
   }
