@@ -157,6 +157,19 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
 .edit-bar{display:flex;gap:10px 14px;align-items:center;flex-wrap:wrap;margin-bottom:18px;padding:12px 16px;background:var(--surface);border:1px solid var(--primary);border-radius:var(--r);font-size:.84rem}
 .edit-bar span{flex:1;min-width:220px}
 .edit-bar .btn{padding:7px 16px;font-size:.8rem}
+.qs-row{display:flex;align-items:center;justify-content:center;gap:10px;margin:14px 0;font-size:.95rem}
+.qs-row input[type=checkbox]{width:18px;height:18px;accent-color:var(--primary)}
+.qs-row input[type=number]{width:84px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:500 .95rem "Be Vietnam Pro",sans-serif;text-align:center}
+.qs-row input:disabled{opacity:.45}
+.qs-keys{margin-top:20px;font-size:.78rem;color:var(--soft);line-height:2.1}
+.q-timer{max-width:420px;margin:0 auto 18px}
+.q-timer-bar{height:8px;background:var(--line);border-radius:999px;overflow:hidden}
+.q-timer-fill{height:100%;width:100%;background:var(--primary);border-radius:999px}
+.q-timer.warn .q-timer-fill{background:var(--bad)}
+.q-timer-text{font-size:.82rem;color:var(--soft);margin-top:5px}
+.q-timer.warn .q-timer-text{color:var(--bad);font-weight:600}
+.choice-btn{position:relative;padding-left:36px}
+.choice-btn::before{content:attr(data-k);position:absolute;left:9px;top:50%;transform:translateY(-50%);font:600 .68rem monospace;color:var(--soft);border:1px solid var(--line);border-radius:5px;padding:0 5px;background:var(--surface)}
 </style>
 </head>
 <body>
@@ -176,10 +189,10 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
 <!-- HOME -->
 <div class="section active" id="home">
   <div class="hero">
-    <span class="hero-char">你好何孟刚</span>
+    <span class="hero-char">你好</span>
     <div class="greet" id="greet"></div>
     <h1>汉子太难了</h1>
-    <p><strong id="total-word-count">—</strong> từ vựng thường dùng, công xưởng. có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
+    <p><strong id="total-word-count">—</strong> từ vựng thường dùng, công xưởng, có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
     <div class="hero-btns">
       <button class="btn" onclick="show('vocab')">Học từ vựng</button>
       <button class="btn btn-outline" onclick="show('quiz')">Làm quiz</button>
@@ -280,6 +293,18 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
     <button class="ftab" data-l="hsk6" onclick="setQuizLevel('hsk6')">HSK 6</button>
     <button class="ftab" data-l="xuong" onclick="setQuizLevel('xuong')">Công xưởng</button>
   </div>
+  <div class="quiz-box" id="quiz-setup">
+    <h2>Cài đặt trước khi làm bài</h2>
+    <label class="qs-row"><input type="checkbox" id="qs-timer" onchange="readQuizSettings()"> Chế độ đếm ngược cho mỗi câu</label>
+    <label class="qs-row">Số giây mỗi câu <input type="number" id="qs-secs" min="3" max="120" value="10" onchange="readQuizSettings()"></label>
+    <button class="btn" id="qs-start" onclick="startQuiz()">Bắt đầu <kbd>Enter</kbd></button>
+    <div class="qs-keys">
+      <kbd>0</kbd>–<kbd>7</kbd> hoặc <kbd>←</kbd> <kbd>→</kbd> chọn cấp độ (0 Tất cả, 1–6 HSK, 7 Công xưởng)<br>
+      <kbd>T</kbd> bật/tắt đếm ngược · <kbd>+</kbd> <kbd>-</kbd> đổi ±1 giây · <kbd>↑</kbd> <kbd>↓</kbd> đổi ±5 giây<br>
+      Khi làm bài: <kbd>1</kbd>–<kbd>4</kbd> hoặc <kbd>A</kbd>–<kbd>D</kbd> chọn đáp án · <kbd>Enter</kbd> câu tiếp · <kbd>R</kbd> làm lại · <kbd>Esc</kbd> về cài đặt
+    </div>
+  </div>
+  <div id="quiz-play" hidden>
   <div class="score-row">
     <span>Điểm: <strong id="score">0</strong></span>
     <span>Tổng: <strong id="total">0</strong></span>
@@ -287,13 +312,18 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
   </div>
   <div class="prog-wrap"><div class="prog-fill" id="q-prog" style="width:0%"></div></div>
   <div class="quiz-box">
+    <div class="q-timer" id="q-timer" hidden><div class="q-timer-bar"><div class="q-timer-fill" id="q-timer-fill"></div></div><div class="q-timer-text" id="q-timer-text" aria-live="off"></div></div>
     <div class="quiz-hanzi" id="q-hanzi">—</div>
     <div class="quiz-pinyin" id="q-pinyin"></div>
     <div class="quiz-lv" id="q-lv"></div>
     <div class="quiz-result" id="q-result"></div>
     <div class="quiz-choices" id="q-choices"></div>
-    <button class="btn" id="q-next" onclick="nextQ()" style="display:none">Câu tiếp →</button>
-    <button class="btn btn-outline" onclick="resetQuiz()" style="margin-top:12px">Làm lại từ đầu</button>
+    <button class="btn" id="q-next" onclick="nextQ()" style="display:none">Câu tiếp → <kbd>Enter</kbd></button>
+    <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:12px">
+      <button class="btn btn-outline" onclick="resetQuiz()">Làm lại từ đầu <kbd>R</kbd></button>
+      <button class="btn btn-outline" onclick="quizSetup()">Cài đặt <kbd>Esc</kbd></button>
+    </div>
+  </div>
   </div>
 </div>
 
@@ -479,6 +509,7 @@ function resetQuiz(){
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
 
 function nextQ(){
+  clearTimeout(qAutoTimer);
   if(!qPool.length) return;
   qAnswered=false;
   document.getElementById("q-next").style.display="none";
@@ -496,13 +527,13 @@ function nextQ(){
   const opts=shuffle([qCurrent,...distractors]);
   const choices=document.getElementById("q-choices");
   choices.innerHTML="";
-  opts.forEach(opt=>{
+  opts.forEach((opt,qi)=>{
     const btn=document.createElement("button");
-    btn.className="choice-btn";
+    btn.className="choice-btn"; btn.dataset.k=qi+1;
     btn.textContent=opt.v;
     btn.onclick=()=>{
       if(qAnswered)return;
-      qAnswered=true; qTotal++; goalTick();
+      qAnswered=true; qTotal++; goalTick(); stopTimer();
       document.getElementById("total").textContent=qTotal;
       if(opt.v===qCurrent.v){
         btn.classList.add("correct"); qScore++;
@@ -522,6 +553,7 @@ function nextQ(){
     };
     choices.appendChild(btn);
   });
+  if(qPlaying) startTimer(); else stopTimer();
 }
 
 
@@ -724,6 +756,84 @@ function clearEdits(){
   edits={}; editsSave(); location.reload();
 }
 
+// ── QUIZ: ĐẾM NGƯỢC & PHÍM TẮT ──
+let qTimerOn=false, qSecs=10, qPlaying=false, qTick=null, qDeadline=0, qAutoTimer=null;
+try{ const t=JSON.parse(localStorage.getItem("hsk-quiz-timer")||"{}"); if(typeof t.on==="boolean") qTimerOn=t.on; if(t.secs>=3&&t.secs<=120) qSecs=t.secs; }catch(e){}
+const Q_LEVELS=["all","hsk1","hsk2","hsk3","hsk4","hsk5","hsk6","xuong"];
+function quizSettingsUI(){
+  const c=document.getElementById("qs-timer"), n=document.getElementById("qs-secs");
+  c.checked=qTimerOn; n.value=qSecs; n.disabled=!qTimerOn;
+}
+function readQuizSettings(){
+  qTimerOn=document.getElementById("qs-timer").checked;
+  let n=parseInt(document.getElementById("qs-secs").value,10);
+  qSecs=Math.max(3,Math.min(120,isNaN(n)?10:n));
+  quizSettingsUI();
+  try{ localStorage.setItem("hsk-quiz-timer",JSON.stringify({on:qTimerOn,secs:qSecs})); }catch(e){}
+}
+function startQuiz(){
+  readQuizSettings(); qPlaying=true;
+  document.getElementById("quiz-setup").hidden=true; document.getElementById("quiz-play").hidden=false;
+  resetQuiz();
+}
+function quizSetup(){
+  qPlaying=false; stopTimer(); clearTimeout(qAutoTimer);
+  document.getElementById("quiz-play").hidden=true; document.getElementById("quiz-setup").hidden=false;
+  quizSettingsUI(); document.getElementById("qs-start").focus();
+}
+function stopTimer(){ clearInterval(qTick); qTick=null; }
+function startTimer(){
+  stopTimer();
+  const box=document.getElementById("q-timer"); box.hidden=!qTimerOn;
+  if(!qTimerOn) return;
+  qDeadline=performance.now()+qSecs*1000; renderTimer();
+  qTick=setInterval(()=>{ renderTimer(); if(performance.now()>=qDeadline){ stopTimer(); quizTimeout(); } },100);
+}
+function renderTimer(){
+  const left=Math.max(0,qDeadline-performance.now());
+  document.getElementById("q-timer-fill").style.width=(left/(qSecs*1000)*100)+"%";
+  document.getElementById("q-timer-text").textContent=Math.ceil(left/1000)+" giây";
+  document.getElementById("q-timer").classList.toggle("warn",left<=3000);
+}
+function quizTimeout(){
+  if(qAnswered||!qCurrent) return;
+  qAnswered=true; qTotal++; goalTick(); srsAdd(qCurrent);
+  document.getElementById("total").textContent=qTotal;
+  document.getElementById("pct").textContent=Math.round(qScore/qTotal*100)+"%";
+  document.getElementById("q-prog").style.width=Math.min(qTotal*100/50,100)+"%";
+  const res=document.getElementById("q-result");
+  res.textContent="⏰ Hết giờ — đáp án: "+qCurrent.v; res.style.color="#dc3545";
+  document.querySelectorAll("#q-choices .choice-btn").forEach(b=>{ if(b.textContent===qCurrent.v) b.classList.add("correct"); });
+  document.getElementById("q-next").style.display="inline-block";
+  clearTimeout(qAutoTimer);
+  qAutoTimer=setTimeout(()=>{ if(qPlaying && document.getElementById("quiz").classList.contains("active")) nextQ(); },1500);
+}
+document.addEventListener("keydown",e=>{
+  if(!document.getElementById("quiz").classList.contains("active")||e.ctrlKey||e.metaKey||e.altKey||e.isComposing) return;
+  const k=e.key, kl=k.toLowerCase(), inNum=e.target.tagName==="INPUT"&&e.target.type==="number";
+  if(qPlaying){
+    const idx={"1":0,"2":1,"3":2,"4":3,a:0,b:1,c:2,d:3}[kl];
+    if(idx!==undefined){ e.preventDefault(); const b=document.getElementById("q-choices").children[idx]; if(b) b.click(); }
+    else if(k==="Enter"||k===" "||k==="ArrowRight"||kl==="n"){ e.preventDefault(); if(qAnswered) nextQ(); }
+    else if(kl==="r"){ e.preventDefault(); resetQuiz(); }
+    else if(k==="Escape"){ e.preventDefault(); quizSetup(); }
+    return;
+  }
+  if(k==="Enter"){ e.preventDefault(); startQuiz(); return; }
+  if(inNum) return;
+  const bump=d=>{ document.getElementById("qs-secs").value=Math.max(3,Math.min(120,qSecs+d)); document.getElementById("qs-timer").checked=true; readQuizSettings(); };
+  if(kl==="t"){ e.preventDefault(); const c=document.getElementById("qs-timer"); c.checked=!c.checked; readQuizSettings(); }
+  else if(k==="+"||k==="="){ e.preventDefault(); bump(1); }
+  else if(k==="-"||k==="_"){ e.preventDefault(); bump(-1); }
+  else if(k==="ArrowUp"){ e.preventDefault(); bump(5); }
+  else if(k==="ArrowDown"){ e.preventDefault(); bump(-5); }
+  else if(k==="ArrowLeft"||k==="ArrowRight"){
+    e.preventDefault(); const i=Q_LEVELS.indexOf(qLevel);
+    setQuizLevel(Q_LEVELS[(i+(k==="ArrowRight"?1:Q_LEVELS.length-1))%Q_LEVELS.length]);
+  }
+  else if(/^[0-7]$/.test(k)){ e.preventDefault(); setQuizLevel(Q_LEVELS[+k]); }
+});
+
 // ── ÔN TẬP THÔNG MINH (hộp Leitner, lưu trên máy này) ──
 const SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
 let srs={}; try{ srs=JSON.parse(localStorage.getItem(SRS_KEY)||"{}"); }catch(e){}
@@ -836,6 +946,9 @@ function show(id){
   window.scrollTo(0,0);
   if(id==="quiz"&&qTotal===0&&allWords.length) resetQuiz();
   if(id==="typing"&&allWords.length&&!typingCurrent) resetTyping();
+  if(id!=="quiz") stopTimer();
+  else if(qPlaying){ if(!qAnswered) startTimer(); }
+  else setTimeout(()=>{ quizSettingsUI(); document.getElementById("qs-start").focus(); },50);
   if(id==="review") renderReview();
   if(id==="home") renderGoal();
   if(id==="typing") setTimeout(()=>document.getElementById("typing-input").focus(), 50);
