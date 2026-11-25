@@ -4,97 +4,97 @@
       "h": "爱",
       "p": "ài",
       "v": "yêu",
+      "hv": "ái",
       "ex": "我爱我的家人。",
-      "exv": "Tôi yêu gia đình mình.",
-      "hv": "ái"
+      "exv": "Tôi yêu gia đình mình."
     },
     {
       "h": "八",
       "p": "bā",
       "v": "tám",
+      "hv": "bát",
       "ex": "我们班有八个学生。",
-      "exv": "Lớp chúng tôi có tám học sinh.",
-      "hv": "bát"
+      "exv": "Lớp chúng tôi có tám học sinh."
     },
     {
       "h": "爸爸",
       "p": "bàba",
       "v": "bố",
+      "hv": "bá bá",
       "ex": "我爸爸每天开车去上班。",
-      "exv": "Bố tôi lái xe đi làm mỗi ngày.",
-      "hv": "bá bá"
+      "exv": "Bố tôi lái xe đi làm mỗi ngày."
     },
     {
       "h": "杯子",
       "p": "bēizi",
       "v": "cái cốc",
+      "hv": "bôi tử",
       "ex": "桌子上有一个杯子。",
-      "exv": "Trên bàn có một cái cốc.",
-      "hv": "bôi tử"
+      "exv": "Trên bàn có một cái cốc."
     },
     {
       "h": "北京",
       "p": "Běijīng",
       "v": "Bắc Kinh",
+      "hv": "bắc kinh",
       "ex": "我想去北京旅游。",
-      "exv": "Tôi muốn đi du lịch Bắc Kinh.",
-      "hv": "bắc kinh"
+      "exv": "Tôi muốn đi du lịch Bắc Kinh."
     },
     {
       "h": "不",
       "p": "bù",
       "v": "không",
+      "hv": "bất",
       "ex": "我今天不去学校。",
-      "exv": "Hôm nay tôi không đến trường.",
-      "hv": "bất"
+      "exv": "Hôm nay tôi không đến trường."
     },
     {
       "h": "菜",
       "p": "cài",
       "v": "món ăn",
+      "hv": "thái",
       "ex": "妈妈正在厨房做菜。",
-      "exv": "Mẹ đang nấu ăn trong bếp.",
-      "hv": "thái"
+      "exv": "Mẹ đang nấu ăn trong bếp."
     },
     {
       "h": "茶",
       "p": "chá",
       "v": "trà",
+      "hv": "trà",
       "ex": "请给我一杯茶。",
-      "exv": "Làm ơn cho tôi một tách trà.",
-      "hv": "trà"
+      "exv": "Làm ơn cho tôi một tách trà."
     },
     {
       "h": "吃",
       "p": "chī",
       "v": "ăn",
+      "hv": "ngật",
       "ex": "我们晚上一起吃饭吧。",
-      "exv": "Tối nay chúng ta cùng ăn cơm nhé.",
-      "hv": "ngật"
+      "exv": "Tối nay chúng ta cùng ăn cơm nhé."
     },
     {
       "h": "出租车",
       "p": "chūzūchē",
       "v": "xe taxi",
+      "hv": "xuất tô xa",
       "ex": "我们坐出租车去机场。",
-      "exv": "Chúng tôi đi taxi đến sân bay.",
-      "hv": "xuất tô xa"
+      "exv": "Chúng tôi đi taxi đến sân bay."
     },
     {
       "h": "打电话",
       "p": "dǎ diànhuà",
       "v": "gọi điện thoại",
+      "hv": "đả điện thoại",
       "ex": "我下班后给你打电话。",
-      "exv": "Tôi sẽ gọi điện cho bạn sau giờ làm.",
-      "hv": "đả điện thoại"
+      "exv": "Tôi sẽ gọi điện cho bạn sau giờ làm."
     },
     {
       "h": "大",
       "p": "dà",
       "v": "lớn",
+      "hv": "đại",
       "ex": "这间房间很大。",
-      "exv": "Căn phòng này rất rộng.",
-      "hv": "đại"
+      "exv": "Căn phòng này rất rộng."
     },
     {
       "h": "的",
@@ -106,9 +106,9 @@
       "h": "电脑",
       "p": "diànnǎo",
       "v": "máy tính",
+      "hv": "điện não",
       "ex": "这个电脑是我刚买的。",
-      "exv": "Máy tính này là thứ tôi vừa mua.",
-      "hv": "điện não"
+      "exv": "Máy tính này là thứ tôi vừa mua."
     },
     {
       "h": "电视",
@@ -138,9 +138,9 @@
       "h": "读",
       "p": "dú",
       "v": "đọc",
+      "hv": "độc",
       "ex": "我们每天都要读。",
-      "exv": "Chúng tôi đều phải đọc mỗi ngày.",
-      "hv": "độc"
+      "exv": "Chúng tôi đều phải đọc mỗi ngày."
     },
     {
       "h": "对不起",
@@ -176,9 +176,9 @@
       "h": "饭店",
       "p": "fàndiàn",
       "v": "nhà hàng",
+      "hv": "phạn điếm",
       "ex": "我今天要去饭店。",
-      "exv": "Hôm nay tôi phải đến nhà hàng.",
-      "hv": "phạn điếm"
+      "exv": "Hôm nay tôi phải đến nhà hàng."
     },
     {
       "h": "飞机",
@@ -202,9 +202,9 @@
       "h": "狗",
       "p": "gǒu",
       "v": "con chó",
+      "hv": "cẩu",
       "ex": "我的狗今天在家。",
-      "exv": "Con chó của tôi hôm nay ở nhà.",
-      "hv": "cẩu"
+      "exv": "Con chó của tôi hôm nay ở nhà."
     },
     {
       "h": "汉语",
@@ -246,9 +246,9 @@
       "h": "回",
       "p": "huí",
       "v": "trở về",
+      "hv": "hồi",
       "ex": "明天我想回。",
-      "exv": "Ngày mai tôi muốn trở về.",
-      "hv": "hồi"
+      "exv": "Ngày mai tôi muốn trở về."
     },
     {
       "h": "会",
@@ -302,9 +302,9 @@
       "h": "来",
       "p": "lái",
       "v": "đến",
+      "hv": "lai",
       "ex": "明天我想来。",
-      "exv": "Ngày mai tôi muốn đến.",
-      "hv": "lai"
+      "exv": "Ngày mai tôi muốn đến."
     },
     {
       "h": "老师",
@@ -328,25 +328,25 @@
       "h": "妈妈",
       "p": "māma",
       "v": "mẹ",
+      "hv": "ma ma",
       "ex": "我的妈妈今天在家。",
-      "exv": "Mẹ của tôi hôm nay ở nhà.",
-      "hv": "ma ma"
+      "exv": "Mẹ của tôi hôm nay ở nhà."
     },
     {
       "h": "买",
       "p": "mǎi",
       "v": "mua",
+      "hv": "mãi",
       "ex": "请你帮我买一下。",
-      "exv": "Phiền bạn giúp tôi mua một chút.",
-      "hv": "mãi"
+      "exv": "Phiền bạn giúp tôi mua một chút."
     },
     {
       "h": "猫",
       "p": "māo",
       "v": "con mèo",
+      "hv": "miêu",
       "ex": "我的猫今天在家。",
-      "exv": "Con mèo của tôi hôm nay ở nhà.",
-      "hv": "miêu"
+      "exv": "Con mèo của tôi hôm nay ở nhà."
     },
     {
       "h": "没有",
@@ -418,17 +418,17 @@
       "h": "女儿",
       "p": "nǚér",
       "v": "con gái",
+      "hv": "nữ nhi",
       "ex": "我的女儿今天在家。",
-      "exv": "Con gái của tôi hôm nay ở nhà.",
-      "hv": "nữ nhi"
+      "exv": "Con gái của tôi hôm nay ở nhà."
     },
     {
       "h": "朋友",
       "p": "péngyou",
       "v": "bạn bè",
+      "hv": "bằng hữu",
       "ex": "我的朋友今天在家。",
-      "exv": "Bạn bè của tôi hôm nay ở nhà.",
-      "hv": "bằng hữu"
+      "exv": "Bạn bè của tôi hôm nay ở nhà."
     },
     {
       "h": "漂亮",
@@ -470,9 +470,9 @@
       "h": "去",
       "p": "qù",
       "v": "đi",
+      "hv": "khứ",
       "ex": "明天我想去。",
-      "exv": "Ngày mai tôi muốn đi.",
-      "hv": "khứ"
+      "exv": "Ngày mai tôi muốn đi."
     },
     {
       "h": "热",
@@ -502,9 +502,9 @@
       "h": "商店",
       "p": "shāngdiàn",
       "v": "cửa hàng",
+      "hv": "thương điếm",
       "ex": "我今天要去商店。",
-      "exv": "Hôm nay tôi phải đến cửa hàng.",
-      "hv": "thương điếm"
+      "exv": "Hôm nay tôi phải đến cửa hàng."
     },
     {
       "h": "上",
@@ -576,9 +576,9 @@
       "h": "说",
       "p": "shuō",
       "v": "nói",
+      "hv": "thuyết",
       "ex": "我们每天都要说。",
-      "exv": "Chúng tôi đều phải nói mỗi ngày.",
-      "hv": "thuyết"
+      "exv": "Chúng tôi đều phải nói mỗi ngày."
     },
     {
       "h": "四",
@@ -698,9 +698,9 @@
       "h": "写",
       "p": "xiě",
       "v": "viết",
+      "hv": "tả",
       "ex": "我们每天都要写。",
-      "exv": "Chúng tôi đều phải viết mỗi ngày.",
-      "hv": "tả"
+      "exv": "Chúng tôi đều phải viết mỗi ngày."
     },
     {
       "h": "谢谢",
@@ -724,9 +724,9 @@
       "h": "学习",
       "p": "xuéxí",
       "v": "học tập",
+      "hv": "học tập",
       "ex": "我们每天都要学习。",
-      "exv": "Chúng tôi đều phải học tập mỗi ngày.",
-      "hv": "học tập"
+      "exv": "Chúng tôi đều phải học tập mỗi ngày."
     },
     {
       "h": "学校",
@@ -750,9 +750,9 @@
       "h": "医院",
       "p": "yīyuàn",
       "v": "bệnh viện",
+      "hv": "y viện",
       "ex": "我今天要去医院。",
-      "exv": "Hôm nay tôi phải đến bệnh viện.",
-      "hv": "y viện"
+      "exv": "Hôm nay tôi phải đến bệnh viện."
     },
     {
       "h": "有",
@@ -812,9 +812,9 @@
       "h": "桌子",
       "p": "zhuōzi",
       "v": "bàn",
+      "hv": "trác tử",
       "ex": "这个桌子是我刚买的。",
-      "exv": "Bàn này là thứ tôi vừa mua.",
-      "hv": "trác tử"
+      "exv": "Bàn này là thứ tôi vừa mua."
     },
     {
       "h": "字",
@@ -838,9 +838,9 @@
       "h": "做",
       "p": "zuò",
       "v": "làm",
+      "hv": "tố",
       "ex": "我们每天都要做。",
-      "exv": "Chúng tôi đều phải làm mỗi ngày.",
-      "hv": "tố"
+      "exv": "Chúng tôi đều phải làm mỗi ngày."
     }
   ],
   "hsk2": [
@@ -848,57 +848,57 @@
       "h": "白",
       "p": "bái",
       "v": "trắng",
+      "hv": "bạch",
       "ex": "她今天穿了一件白衣服。",
-      "exv": "Hôm nay cô ấy mặc một chiếc áo màu trắng.",
-      "hv": "bạch"
+      "exv": "Hôm nay cô ấy mặc một chiếc áo màu trắng."
     },
     {
       "h": "百",
       "p": "bǎi",
       "v": "trăm",
+      "hv": "bách",
       "ex": "这本书一百块钱。",
-      "exv": "Quyển sách này giá 100 tệ.",
-      "hv": "bách"
+      "exv": "Quyển sách này giá 100 tệ."
     },
     {
       "h": "帮助",
       "p": "bāngzhù",
       "v": "giúp đỡ",
+      "hv": "bang trợ",
       "ex": "谢谢你帮助我学习中文。",
-      "exv": "Cảm ơn bạn đã giúp tôi học tiếng Trung.",
-      "hv": "bang trợ"
+      "exv": "Cảm ơn bạn đã giúp tôi học tiếng Trung."
     },
     {
       "h": "报纸",
       "p": "bàozhǐ",
       "v": "báo",
+      "hv": "báo chỉ",
       "ex": "爷爷每天早上看报纸。",
-      "exv": "Ông tôi đọc báo mỗi sáng.",
-      "hv": "báo chỉ"
+      "exv": "Ông tôi đọc báo mỗi sáng."
     },
     {
       "h": "比",
       "p": "bǐ",
       "v": "so sánh",
+      "hv": "tỉ",
       "ex": "今天比昨天暖和。",
-      "exv": "Hôm nay ấm hơn hôm qua.",
-      "hv": "tỉ"
+      "exv": "Hôm nay ấm hơn hôm qua."
     },
     {
       "h": "别",
       "p": "bié",
       "v": "đừng",
+      "hv": "biệt",
       "ex": "别着急，我们还有时间。",
-      "exv": "Đừng vội, chúng ta vẫn còn thời gian.",
-      "hv": "biệt"
+      "exv": "Đừng vội, chúng ta vẫn còn thời gian."
     },
     {
       "h": "宾馆",
       "p": "bīnguǎn",
       "v": "khách sạn",
+      "hv": "tân quán",
       "ex": "我们已经在宾馆订了房间。",
-      "exv": "Chúng tôi đã đặt phòng ở khách sạn.",
-      "hv": "tân quán"
+      "exv": "Chúng tôi đã đặt phòng ở khách sạn."
     },
     {
       "h": "长",
@@ -1030,9 +1030,9 @@
       "h": "公共汽车",
       "p": "gōnggòng qìchē",
       "v": "xe buýt",
+      "hv": "công cộng khí xa",
       "ex": "我每天坐公共汽车去上班。",
-      "exv": "Mỗi ngày tôi đi làm bằng xe buýt.",
-      "hv": "công cộng khí xa"
+      "exv": "Mỗi ngày tôi đi làm bằng xe buýt."
     },
     {
       "h": "公司",
@@ -1134,9 +1134,9 @@
       "h": "姐姐",
       "p": "jiějie",
       "v": "chị gái",
+      "hv": "tỷ tỷ",
       "ex": "我的姐姐今天在家。",
-      "exv": "Chị gái của tôi hôm nay ở nhà.",
-      "hv": "tỷ tỷ"
+      "exv": "Chị gái của tôi hôm nay ở nhà."
     },
     {
       "h": "介绍",
@@ -1226,9 +1226,9 @@
       "h": "旅游",
       "p": "lǚyóu",
       "v": "du lịch",
+      "hv": "lữ du",
       "ex": "明天我想旅游。",
-      "exv": "Ngày mai tôi muốn du lịch.",
-      "hv": "lữ du"
+      "exv": "Ngày mai tôi muốn du lịch."
     },
     {
       "h": "卖",
@@ -1258,9 +1258,9 @@
       "h": "妹妹",
       "p": "mèimei",
       "v": "em gái",
+      "hv": "muội muội",
       "ex": "我的妹妹今天在家。",
-      "exv": "Em gái của tôi hôm nay ở nhà.",
-      "hv": "muội muội"
+      "exv": "Em gái của tôi hôm nay ở nhà."
     },
     {
       "h": "门",
@@ -1386,9 +1386,9 @@
       "h": "时间",
       "p": "shíjiān",
       "v": "thời gian",
+      "hv": "thời gian",
       "ex": "我每天都会注意时间。",
-      "exv": "Mỗi ngày tôi đều chú ý đến thời gian.",
-      "hv": "thời gian"
+      "exv": "Mỗi ngày tôi đều chú ý đến thời gian."
     },
     {
       "h": "手机",
@@ -1616,25 +1616,25 @@
       "h": "准备",
       "p": "zhǔnbèi",
       "v": "chuẩn bị",
+      "hv": "chuẩn bị",
       "ex": "请你帮我准备一下。",
-      "exv": "Phiền bạn giúp tôi chuẩn bị một chút.",
-      "hv": "chuẩn bị"
+      "exv": "Phiền bạn giúp tôi chuẩn bị một chút."
     },
     {
       "h": "自行车",
       "p": "zìxíngchē",
       "v": "xe đạp",
+      "hv": "tự hành xa",
       "ex": "我每天坐自行车去上班。",
-      "exv": "Mỗi ngày tôi đi làm bằng xe đạp.",
-      "hv": "tự hành xa"
+      "exv": "Mỗi ngày tôi đi làm bằng xe đạp."
     },
     {
       "h": "走",
       "p": "zǒu",
       "v": "đi",
+      "hv": "tẩu",
       "ex": "明天我想走。",
-      "exv": "Ngày mai tôi muốn đi.",
-      "hv": "tẩu"
+      "exv": "Ngày mai tôi muốn đi."
     }
   ],
   "hsk3": [
@@ -1816,9 +1816,9 @@
       "h": "带",
       "p": "dài",
       "v": "mang theo",
+      "hv": "đới",
       "ex": "请你帮我带一下。",
-      "exv": "Phiền bạn giúp tôi mang theo một chút.",
-      "hv": "đới"
+      "exv": "Phiền bạn giúp tôi mang theo một chút."
     },
     {
       "h": "担心",
@@ -1908,9 +1908,9 @@
       "h": "放",
       "p": "fàng",
       "v": "đặt",
+      "hv": "phóng",
       "ex": "请你帮我放一下。",
-      "exv": "Phiền bạn giúp tôi đặt một chút.",
-      "hv": "phóng"
+      "exv": "Phiền bạn giúp tôi đặt một chút."
     },
     {
       "h": "放假",
@@ -2087,12 +2087,6 @@
       "hv": "quý tiết"
     },
     {
-      "h": "检查",
-      "p": "jiǎnchá",
-      "v": "kiểm tra",
-      "hv": "kiểm tra"
-    },
-    {
       "h": "简单",
       "p": "jiǎndān",
       "v": "đơn giản",
@@ -2153,12 +2147,6 @@
       "hv": "kinh thường"
     },
     {
-      "h": "经理",
-      "p": "jīnglǐ",
-      "v": "giám đốc",
-      "hv": "kinh lý"
-    },
-    {
       "h": "久",
       "p": "jiǔ",
       "v": "lâu",
@@ -2210,9 +2198,9 @@
       "h": "离开",
       "p": "líkāi",
       "v": "rời đi",
+      "hv": "ly khai",
       "ex": "明天我想离开。",
-      "exv": "Ngày mai tôi muốn rời đi.",
-      "hv": "ly khai"
+      "exv": "Ngày mai tôi muốn rời đi."
     },
     {
       "h": "礼物",
@@ -2440,9 +2428,9 @@
       "h": "刷牙",
       "p": "shuāyá",
       "v": "đánh răng",
+      "hv": "xoát nha",
       "ex": "我每天都会刷牙。",
-      "exv": "Mỗi ngày tôi đều đánh răng.",
-      "hv": "xoát nha"
+      "exv": "Mỗi ngày tôi đều đánh răng."
     },
     {
       "h": "司机",
@@ -2503,12 +2491,6 @@
       "p": "tuǐ",
       "v": "chân (đùi)",
       "hv": "thối"
-    },
-    {
-      "h": "完成",
-      "p": "wánchéng",
-      "v": "hoàn thành",
-      "hv": "hoàn thành"
     },
     {
       "h": "碗",
@@ -2700,9 +2682,9 @@
       "h": "整理",
       "p": "zhěnglǐ",
       "v": "sắp xếp",
+      "hv": "chỉnh lý",
       "ex": "请你帮我整理一下。",
-      "exv": "Phiền bạn giúp tôi sắp xếp một chút.",
-      "hv": "chỉnh lý"
+      "exv": "Phiền bạn giúp tôi sắp xếp một chút."
     },
     {
       "h": "只",
@@ -2764,9 +2746,9 @@
       "h": "安排",
       "p": "ānpái",
       "v": "sắp xếp",
+      "hv": "an bài",
       "ex": "请你帮我安排一下。",
-      "exv": "Phiền bạn giúp tôi sắp xếp một chút.",
-      "hv": "an bài"
+      "exv": "Phiền bạn giúp tôi sắp xếp một chút."
     },
     {
       "h": "按照",
@@ -3012,9 +2994,9 @@
       "h": "父母",
       "p": "fùmǔ",
       "v": "cha mẹ",
+      "hv": "phụ mẫu",
       "ex": "我的父母今天在家。",
-      "exv": "Cha mẹ của tôi hôm nay ở nhà.",
-      "hv": "phụ mẫu"
+      "exv": "Cha mẹ của tôi hôm nay ở nhà."
     },
     {
       "h": "复杂",
@@ -3509,12 +3491,6 @@
       "hv": "thông quá"
     },
     {
-      "h": "通知",
-      "p": "tōngzhī",
-      "v": "thông báo",
-      "hv": "thông tri"
-    },
-    {
       "h": "推迟",
       "p": "tuīchí",
       "v": "hoãn lại",
@@ -3747,12 +3723,6 @@
       "p": "zuìhǎo",
       "v": "tốt nhất",
       "hv": "tối hảo"
-    },
-    {
-      "h": "作业",
-      "p": "zuòyè",
-      "v": "bài tập",
-      "hv": "tác nghiệp"
     }
   ],
   "hsk5": [
@@ -4621,14 +4591,6 @@
       "exv": "Cơ quan chính phủ cần cải cách."
     },
     {
-      "h": "机器",
-      "p": "jīqì",
-      "v": "máy móc",
-      "hv": "cơ khí",
-      "ex": "工厂里有很多机器。",
-      "exv": "Trong nhà máy có rất nhiều máy móc."
-    },
-    {
       "h": "极端",
       "p": "jíduān",
       "v": "cực đoan, cực kỳ",
@@ -4973,14 +4935,6 @@
       "exv": "Phương án đã được phê chuẩn."
     },
     {
-      "h": "品质",
-      "p": "pǐnzhì",
-      "v": "phẩm chất, chất lượng",
-      "hv": "phẩm chất",
-      "ex": "他有高尚的品质。",
-      "exv": "Anh ấy có phẩm chất cao thượng."
-    },
-    {
       "h": "平衡",
       "p": "pínghéng",
       "v": "cân bằng",
@@ -5139,14 +5093,6 @@
       "hv": "sảo vi",
       "ex": "稍微等一下。",
       "exv": "Chờ một chút."
-    },
-    {
-      "h": "设备",
-      "p": "shèbèi",
-      "v": "thiết bị",
-      "hv": "thiết bị",
-      "ex": "工厂更新了设备。",
-      "exv": "Nhà máy đã cập nhật thiết bị."
     },
     {
       "h": "深刻",
@@ -5691,14 +5637,6 @@
       "hv": "chế độ",
       "ex": "要完善法律制度。",
       "exv": "Phải hoàn thiện chế độ pháp luật."
-    },
-    {
-      "h": "制造",
-      "p": "zhìzào",
-      "v": "chế tạo, sản xuất",
-      "hv": "chế tạo",
-      "ex": "中国制造的产品遍布全球。",
-      "exv": "Sản phẩm sản xuất tại Trung Quốc có mặt khắp toàn cầu."
     },
     {
       "h": "中心",
@@ -6924,7 +6862,9 @@
       "h": "制造",
       "p": "zhìzào",
       "v": "Chế tạo",
-      "hv": "chế tạo"
+      "hv": "chế tạo",
+      "ex": "中国制造的产品遍布全球。",
+      "exv": "Sản phẩm sản xuất tại Trung Quốc có mặt khắp toàn cầu."
     },
     {
       "h": "生产管理",
@@ -7266,13 +7206,17 @@
       "h": "设备",
       "p": "shèbèi",
       "v": "Thiết bị",
-      "hv": "thiết bị"
+      "hv": "thiết bị",
+      "ex": "工厂更新了设备。",
+      "exv": "Nhà máy đã cập nhật thiết bị."
     },
     {
       "h": "机器",
       "p": "jīqì",
       "v": "Máy móc",
-      "hv": "cơ khí"
+      "hv": "cơ khí",
+      "ex": "工厂里有很多机器。",
+      "exv": "Trong nhà máy có rất nhiều máy móc."
     },
     {
       "h": "机台",
@@ -7500,7 +7444,9 @@
       "h": "品质",
       "p": "pǐnzhì",
       "v": "Chất lượng",
-      "hv": "phẩm chất"
+      "hv": "phẩm chất",
+      "ex": "他有高尚的品质。",
+      "exv": "Anh ấy có phẩm chất cao thượng."
     },
     {
       "h": "品质管理",
@@ -9648,7 +9594,7 @@
     {
       "h": "提交人",
       "p": "tíjiāo rén",
-      "v": "người nộp, người gửi",
+      "v": "người nộp/người gửi",
       "hv": "đề giao nhân",
       "ex": "提交人不能修改此单据",
       "exv": "Người gửi không thể chỉnh sửa phiếu này",
@@ -9674,29 +9620,389 @@
     },
     {
       "h": "领用流程",
-      "p": "lǐngyòng liúchéng",
-      "v": "quy trình nhận và sử dụng",
+      "p": "lǐng yòng liú chéng",
+      "v": "Quy trình nhận và sử dụng",
       "hv": "lĩnh dụng lưu trình",
       "ex": "请按照领用流程申请物料",
       "exv": "Vui lòng làm đơn xin lĩnh vật liệu theo quy trình"
     },
     {
       "h": "烧录程序",
-      "p": "shāolù chéngxù",
-      "v": "nạp chương trình",
+      "p": "shāo lù chéng xù",
+      "v": "Nạp chương trình",
       "hv": "thiêu lục trình tự",
       "ex": "程序烧录完成后，再进行测试。",
       "exv": "Sau khi nạp chương trình hoàn tất, tiến hành kiểm tra.",
-      "note": "Trong lĩnh vực điện tử, khi nói nạp firmware vào sản phẩm hoặc bo mạch, dùng 烧录程序."
+      "note": "Trong lĩnh vực điện tử, khi nói nạp firmware vào sản phẩm hoặc bo mạch, dùng 烧录程序"
     },
     {
       "h": "再寄",
       "p": "zài jì",
-      "v": "gửi lại, gửi tiếp",
+      "v": "gửi lại/Gửi tiếp",
       "hv": "tái ký",
       "ex": "烧录完成后再寄到越南",
       "exv": "Sau khi nạp chương trình xong thì gửi tiếp sang Việt Nam",
       "note": "再寄 không nhất thiết mang nghĩa “gửi lại”; tùy ngữ cảnh, có thể chỉ hành động gửi ở bước tiếp theo."
+    },
+    {
+      "h": "工单",
+      "p": "gōngdān",
+      "v": "Lệnh sản xuất",
+      "hv": "công đơn"
+    },
+    {
+      "h": "工单管理",
+      "p": "gōngdān guǎnlǐ",
+      "v": "Quản lý lệnh sản xuất",
+      "hv": "công đơn quản lý"
+    },
+    {
+      "h": "下发",
+      "p": "xiàfā",
+      "v": "Phát hành xuống",
+      "hv": "hạ phát"
+    },
+    {
+      "h": "新建",
+      "p": "xīnjiàn",
+      "v": "Tạo mới",
+      "hv": "tân kiến"
+    },
+    {
+      "h": "设置",
+      "p": "shèzhì",
+      "v": "Thiết lập",
+      "hv": "thiết trí"
+    },
+    {
+      "h": "更新",
+      "p": "gēngxīn",
+      "v": "Cập nhật",
+      "hv": "canh tân"
+    },
+    {
+      "h": "生效",
+      "p": "shēngxiào",
+      "v": "Có hiệu lực",
+      "hv": "sinh hiệu"
+    },
+    {
+      "h": "同步",
+      "p": "tóngbù",
+      "v": "Đồng bộ",
+      "hv": "đồng bộ"
+    },
+    {
+      "h": "共用",
+      "p": "gòngyòng",
+      "v": "Dùng chung",
+      "hv": "cộng dụng"
+    },
+    {
+      "h": "保留",
+      "p": "bǎoliú",
+      "v": "Giữ lại",
+      "hv": "bảo lưu"
+    },
+    {
+      "h": "处理",
+      "p": "chǔlǐ",
+      "v": "Xử lý",
+      "hv": "xử lý"
+    },
+    {
+      "h": "报错",
+      "p": "bàocuò",
+      "v": "Báo lỗi",
+      "hv": "báo thác"
+    },
+    {
+      "h": "不存在",
+      "p": "bù cúnzài",
+      "v": "Không tồn tại",
+      "hv": "bất tồn tại"
+    },
+    {
+      "h": "当前数据",
+      "p": "dāngqián shùjù",
+      "v": "Dữ liệu hiện tại",
+      "hv": "đương tiền số cứ"
+    },
+    {
+      "h": "产品档案",
+      "p": "chǎnpǐn dàng'àn",
+      "v": "Hồ sơ sản phẩm",
+      "hv": "sản phẩm đương án"
+    },
+    {
+      "h": "生产地点",
+      "p": "shēngchǎn dìdiǎn",
+      "v": "Địa điểm sản xuất",
+      "hv": "sinh sản địa điểm"
+    },
+    {
+      "h": "旧料号",
+      "p": "jiù liàohào",
+      "v": "Mã vật liệu cũ",
+      "hv": "cựu liệu hiệu"
+    },
+    {
+      "h": "新料号",
+      "p": "xīn liàohào",
+      "v": "Mã vật liệu mới",
+      "hv": "tân liệu hiệu"
+    },
+    {
+      "h": "阶层",
+      "p": "jiēcéng",
+      "v": "Cấp / tầng",
+      "hv": "giai tầng"
+    },
+    {
+      "h": "层级",
+      "p": "céngjí",
+      "v": "Cấp bậc / phân cấp",
+      "hv": "tầng cấp"
+    },
+    {
+      "h": "层1",
+      "p": "céng yī",
+      "v": "Cấp 1",
+      "hv": "tầng nhất"
+    },
+    {
+      "h": "最后一行",
+      "p": "zuìhòu yì háng",
+      "v": "Dòng cuối cùng",
+      "hv": "tối hậu nhất hàng"
+    },
+    {
+      "h": "物料编码",
+      "p": "wùliào biānmǎ",
+      "v": "Mã hóa vật liệu",
+      "hv": "vật liệu biên mã"
+    },
+    {
+      "h": "变更",
+      "p": "biàngēng",
+      "v": "Thay đổi",
+      "hv": "biến canh"
+    },
+    {
+      "h": "变更单",
+      "p": "biàngēngdān",
+      "v": "Phiếu thay đổi",
+      "hv": "biến canh đơn"
+    },
+    {
+      "h": "变更记录",
+      "p": "biàngēng jìlù",
+      "v": "Lịch sử thay đổi",
+      "hv": "biến canh ký lục"
+    },
+    {
+      "h": "共用阶层",
+      "p": "gòngyòng jiēcéng",
+      "v": "Cấp dùng chung",
+      "hv": "cộng dụng giai tầng"
+    },
+    {
+      "h": "相关人员",
+      "p": "xiāngguān rényuán",
+      "v": "Nhân viên liên quan",
+      "hv": "tương quan nhân viên"
+    },
+    {
+      "h": "签字",
+      "p": "qiānzì",
+      "v": "Ký tên",
+      "hv": "thiêm tự"
+    },
+    {
+      "h": "回传",
+      "p": "huíchuán",
+      "v": "Gửi trả lại",
+      "hv": "hồi truyền"
+    },
+    {
+      "h": "及时更新",
+      "p": "jíshí gēngxīn",
+      "v": "Cập nhật kịp thời",
+      "hv": "cập thời canh tân"
+    },
+    {
+      "h": "暂不变更",
+      "p": "zàn bù biàngēng",
+      "v": "Tạm thời chưa thay đổi",
+      "hv": "tạm bất biến canh"
+    },
+    {
+      "h": "反馈",
+      "p": "fǎnkuì",
+      "v": "Phản hồi",
+      "hv": "phản hội"
+    },
+    {
+      "h": "请检查",
+      "p": "qǐng jiǎnchá",
+      "v": "Vui lòng kiểm tra",
+      "hv": "thỉnh kiểm tra"
+    },
+    {
+      "h": "申请",
+      "p": "shēnqǐng",
+      "v": "Đề nghị / xin phép",
+      "hv": "thân thỉnh"
+    },
+    {
+      "h": "镀金",
+      "p": "dùjīn",
+      "v": "Mạ vàng",
+      "hv": "độ kim"
+    },
+    {
+      "h": "镀镍",
+      "p": "dùniè",
+      "v": "Mạ niken",
+      "hv": "độ niết"
+    },
+    {
+      "h": "镭雕",
+      "p": "léidiāo",
+      "v": "Khắc laser",
+      "hv": "lôi điêu"
+    },
+    {
+      "h": "线路",
+      "p": "xiànlù",
+      "v": "Đường mạch",
+      "hv": "tuyến lộ"
+    },
+    {
+      "h": "主线路",
+      "p": "zhǔ xiànlù",
+      "v": "Đường mạch chính",
+      "hv": "chủ tuyến lộ"
+    },
+    {
+      "h": "材料规格",
+      "p": "cáiliào guīgé",
+      "v": "Quy cách vật liệu",
+      "hv": "tài liệu quy cách"
+    },
+    {
+      "h": "外观标准",
+      "p": "wàiguān biāozhǔn",
+      "v": "Tiêu chuẩn ngoại quan",
+      "hv": "ngoại quan tiêu chuẩn"
+    },
+    {
+      "h": "产品结构",
+      "p": "chǎnpǐn jiégòu",
+      "v": "Kết cấu sản phẩm",
+      "hv": "sản phẩm kết cấu"
+    },
+    {
+      "h": "性能",
+      "p": "xìngnéng",
+      "v": "Tính năng / hiệu năng",
+      "hv": "tính năng"
+    },
+    {
+      "h": "包规",
+      "p": "bāoguī",
+      "v": "Quy cách đóng gói",
+      "hv": "bao quy"
+    },
+    {
+      "h": "外箱标签",
+      "p": "wàixiāng biāoqiān",
+      "v": "Tem thùng",
+      "hv": "ngoại tương tiêu thiêm"
+    },
+    {
+      "h": "贴附",
+      "p": "tiēfù",
+      "v": "Dán / đính lên",
+      "hv": "thiếp phụ"
+    },
+    {
+      "h": "外箱标签贴附",
+      "p": "wàixiāng biāoqiān tiēfù",
+      "v": "Dán tem thùng",
+      "hv": "ngoại tương tiêu thiêm thiếp phụ"
+    },
+    {
+      "h": "包装规范",
+      "p": "bāozhuāng guīfàn",
+      "v": "Quy định đóng gói",
+      "hv": "bao trang quy phạm"
+    },
+    {
+      "h": "请教一下",
+      "p": "qǐngjiào yíxià",
+      "v": "Xin hỏi một chút",
+      "hv": "thỉnh giáo nhất hạ"
+    },
+    {
+      "h": "应该怎么处理",
+      "p": "yīnggāi zěnme chǔlǐ",
+      "v": "Nên xử lý như thế nào",
+      "hv": "ưng cai chẩm ma xử lý"
+    },
+    {
+      "h": "是不是因为",
+      "p": "shì bú shì yīnwèi",
+      "v": "Có phải là do",
+      "hv": "thị bất thị nhân vị"
+    },
+    {
+      "h": "搜不到",
+      "p": "sōu bú dào",
+      "v": "Tìm không thấy",
+      "hv": "sưu bất đáo"
+    },
+    {
+      "h": "同步下发",
+      "p": "tóngbù xiàfā",
+      "v": "Phát hành đồng bộ",
+      "hv": "đồng bộ hạ phát"
+    },
+    {
+      "h": "两个都建了吗",
+      "p": "liǎng ge dōu jiàn le ma",
+      "v": "Cả hai đã tạo chưa",
+      "hv": "lưỡng cá đô kiến liễu ma"
+    },
+    {
+      "h": "按照这种方式",
+      "p": "ànzhào zhè zhǒng fāngshì",
+      "v": "Theo phương pháp này",
+      "hv": "án chiếu giá chủng phương thức"
+    },
+    {
+      "h": "类似的问题",
+      "p": "lèisì de wèntí",
+      "v": "Vấn đề tương tự",
+      "hv": "loại tự đích vấn đề"
+    },
+    {
+      "h": "暂时没有",
+      "p": "zànshí méiyǒu",
+      "v": "Tạm thời chưa có",
+      "hv": "tạm thời một hữu"
+    },
+    {
+      "h": "不影响",
+      "p": "bù yǐngxiǎng",
+      "v": "Không ảnh hưởng",
+      "hv": "bất ảnh hưởng"
+    },
+    {
+      "h": "角纸板",
+      "p": "jiǎo zhǐ bǎn",
+      "v": "Bìa carton góc",
+      "hv": "giác chỉ bản"
     }
   ]
 }

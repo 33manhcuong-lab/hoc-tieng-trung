@@ -144,6 +144,19 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
 .goal-ctl .mini{margin-top:0}
 .ftab[data-l=xuong].on{background:var(--xuong)}.lv-xuong{background:var(--xuong)}.nav-links .theme[aria-pressed=false]{opacity:.55;text-decoration:line-through}
 html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
+[hidden]{display:none!important}
+.card:has(.editor:not([hidden])){grid-column:span 2}
+.card textarea{user-select:text;-webkit-user-select:text}
+.editor{margin-top:10px;text-align:left}
+.editor label{display:block;font-size:.72rem;color:var(--soft);margin-top:6px}
+.editor textarea{width:100%;padding:8px 10px;margin-top:3px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:400 .85rem "Be Vietnam Pro",sans-serif;resize:vertical}
+.editor textarea:focus{border-color:var(--primary);outline:none}
+.ed-actions{display:flex;gap:8px;align-items:center;margin-top:10px}
+.ed-actions .btn{padding:7px 16px;font-size:.8rem}
+.ed-actions .mini{margin-top:0}
+.edit-bar{display:flex;gap:10px 14px;align-items:center;flex-wrap:wrap;margin-bottom:18px;padding:12px 16px;background:var(--surface);border:1px solid var(--primary);border-radius:var(--r);font-size:.84rem}
+.edit-bar span{flex:1;min-width:220px}
+.edit-bar .btn{padding:7px 16px;font-size:.8rem}
 </style>
 </head>
 <body>
@@ -243,6 +256,11 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
   <div class="stats">
     <div class="stat-chip">Hiển thị: <strong id="showing-count">0</strong> từ</div>
     <div class="stat-chip">Trang <strong id="cur-page">1</strong> / <strong id="tot-pages">1</strong></div>
+  </div>
+  <div class="edit-bar" id="edit-bar" hidden>
+    <span>Bạn có <strong id="edit-count">0</strong> từ đã bổ sung ví dụ hoặc ghi chú, hiện mới lưu trên trình duyệt này, chưa nằm trong file JSON.</span>
+    <button class="btn" onclick="exportJSON()">Tải hsk-words.json đã cập nhật</button>
+    <button class="btn btn-outline" onclick="clearEdits()">Hủy chỉnh sửa</button>
   </div>
   <div class="card-grid" id="card-grid"></div>
   <div class="pager" id="pager"></div>
@@ -358,6 +376,7 @@ function setLevel(l){
 }
 
 function filterCards(){
+  flippedSet.clear();
   const q = document.getElementById("search-input").value.trim().toLowerCase();
   filtered = allWords.filter(w => {
     const matchLvl = curLevel === "all" || w.lvl === curLevel;
@@ -382,7 +401,7 @@ function renderPage(){
     grid.innerHTML = '<div class="no-result">Không tìm thấy từ nào phù hợp.</div>';
   } else {
     grid.innerHTML = slice.map(w => `
-      <div class="card" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa và ví dụ">
+      <div class="card${flippedSet.has(wk(w))?" flipped":""}" data-key="${escapeHTML(wk(w))}" role="button" tabindex="0" aria-label="Lật thẻ để xem nghĩa và ví dụ">
         <div class="front">
           <span class="lv lv-${w.lvl}">${lvName(w.lvl)}</span>
           <div class="hanzi">${escapeHTML(w.h)}</div>
@@ -401,6 +420,13 @@ function renderPage(){
             ${w.exv ? `<div class="example-vn">${escapeHTML(w.exv)}</div>` : ""}
             ${w.note ? `<div class="example-vn">Phân biệt: ${escapeHTML(w.note)}</div>` : ""}
           </div>` : ""}
+          <button class="mini" data-edit>${(w.ex && w.note) ? "✎ Sửa ví dụ và ghi chú" : "＋ Thêm ví dụ và ghi chú"}</button>
+          <div class="editor" data-editor="${escapeHTML(wk(w))}" hidden>
+            <label>Câu ví dụ (chữ Hán)<textarea rows="2" data-f="ex">${escapeHTML(w.ex)}</textarea></label>
+            <label>Nghĩa câu ví dụ<textarea rows="2" data-f="exv">${escapeHTML(w.exv)}</textarea></label>
+            <label>Ghi chú<textarea rows="3" data-f="note">${escapeHTML(w.note)}</textarea></label>
+            <div class="ed-actions"><button class="btn" data-save>Lưu</button><button class="mini" data-cancel>Hủy</button></div>
+          </div>
         </div>
       </div>`).join("");
   }
@@ -420,7 +446,7 @@ function renderPage(){
   pager.innerHTML=html;
 }
 
-function goPage(p){ curPage=p; renderPage(); window.scrollTo(0,0); }
+function goPage(p){ flippedSet.clear(); curPage=p; renderPage(); window.scrollTo(0,0); }
 
 // ── QUIZ ──
 let qLevel="all", qScore=0, qTotal=0, qAnswered=false, qPool=[], qCurrent=null;
@@ -663,6 +689,41 @@ function togglePinyin(){
 }
 try{ applyPinyin(localStorage.getItem("hsk-pinyin")!=="0"); }catch(e){}
 
+// ── CHỈNH SỬA VÍ DỤ & GHI CHÚ (lưu trên trình duyệt, xuất ra JSON) ──
+const EDIT_KEY="hsk-edits-v1", EF=["ex","exv","note"];
+let edits={}; try{ edits=JSON.parse(localStorage.getItem(EDIT_KEY)||"{}"); }catch(e){}
+const flippedSet=new Set();
+function applyEditsToWord(w,e){ EF.forEach(f=>{ if(f in e){ if(e[f]) w[f]=e[f]; else delete w[f]; } }); }
+function editsSave(){ try{ localStorage.setItem(EDIT_KEY,JSON.stringify(edits)); }catch(e){} updateEditBar(); }
+function pruneEdits(){
+  const base=new Map(); Object.keys(HSK).forEach(l=>HSK[l].forEach(w=>base.set(wk(w),w)));
+  Object.keys(edits).forEach(k=>{ const w=base.get(k); if(w && EF.every(f=>(edits[k][f]||"")===(w[f]||""))) delete edits[k]; });
+  editsSave();
+}
+function updateEditBar(){
+  const n=Object.keys(edits).length, bar=document.getElementById("edit-bar");
+  if(!bar) return; bar.hidden=!n; document.getElementById("edit-count").textContent=n;
+}
+function saveEdit(ed){
+  const key=ed.dataset.editor, e={};
+  ed.querySelectorAll("textarea").forEach(t=>{ e[t.dataset.f]=t.value.trim(); });
+  edits[key]=e;
+  allWords.forEach(w=>{ if(wk(w)===key) applyEditsToWord(w,e); });
+  pruneEdits(); renderPage();
+}
+function exportJSON(){
+  const out={};
+  Object.keys(HSK).forEach(l=>{ out[l]=HSK[l].map(w=>{ const c={...w}, e=edits[wk(w)]; if(e) applyEditsToWord(c,e); return c; }); });
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([JSON.stringify(out,null,2)],{type:"application/json"}));
+  a.download="hsk-words.json"; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+function clearEdits(){
+  if(!confirm("Hủy toàn bộ chỉnh sửa chưa nằm trong file JSON? Việc này không thể hoàn tác.")) return;
+  edits={}; editsSave(); location.reload();
+}
+
 // ── ÔN TẬP THÔNG MINH (hộp Leitner, lưu trên máy này) ──
 const SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
 let srs={}; try{ srs=JSON.parse(localStorage.getItem(SRS_KEY)||"{}"); }catch(e){}
@@ -801,6 +862,10 @@ async function loadVocabulary(){
       HSK[level].forEach(word => allWords.push({...word, lvl: level}));
     });
 
+    pruneEdits();
+    allWords.forEach(w => { const e = edits[wk(w)]; if(e) applyEditsToWord(w, e); });
+    updateEditBar();
+
     // Cập nhật số lượng trên thẻ cấp độ trang chủ và bộ lọc thẻ lật.
     levels.forEach((level, index) => {
       const count = HSK[level].length;
@@ -867,6 +932,19 @@ document.querySelectorAll("[data-home-level], [data-home-action]").forEach(card 
 
 // Lật thẻ từ vựng bằng chuột hoặc bàn phím.
 document.getElementById("card-grid").addEventListener("click", event => {
+  const ed = event.target.closest(".editor");
+  if(ed){
+    if(event.target.closest("[data-save]")) saveEdit(ed);
+    else if(event.target.closest("[data-cancel]")) ed.hidden = true;
+    return;
+  }
+  const editBtn = event.target.closest("[data-edit]");
+  if(editBtn){
+    const box = editBtn.parentElement.querySelector(".editor");
+    box.hidden = !box.hidden;
+    if(!box.hidden) box.querySelector("textarea").focus();
+    return;
+  }
   const addBtn = event.target.closest("[data-k]");
   if(addBtn){
     const w = allWords.find(x => wk(x) === addBtn.dataset.k);
@@ -875,12 +953,18 @@ document.getElementById("card-grid").addEventListener("click", event => {
     return;
   }
   const card = event.target.closest(".card");
-  if(card) card.classList.toggle("flipped");
+  if(card){
+    card.classList.toggle("flipped");
+    if(card.classList.contains("flipped")) flippedSet.add(card.dataset.key); else flippedSet.delete(card.dataset.key);
+  }
 });
 document.getElementById("card-grid").addEventListener("keydown", event => {
+  if(event.target.matches("textarea,input,button")) return;
   if((event.key === "Enter" || event.key === " ") && event.target.closest(".card")){
     event.preventDefault();
-    event.target.closest(".card").classList.toggle("flipped");
+    const card = event.target.closest(".card");
+    card.classList.toggle("flipped");
+    if(card.classList.contains("flipped")) flippedSet.add(card.dataset.key); else flippedSet.delete(card.dataset.key);
   }
 });
 
