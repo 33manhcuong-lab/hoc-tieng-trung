@@ -9608,6 +9608,95 @@
       "p": "bàobiǎo",
       "v": "bảng báo cáo",
       "hv": "báo biểu"
+    },
+    {
+      "h": "业务名",
+      "p": "yèwùmíng",
+      "v": "tên nghiệp vụ",
+      "hv": "nghiệp vụ danh",
+      "ex": "业务名不能为空",
+      "exv": "Tên nghiệp vụ không được để trống",
+      "note": "业务名称 (yèwù míngchēng) – Tên nghiệp vụ: cách viết đầy đủ, thường dùng trên giao diện hệ thống."
+    },
+    {
+      "h": "流水号",
+      "p": "liúshuǐhào",
+      "v": "mã số tuần tự, số thứ tự",
+      "hv": "lưu thủy hiệu",
+      "ex": "每个产品都有唯一的流水号",
+      "exv": "Mỗi sản phẩm đều có một mã số tuần tự duy nhất.",
+      "note": "Nhấn mạnh thứ tự phát sinh, thường được hệ thống tự động tăng liên tục."
+    },
+    {
+      "h": "工作流",
+      "p": "gōngzuòliú",
+      "v": "luồng công việc",
+      "hv": "công tác lưu",
+      "ex": "工作流还在审批中",
+      "exv": "Luồng công việc vẫn đang trong quá trình phê duyệt",
+      "note": "工作流 thiên về luồng xử lý tổng thể trên hệ thống; 流程 thiên về trình tự các bước thực hiện."
+    },
+    {
+      "h": "催办通知",
+      "p": "cuībàn tōngzhī",
+      "v": "thông báo nhắc xử lý",
+      "hv": "thôi biện thông tri",
+      "ex": "系统自动发送催办通知",
+      "exv": "Hệ thống tự động gửi thông báo đôn đốc",
+      "note": "提醒通知: thông báo nhắc nhở thông thường. 催办通知: thông báo mang tính đôn đốc, thường dùng khi công việc chưa được xử lý hoặc sắp/quá hạn."
+    },
+    {
+      "h": "提交人",
+      "p": "tíjiāo rén",
+      "v": "người nộp, người gửi",
+      "hv": "đề giao nhân",
+      "ex": "提交人不能修改此单据",
+      "exv": "Người gửi không thể chỉnh sửa phiếu này",
+      "note": "Trong thực tế, 申请人 và 提交人 có thể là cùng một người, nhưng ý nghĩa chức năng khác nhau."
+    },
+    {
+      "h": "内容摘要",
+      "p": "nèiróng zhāiyào",
+      "v": "nội dung tóm tắt",
+      "hv": "nội dung trích yếu",
+      "ex": "请填写内容摘要",
+      "exv": "Vui lòng điền nội dung tóm tắt.",
+      "note": "摘要 (zhāiyào): bản tóm tắt, phần nội dung được chọn lọc. 简介 (jiǎnjiè): giới thiệu sơ lược, giới thiệu khái quát về đối tượng."
+    },
+    {
+      "h": "新任务",
+      "p": "xīn rènwu",
+      "v": "nhiệm vụ mới",
+      "hv": "tân nhiệm vụ",
+      "ex": "新任务已经安排好了",
+      "exv": "Nhiệm vụ mới đã được sắp xếp xong",
+      "note": "新任务 thường dùng để chỉ một công việc hoặc nhiệm vụ mới được giao, không nhất thiết là một dự án mới."
+    },
+    {
+      "h": "领用流程",
+      "p": "lǐngyòng liúchéng",
+      "v": "quy trình nhận và sử dụng",
+      "hv": "lĩnh dụng lưu trình",
+      "ex": "请按照领用流程申请物料",
+      "exv": "Vui lòng làm đơn xin lĩnh vật liệu theo quy trình"
+    },
+    {
+      "h": "烧录程序",
+      "p": "shāolù chéngxù",
+      "v": "nạp chương trình",
+      "hv": "thiêu lục trình tự",
+      "ex": "程序烧录完成后，再进行测试。",
+      "exv": "Sau khi nạp chương trình hoàn tất, tiến hành kiểm tra.",
+      "note": "Trong lĩnh vực điện tử, khi nói nạp firmware vào sản phẩm hoặc bo mạch, dùng 烧录程序."
+    },
+    {
+      "h": "再寄",
+      "p": "zài jì",
+      "v": "gửi lại, gửi tiếp",
+      "hv": "tái ký",
+      "ex": "烧录完成后再寄到越南",
+      "exv": "Sau khi nạp chương trình xong thì gửi tiếp sang Việt Nam",
+      "note": "再寄 không nhất thiết mang nghĩa “gửi lại”; tùy ngữ cảnh, có thể chỉ hành động gửi ở bước tiếp theo."
     }
   ]
 }
