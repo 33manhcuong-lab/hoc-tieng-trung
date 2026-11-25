@@ -142,7 +142,9 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
 .goal-sub{font-size:.8rem;color:var(--soft)}
 .goal-ctl{display:flex;gap:8px;align-items:center}
 .goal-ctl .mini{margin-top:0}
-.ftab[data-l=xuong].on{background:var(--xuong)}.lv-xuong{background:var(--xuong)}</style>
+.ftab[data-l=xuong].on{background:var(--xuong)}.lv-xuong{background:var(--xuong)}.nav-links .theme[aria-pressed=false]{opacity:.55;text-decoration:line-through}
+html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
+</style>
 </head>
 <body>
 <nav>
@@ -153,6 +155,7 @@ h2{font-size:1.05rem;font-weight:600;margin-bottom:14px}
     <button onclick="show('quiz')" id="btn-quiz">Quiz</button>
     <button onclick="show('typing')" id="btn-typing">Luyện gõ</button>
     <button onclick="show('review')" id="btn-review">Ôn tập<span class="badge" id="due-badge"></span></button>
+    <button class="theme" id="btn-pinyin" onclick="togglePinyin()" aria-label="Bật hoặc tắt pinyin" aria-pressed="true" title="Đang hiện pinyin (nhấn để ẩn)" style="font-family:'Noto Serif SC',serif;font-weight:700">拼</button>
     <button class="theme" onclick="toggleTheme()" aria-label="Đổi giao diện sáng hoặc tối">◐</button>
   </div>
 </nav>
@@ -646,6 +649,19 @@ function toggleTheme(){
   try{ localStorage.setItem("hsk-theme",next); }catch(e){}
 }
 try{ applyTheme(localStorage.getItem("hsk-theme")); }catch(e){}
+
+// ── BẬT/TẮT PINYIN ──
+function applyPinyin(on){
+  document.documentElement.classList.toggle("no-pinyin", !on);
+  const b=document.getElementById("btn-pinyin");
+  if(b){ b.setAttribute("aria-pressed", String(on)); b.title = on ? "Đang hiện pinyin (nhấn để ẩn)" : "Đang ẩn pinyin (nhấn để hiện)"; }
+}
+function togglePinyin(){
+  const turnOn=document.documentElement.classList.contains("no-pinyin");
+  applyPinyin(turnOn);
+  try{ localStorage.setItem("hsk-pinyin", turnOn?"1":"0"); }catch(e){}
+}
+try{ applyPinyin(localStorage.getItem("hsk-pinyin")!=="0"); }catch(e){}
 
 // ── ÔN TẬP THÔNG MINH (hộp Leitner, lưu trên máy này) ──
 const SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
