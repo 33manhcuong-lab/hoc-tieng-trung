@@ -170,6 +170,39 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
 .q-timer.warn .q-timer-text{color:var(--bad);font-weight:600}
 .choice-btn{position:relative;padding-left:36px}
 .choice-btn::before{content:attr(data-k);position:absolute;left:9px;top:50%;transform:translateY(-50%);font:600 .68rem monospace;color:var(--soft);border:1px solid var(--line);border-radius:5px;padding:0 5px;background:var(--surface)}
+/* ── HIỆU ỨNG & MÀU SẮC ── */
+:root{--grad:linear-gradient(135deg,#3B5BDB,#7048E8);--glow:#3B5BDB40}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--grad:linear-gradient(135deg,#7C93FF,#B197FC);--glow:#7C93FF40}}
+:root[data-theme=dark]{--grad:linear-gradient(135deg,#7C93FF,#B197FC);--glow:#7C93FF40}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(620px 420px at 8% -4%,#7048E826,transparent 70%),radial-gradient(520px 420px at 100% 0%,#0C859922,transparent 70%),radial-gradient(500px 380px at 50% 110%,#3B5BDB1c,transparent 70%)}
+body,nav,.card,.quiz-box,.typing-box,.goal-card,.info-card,.stat-chip,.ftab,.choice-btn,.search-wrap input{transition:background-color .35s,color .35s,border-color .35s,box-shadow .25s,transform .2s}
+.btn:not(.btn-outline):not(.btn-ok):not(.btn-bad):not(.btn-mid),.nav-links button.active,.pager button.active,.ftab[data-l=all].on{background:var(--grad);border-color:transparent}
+.prog-fill,.q-timer-fill{background:var(--grad)}.prog-fill{transition:width .5s cubic-bezier(.3,.8,.3,1)}.q-timer-fill{transition:width .1s linear}
+.q-timer.warn .q-timer-fill{background:var(--bad)}.q-timer.warn .q-timer-text{animation:pulse .8s ease-in-out infinite}
+.btn{position:relative;overflow:hidden}.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,#ffffff40 50%,transparent 70%);transform:translateX(-120%);transition:transform .6s}.btn:hover::after{transform:translateX(120%)}
+.btn:active,.ftab:active,.mini:active,.choice-btn:active,.pager button:active{transform:scale(.96)}.btn:hover{box-shadow:0 8px 20px -8px var(--glow)}
+.nav-links button.active{box-shadow:0 4px 14px -4px var(--glow)}.ftab.on{box-shadow:0 4px 12px -4px #16203A40}
+.hero-char{color:var(--primary);display:inline-block;animation:float 5s ease-in-out infinite}@supports(background-clip:text){.hero-char{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}}
+.section.active{animation:secIn .4s cubic-bezier(.2,.7,.2,1)}
+.card-grid .card{animation:cardIn .45s cubic-bezier(.2,.7,.2,1) both}.card-grid.no-anim .card{animation:none}.card-grid .card:nth-child(24n+1){animation-delay:0ms}.card-grid .card:nth-child(24n+2){animation-delay:22ms}.card-grid .card:nth-child(24n+3){animation-delay:44ms}.card-grid .card:nth-child(24n+4){animation-delay:66ms}.card-grid .card:nth-child(24n+5){animation-delay:88ms}.card-grid .card:nth-child(24n+6){animation-delay:110ms}.card-grid .card:nth-child(24n+7){animation-delay:132ms}.card-grid .card:nth-child(24n+8){animation-delay:154ms}.card-grid .card:nth-child(24n+9){animation-delay:176ms}.card-grid .card:nth-child(24n+10){animation-delay:198ms}.card-grid .card:nth-child(24n+11){animation-delay:220ms}.card-grid .card:nth-child(24n+12){animation-delay:242ms}.card-grid .card:nth-child(24n+13){animation-delay:264ms}.card-grid .card:nth-child(24n+14){animation-delay:286ms}.card-grid .card:nth-child(24n+15){animation-delay:308ms}.card-grid .card:nth-child(24n+16){animation-delay:330ms}.card-grid .card:nth-child(24n+17){animation-delay:352ms}.card-grid .card:nth-child(24n+18){animation-delay:374ms}.card-grid .card:nth-child(24n+19){animation-delay:396ms}.card-grid .card:nth-child(24n+20){animation-delay:418ms}.card-grid .card:nth-child(24n+21){animation-delay:440ms}.card-grid .card:nth-child(24n+22){animation-delay:462ms}.card-grid .card:nth-child(24n+23){animation-delay:484ms}.card-grid .card:nth-child(24n+24){animation-delay:506ms}
+.card:hover{border-color:var(--primary);transform:translateY(-4px);box-shadow:0 14px 28px -14px var(--glow)}.card.flipped .back{animation:flip .3s cubic-bezier(.2,.8,.3,1)}
+.section.active .hsk-card,.section.active .info-card,.section.active .goal-card{animation:cardIn .5s cubic-bezier(.2,.7,.2,1) both}.hsk-overview>*:nth-child(1){animation-delay:50ms!important}.info-grid>*:nth-child(1){animation-delay:60ms!important}.hsk-overview>*:nth-child(2){animation-delay:100ms!important}.info-grid>*:nth-child(2){animation-delay:120ms!important}.hsk-overview>*:nth-child(3){animation-delay:150ms!important}.info-grid>*:nth-child(3){animation-delay:180ms!important}.hsk-overview>*:nth-child(4){animation-delay:200ms!important}.info-grid>*:nth-child(4){animation-delay:240ms!important}.hsk-overview>*:nth-child(5){animation-delay:250ms!important}.info-grid>*:nth-child(5){animation-delay:300ms!important}.hsk-overview>*:nth-child(6){animation-delay:300ms!important}.info-grid>*:nth-child(6){animation-delay:360ms!important}.hsk-overview>*:nth-child(7){animation-delay:350ms!important}.info-grid>*:nth-child(7){animation-delay:420ms!important}.hsk-overview>*:nth-child(8){animation-delay:400ms!important}.info-grid>*:nth-child(8){animation-delay:480ms!important}
+.hsk-card[data-home-level=hsk1]{background:linear-gradient(135deg,#E5484D,#F7708A)!important}
+.hsk-card[data-home-level=hsk2]{background:linear-gradient(135deg,#F08A24,#F5B83D)!important}
+.hsk-card[data-home-level=hsk3]{background:linear-gradient(135deg,#30A46C,#4CC9A0)!important}
+.hsk-card[data-home-level=hsk4]{background:linear-gradient(135deg,#0091FF,#5B8DEF)!important}
+.hsk-card[data-home-level=hsk5]{background:linear-gradient(135deg,#8E4EC6,#B35BE0)!important}
+.hsk-card[data-home-level=hsk6]{background:linear-gradient(135deg,#5B6B85,#8794AD)!important}
+.hsk-card[data-home-level=xuong]{background:linear-gradient(135deg,#0F766E,#14B8A6)!important}
+.hsk-card{position:relative;overflow:hidden}.hsk-card::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:#ffffff22}.hsk-card[role=button]:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 16px 30px -14px #16203A66}
+.info-card[role=button]:hover{border-color:var(--primary);box-shadow:0 12px 26px -14px var(--glow)}
+.quiz-box.qin .quiz-hanzi,.quiz-box.qin .quiz-pinyin{animation:qIn .35s cubic-bezier(.2,.8,.3,1)}.quiz-box.qin .choice-btn{animation:cardIn .35s both}.quiz-box.qin .choice-btn:nth-child(2){animation-delay:.05s}.quiz-box.qin .choice-btn:nth-child(3){animation-delay:.1s}.quiz-box.qin .choice-btn:nth-child(4){animation-delay:.15s}
+.choice-btn.correct{animation:pop .45s cubic-bezier(.3,1.5,.5,1);box-shadow:0 0 0 4px #1E9E6233}.choice-btn.wrong{animation:shake .4s}
+.edit-bar{animation:cardIn .35s both}.ring-fg{filter:drop-shadow(0 0 5px var(--glow))}.ring-fg.done{filter:drop-shadow(0 0 6px #1E9E6266)}
+.confetti{position:fixed;inset:0;pointer-events:none;z-index:300;overflow:hidden}.confetti i{position:absolute;top:-14px;width:8px;height:14px;border-radius:2px;animation:fall 2s ease-in forwards}
+@keyframes secIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}@keyframes cardIn{from{opacity:0;transform:translateY(14px) scale(.97)}to{opacity:1;transform:none}}@keyframes qIn{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@keyframes pulse{50%{opacity:.55}}@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.07)}100%{transform:scale(1)}}
+@keyframes shake{20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(3px)}}@keyframes fall{to{transform:translate(var(--dx),105vh) rotate(var(--r))}}
 </style>
 </head>
 <body>
@@ -191,8 +224,8 @@ html.no-pinyin .pinyin,html.no-pinyin .quiz-pinyin{display:none}
   <div class="hero">
     <span class="hero-char">你好</span>
     <div class="greet" id="greet"></div>
-    <h1>汉子太难了</h1>
-    <p><strong id="total-word-count">—</strong> từ vựng thường dùng, công xưởng, có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
+    <h1>Học Tiếng Trung HSK</h1>
+    <p><strong id="total-word-count">—</strong> từ vựng HSK 1–6, tải từ file JSON riêng, có lọc cấp độ, tìm kiếm, thẻ lật và quiz tương tác.</p>
     <div class="hero-btns">
       <button class="btn" onclick="show('vocab')">Học từ vựng</button>
       <button class="btn btn-outline" onclick="show('quiz')">Làm quiz</button>
@@ -406,7 +439,7 @@ function setLevel(l){
 }
 
 function filterCards(){
-  flippedSet.clear();
+  flippedSet.clear(); document.getElementById("card-grid").classList.remove("no-anim");
   const q = document.getElementById("search-input").value.trim().toLowerCase();
   filtered = allWords.filter(w => {
     const matchLvl = curLevel === "all" || w.lvl === curLevel;
@@ -476,7 +509,7 @@ function renderPage(){
   pager.innerHTML=html;
 }
 
-function goPage(p){ flippedSet.clear(); curPage=p; renderPage(); window.scrollTo(0,0); }
+function goPage(p){ flippedSet.clear(); document.getElementById("card-grid").classList.remove("no-anim"); curPage=p; renderPage(); window.scrollTo(0,0); }
 
 // ── QUIZ ──
 let qLevel="all", qScore=0, qTotal=0, qAnswered=false, qPool=[], qCurrent=null;
@@ -510,6 +543,8 @@ function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
 
 function nextQ(){
   clearTimeout(qAutoTimer);
+  const qbox=document.querySelector("#quiz-play .quiz-box");
+  qbox.classList.remove("qin"); void qbox.offsetWidth; qbox.classList.add("qin");
   if(!qPool.length) return;
   qAnswered=false;
   document.getElementById("q-next").style.display="none";
@@ -741,6 +776,7 @@ function saveEdit(ed){
   ed.querySelectorAll("textarea").forEach(t=>{ e[t.dataset.f]=t.value.trim(); });
   edits[key]=e;
   allWords.forEach(w=>{ if(wk(w)===key) applyEditsToWord(w,e); });
+  const g=document.getElementById("card-grid"); g.classList.add("no-anim");
   pruneEdits(); renderPage();
 }
 function exportJSON(){
@@ -900,13 +936,26 @@ function rvRate(r){
   srsSave(); rvCur=null; rvShown=false; renderReview();
 }
 
+// ── PHÁO GIẤY KHI ĐẠT MỤC TIÊU ──
+function burstConfetti(){
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const wrap=document.createElement("div"); wrap.className="confetti"; wrap.setAttribute("aria-hidden","true");
+  const cols=["#3B5BDB","#7048E8","#0C8599","#F08A24","#E5484D","#30A46C"];
+  for(let i=0;i<52;i++){
+    const p=document.createElement("i");
+    p.style.cssText=`left:${Math.random()*100}%;background:${cols[i%cols.length]};--dx:${(Math.random()-.5)*260}px;--r:${Math.random()*720}deg;animation-delay:${Math.random()*.3}s;animation-duration:${1.4+Math.random()*1.2}s`;
+    wrap.appendChild(p);
+  }
+  document.body.appendChild(wrap); setTimeout(()=>wrap.remove(),3200);
+}
+
 // ── HỒ SƠ & MỤC TIÊU HẰNG NGÀY ──
 const PROF_KEY="hsk-profile-v1", DAILY_KEY="hsk-daily-v1";
 let prof={name:"",goal:20}; try{ Object.assign(prof,JSON.parse(localStorage.getItem(PROF_KEY)||"{}")); }catch(e){}
 function profSave(){ try{ localStorage.setItem(PROF_KEY,JSON.stringify(prof)); }catch(e){} }
 function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function goalCount(){ try{ const d=JSON.parse(localStorage.getItem(DAILY_KEY)||"{}"); return d.date===todayKey()?(d.count||0):0; }catch(e){ return 0; } }
-function goalTick(){ const c=goalCount()+1; try{ localStorage.setItem(DAILY_KEY,JSON.stringify({date:todayKey(),count:c})); }catch(e){} renderGoal(); }
+function goalTick(){ const c=goalCount()+1; if(c===prof.goal) burstConfetti(); try{ localStorage.setItem(DAILY_KEY,JSON.stringify({date:todayKey(),count:c})); }catch(e){} renderGoal(); }
 function greetWord(){ const h=new Date().getHours(); return h<11?"Chào buổi sáng":h<14?"Chào buổi trưa":h<18?"Chào buổi chiều":"Chào buổi tối"; }
 function renderGreeting(editing){
   const el=document.getElementById("greet"); if(!el) return;
