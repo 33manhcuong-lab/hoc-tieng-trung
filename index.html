@@ -1320,6 +1320,7 @@ async function initAuth(){
     const j=await r.json();
     users=(Array.isArray(j)?j:(j.users||[])).map(u=>typeof u==="string"?{name:u}:u).filter(u=>u&&u.name);
   }catch(e){
+    if(e instanceof SyntaxError){ setLoginMsg("File users.json bị lỗi định dạng JSON (thường là thiếu dấu phẩy giữa hai người, hoặc thiếu ngoặc). Hãy kiểm tra lại.",true); return; }
     setLoginMsg("Không tải được danh sách người dùng (users.json). Hãy kiểm tra file users.json nằm cùng thư mục với index.html và mở trang qua máy chủ web.",true);
     return;
   }
