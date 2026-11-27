@@ -1,6 +1,16 @@
 {
   "users": [
-    { "name": "何孟刚", "aliases": ["Hà Mạnh Cương"] }
-    { "name": "阮氏饿", "aliases": ["Nguyễn Thị Nga"] }
+    {
+      "name": "何孟刚",
+      "aliases": [
+        "Hà Mạnh Cương"
+      ]
+    },
+    {
+      "name": "阮氏饿",
+      "aliases": [
+        "Nguyễn Thị Nga"
+      ]
+    }
   ]
 }
