@@ -1,0 +1,6 @@
+Các biểu tượng trong thư mục này là của OpenMoji (https://openmoji.org),
+© HfG Schwäbisch Gmünd và những người đóng góp, được cấp phép theo
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+Nguồn: https://github.com/hfg-gmuend/openmoji
+Khi sử dụng cần ghi công OpenMoji; bản chỉnh sửa phải giữ cùng giấy phép.
