@@ -258,10 +258,49 @@ body{padding:22px 18px 34px}
 .card-grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}.card{-webkit-backdrop-filter:none;backdrop-filter:none}
 .quiz-box,.typing-box{padding:26px 14px}.quiz-choices{grid-template-columns:1fr}}
 
+body.locked .shell,body.locked .site-foot{display:none}
+.login{position:fixed;inset:0;z-index:500;display:none;place-items:center;padding:20px;overflow-y:auto}
+body.locked .login{display:grid}
+.login-card{width:min(430px,100%);padding:36px 34px 28px;border-radius:32px;text-align:center;background:var(--glass);border:1px solid var(--line);box-shadow:0 40px 90px -40px rgba(11,31,63,.6),inset 0 1px 0 rgba(255,255,255,.8);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);animation:loginIn .7s cubic-bezier(.2,.8,.3,1) both}
+.login-card.shake-x{animation:shake .45s}
+.login-logo{display:flex;justify-content:center;align-items:baseline;gap:8px;font:700 1.4rem "Noto Serif SC",serif}
+.login-logo span{color:var(--primary)}
+.login-logo small{font:600 .6rem "Be Vietnam Pro",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--soft)}
+.login-char{width:104px;height:104px;margin:22px auto 18px;display:grid;place-items:center;border-radius:30px;font:700 2.8rem "Noto Serif SC",serif;color:var(--primary);background:var(--glass2);border:1px solid var(--line);box-shadow:0 22px 40px -18px var(--glow);animation:float 6s ease-in-out infinite;position:relative}
+.login-char::after{content:"";position:absolute;inset:-10px;border-radius:38px;border:1px dashed var(--line);animation:spin 40s linear infinite}
+.login-card h1{font-size:1.65rem;margin:0;background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.login-card p{color:var(--soft);font-size:.9rem;margin:6px 0 20px}
+.login-field{display:block;text-align:left}.login-field span{font-size:.78rem;font-weight:600;color:var(--soft)}
+.login-field input{width:100%;margin-top:6px;padding:14px 16px;border-radius:14px;border:2px solid var(--line);background:var(--glass2);color:var(--ink);font:500 1.15rem "Be Vietnam Pro",sans-serif;text-align:center;outline:none}
+.login-field input:focus{border-color:var(--primary);box-shadow:0 0 0 4px var(--spot)}
+.login-remember{display:flex;align-items:center;justify-content:center;gap:8px;font-size:.82rem;color:var(--soft);margin:14px 0 4px}
+.login-remember input{accent-color:var(--primary)}
+.login-msg{min-height:40px;font-size:.84rem;margin:6px 0 8px;color:var(--bad);font-weight:500}.login-msg.info{color:var(--soft)}
+.login-card .btn{width:100%;padding:13px}.login-card .btn:disabled{opacity:.6;cursor:default}
+.login-foot{margin-top:16px;font-size:.74rem;color:var(--soft)}
+body.unlocking .shell{animation:secIn .7s cubic-bezier(.2,.7,.2,1)}
+@keyframes loginIn{from{opacity:0;transform:translateY(24px) scale(.96);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@media(max-width:600px){.login-card{padding:28px 20px 22px}}
 </style>
 </head>
-<body>
+<body class="locked">
 <div class="ambient" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="login" id="login" role="dialog" aria-modal="true" aria-labelledby="login-title">
+  <div class="login-card" id="login-card">
+    <div class="login-logo">学<span>中</span>文<small>Studio</small></div>
+    <div class="login-char" aria-hidden="true">你好</div>
+    <h1 id="login-title">Chào mừng bạn</h1>
+    <p>Nhập tên của bạn để vào học. Tên cần có trong danh sách người dùng.</p>
+    <form id="login-form" autocomplete="off" onsubmit="return submitLogin(event)">
+      <label class="login-field"><span>Tên của bạn</span>
+        <input id="login-name" type="text" lang="zh" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Nhập tên..." aria-describedby="login-msg"></label>
+      <label class="login-remember"><input type="checkbox" id="login-remember" checked> Ghi nhớ đăng nhập trên thiết bị này</label>
+      <div class="login-msg" id="login-msg" role="alert" aria-live="polite"></div>
+      <button class="btn" type="submit" id="login-btn">Vào học</button>
+    </form>
+    <div class="login-foot">Chỉ cần tên, không cần mật khẩu. Mỗi người có tiến độ học riêng.</div>
+  </div>
+</div>
 <div class="shell" id="shell" data-page="home">
 <nav>
   <div class="logo">学<span>中</span>文<small>Studio</small></div>
@@ -276,6 +315,7 @@ body{padding:22px 18px 34px}
   <div class="nav-foot">
     <button class="theme" id="btn-pinyin" onclick="togglePinyin()" aria-label="Bật hoặc tắt pinyin" aria-pressed="true" title="Đang hiện pinyin (nhấn để ẩn)"><span class="ni" style="font-family:'Noto Serif SC',serif;font-weight:700">拼</span><span class="nl">Hiện pinyin</span></button>
     <button class="theme" onclick="toggleTheme()" aria-label="Đổi giao diện sáng hoặc tối"><span class="ni">◐</span><span class="nl">Sáng / Tối</span></button>
+    <button id="btn-logout" onclick="logout()" aria-label="Đăng xuất"><span class="ni">🚪</span><span class="nl">Đăng xuất</span></button>
   </div>
 </nav>
 <main class="main">
@@ -978,7 +1018,7 @@ document.addEventListener("keydown",e=>{
 });
 
 // ── ÔN TẬP THÔNG MINH (hộp Leitner, lưu trên máy này) ──
-const SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
+let SRS_KEY="hsk-srs-v1", SRS_DAYS=[0,1,3,7,16,35], DAY=864e5;
 let srs={}; try{ srs=JSON.parse(localStorage.getItem(SRS_KEY)||"{}"); }catch(e){}
 let rvQueue=[], rvCur=null, rvShown=false;
 const wk = w => w.h+"|"+w.p;
@@ -1059,7 +1099,7 @@ function burstConfetti(){
 }
 
 // ── HỒ SƠ & MỤC TIÊU HẰNG NGÀY ──
-const PROF_KEY="hsk-profile-v1", DAILY_KEY="hsk-daily-v1";
+let PROF_KEY="hsk-profile-v1", DAILY_KEY="hsk-daily-v1";
 let prof={name:"",goal:20}; try{ Object.assign(prof,JSON.parse(localStorage.getItem(PROF_KEY)||"{}")); }catch(e){}
 function profSave(){ try{ localStorage.setItem(PROF_KEY,JSON.stringify(prof)); }catch(e){} }
 function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
@@ -1116,7 +1156,7 @@ document.addEventListener("pointermove",e=>{
 
 // ── DASHBOARD: THỐNG KÊ, BIỂU ĐỒ, LỊCH, HỒ SƠ ──
 const PAGE_TITLES={home:"Trang chủ",vocab:"Từ vựng HSK",quiz:"Luyện tập Quiz",typing:"Luyện gõ chữ Hán",review:"Ôn tập thông minh"};
-const HIST_KEY="hsk-history-v1"; let hist={}; try{ hist=JSON.parse(localStorage.getItem(HIST_KEY)||"{}"); }catch(e){}
+let HIST_KEY="hsk-history-v1"; let hist={}; try{ hist=JSON.parse(localStorage.getItem(HIST_KEY)||"{}"); }catch(e){}
 function dkey(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
 function dayVal(d,i){ return i===0?goalCount():(hist[dkey(d)]||0); }
 function histSet(c){
@@ -1206,6 +1246,89 @@ document.getElementById("top-search").addEventListener("input",e=>{
   document.getElementById("search-input").value=e.target.value; curPage=1; filterCards();
 });
 renderDash();
+
+// ── ĐĂNG NHẬP BẰNG TÊN (danh sách trong users.json, tiến độ lưu riêng từng người) ──
+const SESSION_KEY="hsk-session-v1";
+let users=[], currentUser=null;
+const fold=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[đĐ]/g,"d").toLowerCase().replace(/\s+/g,"");
+function findUser(input){
+  const q=fold(input); if(!q) return null;
+  return users.find(u=>[u.name,...(u.aliases||[])].some(n=>fold(n)===q))||null;
+}
+function applyUserKeys(u){
+  const ns=":"+(u?encodeURIComponent(u.name):"guest");
+  SRS_KEY="hsk-srs-v1"+ns; PROF_KEY="hsk-profile-v1"+ns; DAILY_KEY="hsk-daily-v1"+ns; HIST_KEY="hsk-history-v1"+ns;
+}
+function migrateLegacy(){
+  try{
+    if(localStorage.getItem("hsk-migrated")) return;
+    [["hsk-srs-v1",SRS_KEY],["hsk-profile-v1",PROF_KEY],["hsk-daily-v1",DAILY_KEY],["hsk-history-v1",HIST_KEY]].forEach(([o,n])=>{
+      const v=localStorage.getItem(o); if(v!==null && localStorage.getItem(n)===null) localStorage.setItem(n,v);
+    });
+    localStorage.setItem("hsk-migrated","1");
+  }catch(e){}
+}
+function loadUserState(){
+  try{ srs=JSON.parse(localStorage.getItem(SRS_KEY)||"{}"); }catch(e){ srs={}; }
+  prof={name:"",goal:20}; try{ Object.assign(prof,JSON.parse(localStorage.getItem(PROF_KEY)||"{}")); }catch(e){}
+  try{ hist=JSON.parse(localStorage.getItem(HIST_KEY)||"{}"); }catch(e){ hist={}; }
+  rvQueue=[]; rvCur=null; rvShown=false;
+}
+function setLoginMsg(t,isErr){
+  const m=document.getElementById("login-msg"); m.textContent=t; m.classList.toggle("info",!isErr);
+}
+function setLoginBusy(b){
+  document.getElementById("login-name").disabled=b; document.getElementById("login-btn").disabled=b;
+}
+function login(u,remember){
+  currentUser=u; applyUserKeys(u); migrateLegacy(); loadUserState();
+  if(!prof.name){ prof.name=u.name; profSave(); }
+  try{
+    localStorage.removeItem(SESSION_KEY); sessionStorage.removeItem(SESSION_KEY);
+    (remember?localStorage:sessionStorage).setItem(SESSION_KEY,u.name);
+  }catch(e){}
+  document.body.classList.remove("locked"); document.body.classList.add("unlocking");
+  setTimeout(()=>document.body.classList.remove("unlocking"),900);
+  document.getElementById("btn-logout").title="Đăng xuất: "+u.name;
+  show("home"); renderGreeting(); updateBadge(); renderGoal(); renderDash();
+  if(allWords.length) filterCards();
+  setTimeout(movePill,60);
+}
+function logout(){
+  try{ localStorage.removeItem(SESSION_KEY); sessionStorage.removeItem(SESSION_KEY); }catch(e){}
+  stopTimer(); clearTimeout(qAutoTimer); qPlaying=false;
+  document.getElementById("quiz-play").hidden=true; document.getElementById("quiz-setup").hidden=false;
+  currentUser=null; applyUserKeys(null);
+  document.body.classList.add("locked");
+  const i=document.getElementById("login-name"); i.value=""; setLoginMsg("",false); i.focus();
+}
+function submitLogin(ev){
+  if(ev) ev.preventDefault();
+  const v=document.getElementById("login-name").value, u=findUser(v);
+  if(!u){
+    setLoginMsg(v.trim()?"Không tìm thấy tên này trong danh sách. Hãy kiểm tra lại cách viết.":"Vui lòng nhập tên của bạn.",true);
+    const c=document.getElementById("login-card"); c.classList.remove("shake-x"); void c.offsetWidth; c.classList.add("shake-x");
+    return false;
+  }
+  setLoginMsg("",false); login(u,document.getElementById("login-remember").checked); return false;
+}
+async function initAuth(){
+  setLoginBusy(true); setLoginMsg("Đang tải danh sách người dùng...",false);
+  try{
+    const r=await fetch("./users.json",{cache:"no-cache"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    users=(Array.isArray(j)?j:(j.users||[])).map(u=>typeof u==="string"?{name:u}:u).filter(u=>u&&u.name);
+  }catch(e){
+    setLoginMsg("Không tải được danh sách người dùng (users.json). Hãy kiểm tra file users.json nằm cùng thư mục với index.html và mở trang qua máy chủ web.",true);
+    return;
+  }
+  setLoginBusy(false); setLoginMsg("",false);
+  let saved=null; try{ saved=localStorage.getItem(SESSION_KEY)||sessionStorage.getItem(SESSION_KEY); }catch(e){}
+  const u=saved?findUser(saved):null;
+  if(u) login(u,!!localStorage.getItem(SESSION_KEY)); else document.getElementById("login-name").focus();
+}
+initAuth();
 
 // ── NAV ──
 function show(id){
