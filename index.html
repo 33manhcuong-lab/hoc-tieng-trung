@@ -455,7 +455,7 @@ body.unlocking .shell{animation:secIn .7s cubic-bezier(.2,.7,.2,1)}
     <div class="qs-keys">
       <kbd>0</kbd>–<kbd>7</kbd> hoặc <kbd>←</kbd> <kbd>→</kbd> chọn cấp độ (0 Tất cả, 1–6 HSK, 7 Công xưởng)<br>
       <kbd>T</kbd> bật/tắt đếm ngược · <kbd>+</kbd> <kbd>-</kbd> đổi ±1 giây · <kbd>↑</kbd> <kbd>↓</kbd> đổi ±5 giây<br>
-      Khi làm bài: <kbd>1</kbd>–<kbd>4</kbd> hoặc <kbd>A</kbd>–<kbd>D</kbd> chọn đáp án · <kbd>Enter</kbd> câu tiếp · <kbd>R</kbd> làm lại · <kbd>Esc</kbd> về cài đặt
+      Khi làm bài: <kbd>1</kbd>–<kbd>4</kbd> hoặc <kbd>A</kbd>–<kbd>D</kbd> chọn đáp án · <kbd>Enter</kbd> câu tiếp · <kbd>R</kbd> làm lại · <kbd>P</kbd> ẩn/hiện pinyin · <kbd>Esc</kbd> về cài đặt
     </div>
   </div>
   <div id="quiz-play" hidden>
@@ -475,6 +475,7 @@ body.unlocking .shell{animation:secIn .7s cubic-bezier(.2,.7,.2,1)}
     <button class="btn" id="q-next" onclick="nextQ()" style="display:none">Câu tiếp → <kbd>Enter</kbd></button>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:12px">
       <button class="btn btn-outline" onclick="resetQuiz()">Làm lại từ đầu <kbd>R</kbd></button>
+      <button class="btn btn-outline" id="q-pinyin-toggle" onclick="toggleQuizPinyin()" title="Bật/tắt hiển thị pinyin">🔤 Ẩn Pinyin <kbd>P</kbd></button>
       <button class="btn btn-outline" onclick="quizSetup()">Cài đặt <kbd>Esc</kbd></button>
     </div>
   </div>
@@ -689,6 +690,7 @@ function nextQ(){
   do{ qCurrent=qPool[Math.floor(Math.random()*qPool.length)]; }while(qPool.length>1&&qCurrent===prevQ);
   document.getElementById("q-hanzi").textContent=qCurrent.h;
   document.getElementById("q-pinyin").textContent=qCurrent.p;
+  document.getElementById("q-pinyin").style.visibility = quizPinyinVisible ? "" : "hidden";
   document.getElementById("q-lv").innerHTML=
     `<span style="background:${LV_COLORS[qCurrent.lvl]};color:#fff;padding:2px 10px;border-radius:10px;font-size:.72rem;font-weight:600">${lvName(qCurrent.lvl)}</span>`;
 
@@ -793,7 +795,9 @@ function handleTypingInput(){
     goalTick();
     typingTotal++;
     updateTypingStats();
-    document.getElementById("typing-answer").textContent = typingCurrent.h;
+    document.getElementById("typing-answer").innerHTML =
+      escapeHTML(typingCurrent.h) +
+      `<span style="font-family:'Be Vietnam Pro',sans-serif;font-size:1rem;color:var(--accent);margin-left:10px;font-weight:500;vertical-align:middle">${escapeHTML(typingCurrent.p)}</span>`;
     document.getElementById("typing-feedback").textContent = "✅ Chính xác! Đang chuyển sang từ tiếp theo...";
     typingAdvanceTimer = setTimeout(nextTypingWord, 650);
   } else {
@@ -821,9 +825,11 @@ function showTypingAnswer(){
   updateTypingStats();
   const input = document.getElementById("typing-input");
   input.disabled = true;
-  document.getElementById("typing-answer").textContent = typingCurrent.h;
+  document.getElementById("typing-answer").innerHTML =
+    escapeHTML(typingCurrent.h) +
+    `<span style="font-family:'Be Vietnam Pro',sans-serif;font-size:1rem;color:var(--accent);margin-left:10px;font-weight:500;vertical-align:middle">${escapeHTML(typingCurrent.p)}</span>`;
   document.getElementById("typing-feedback").textContent =
-    "Đáp án: " + typingCurrent.h + " — " + typingCurrent.v;
+    "Đáp án: " + typingCurrent.h + " (" + typingCurrent.p + ") — " + typingCurrent.v;
 }
 
 function skipTyping(){
@@ -939,6 +945,16 @@ function clearEdits(){
   edits={}; editsSave(); location.reload();
 }
 
+// ── QUIZ: BẬT/TẮT PINYIN ──
+let quizPinyinVisible = true;
+function toggleQuizPinyin(){
+  quizPinyinVisible = !quizPinyinVisible;
+  const el = document.getElementById("q-pinyin");
+  const btn = document.getElementById("q-pinyin-toggle");
+  if(el) el.style.visibility = quizPinyinVisible ? "" : "hidden";
+  if(btn) btn.innerHTML = (quizPinyinVisible ? "🔤 Ẩn Pinyin" : "🔤 Hiện Pinyin") + " <kbd>P</kbd>";
+}
+
 // ── QUIZ: ĐẾM NGƯỢC & PHÍM TẮT ──
 let qTimerOn=false, qSecs=10, qPlaying=false, qTick=null, qDeadline=0, qAutoTimer=null;
 try{ const t=JSON.parse(localStorage.getItem("hsk-quiz-timer")||"{}"); if(typeof t.on==="boolean") qTimerOn=t.on; if(t.secs>=3&&t.secs<=120) qSecs=t.secs; }catch(e){}
@@ -999,6 +1015,7 @@ document.addEventListener("keydown",e=>{
     if(idx!==undefined){ e.preventDefault(); const b=document.getElementById("q-choices").children[idx]; if(b) b.click(); }
     else if(k==="Enter"||k===" "||k==="ArrowRight"||kl==="n"){ e.preventDefault(); if(qAnswered) nextQ(); }
     else if(kl==="r"){ e.preventDefault(); resetQuiz(); }
+    else if(kl==="p"){ e.preventDefault(); toggleQuizPinyin(); }
     else if(k==="Escape"){ e.preventDefault(); quizSetup(); }
     return;
   }
